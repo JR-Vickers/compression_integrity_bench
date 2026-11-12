@@ -1,0 +1,75 @@
+{
+  "schema_version": "cib.rule-protocol.v1",
+  "label": "Fresh exploratory M4c instrument diagnostic; no quantization comparison",
+  "generation": {
+    "temperature": 0.0,
+    "seed": 0,
+    "max_tokens": 64,
+    "context_limit": 2048,
+    "prefill_step_size": 512,
+    "kv_bits": null,
+    "max_kv_size": null,
+    "reasoning": "no separate reasoning mode in this checkpoint",
+    "logits_processors": [],
+    "retries": 0,
+    "constrained_decoding": false,
+    "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+    "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+  },
+  "planned_main": 36,
+  "planned_repeats": 6,
+  "planned_total": 42,
+  "max_generation_requests": 60,
+  "max_wall_seconds": 3600,
+  "max_disk_bytes": 1000000000,
+  "max_mlx_peak_bytes": 24000000000,
+  "allocation": "12 fresh problems x A conditional, B identical conditional plus symbolic formula, C unsimplified numerical expression; one reference only",
+  "order": "case order c01..c12; rotate A/B/C, B/C/A, C/A/B by case index; repeats last",
+  "repeat_selection": [
+    [
+      "c01",
+      "A"
+    ],
+    [
+      "c01",
+      "B"
+    ],
+    [
+      "c01",
+      "C"
+    ],
+    [
+      "c06",
+      "A"
+    ],
+    [
+      "c06",
+      "B"
+    ],
+    [
+      "c06",
+      "C"
+    ]
+  ],
+  "retry_policy": "At most one infrastructure retry per observation on later invocation, all attempts retained; no retries for returned output; 18 reserve attempts, hard global 60 including smoke/retries; no separate smoke calls",
+  "stopping": "Complete all 42 observations regardless of errors; stop only on attempt/resource ceiling or unrecoverable infrastructure; retain missingness; no exclusions, reprompts, expansions or new models",
+  "scope": "Only existing original Qwen/Qwen2.5-7B-Instruct BF16 preparation and config; source, tokenizer, template, decoding, JSON requirement fixed",
+  "criteria": {
+    "full_coverage_required": true,
+    "mean_absolute_error_at_most": 0.05,
+    "baseline_ratio_at_most": 0.75,
+    "uninformative_prior_error_at_most": 0.02,
+    "application": "Apply M4b posterior absolute/relative gates to each form separately. Apply 0.02 irrelevant threshold to error against stated prior, not observed-pre drift. Likelihood-reading and pre-response gates inapplicable (no such requests). B and C measure scaffolded constructs."
+  },
+  "analysis": {
+    "primary_parser": "outer-json-fence-v1",
+    "strict_format": "strict-probability-v1 separately; denominator all completed EOS observations",
+    "unit": "12 numerical problems, one template cluster; forms and repeats are paired dependent observations, not new scenarios",
+    "aggregation": "Trial0 only, equal problems within form and type; complete mean requires all planned terms, missing losses remain null; report scoreable counts and [0,1] missing-loss bounds",
+    "types": "prior type (balanced/unequal), evidence type (favors_h/favors_not_h/uninformative), and their cross; unchanged-prior baseline abs(p-target)",
+    "pairs": "B-A, C-A, C-B absolute-error differences per problem and complete equal-problem means; negative means improvement",
+    "repeatability": "Exact text/status equality and absolute probability difference against same case/form trial0; repeats excluded from main metrics",
+    "interpretation": "Formula benefit supports explicit rule scaffolding; only numerical-expression success points toward interpretation or variable mapping; C failure leaves computation and protocol concerns; no internal mechanism identified",
+    "recommendation_rule": "A passes: retain exploratory family pending fresh held-out validation. A fails and B or C passes: revise, distinguishing scaffolded constructs from conditional updating. All fail: park this family for comparison. No automatic further diagnostic/model."
+  }
+}

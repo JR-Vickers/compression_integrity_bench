@@ -1,0 +1,16 @@
+{
+  "actual_rendering_and_tokens_verified": true,
+  "bfloat16_weights_and_kv": true,
+  "historical_files_checked": 1797,
+  "historical_files_unchanged": true,
+  "historical_inventory_sha256": "4685e8956aaa12a1c4d7d1d07b010faeffa870d5fa6fa95cfa72b253698a4947",
+  "loaded_template_and_precision_match_m4b": true,
+  "original_scores_equal": true,
+  "raw_sha256": "8c5c50ca6c8d3cf082a2de0f5bb71e35fc57bfedcfa354680a01d1cb02e54dbb",
+  "raw_streams_match": true,
+  "reports_byte_identical": true,
+  "run_files_checked": 131,
+  "run_files_unchanged": true,
+  "run_inventory_sha256": "e880bb7c7ef5dd460bc6ddaa4b5aea2dc6c16b0ea87776b00fdd057a20356cd7",
+  "scores_byte_identical": true
+}

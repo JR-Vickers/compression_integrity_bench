@@ -1,10 +1,10 @@
 # Compression Integrity Bench
 
-Status: Working draft, v0.2; experimental choices remain provisional  
+Status: Working draft, v0.3; M4c closed, full-study choices remain provisional
 Updated: 2026-11-12  
 Purpose: Define the research objective, intended deliverables, and project boundaries.
 
-This document captures the project direction in the original Cosmos Institute grant proposal and proposes a tractable first experiment. Proposed implementation and study choices are labeled explicitly. This draft contains no experimental findings and is not a preregistration. The pilot is a development stage, not a replacement for the broader study.
+This document captures the project direction in the original Cosmos Institute grant proposal and proposes a tractable first experiment. Proposed implementation and study choices are labeled explicitly. Empirical findings are retained in the linked evidence records; this specification is not a preregistration. The pilot is a development stage, not a replacement for the broader study.
 
 ## 1. Research objective
 
@@ -87,6 +87,12 @@ Proposed starting point: evidence-sensitive updating in controlled synthetic sce
 This pilot measures adherence to a controlled updating task. A broader claim about calibration on real-world questions requires a separate task set with objectively scored answers and a validated probability-elicitation procedure.
 
 If pilot results expose ambiguity, floor effects, ceiling effects, or measurement artifacts, revise the instrument and evaluate a new held-out set. Preserve the earlier pilot and explain the revision.
+
+### 3.1 Current disposition after Milestone 4c
+
+Milestones 1–4c completed the engineering pipeline, exploratory pilot and instrument diagnostics; they did not validate the evidence-sensitive belief-revision benchmark category. The **numerical Bayesian-updating family is parked as a quantization-comparison endpoint for the current reference and response protocol**, following the prespecified competence screen ([D010](DECISIONS.md#d010-outcome-and-consequences), [M4c evidence](evidence/m4c/README.md)). Its code, fixtures, configurations, protocol versions, raw data, scores and negative findings remain available as diagnostic assets. Historical findings are unchanged.
+
+Evidence-sensitive belief revision remains in the five-category benchmark scope alongside calibration and uncertainty, resistance to sycophancy, source fidelity and counterargument representation. Milestone 5 still needs a replacement belief-revision design and dedicated human-rated subsets for belief revision, source fidelity and counterargument representation. The next implementation work package is sycophancy specification and offline fixtures; [PLAN.md §11](PLAN.md#11-current-task-and-handoff) records the handoff. This ordering does not select a final model or validate another category.
 
 ## 4. Intended deliverables
 
@@ -176,10 +182,10 @@ Routine engineering details can be resolved during development. Changes to the m
 1. Final study model selection and reference precision remain unresolved. Milestone 2 selected a local feasibility pair only: Qwen2.5-1.5B-Instruct BF16 versus its direct MLX 4-bit derivative; see [D004](DECISIONS.md#d004--local-pilot-deployment-pair). This does not freeze the study population.
 2. Quantization method, configuration, and artifact provenance.
 3. Backend and available hardware or compute budget.
-4. Initial task generator and wording variants.
-5. Pilot size, held-out study size, and allocation across conditions.
+4. Replacement belief-revision design and final task generators/wording across modules.
+5. Future module pilot sizes, held-out study size, and allocation across conditions.
 6. Primary endpoints, aggregation weights, and practically meaningful tolerances.
-7. The order and evaluation design for expanding to all five behavioral dimensions.
+7. Evaluation designs and remaining module order after the next sycophancy preparation work package.
 8. The scope of the pilot report and viewer, and the final study's release requirements.
 9. Feasibility and scope of the planned MoE expert sensitivity analysis.
 

@@ -77,6 +77,8 @@ def deployment_registry(config, prepared):
 
 
 def requests_for(dataset, deployments, config):
+    if dataset.get('schema_version') == 'cib.rule-dataset.v1' and digest(config) != dataset['required_config_sha256']:
+        raise ValueError('M4c requires the unchanged existing 7B configuration')
     result = planned_requests(dataset, ('reference', 'quantized') if 'quantized' in deployments else ('reference',))
     for request in result:
         request['decoding'] = config['generation']
@@ -96,6 +98,8 @@ def new_run(config, prepared, dataset=None):
     if prepared['schema_version'] != 'cib.prepared.v1' or prepared['config_sha256'] != digest(config):
         raise ValueError('preparation/config mismatch')
     dataset = load_fixture() if dataset is None else dataset
+    if dataset.get('schema_version') == 'cib.rule-dataset.v1' and digest(prepared) != dataset['required_prepared_sha256']:
+        raise ValueError('M4c requires the existing pinned preparation')
     deployments = deployment_registry(config, prepared)
     return {'schema_version': 'cib.real-run.v1', 'dataset': dataset,
             'manifest': {'schema_version': 'cib.real-manifest.v1', 'run_id': str(uuid.uuid4()),
@@ -119,7 +123,13 @@ def validate_real(raw):
     config, prepared = manifest['config'], manifest['prepared']
     validate_run_config(config)
     from .diagnostic import load_diagnostic
-    if prepared['config_sha256'] != digest(config) or dataset not in (load_fixture(), load_pilot(), load_diagnostic(), load_diagnostic(True)):
+    from .rule_diagnostic import load as load_rule
+    if dataset.get('schema_version') == 'cib.rule-dataset.v1':
+        if digest(prepared) != dataset['required_prepared_sha256']:
+            raise ValueError('M4c preparation changed')
+        if sum(a['status'] != 'not_attempted' for a in raw['attempts']) > dataset['diagnostic_protocol']['max_generation_requests']:
+            raise ValueError('M4c attempt ceiling exceeded')
+    if prepared['config_sha256'] != digest(config) or dataset not in (load_fixture(), load_pilot(), load_diagnostic(), load_diagnostic(True), load_rule()):
         raise ValueError('unsupported task or preparation')
     if (manifest['dataset_sha256'] != digest(dataset) or manifest['analysis'] != dataset['analysis']
             or manifest['deployments'] != deployment_registry(config, prepared)):
@@ -318,6 +328,7 @@ def main():
     parser.add_argument('--limit', type=int, default=6, help='maximum new attempts this invocation')
     parser.add_argument('--pilot', action='store_true', help='use the pinned exploratory pilot v1')
     parser.add_argument('--diagnostic', action='store_true', help='use the pinned M4b wording diagnostic')
+    parser.add_argument('--rule-diagnostic', action='store_true', help='use the pinned M4c single-answer diagnostic')
     parser.add_argument('--reference', type=Path)
     parser.add_argument('--quantized', type=Path)
     parser.add_argument('--output', type=Path)
@@ -325,11 +336,12 @@ def main():
     if args.command == 'run':
         if args.run is None or args.deployment is None:
             parser.error('run requires --run and --deployment')
-        if args.pilot and args.diagnostic:
+        if sum((args.pilot, args.diagnostic, args.rule_diagnostic)) > 1:
             parser.error('choose only one dataset')
         from .diagnostic import load_diagnostic
         config = read(args.config)
-        dataset = (load_diagnostic(config['schema_version'] == 'cib.larger-reference-config.v1') if args.diagnostic
+        from .rule_diagnostic import load as load_rule
+        dataset = (load_rule() if args.rule_diagnostic else load_diagnostic(config['schema_version'] == 'cib.larger-reference-config.v1') if args.diagnostic
                    else load_pilot() if args.pilot else None)
         print(run(config, read(args.prepared), args.run, args.deployment, args.limit, dataset=dataset))
     elif args.command == 'snapshot':

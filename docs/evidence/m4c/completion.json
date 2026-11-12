@@ -1,0 +1,20 @@
+{
+  "artifact_sha256": {
+    "docs/evidence/m4c/README.md": "18b46e7d5bd683f7e32361df0795370fbf50a2ddcafdb2180b9b117e1aabb00c",
+    "docs/evidence/m4c/observations.json": "4b8aa13fb0a83e1d79d4277c18fbe8d7d5661b799e8f8fad772ef412bb61ccc0",
+    "docs/evidence/m4c/offline-tests.txt": "ca4a8515261898a02b59298f85e3c81d5560c3a2c9ee815a8ad76a6cfde35305",
+    "docs/evidence/m4c/preflight.json": "31b04d4b68c49e7cc5c5db22fbd2f6e888696293e613762e45e6d1789e9b1fa6",
+    "docs/evidence/m4c/prepared.json": "40fb3cbb9438275074e2d289cf92664191dbf63988a948de758dc4b0a35424bf",
+    "docs/evidence/m4c/render-validation.json": "99741f65a5e69251c2c687421d98210f5b1e485d425e552c15cd6891f66a86ef",
+    "docs/evidence/m4c/summary.json": "afb214329db9f4acc387733492b72fc78c241fb5d8e2a3c5c87797b1238e1dc1",
+    "docs/evidence/m4c/verification.json": "d06670785b05ae677de5803bc57f45e64ad7a3e03136679b51acde9855aa5480"
+  },
+  "frozen_protocol_dataset_scorer_unchanged": true,
+  "generation_attempts": 42,
+  "historical_files_rechecked": 1797,
+  "label": "Observed M4c completion checks",
+  "offline_tests_passed": 33,
+  "pre_generation_plan_unchanged": true,
+  "pre_generation_render_audit_reproduced": true,
+  "test_log_sha256": "ca4a8515261898a02b59298f85e3c81d5560c3a2c9ee815a8ad76a6cfde35305"
+}

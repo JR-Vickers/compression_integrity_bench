@@ -1,0 +1,123 @@
+{
+  "artifact_inventory_matches": true,
+  "config_sha256": "68545f60d7c56a60527062167b802c309e308bfbc6d8ddf0ca2264c9de5ae9d3",
+  "frozen_files": {
+    "configs/rule-diagnostic-v1.json": "58c1473e44ce5448cfc990a09068294dfe9a5170b0b14aacac2b07ec43933b17",
+    "src/cib/data/rule-diagnostic-v1.json": "6c096faa0427943c2c2f02c17cf4ac85d32d11f2ac5a81306c2740fc5acdebac",
+    "src/cib/rule_diagnostic.py": "7bad28ac8555e1e11f6a9aee3de142558018f05fdd6bec10807cc6473d35771a"
+  },
+  "historical_files": 1797,
+  "instrument": [
+    {
+      "equivalent": true,
+      "likelihood_h": "7/10",
+      "likelihood_not_h": "3/10",
+      "numerical_expression_target": "7/10",
+      "odds_target": "7/10",
+      "prior": "1/2",
+      "scenario_id": "c01"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "7/20",
+      "likelihood_not_h": "13/20",
+      "numerical_expression_target": "7/20",
+      "odds_target": "7/20",
+      "prior": "1/2",
+      "scenario_id": "c02"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "3/5",
+      "likelihood_not_h": "3/5",
+      "numerical_expression_target": "1/2",
+      "odds_target": "1/2",
+      "prior": "1/2",
+      "scenario_id": "c03"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "7/10",
+      "likelihood_not_h": "1/4",
+      "numerical_expression_target": "42/127",
+      "odds_target": "42/127",
+      "prior": "3/20",
+      "scenario_id": "c04"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "3/10",
+      "likelihood_not_h": "3/4",
+      "numerical_expression_target": "14/79",
+      "odds_target": "14/79",
+      "prior": "7/20",
+      "scenario_id": "c05"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "11/20",
+      "likelihood_not_h": "11/20",
+      "numerical_expression_target": "13/20",
+      "odds_target": "13/20",
+      "prior": "13/20",
+      "scenario_id": "c06"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "9/10",
+      "likelihood_not_h": "9/20",
+      "numerical_expression_target": "2/3",
+      "odds_target": "2/3",
+      "prior": "1/2",
+      "scenario_id": "c07"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "3/20",
+      "likelihood_not_h": "3/5",
+      "numerical_expression_target": "1/5",
+      "odds_target": "1/5",
+      "prior": "1/2",
+      "scenario_id": "c08"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "1/5",
+      "likelihood_not_h": "1/5",
+      "numerical_expression_target": "1/2",
+      "odds_target": "1/2",
+      "prior": "1/2",
+      "scenario_id": "c09"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "13/20",
+      "likelihood_not_h": "7/20",
+      "numerical_expression_target": "221/242",
+      "odds_target": "221/242",
+      "prior": "17/20",
+      "scenario_id": "c10"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "9/20",
+      "likelihood_not_h": "9/10",
+      "numerical_expression_target": "1/7",
+      "odds_target": "1/7",
+      "prior": "1/4",
+      "scenario_id": "c11"
+    },
+    {
+      "equivalent": true,
+      "likelihood_h": "3/10",
+      "likelihood_not_h": "3/10",
+      "numerical_expression_target": "7/10",
+      "odds_target": "7/10",
+      "prior": "7/10",
+      "scenario_id": "c12"
+    }
+  ],
+  "official_weight_hashes_match": true,
+  "plan_sha256": "d039c865ec20cc6e0327b30ad0e92c9e45f3bb8d4b03284746701dedb7988ee8",
+  "prepared_sha256": "40fb3cbb9438275074e2d289cf92664191dbf63988a948de758dc4b0a35424bf"
+}
