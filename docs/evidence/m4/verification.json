@@ -1,0 +1,52 @@
+{
+  "all_attempts_completed": true,
+  "all_kv_bfloat16": true,
+  "artifact_sha256": {
+    "outputs/m4-verification-v2/regenerated.md": "b4184b5d392df371200a767aa263a971fd2247c7b936a0298002a3bdbba2579d",
+    "outputs/m4-verification-v2/report.md": "b4184b5d392df371200a767aa263a971fd2247c7b936a0298002a3bdbba2579d",
+    "outputs/m4-verification-v2/rescored.json": "3ce8b28801affdbc803cd7701d61d975f1de83cb0820f62eef63f0b2bd8364ab",
+    "outputs/m4-verification-v2/scores.json": "3ce8b28801affdbc803cd7701d61d975f1de83cb0820f62eef63f0b2bd8364ab"
+  },
+  "dataset_sha256": "10c0d7c82ba9e44e114e5568fde9000f2d64753f60b1a8f1848d5b1be6e6012b",
+  "executed": 344,
+  "immutable_files_checked": 1039,
+  "numerical_results_equal_original": true,
+  "original_file_hash_inventory_sha256": "3449041fc4e47c178ade75d035d14c88b1063e66cea8ed34fa06f4019b331ae7",
+  "original_files_unchanged": true,
+  "parser_implementation_sha256": "92f451443a7cbe42af80ec5ec1c578e40651a1745c4bd9f57ed3c2444d6638e5",
+  "planned": 344,
+  "protocol": {
+    "compute": "existing local artifacts only; no network, downloads or paid compute",
+    "control_accuracy_tolerance": 1e-09,
+    "controls_per_deployment": 16,
+    "decoding_source": "configs/feasibility-qwen25-1.5b.json generation, unchanged: greedy temp0 seed0 64 tokens 2048 context BF16 KV",
+    "example_selection": "first exact-correct, largest error, first strict failure, largest paired improvement, largest paired regression; diagnostic examples only",
+    "infrastructure_retry_limit": 1,
+    "main_per_deployment": 144,
+    "max_disk_bytes": 1000000000,
+    "max_generation_requests": 688,
+    "max_mlx_peak_bytes": 12000000000,
+    "max_wall_seconds": 7200,
+    "missing_policy": "withhold scenario means and complete-scenario contrast; report full-set posterior-loss bounds",
+    "order": "reference then quantized, separate processes; main then controls then repeats",
+    "parser_implementation": "cib.scoring.parse_diagnostic; outer-json-fence-v1 unchanged",
+    "planned_per_deployment": 172,
+    "planned_total": 344,
+    "primary_parser": "outer-json-fence-v1",
+    "protocol_version": "exploratory-pilot-v1",
+    "repeat_allocation": "trial 1 duplicates first 12 main requests (all t1-s1 branches/labels/stages); trial 0 only in main metrics",
+    "repeats_per_deployment": 12,
+    "uncertainty": "descriptive fixed pilot only; no empirical intervals or preservation thresholds",
+    "weights": "equal conditions and labels within scenario; equal scenarios; controls and repeats separate"
+  },
+  "raw_sha256": "705d97368fce38317a6e067721a69d885d313fa6e3498d7fa08f5c597b0f1543",
+  "report_regeneration_byte_identical": true,
+  "rescoring_byte_identical": true,
+  "schema_version": "cib.pilot-verification.v1",
+  "stream_terminal_stops_match": true,
+  "stream_text_matches_raw": true,
+  "stream_token_events": {
+    "quantized": 2939,
+    "reference": 2902
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "schema_version": "cib.pilot-dataset.v1",
+  "dataset_version": "binary-updating-pilot-v1",
+  "split": "exploratory_pilot",
+  "provenance": "Deterministic CIB exploratory construction v1; 12 fixed scenarios, three template clusters; not held out.",
+  "construct": "Probability reporting and evidence updating in a controlled binary task; not empirical calibration.",
+  "protocol": "self-contained-pre-post",
+  "task_version": "updating-pilot-v1",
+  "prompt_variant": "three-templates-v1",
+  "trial_index": 0,
+  "analysis": {
+    "condition_weights": "equal across predefined conditions and label variants within scenario",
+    "scenario_weights": "equal",
+    "incomplete_policy": "withhold scenario means and complete-scenario contrast; report full-set posterior-loss bounds",
+    "direction_tolerance": null,
+    "stability_tolerance": null,
+    "parser": "bare strict JSON or exactly one complete outer unlabeled/lowercase json fence; strict schema unchanged",
+    "primary_parser": "outer-json-fence-v1"
+  },
+  "scenarios": [
+    {
+      "scenario_id": "t1-s1",
+      "cluster_id": "pilot-template-1",
+      "prior": "1/10",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "4/5",
+          "likelihood_not_h": "1/5"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "1/5",
+          "likelihood_not_h": "4/5"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t1-s2",
+      "cluster_id": "pilot-template-1",
+      "prior": "1/4",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "3/5",
+          "likelihood_not_h": "2/5"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "3/5"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t1-s3",
+      "cluster_id": "pilot-template-1",
+      "prior": "1/2",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "9/10",
+          "likelihood_not_h": "1/10"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "1/10",
+          "likelihood_not_h": "9/10"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t1-s4",
+      "cluster_id": "pilot-template-1",
+      "prior": "3/4",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "3/4",
+          "likelihood_not_h": "1/4"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "1/4",
+          "likelihood_not_h": "3/4"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t2-s1",
+      "cluster_id": "pilot-template-2",
+      "prior": "1/10",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "4/5",
+          "likelihood_not_h": "1/5"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "1/5",
+          "likelihood_not_h": "4/5"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t2-s2",
+      "cluster_id": "pilot-template-2",
+      "prior": "1/4",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "3/5",
+          "likelihood_not_h": "2/5"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "3/5"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t2-s3",
+      "cluster_id": "pilot-template-2",
+      "prior": "1/2",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "9/10",
+          "likelihood_not_h": "1/10"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "1/10",
+          "likelihood_not_h": "9/10"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t2-s4",
+      "cluster_id": "pilot-template-2",
+      "prior": "3/4",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "3/4",
+          "likelihood_not_h": "1/4"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "1/4",
+          "likelihood_not_h": "3/4"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t3-s1",
+      "cluster_id": "pilot-template-3",
+      "prior": "1/10",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "4/5",
+          "likelihood_not_h": "1/5"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "1/5",
+          "likelihood_not_h": "4/5"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t3-s2",
+      "cluster_id": "pilot-template-3",
+      "prior": "1/4",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "3/5",
+          "likelihood_not_h": "2/5"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "3/5"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t3-s3",
+      "cluster_id": "pilot-template-3",
+      "prior": "1/2",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "9/10",
+          "likelihood_not_h": "1/10"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "1/10",
+          "likelihood_not_h": "9/10"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    },
+    {
+      "scenario_id": "t3-s4",
+      "cluster_id": "pilot-template-3",
+      "prior": "3/4",
+      "conditions": [
+        {
+          "condition_id": "support",
+          "likelihood_h": "3/4",
+          "likelihood_not_h": "1/4"
+        },
+        {
+          "condition_id": "oppose",
+          "likelihood_h": "1/4",
+          "likelihood_not_h": "3/4"
+        },
+        {
+          "condition_id": "irrelevant",
+          "likelihood_h": "2/5",
+          "likelihood_not_h": "2/5"
+        }
+      ]
+    }
+  ],
+  "label_variants": [
+    "original",
+    "swapped"
+  ],
+  "controls": [
+    {
+      "control_id": "prior-1",
+      "kind": "prior",
+      "prompt": "The stated prior P(H) is 0.1. No evidence is available. Read and report the stated prior P(H).",
+      "target": "0.1"
+    },
+    {
+      "control_id": "prior-2",
+      "kind": "prior",
+      "prompt": "The stated prior P(H) is 0.25. No evidence is available. Read and report the stated prior P(H).",
+      "target": "0.25"
+    },
+    {
+      "control_id": "prior-3",
+      "kind": "prior",
+      "prompt": "The stated prior P(H) is 0.5. No evidence is available. Read and report the stated prior P(H).",
+      "target": "0.5"
+    },
+    {
+      "control_id": "prior-4",
+      "kind": "prior",
+      "prompt": "The stated prior P(H) is 0.75. No evidence is available. Read and report the stated prior P(H).",
+      "target": "0.75"
+    },
+    {
+      "control_id": "likelihood-1",
+      "kind": "likelihood",
+      "prompt": "The signal probability given H is 0.1; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal).",
+      "target": "0.1"
+    },
+    {
+      "control_id": "likelihood-2",
+      "kind": "likelihood",
+      "prompt": "The signal probability given H is 0.25; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal).",
+      "target": "0.25"
+    },
+    {
+      "control_id": "likelihood-3",
+      "kind": "likelihood",
+      "prompt": "The signal probability given H is 0.5; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal).",
+      "target": "0.5"
+    },
+    {
+      "control_id": "likelihood-4",
+      "kind": "likelihood",
+      "prompt": "The signal probability given H is 0.75; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal).",
+      "target": "0.75"
+    },
+    {
+      "control_id": "arithmetic-1",
+      "kind": "arithmetic",
+      "prompt": "Calculate 1 / 10. Report the result as a probability.",
+      "target": "0.1"
+    },
+    {
+      "control_id": "arithmetic-2",
+      "kind": "arithmetic",
+      "prompt": "Calculate 1 / 4. Report the result as a probability.",
+      "target": "0.25"
+    },
+    {
+      "control_id": "arithmetic-3",
+      "kind": "arithmetic",
+      "prompt": "Calculate 2 / 4. Report the result as a probability.",
+      "target": "0.5"
+    },
+    {
+      "control_id": "arithmetic-4",
+      "kind": "arithmetic",
+      "prompt": "Calculate 3 / 4. Report the result as a probability.",
+      "target": "0.75"
+    },
+    {
+      "control_id": "format-1",
+      "kind": "format",
+      "prompt": "This is an output-format control. Return the supplied number 0.1 as the probability value.",
+      "target": "0.1"
+    },
+    {
+      "control_id": "format-2",
+      "kind": "format",
+      "prompt": "This is an output-format control. Return the supplied number 0.25 as the probability value.",
+      "target": "0.25"
+    },
+    {
+      "control_id": "format-3",
+      "kind": "format",
+      "prompt": "This is an output-format control. Return the supplied number 0.5 as the probability value.",
+      "target": "0.5"
+    },
+    {
+      "control_id": "format-4",
+      "kind": "format",
+      "prompt": "This is an output-format control. Return the supplied number 0.75 as the probability value.",
+      "target": "0.75"
+    }
+  ],
+  "pilot_protocol": {
+    "protocol_version": "exploratory-pilot-v1",
+    "primary_parser": "outer-json-fence-v1",
+    "parser_implementation": "cib.scoring.parse_diagnostic; outer-json-fence-v1 unchanged",
+    "main_per_deployment": 144,
+    "controls_per_deployment": 16,
+    "repeats_per_deployment": 12,
+    "planned_per_deployment": 172,
+    "planned_total": 344,
+    "max_generation_requests": 688,
+    "infrastructure_retry_limit": 1,
+    "max_wall_seconds": 7200,
+    "max_mlx_peak_bytes": 12000000000,
+    "max_disk_bytes": 1000000000,
+    "compute": "existing local artifacts only; no network, downloads or paid compute",
+    "order": "reference then quantized, separate processes; main then controls then repeats",
+    "repeat_allocation": "trial 1 duplicates first 12 main requests (all t1-s1 branches/labels/stages); trial 0 only in main metrics",
+    "decoding_source": "configs/feasibility-qwen25-1.5b.json generation, unchanged: greedy temp0 seed0 64 tokens 2048 context BF16 KV",
+    "missing_policy": "withhold scenario means and complete-scenario contrast; report full-set posterior-loss bounds",
+    "weights": "equal conditions and labels within scenario; equal scenarios; controls and repeats separate",
+    "uncertainty": "descriptive fixed pilot only; no empirical intervals or preservation thresholds",
+    "control_accuracy_tolerance": 1e-09,
+    "example_selection": "first exact-correct, largest error, first strict failure, largest paired improvement, largest paired regression; diagnostic examples only"
+  }
+}

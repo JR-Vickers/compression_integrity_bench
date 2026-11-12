@@ -10,6 +10,10 @@ def load_fixture():
     return read(files("cib").joinpath("data/updating-v1.json"))
 
 
+def load_pilot():
+    return read(files("cib").joinpath("data/updating-pilot-v1.json"))
+
+
 def probability(value):
     result = Fraction(value)
     if not 0 <= result <= 1:
@@ -42,6 +46,7 @@ def cases(dataset):
                 elif variant != "original":
                     raise ValueError("unknown label variant")
                 yield {
+                    **({"template": scenario["cluster_id"]} if dataset.get("split") == "exploratory_pilot" else {}),
                     "scenario_id": scenario["scenario_id"],
                     "cluster_id": scenario["cluster_id"],
                     "condition_id": condition["condition_id"],
@@ -59,9 +64,18 @@ def render(case, stage):
         f"An urn is selected once, either urn {label} or urn {other}. "
         f"H means the selected urn is {label}. The prior P(H) is {case['prior']}. "
     )
+    if case.get("template") == "pilot-template-2":
+        text = (f"A factory uses machine {label} or machine {other} for one item. "
+                f"H means machine {label} was used. The prior P(H) is {case['prior']}. ")
+    elif case.get("template") == "pilot-template-3":
+        text = (f"A packet comes from source {label} or source {other}. "
+                f"H means its source is {label}. The prior P(H) is {case['prior']}. ")
     if stage == "post":
         text += (
+            "A single signal E has been observed. " if case.get("template") else
             "A single signal E from the selected urn has been observed. "
+        )
+        text += (
             f"P(E|H)={case['likelihood_h']}; P(E|not H)={case['likelihood_not_h']}. "
             "There are no other observations. Report P(H|E). "
         )

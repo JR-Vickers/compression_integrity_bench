@@ -13,11 +13,12 @@ import tempfile
 from pathlib import Path
 import traceback
 import uuid
+import time
 
 from .feasibility import validate_config, model_inputs
 from .pipeline import planned_requests, source_hash, git_state
 from .records import digest, file_hash, key, observation_id, read, encode
-from .tasks import load_fixture
+from .tasks import load_fixture, load_pilot
 
 
 def write_new(path, value):
@@ -77,11 +78,11 @@ def cache_identity(request, actual):
                    'actual': actual, 'decoding': request['decoding'], 'trial': key(request)})
 
 
-def new_run(config, prepared):
+def new_run(config, prepared, dataset=None):
     validate_config(config)
     if prepared['schema_version'] != 'cib.prepared.v1' or prepared['config_sha256'] != digest(config):
         raise ValueError('preparation/config mismatch')
-    dataset = load_fixture()
+    dataset = load_fixture() if dataset is None else dataset
     deployments = deployment_registry(config, prepared)
     return {'schema_version': 'cib.real-run.v1', 'dataset': dataset,
             'manifest': {'schema_version': 'cib.real-manifest.v1', 'run_id': str(uuid.uuid4()),
@@ -104,7 +105,7 @@ def validate_real(raw):
     manifest, dataset = raw['manifest'], raw['dataset']
     config, prepared = manifest['config'], manifest['prepared']
     validate_config(config)
-    if prepared['config_sha256'] != digest(config) or dataset != load_fixture():
+    if prepared['config_sha256'] != digest(config) or dataset not in (load_fixture(), load_pilot()):
         raise ValueError('unsupported task or preparation')
     if (manifest['dataset_sha256'] != digest(dataset) or manifest['analysis'] != dataset['analysis']
             or manifest['deployments'] != deployment_registry(config, prepared)):
@@ -155,20 +156,33 @@ def snapshot(root, output):
     return raw
 
 
-def run(config, prepared, root, deployment, limit, factory=None):
+def run(config, prepared, root, deployment, limit, factory=None, dataset=None):
     if limit < 0:
         raise ValueError('limit must be nonnegative')
     root.mkdir(parents=True, exist_ok=True)
     with (root / '.lock').open('a') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         if not (root / 'run.json').exists():
-            write_new(root / 'run.json', new_run(config, prepared))
+            plan = new_run(config, prepared, dataset)
+            if dataset is not None:
+                plan['manifest'].update(label='Exploratory pilot v1; not held out',
+                    planning_policy=dataset['pilot_protocol'])
+            write_new(root / 'run.json', plan)
         plan = read(root / 'run.json')
         if plan['manifest']['config'] != config or plan['manifest']['prepared'] != prepared:
             raise ValueError('resume configuration changed')
+        if dataset is not None and dataset != plan['dataset']:
+            raise ValueError('resume dataset changed')
         validate_real({**plan, 'attempts': [missing(r) for r in plan['requests']]})
         adapter = None
         executed = 0
+        invocation_start = time.monotonic()
+        protocol = plan['dataset'].get('pilot_protocol')
+        if protocol:
+            saved = [read(p) for p in root.glob('*.result.json')]
+            prior_seconds = sum(a.get('generation_wall_seconds', 0) for a in saved)
+            if any(a.get('mlx_peak_bytes', 0) > protocol['max_mlx_peak_bytes'] for a in saved):
+                raise ValueError('pilot memory budget exceeded; retain unexecuted observations')
         for request in plan['requests']:
             if request['deployment_id'] != deployment:
                 continue
@@ -183,6 +197,13 @@ def run(config, prepared, root, deployment, limit, factory=None):
                 continue
             if executed >= limit:
                 break
+            if protocol:
+                if prior_seconds + time.monotonic() - invocation_start > protocol['max_wall_seconds']:
+                    raise ValueError('pilot wall budget exhausted')
+                if sum(p.stat().st_size for p in root.iterdir() if p.is_file()) > protocol['max_disk_bytes']:
+                    raise ValueError('pilot disk budget exhausted')
+                if adapter is not None and getattr(adapter, 'mx', None) and adapter.mx.get_peak_memory() > protocol['max_mlx_peak_bytes']:
+                    raise ValueError('pilot memory budget exhausted')
             if adapter is None:
                 if factory is None:
                     from .mlx_adapter import MLXAdapter
@@ -205,6 +226,7 @@ def run(config, prepared, root, deployment, limit, factory=None):
                        'text': '', 'status': 'infrastructure_error', 'stop_reason': None, 'error': None,
                        'loaded_metadata': adapter.metadata}
             write_new(str(base) + '.start.json', attempt)
+            started = time.monotonic()
             try:
                 with Path(str(base) + '.stream.jsonl').open('xb') as stream:
                     def emit(event):
@@ -218,6 +240,7 @@ def run(config, prepared, root, deployment, limit, factory=None):
                 attempt['status'] = 'completed' if attempt['stop_reason'] == 'stop' else 'truncated'
             except Exception:
                 attempt.update(status='infrastructure_error', error=traceback.format_exc())
+            attempt['generation_wall_seconds'] = time.monotonic() - started
             write_new(str(base) + '.result.json', attempt)
             executed += 1
         return executed
@@ -276,6 +299,7 @@ def main():
     parser.add_argument('--run', type=Path)
     parser.add_argument('--deployment', choices=('reference', 'quantized'))
     parser.add_argument('--limit', type=int, default=6, help='maximum new attempts this invocation')
+    parser.add_argument('--pilot', action='store_true', help='use the pinned exploratory pilot v1')
     parser.add_argument('--reference', type=Path)
     parser.add_argument('--quantized', type=Path)
     parser.add_argument('--output', type=Path)
@@ -283,7 +307,8 @@ def main():
     if args.command == 'run':
         if args.run is None or args.deployment is None:
             parser.error('run requires --run and --deployment')
-        print(run(read(args.config), read(args.prepared), args.run, args.deployment, args.limit))
+        print(run(read(args.config), read(args.prepared), args.run, args.deployment, args.limit,
+                  dataset=load_pilot() if args.pilot else None))
     elif args.command == 'snapshot':
         if args.run is None or args.output is None:
             parser.error('snapshot requires --run and --output')

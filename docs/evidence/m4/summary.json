@@ -1,0 +1,1576 @@
+{
+  "baselines": {
+    "analytic-oracle": {
+      "posterior_error": {
+        "mean": 0.0,
+        "planned": 72,
+        "scoreable": 72
+      },
+      "prior_error": {
+        "mean": 0.0,
+        "planned": 72,
+        "scoreable": 72
+      },
+      "uninformative_drift": {
+        "mean": 0.0,
+        "planned": 24,
+        "scoreable": 24
+      },
+      "update_error": {
+        "mean": 0.0,
+        "planned": 72,
+        "scoreable": 72
+      }
+    },
+    "constant-half": {
+      "posterior_error": {
+        "mean": 0.27084409584409586,
+        "planned": 72,
+        "scoreable": 72
+      },
+      "prior_error": {
+        "mean": 0.225,
+        "planned": 72,
+        "scoreable": 72
+      },
+      "uninformative_drift": {
+        "mean": 0.0,
+        "planned": 24,
+        "scoreable": 24
+      },
+      "update_error": {
+        "mean": 0.13601503601503603,
+        "planned": 72,
+        "scoreable": 72
+      }
+    },
+    "unchanged-prior": {
+      "posterior_error": {
+        "mean": 0.13601503601503603,
+        "planned": 72,
+        "scoreable": 72
+      },
+      "prior_error": {
+        "mean": 0.0,
+        "planned": 72,
+        "scoreable": 72
+      },
+      "uninformative_drift": {
+        "mean": 0.0,
+        "planned": 24,
+        "scoreable": 24
+      },
+      "update_error": {
+        "mean": 0.13601503601503603,
+        "planned": 72,
+        "scoreable": 72
+      }
+    }
+  },
+  "comparison": {
+    "complete_scenario_change": 0.008414801638176643,
+    "complete_scenarios": 12,
+    "direction": "right minus left posterior loss; positive = larger loss",
+    "full_set_change": 0.008414801638176643,
+    "full_set_missing_loss_bounds": [
+      0.008414801638176643,
+      0.008414801638176643
+    ],
+    "left": "reference",
+    "matched_scoreable_observation_pairs": 172,
+    "planned_observation_pairs": 172,
+    "planned_scenarios": 12,
+    "right": "quantized"
+  },
+  "controls": {
+    "quantized": [
+      {
+        "absolute_error": 0.0,
+        "control_id": "prior-1",
+        "correct": true,
+        "kind": "prior",
+        "probability": 0.1,
+        "target": 0.1
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "prior-2",
+        "correct": true,
+        "kind": "prior",
+        "probability": 0.25,
+        "target": 0.25
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "prior-3",
+        "correct": true,
+        "kind": "prior",
+        "probability": 0.5,
+        "target": 0.5
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "prior-4",
+        "correct": true,
+        "kind": "prior",
+        "probability": 0.75,
+        "target": 0.75
+      },
+      {
+        "absolute_error": 0.066667,
+        "control_id": "likelihood-1",
+        "correct": false,
+        "kind": "likelihood",
+        "probability": 0.166667,
+        "target": 0.1
+      },
+      {
+        "absolute_error": 0.15000000000000002,
+        "control_id": "likelihood-2",
+        "correct": false,
+        "kind": "likelihood",
+        "probability": 0.4,
+        "target": 0.25
+      },
+      {
+        "absolute_error": 0.30000000000000004,
+        "control_id": "likelihood-3",
+        "correct": false,
+        "kind": "likelihood",
+        "probability": 0.8,
+        "target": 0.5
+      },
+      {
+        "absolute_error": 0.08333333333333337,
+        "control_id": "likelihood-4",
+        "correct": false,
+        "kind": "likelihood",
+        "probability": 0.8333333333333334,
+        "target": 0.75
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "arithmetic-1",
+        "correct": true,
+        "kind": "arithmetic",
+        "probability": 0.1,
+        "target": 0.1
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "arithmetic-2",
+        "correct": true,
+        "kind": "arithmetic",
+        "probability": 0.25,
+        "target": 0.25
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "arithmetic-3",
+        "correct": true,
+        "kind": "arithmetic",
+        "probability": 0.5,
+        "target": 0.5
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "arithmetic-4",
+        "correct": true,
+        "kind": "arithmetic",
+        "probability": 0.75,
+        "target": 0.75
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "format-1",
+        "correct": true,
+        "kind": "format",
+        "probability": 0.1,
+        "target": 0.1
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "format-2",
+        "correct": true,
+        "kind": "format",
+        "probability": 0.25,
+        "target": 0.25
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "format-3",
+        "correct": true,
+        "kind": "format",
+        "probability": 0.5,
+        "target": 0.5
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "format-4",
+        "correct": true,
+        "kind": "format",
+        "probability": 0.75,
+        "target": 0.75
+      }
+    ],
+    "reference": [
+      {
+        "absolute_error": 0.0,
+        "control_id": "prior-1",
+        "correct": true,
+        "kind": "prior",
+        "probability": 0.1,
+        "target": 0.1
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "prior-2",
+        "correct": true,
+        "kind": "prior",
+        "probability": 0.25,
+        "target": 0.25
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "prior-3",
+        "correct": true,
+        "kind": "prior",
+        "probability": 0.5,
+        "target": 0.5
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "prior-4",
+        "correct": true,
+        "kind": "prior",
+        "probability": 0.75,
+        "target": 0.75
+      },
+      {
+        "absolute_error": 0.06666666666666665,
+        "control_id": "likelihood-1",
+        "correct": false,
+        "kind": "likelihood",
+        "probability": 0.16666666666666666,
+        "target": 0.1
+      },
+      {
+        "absolute_error": 0.15000000000000002,
+        "control_id": "likelihood-2",
+        "correct": false,
+        "kind": "likelihood",
+        "probability": 0.4,
+        "target": 0.25
+      },
+      {
+        "absolute_error": 0.30000000000000004,
+        "control_id": "likelihood-3",
+        "correct": false,
+        "kind": "likelihood",
+        "probability": 0.8,
+        "target": 0.5
+      },
+      {
+        "absolute_error": 0.08333333333333337,
+        "control_id": "likelihood-4",
+        "correct": false,
+        "kind": "likelihood",
+        "probability": 0.8333333333333334,
+        "target": 0.75
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "arithmetic-1",
+        "correct": true,
+        "kind": "arithmetic",
+        "probability": 0.1,
+        "target": 0.1
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "arithmetic-2",
+        "correct": true,
+        "kind": "arithmetic",
+        "probability": 0.25,
+        "target": 0.25
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "arithmetic-3",
+        "correct": true,
+        "kind": "arithmetic",
+        "probability": 0.5,
+        "target": 0.5
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "arithmetic-4",
+        "correct": true,
+        "kind": "arithmetic",
+        "probability": 0.75,
+        "target": 0.75
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "format-1",
+        "correct": true,
+        "kind": "format",
+        "probability": 0.1,
+        "target": 0.1
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "format-2",
+        "correct": true,
+        "kind": "format",
+        "probability": 0.25,
+        "target": 0.25
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "format-3",
+        "correct": true,
+        "kind": "format",
+        "probability": 0.5,
+        "target": 0.5
+      },
+      {
+        "absolute_error": 0.0,
+        "control_id": "format-4",
+        "correct": true,
+        "kind": "format",
+        "probability": 0.75,
+        "target": 0.75
+      }
+    ]
+  },
+  "dataset_sha256": "10c0d7c82ba9e44e114e5568fde9000f2d64753f60b1a8f1848d5b1be6e6012b",
+  "deployments": {
+    "quantized": {
+      "by_condition": {
+        "irrelevant": {
+          "posterior_error": {
+            "mean": 0.18611111111111112,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.06666666666666667,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": 0.20277777777777778,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "update_error": {
+            "mean": 0.20277777777777778,
+            "planned": 24,
+            "scoreable": 24
+          }
+        },
+        "oppose": {
+          "posterior_error": {
+            "mean": 0.1920074477886978,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.06666666666666667,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": null,
+            "planned": 0,
+            "scoreable": 0
+          },
+          "update_error": {
+            "mean": 0.19984528562653564,
+            "planned": 24,
+            "scoreable": 24
+          }
+        },
+        "support": {
+          "posterior_error": {
+            "mean": 0.17050749252136752,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.06666666666666667,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": null,
+            "planned": 0,
+            "scoreable": 0
+          },
+          "update_error": {
+            "mean": 0.20512287713675215,
+            "planned": 24,
+            "scoreable": 24
+          }
+        }
+      },
+      "by_template": {
+        "pilot-template-1": {
+          "posterior_error": {
+            "mean": 0.19485451251076252,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.0,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": 0.17500000000000002,
+            "planned": 8,
+            "scoreable": 8
+          },
+          "update_error": {
+            "mean": 0.19485451251076252,
+            "planned": 24,
+            "scoreable": 24
+          }
+        },
+        "pilot-template-2": {
+          "posterior_error": {
+            "mean": 0.16376076251076252,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.0,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": 0.17500000000000002,
+            "planned": 8,
+            "scoreable": 8
+          },
+          "update_error": {
+            "mean": 0.16376076251076252,
+            "planned": 24,
+            "scoreable": 24
+          }
+        },
+        "pilot-template-3": {
+          "posterior_error": {
+            "mean": 0.19001077639965142,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.2,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": 0.2583333333333333,
+            "planned": 8,
+            "scoreable": 8
+          },
+          "update_error": {
+            "mean": 0.24913066551954052,
+            "planned": 24,
+            "scoreable": 24
+          }
+        }
+      },
+      "control_coverage": {
+        "completed_eligible": 16,
+        "executed": 16,
+        "planned": 16,
+        "primary_coverage_denominator": 16,
+        "primary_scoreable": 16,
+        "statuses": {
+          "valid": 16
+        },
+        "strict_compliant": 0,
+        "strict_denominator": 16
+      },
+      "control_summary": {
+        "arithmetic": {
+          "correct": 4,
+          "planned": 4,
+          "scoreable": 4
+        },
+        "format": {
+          "correct": 4,
+          "planned": 4,
+          "scoreable": 4
+        },
+        "likelihood": {
+          "correct": 0,
+          "planned": 4,
+          "scoreable": 4
+        },
+        "prior": {
+          "correct": 4,
+          "planned": 4,
+          "scoreable": 4
+        }
+      },
+      "cost": {
+        "attempts": 172,
+        "generation_wall_seconds": 15.222325831651688,
+        "mlx_peak_bytes": 1194667792,
+        "process_peak_rss_bytes": 1226080256
+      },
+      "coverage": {
+        "completed_eligible": 172,
+        "executed": 172,
+        "planned": 172,
+        "primary_coverage_denominator": 172,
+        "primary_scoreable": 172,
+        "statuses": {
+          "valid": 172
+        },
+        "strict_compliant": 0,
+        "strict_denominator": 172
+      },
+      "difficulty": {
+        "exact_posterior_answers": 4,
+        "planned": 72,
+        "posterior_loss_range": [
+          0.0,
+          0.45
+        ],
+        "scenario_loss_range": [
+          0.08166666666666665,
+          0.28176022176022175
+        ],
+        "scoreable": 72
+      },
+      "label_sensitivity": {
+        "mean_complement_error": 0.1271180648148148,
+        "planned": 36,
+        "scoreable": 36
+      },
+      "main_coverage": {
+        "completed_eligible": 144,
+        "executed": 144,
+        "planned": 144,
+        "primary_coverage_denominator": 144,
+        "primary_scoreable": 144,
+        "statuses": {
+          "valid": 144
+        },
+        "strict_compliant": 0,
+        "strict_denominator": 144
+      },
+      "metrics": {
+        "posterior_error": {
+          "complete_scenarios": 12,
+          "mean": 0.1828753504737255,
+          "planned": 72,
+          "planned_scenarios": 12,
+          "scoreable": 72
+        },
+        "prior_error": {
+          "complete_scenarios": 12,
+          "mean": 0.06666666666666667,
+          "planned": 72,
+          "planned_scenarios": 12,
+          "scoreable": 72
+        },
+        "uninformative_drift": {
+          "complete_scenarios": 12,
+          "mean": 0.20277777777777778,
+          "planned": 24,
+          "planned_scenarios": 12,
+          "scoreable": 24
+        },
+        "update_error": {
+          "complete_scenarios": 12,
+          "mean": 0.2025819801803552,
+          "planned": 72,
+          "planned_scenarios": 12,
+          "scoreable": 72
+        }
+      },
+      "repeat_coverage": {
+        "completed_eligible": 12,
+        "executed": 12,
+        "planned": 12,
+        "primary_coverage_denominator": 12,
+        "primary_scoreable": 12,
+        "statuses": {
+          "valid": 12
+        },
+        "strict_compliant": 0,
+        "strict_denominator": 12
+      }
+    },
+    "reference": {
+      "by_condition": {
+        "irrelevant": {
+          "posterior_error": {
+            "mean": 0.1763888888888889,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.0,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": 0.1763888888888889,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "update_error": {
+            "mean": 0.1763888888888889,
+            "planned": 24,
+            "scoreable": 24
+          }
+        },
+        "oppose": {
+          "posterior_error": {
+            "mean": 0.1638998088998089,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.0,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": null,
+            "planned": 0,
+            "scoreable": 0
+          },
+          "update_error": {
+            "mean": 0.16389980889980893,
+            "planned": 24,
+            "scoreable": 24
+          }
+        },
+        "support": {
+          "posterior_error": {
+            "mean": 0.1830929487179487,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.0,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": null,
+            "planned": 0,
+            "scoreable": 0
+          },
+          "update_error": {
+            "mean": 0.18309294871794873,
+            "planned": 24,
+            "scoreable": 24
+          }
+        }
+      },
+      "by_template": {
+        "pilot-template-1": {
+          "posterior_error": {
+            "mean": 0.17002678815178815,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.0,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": 0.16666666666666666,
+            "planned": 8,
+            "scoreable": 8
+          },
+          "update_error": {
+            "mean": 0.17002678815178815,
+            "planned": 24,
+            "scoreable": 24
+          }
+        },
+        "pilot-template-2": {
+          "posterior_error": {
+            "mean": 0.1634135402885403,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.0,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": 0.15000000000000002,
+            "planned": 8,
+            "scoreable": 8
+          },
+          "update_error": {
+            "mean": 0.1634135402885403,
+            "planned": 24,
+            "scoreable": 24
+          }
+        },
+        "pilot-template-3": {
+          "posterior_error": {
+            "mean": 0.18994131806631806,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "prior_error": {
+            "mean": 0.0,
+            "planned": 24,
+            "scoreable": 24
+          },
+          "uninformative_drift": {
+            "mean": 0.21250000000000002,
+            "planned": 8,
+            "scoreable": 8
+          },
+          "update_error": {
+            "mean": 0.18994131806631806,
+            "planned": 24,
+            "scoreable": 24
+          }
+        }
+      },
+      "control_coverage": {
+        "completed_eligible": 16,
+        "executed": 16,
+        "planned": 16,
+        "primary_coverage_denominator": 16,
+        "primary_scoreable": 16,
+        "statuses": {
+          "valid": 16
+        },
+        "strict_compliant": 0,
+        "strict_denominator": 16
+      },
+      "control_summary": {
+        "arithmetic": {
+          "correct": 4,
+          "planned": 4,
+          "scoreable": 4
+        },
+        "format": {
+          "correct": 4,
+          "planned": 4,
+          "scoreable": 4
+        },
+        "likelihood": {
+          "correct": 0,
+          "planned": 4,
+          "scoreable": 4
+        },
+        "prior": {
+          "correct": 4,
+          "planned": 4,
+          "scoreable": 4
+        }
+      },
+      "cost": {
+        "attempts": 172,
+        "generation_wall_seconds": 28.674457750981674,
+        "mlx_peak_bytes": 3242372816,
+        "process_peak_rss_bytes": 3426648064
+      },
+      "coverage": {
+        "completed_eligible": 172,
+        "executed": 172,
+        "planned": 172,
+        "primary_coverage_denominator": 172,
+        "primary_scoreable": 172,
+        "statuses": {
+          "valid": 172
+        },
+        "strict_compliant": 0,
+        "strict_denominator": 172
+      },
+      "difficulty": {
+        "exact_posterior_answers": 5,
+        "planned": 72,
+        "posterior_loss_range": [
+          0.0,
+          0.5
+        ],
+        "scenario_loss_range": [
+          0.10138888888888889,
+          0.27176022176022174
+        ],
+        "scoreable": 72
+      },
+      "label_sensitivity": {
+        "mean_complement_error": 0.17384259259259258,
+        "planned": 36,
+        "scoreable": 36
+      },
+      "main_coverage": {
+        "completed_eligible": 144,
+        "executed": 144,
+        "planned": 144,
+        "primary_coverage_denominator": 144,
+        "primary_scoreable": 144,
+        "statuses": {
+          "valid": 144
+        },
+        "strict_compliant": 0,
+        "strict_denominator": 144
+      },
+      "metrics": {
+        "posterior_error": {
+          "complete_scenarios": 12,
+          "mean": 0.17446054883554885,
+          "planned": 72,
+          "planned_scenarios": 12,
+          "scoreable": 72
+        },
+        "prior_error": {
+          "complete_scenarios": 12,
+          "mean": 0.0,
+          "planned": 72,
+          "planned_scenarios": 12,
+          "scoreable": 72
+        },
+        "uninformative_drift": {
+          "complete_scenarios": 12,
+          "mean": 0.1763888888888889,
+          "planned": 24,
+          "planned_scenarios": 12,
+          "scoreable": 24
+        },
+        "update_error": {
+          "complete_scenarios": 12,
+          "mean": 0.17446054883554885,
+          "planned": 72,
+          "planned_scenarios": 12,
+          "scoreable": 72
+        }
+      },
+      "repeat_coverage": {
+        "completed_eligible": 12,
+        "executed": 12,
+        "planned": 12,
+        "primary_coverage_denominator": 12,
+        "primary_scoreable": 12,
+        "statuses": {
+          "valid": 12
+        },
+        "strict_compliant": 0,
+        "strict_denominator": 12
+      }
+    }
+  },
+  "label": "Measured exploratory pilot summaries; no held-out or preservation conclusion",
+  "paired_metrics": {
+    "posterior_error": {
+      "complete_paired_scenarios": 12,
+      "direction": "positive = larger loss; lower is better",
+      "planned_scenarios": 12,
+      "quantized_minus_reference": 0.00841480163817665
+    },
+    "prior_error": {
+      "complete_paired_scenarios": 12,
+      "direction": "positive = larger loss; lower is better",
+      "planned_scenarios": 12,
+      "quantized_minus_reference": 0.06666666666666667
+    },
+    "uninformative_drift": {
+      "complete_paired_scenarios": 12,
+      "direction": "positive = larger loss; lower is better",
+      "planned_scenarios": 12,
+      "quantized_minus_reference": 0.02638888888888888
+    },
+    "update_error": {
+      "complete_paired_scenarios": 12,
+      "direction": "positive = larger loss; lower is better",
+      "planned_scenarios": 12,
+      "quantized_minus_reference": 0.028121431344806352
+    }
+  },
+  "parser_implementation_sha256": "92f451443a7cbe42af80ec5ec1c578e40651a1745c4bd9f57ed3c2444d6638e5",
+  "primary_parser": "outer-json-fence-v1",
+  "protocol": {
+    "compute": "existing local artifacts only; no network, downloads or paid compute",
+    "control_accuracy_tolerance": 1e-09,
+    "controls_per_deployment": 16,
+    "decoding_source": "configs/feasibility-qwen25-1.5b.json generation, unchanged: greedy temp0 seed0 64 tokens 2048 context BF16 KV",
+    "example_selection": "first exact-correct, largest error, first strict failure, largest paired improvement, largest paired regression; diagnostic examples only",
+    "infrastructure_retry_limit": 1,
+    "main_per_deployment": 144,
+    "max_disk_bytes": 1000000000,
+    "max_generation_requests": 688,
+    "max_mlx_peak_bytes": 12000000000,
+    "max_wall_seconds": 7200,
+    "missing_policy": "withhold scenario means and complete-scenario contrast; report full-set posterior-loss bounds",
+    "order": "reference then quantized, separate processes; main then controls then repeats",
+    "parser_implementation": "cib.scoring.parse_diagnostic; outer-json-fence-v1 unchanged",
+    "planned_per_deployment": 172,
+    "planned_total": 344,
+    "primary_parser": "outer-json-fence-v1",
+    "protocol_version": "exploratory-pilot-v1",
+    "repeat_allocation": "trial 1 duplicates first 12 main requests (all t1-s1 branches/labels/stages); trial 0 only in main metrics",
+    "repeats_per_deployment": 12,
+    "uncertainty": "descriptive fixed pilot only; no empirical intervals or preservation thresholds",
+    "weights": "equal conditions and labels within scenario; equal scenarios; controls and repeats separate"
+  },
+  "raw_sha256": "705d97368fce38317a6e067721a69d885d313fa6e3498d7fa08f5c597b0f1543",
+  "repeatability": {
+    "quantized": {
+      "exact_text_agreement": 12,
+      "max_probability_difference": 0.0,
+      "planned": 12,
+      "scoreable_probability_pairs": 12
+    },
+    "reference": {
+      "exact_text_agreement": 12,
+      "max_probability_difference": 0.0,
+      "planned": 12,
+      "scoreable_probability_pairs": 12
+    }
+  },
+  "run_id": "31fde63c-2ad9-45f5-bd0e-19ae95588154",
+  "scenario_scores": {
+    "quantized": {
+      "t1-s1": {
+        "posterior_bounds": [
+          0.24842688842688845,
+          0.24842688842688845
+        ],
+        "posterior_error": {
+          "mean": 0.24842688842688845,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.30000000000000004,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.24842688842688845,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t1-s2": {
+        "posterior_bounds": [
+          0.16494949494949498,
+          0.16494949494949498
+        ],
+        "posterior_error": {
+          "mean": 0.16494949494949498,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.15000000000000002,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.16494949494949498,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t1-s3": {
+        "posterior_bounds": [
+          0.2,
+          0.2
+        ],
+        "posterior_error": {
+          "mean": 0.2,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.09999999999999998,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.2,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t1-s4": {
+        "posterior_bounds": [
+          0.16604166666666667,
+          0.16604166666666667
+        ],
+        "posterior_error": {
+          "mean": 0.16604166666666667,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.15000000000000002,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.16604166666666667,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t2-s1": {
+        "posterior_bounds": [
+          0.2617602217602218,
+          0.2617602217602218
+        ],
+        "posterior_error": {
+          "mean": 0.2617602217602218,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.30000000000000004,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.2617602217602218,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t2-s2": {
+        "posterior_bounds": [
+          0.1782828282828283,
+          0.1782828282828283
+        ],
+        "posterior_error": {
+          "mean": 0.1782828282828283,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.15000000000000002,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.1782828282828283,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t2-s3": {
+        "posterior_bounds": [
+          0.08166666666666665,
+          0.08166666666666665
+        ],
+        "posterior_error": {
+          "mean": 0.08166666666666665,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.09999999999999998,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.08166666666666667,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t2-s4": {
+        "posterior_bounds": [
+          0.13333333333333333,
+          0.13333333333333333
+        ],
+        "posterior_error": {
+          "mean": 0.13333333333333333,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.15000000000000002,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.13333333333333333,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t3-s1": {
+        "posterior_bounds": [
+          0.28176022176022175,
+          0.28176022176022175
+        ],
+        "posterior_error": {
+          "mean": 0.28176022176022175,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.8,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.5,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.5182397782397783,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t3-s2": {
+        "posterior_bounds": [
+          0.18106066161616163,
+          0.18106066161616163
+        ],
+        "posterior_error": {
+          "mean": 0.18106066161616163,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.2,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.18106066161616163,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t3-s3": {
+        "posterior_bounds": [
+          0.09722222222222221,
+          0.09722222222222221
+        ],
+        "posterior_error": {
+          "mean": 0.09722222222222221,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.16666666666666663,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.09722222222222222,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t3-s4": {
+        "posterior_bounds": [
+          0.2,
+          0.2
+        ],
+        "posterior_error": {
+          "mean": 0.2,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.16666666666666669,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.2,
+          "planned": 6,
+          "scoreable": 6
+        }
+      }
+    },
+    "reference": {
+      "t1-s1": {
+        "posterior_bounds": [
+          0.230990990990991,
+          0.230990990990991
+        ],
+        "posterior_error": {
+          "mean": 0.230990990990991,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.3,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.230990990990991,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t1-s2": {
+        "posterior_bounds": [
+          0.1393939393939394,
+          0.1393939393939394
+        ],
+        "posterior_error": {
+          "mean": 0.1393939393939394,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.15000000000000002,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.1393939393939394,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t1-s3": {
+        "posterior_bounds": [
+          0.175,
+          0.175
+        ],
+        "posterior_error": {
+          "mean": 0.175,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.09999999999999998,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.17500000000000002,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t1-s4": {
+        "posterior_bounds": [
+          0.13472222222222222,
+          0.13472222222222222
+        ],
+        "posterior_error": {
+          "mean": 0.13472222222222222,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.11666666666666667,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.13472222222222222,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t2-s1": {
+        "posterior_bounds": [
+          0.21842688842688845,
+          0.21842688842688845
+        ],
+        "posterior_error": {
+          "mean": 0.21842688842688845,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.2,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.21842688842688845,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t2-s2": {
+        "posterior_bounds": [
+          0.1671717171717172,
+          0.1671717171717172
+        ],
+        "posterior_error": {
+          "mean": 0.1671717171717172,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.15000000000000002,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.1671717171717172,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t2-s3": {
+        "posterior_bounds": [
+          0.16666666666666669,
+          0.16666666666666669
+        ],
+        "posterior_error": {
+          "mean": 0.16666666666666669,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.09999999999999998,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.16666666666666669,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t2-s4": {
+        "posterior_bounds": [
+          0.10138888888888889,
+          0.10138888888888889
+        ],
+        "posterior_error": {
+          "mean": 0.10138888888888889,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.15000000000000002,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.10138888888888889,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t3-s1": {
+        "posterior_bounds": [
+          0.27176022176022174,
+          0.27176022176022174
+        ],
+        "posterior_error": {
+          "mean": 0.27176022176022174,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.35000000000000003,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.27176022176022174,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t3-s2": {
+        "posterior_bounds": [
+          0.20050505050505052,
+          0.20050505050505052
+        ],
+        "posterior_error": {
+          "mean": 0.20050505050505052,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.2,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.20050505050505052,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t3-s3": {
+        "posterior_bounds": [
+          0.18333333333333332,
+          0.18333333333333332
+        ],
+        "posterior_error": {
+          "mean": 0.18333333333333332,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.09999999999999998,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.18333333333333332,
+          "planned": 6,
+          "scoreable": 6
+        }
+      },
+      "t3-s4": {
+        "posterior_bounds": [
+          0.10416666666666667,
+          0.10416666666666667
+        ],
+        "posterior_error": {
+          "mean": 0.10416666666666667,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "prior_error": {
+          "mean": 0.0,
+          "planned": 6,
+          "scoreable": 6
+        },
+        "uninformative_drift": {
+          "mean": 0.2,
+          "planned": 2,
+          "scoreable": 2
+        },
+        "update_error": {
+          "mean": 0.10416666666666667,
+          "planned": 6,
+          "scoreable": 6
+        }
+      }
+    }
+  },
+  "schema_version": "cib.pilot-scores.v1",
+  "scorer_source_sha256": "b5692a38c74131cbb0a3f518b3f79faf2c3b28e7c9ad8724258be539e7a1dcca",
+  "scorer_version": "updating-pilot-scorer-v1"
+}

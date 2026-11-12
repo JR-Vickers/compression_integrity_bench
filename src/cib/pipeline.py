@@ -32,6 +32,9 @@ def planned_requests(dataset, deployments):
                 request["input_sha256"] = digest(request["input"])
                 request["request_id"] = observation_id(request)
                 result.append(request)
+    if dataset.get('split') == 'exploratory_pilot':
+        from .pilot import extend_plan
+        result = extend_plan(dataset, result, deployments)
     if len({r["request_id"] for r in result}) != len(result):
         raise ValueError("duplicate planned request")
     return result

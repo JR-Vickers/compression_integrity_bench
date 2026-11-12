@@ -19,6 +19,8 @@ def literal(value):
 
 def report_file(raw_path, scores_path, output):
     raw, scores = read(raw_path), read(scores_path)
+    if raw.get('dataset', {}).get('split') == 'exploratory_pilot':
+        raise ValueError('use python -m cib.pilot report with pilot scores for the pilot policy and denominators')
     validate_raw(raw)
     if (scores["schema_version"] != "cib.scores.v1"
             or scores["raw_sha256"] != file_hash(raw_path)

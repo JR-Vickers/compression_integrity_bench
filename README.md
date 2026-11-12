@@ -52,7 +52,7 @@ The scorer calculates posterior absolute error, prior absolute error, update err
 
 [ARCHITECTURE.md](docs/ARCHITECTURE.md) describes record ownership and lineage; [DECISIONS.md](docs/DECISIONS.md) records development choices. Small versioned task definitions and response scripts live in `src/cib/data/`; bulk outputs, models, caches, and credentials are ignored by Git. Raw v1 records include a complete task snapshot and are supported by this fixture implementation; new fixture/protocol versions require explicit implementation support.
 
-Milestones 1–3 are implemented: offline fixtures, local feasibility, and a resumable MLX runner with saved-output scoring/reporting. There is no empirical uncertainty analysis, held-out evaluation, or preservation threshold. Next: an explicitly configured Milestone 4 exploratory pilot and instrument development for the observed format failures. The original grant proposal was not present in the initial repository and has not been reconstructed.
+Milestones 1–4 are implemented: offline fixtures, local feasibility, a resumable MLX runner, and a complete bounded exploratory pilot with controls and saved-output analysis. There is no empirical uncertainty analysis, held-out evaluation, or preservation threshold. The pilot found insufficient updating competence relative to the unchanged-prior baseline; next is a fresh exploratory instrument/reference suitability check before a frozen study. The original grant proposal was not present in the initial repository and has not been reconstructed.
 
 ## Local deployment feasibility (Milestone 2)
 
@@ -150,4 +150,31 @@ mkdir -p outputs/m3-offline-regression
 
 All 19 offline tests passed on CPython 3.11.17. They cover strict/diagnostic boundaries, independent numerical targets, pairing, resume/interruption and retry exhaustion, cache separation, raw immutability, deterministic rescoring and report lineage. [M3 evidence](docs/evidence/m3/README.md) contains the audit findings, hashes and saved integration excerpts. `/.cache/`, model files, environments and generated run outputs remain Git-ignored.
 
-Limitations: one pinned development instrument/pair; sequential deployment order; backend-defined accumulation and different quantized kernels; tiny incomplete engineering samples; no empirical uncertainty intervals or study conclusions. MLX has no refusal flag: textual refusals are malformed unless an upstream explicit refusal status exists. Format reliability, capability controls, final model/sample selection and preservation margins remain unresolved. Next is the explicitly configured Milestone 4 exploratory pilot; the diagnostic parser alone does not validate that instrument.
+Limitations: one pinned development instrument/pair; sequential deployment order; backend-defined accumulation and different quantized kernels; tiny incomplete engineering samples; no empirical uncertainty intervals or study conclusions. MLX has no refusal flag: textual refusals are malformed unless an upstream explicit refusal status exists. Format reliability, capability controls, final model/sample selection and preservation margins remain unresolved. These were the M3 handoff limitations. The completed Milestone 4 pilot below assesses format and capability controls; its pilot-only primary policy preserves these historical results.
+
+
+## Exploratory pilot (Milestone 4)
+
+The complete [pilot report](docs/evidence/m4/README.md) records 344/344 planned/executed/completed/primary-scoreable observations: 144 main +16 controls +12 repeats per deployment. All used the existing local pair and frozen `configs/pilot-v1.json` / `src/cib/data/updating-pilot-v1.json`. This explicitly authorized pilot uses **outer-json-fence-v1 as primary**: bare strict probability JSON or one complete outer unlabeled/lowercase-json code fence, with newlines around its body; exactly one finite numeric `probability` in [0,1], no extra prose/fields/answers, duplicate keys, invalid values or repairs. Strict bare-JSON compliance remains separately reported over completed eligible responses: **0/172 for each deployment**. Primary coverage is **172/172 each**, main coverage 144/144. Historical strict defaults and M2/M3 labels are preserved.
+
+On the complete 12-scenario main set, BF16 / 4-bit posterior absolute errors are **0.17446055 / 0.18287535** (72/72 terms each); paired loss change is **+0.00841480**, positive = larger 4-bit loss. Neither beats the unchanged-prior baseline (0.13601504, synthetic 72/72 targets). Both pass 4/4 prior, arithmetic and format-value controls but 0/4 likelihood controls, all primary-scoreable. All 12/12 repeats match exactly. The reference/instrument combination is not ready for a frozen study. This is numerical updating, not empirical uncertainty calibration, preservation evidence or a general quantization claim.
+
+Verified generation commands below used no new model download and require local Metal access. On the completed run they now generate zero attempts; choose a new `--run` directory for a new experiment. Defaults use the original feasibility config and `outputs/m2-prepare/prepared.json`. Fixed single infrastructure retry bounds the full pilot at 688 calls; actual calls were 344.
+
+```sh
+export PYTHONPATH="$PWD/src"
+outputs/mlx-env/bin/python -m cib.runner run --pilot --run outputs/m4-pilot-v1 --deployment reference --limit 172
+outputs/mlx-env/bin/python -m cib.runner run --pilot --run outputs/m4-pilot-v1 --deployment quantized --limit 172
+.venv/bin/python -m cib.runner snapshot --run outputs/m4-pilot-v1 --output outputs/m4-pilot-v1/raw.json
+.venv/bin/python -m cib.pilot score --raw outputs/m4-pilot-v1/raw.json --output outputs/m4-pilot-v1/scores.json
+.venv/bin/python -m cib.pilot report --raw outputs/m4-pilot-v1/raw.json --scores outputs/m4-pilot-v1/scores.json --output outputs/m4-pilot-v1/report.md
+```
+
+Snapshot/score/report destinations must be new; these recorded files already exist. Use the dedicated pilot scorer/report to retain its primary policy and allocation summaries. Repeat the following **offline** audit with a new output directory; it never invokes inference:
+
+```sh
+PYTHONPATH=src .venv/bin/python scripts/verify_pilot.py --run outputs/m4-pilot-v1 --output outputs/m4-verification-v2
+PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v
+```
+
+Observed: 23 offline tests pass; all 1,039 original pilot files were unchanged during rescoring; scores and reports regenerate byte-identically against the same source/score inputs. A report-only source change is retained in source lineage, with numerical equality to original scoring checked separately. Full raw/journal/token streams live in `outputs/m4-pilot-v1/`; the full updated report is `outputs/m4-verification-v2/report.md`. Compact measured summaries, examples and hashes are versioned in `docs/evidence/m4/`. Fixture generation/scoring/reporting was verified again at `outputs/m4-offline-fixture/` with the original strict policy. No earlier evidence was replaced.

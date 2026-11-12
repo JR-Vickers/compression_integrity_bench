@@ -2,6 +2,7 @@
 from collections import Counter
 import os
 from pathlib import Path
+import resource
 
 from .feasibility import cache_metadata, environment, inventory
 from .records import digest, read
@@ -58,4 +59,5 @@ class MLXAdapter:
                 prefill_step_size=g['prefill_step_size']):
             emit({k: getattr(response, k) for k in ('text', 'token', 'finish_reason', 'generation_tokens')})
         self.mx.synchronize()
-        return cache_metadata(cache)
+        return {**cache_metadata(cache), 'mlx_peak_bytes': self.mx.get_peak_memory(),
+                'process_peak_rss_bytes': resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}
