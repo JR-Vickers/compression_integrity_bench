@@ -1,0 +1,44 @@
+{
+  "schema_version": "cib.fixture.v1",
+  "dataset_version": "binary-updating-dev-v1",
+  "split": "development_fixture",
+  "provenance": "Hand-authored synthetic English urn scenarios; original CIB development data. No sampling or generator seed.",
+  "construct": "Probability reporting and evidence updating in a controlled binary task; not empirical calibration.",
+  "protocol": "self-contained-pre-post",
+  "task_version": "updating-v1",
+  "prompt_variant": "structured-v1",
+  "trial_index": 0,
+  "analysis": {
+    "condition_weights": "equal across predefined conditions and label variants within scenario",
+    "scenario_weights": "equal",
+    "incomplete_policy": "withhold scenario means and complete-scenario contrast; report full-set posterior-loss bounds",
+    "direction_tolerance": null,
+    "stability_tolerance": null,
+    "parser": "strict JSON object with exactly probability: finite JSON number in [0,1]; no prose or coercion"
+  },
+  "scenarios": [
+    {
+      "scenario_id": "balanced",
+      "cluster_id": "urn-template-v1",
+      "prior": "1/2",
+      "conditions": [
+        {"condition_id": "support", "likelihood_h": "4/5", "likelihood_not_h": "1/5"},
+        {"condition_id": "oppose", "likelihood_h": "1/5", "likelihood_not_h": "4/5"},
+        {"condition_id": "irrelevant", "likelihood_h": "2/5", "likelihood_not_h": "2/5"}
+      ],
+      "annotations": "Tests symmetric supporting and opposing evidence with a balanced prior."
+    },
+    {
+      "scenario_id": "rare",
+      "cluster_id": "urn-template-v1",
+      "prior": "1/5",
+      "conditions": [
+        {"condition_id": "support", "likelihood_h": "4/5", "likelihood_not_h": "1/5"},
+        {"condition_id": "oppose", "likelihood_h": "1/5", "likelihood_not_h": "2/5"},
+        {"condition_id": "irrelevant", "likelihood_h": "3/5", "likelihood_not_h": "3/5"}
+      ],
+      "annotations": "Tests prior sensitivity. Label swaps stay in the same base scenario."
+    }
+  ],
+  "label_variants": ["original", "swapped"]
+}

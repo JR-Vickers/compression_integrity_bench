@@ -1,0 +1,18 @@
+{
+  "schema_version": "cib.script.v1",
+  "provider_version": "scripted-v1",
+  "label": "SYNTHETIC DEVELOPMENT FIXTURES; no model inference",
+  "perfect_probabilities": {
+    "balanced": {"original": {"pre": 0.5, "support": 0.8, "oppose": 0.2, "irrelevant": 0.5}, "swapped": {"pre": 0.5, "support": 0.2, "oppose": 0.8, "irrelevant": 0.5}},
+    "rare": {"original": {"pre": 0.2, "support": 0.5, "oppose": 0.1111111111111111, "irrelevant": 0.2}, "swapped": {"pre": 0.8, "support": 0.5, "oppose": 0.8888888888888888, "irrelevant": 0.8}}
+  },
+  "perturbed_overrides": {
+    "balanced/original/support/post": {"text": "{\"probability\":0.65}", "status": "completed", "stop_reason": "stop"},
+    "balanced/original/irrelevant/post": {"text": "{\"probability\":0.6}", "status": "completed", "stop_reason": "stop"},
+    "rare/original/support/pre": {"text": "{\"probability\":0.3}", "status": "completed", "stop_reason": "stop"},
+    "rare/original/oppose/post": {"text": "{\"probability\":1.2}", "status": "completed", "stop_reason": "stop"},
+    "rare/swapped/support/post": {"text": "I decline this fixture request.", "status": "refusal", "stop_reason": "refusal"},
+    "rare/swapped/oppose/post": {"text": "{\"probability\":", "status": "truncated", "stop_reason": "length"},
+    "rare/swapped/irrelevant/post": {"text": null, "status": "infrastructure_error", "stop_reason": null, "error": "intentional scripted failure; no retry"}
+  }
+}
