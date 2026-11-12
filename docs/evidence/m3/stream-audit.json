@@ -1,0 +1,122 @@
+[
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.5\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "reference",
+    "index": 0,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.5\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "40481e2686055c36c03ed5ee41be32f15c6c520b396e17757538e56144b0c3c0"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.6\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "reference",
+    "index": 1,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.6\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "bd7cf24244ad028a29756e75b41bcfd9fdacf07b299b7ba1927a2cf819936c40"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.3\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "reference",
+    "index": 2,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.3\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "4675e443cdbe6dd96bf325690b6ca01d15b78e206deb43404fb92b4c037466d4"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.6\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "reference",
+    "index": 3,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.6\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "a8f442376d2accb6379f623dbfc62b4185a84dd4af3279f37e9aad5d61839839"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.2\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "reference",
+    "index": 4,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.2\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "507abb627434fe451ed9a19de9c99bc27a12022ba4dfed23035ac3f4c4015cd4"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.4\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "reference",
+    "index": 5,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.4\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "c02a2b702a238e421ce82b550928171e49837f499db4eeffe703f5faad643806"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.5\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "quantized",
+    "index": 0,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.5\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "4a5caa287d0a2c8cb8b801adfa2c169683e8f7efacaec721f7bcc8ff76817550"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.64\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "quantized",
+    "index": 1,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.64\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "df1a2961a89d451cf3ff4d7ebf10741e8c82f877a80c7079a2d4b6b21f241e4e"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.4\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "quantized",
+    "index": 2,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.4\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "486c7dff2d5e01268c88114b525eb5916c059128b0a241460ba6b241c45d1575"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.6\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "quantized",
+    "index": 3,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.6\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "15b3770a982e972a3055a3218cc8d02d1635e019e2626ec4e23cc45f7b6e49d4"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.2\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "quantized",
+    "index": 4,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.2\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "05cd3004ce1d5167831cf6b38b31d8cd7c9b44f30d62e33ea5f39259e4a43fd3"
+  },
+  {
+    "decoded_generated_tokens": "```json\n{\n  \"probability\": 0.4\n}\n```",
+    "decoded_tokens_equal_raw": true,
+    "deployment": "quantized",
+    "index": 5,
+    "joined_stream_equals_raw": true,
+    "raw_text": "```json\n{\n  \"probability\": 0.4\n}\n```",
+    "rendered_contains_fence": false,
+    "stream_sha256": "7eb46bb7943175f484bb3c9b266322748f61b240fe25b26b07f49a430740ff73"
+  }
+]

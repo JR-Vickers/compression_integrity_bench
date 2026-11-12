@@ -30,9 +30,12 @@ def report_file(raw_path, scores_path, output):
             != {r["request_id"] for r in raw["requests"]}):
         raise ValueError("score observation set mismatch")
     comparison = scores["comparison"]
-    lines = ["# SYNTHETIC DEVELOPMENT FIXTURES — offline CIB report", "",
-             "**No models were run. These scripted responses are not measured model performance "
-             "and support no claims about compression effects.**", "",
+    real = raw["schema_version"] == "cib.real-run.v1"
+    lines = [("# EXPLORATORY ENGINEERING CHECK — real local CIB report" if real else
+              "# SYNTHETIC DEVELOPMENT FIXTURES — offline CIB report"), "",
+             ("**Development tasks only; no held-out, compression, or preservation conclusion.**" if real else
+              "**No models were run. These scripted responses are not measured model performance "
+              "and support no claims about compression effects.**"), "",
              "These hand-authored English urn cases measure controlled probability reporting. "
              "They share one template cluster and are not independent research samples.", "",
              "## Configuration and lineage", "",
@@ -46,15 +49,19 @@ def report_file(raw_path, scores_path, output):
              "A scenario metric is withheld if any of its eligible conditions is missing. "
              "Direction and stability diagnostics are disabled: tolerances remain unresolved.", "",
              "## Coverage", "", literal(scores["coverage"]), "",
+             literal(scores.get("format_coverage", {})), "",
+             "Parser: `" + scores.get("parser_version", "strict-probability-v1") + "`. "
+             "The primary policy remains strict JSON; fence diagnostics are exploratory.", "",
              "Completed generations count returned outputs, including refusals and truncations; "
-             "normal completions exclude those stop statuses. Valid means strict parsed probability. "
+             "normal completions exclude those stop statuses. Valid means scoreable under the named parser. "
              "Malformed, refusal, truncation, and infrastructure failures have missing scores, never zero error.", "",
              "## Paired posterior-loss comparison", "", literal(comparison), "",
              "The complete-scenario change describes only fully observed scenarios. The full-set "
              "contrast is withheld when any scenario is incomplete. Missing-loss bounds assign each "
              "unknown posterior loss 0 or 1 over the full planned set, retaining every observed loss. "
-             "They are conservative bounds, not sampling confidence intervals. "
-             "Positive change means greater loss for fixture-perturbed; neither fixture is a real deployment.", "",
+             "They are conservative bounds, not sampling confidence intervals. " +
+             ("Positive change means greater loss for the quantized deployment." if real else
+              "Positive change means greater loss for fixture-perturbed; neither fixture is a real deployment."), "",
              "## Per-scenario metrics", "",
              "| Deployment | Scenario | Metric | Scoreable / planned | Mean |", "| --- | --- | --- | --- | --- |"]
     for deployment, scenarios in scores["scenario_scores"].items():
@@ -65,11 +72,14 @@ def report_file(raw_path, scores_path, output):
                 lines.append(f"| {deployment} | {scenario} | {metric} | "
                              f"{summary['scoreable']} / {summary['planned']} | {number(summary['mean'])} |")
     lines += ["", "## Condition metrics and independent targets", "", literal(scores["condition_scores"]), "",
+              "## Per-observation status and probability", "", literal(scores["observations"]), "",
               "## All paired inputs, raw responses, and failures", "",
-              "All planned cases are shown, including unchanged responses, intentional wrong answers, "
-              "and every failure. This is exhaustive fixture inspection, not outcome-selected examples.", ""]
+              "All planned cases are shown, including unchanged responses, valid incorrect answers, "
+              "missing observations, and every failure. Examples are exhaustive rather than selected by outcome.", ""]
     requests = {r["request_id"]: r for r in raw["requests"]}
-    attempts = {a["request_id"]: a for a in raw["attempts"]}
+    attempts = {}
+    for attempt in raw["attempts"]:
+        attempts.setdefault(attempt["request_id"], []).append(attempt)
     indexed = {}
     for request in raw["requests"]:
         identity = (request["scenario_id"], request["label_variant"], request["condition_id"], request["stage"])

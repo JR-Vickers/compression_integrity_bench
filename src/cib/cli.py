@@ -5,7 +5,7 @@ from pathlib import Path
 
 from .pipeline import generate
 from .report import report_file
-from .scoring import score_file
+from .scoring import score_file, STRICT_PARSER, DIAGNOSTIC_PARSER
 
 
 def main():
@@ -16,6 +16,7 @@ def main():
     score = commands.add_parser("score", help="score saved raw records, without response production")
     score.add_argument("--raw", type=Path, required=True)
     score.add_argument("--output", type=Path, required=True)
+    score.add_argument("--parser", choices=(STRICT_PARSER, DIAGNOSTIC_PARSER), default=STRICT_PARSER)
     report = commands.add_parser("report", help="render saved records and scores")
     report.add_argument("--raw", type=Path, required=True)
     report.add_argument("--scores", type=Path, required=True)
@@ -25,7 +26,7 @@ def main():
         if args.command == "fixture":
             generate(args.output)
         elif args.command == "score":
-            score_file(args.raw, args.output)
+            score_file(args.raw, args.output, args.parser)
         else:
             report_file(args.raw, args.scores, args.output)
     except (ValueError, KeyError, OSError) as error:

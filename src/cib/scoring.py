@@ -3,6 +3,7 @@
 from collections import Counter
 import json
 import math
+import re
 from statistics import mean
 
 from .pipeline import source_hash, validate_raw
@@ -31,12 +32,25 @@ def parse_probability(text):
         raise ValueError("malformed probability response") from error
 
 
-def score_attempt(attempt):
+STRICT_PARSER = "strict-probability-v1"
+DIAGNOSTIC_PARSER = "outer-json-fence-v1"
+
+
+def parse_diagnostic(text):
+    """Exploratory: bare strict JSON or exactly one complete outer fence."""
+    if isinstance(text, str):
+        match = re.fullmatch(r"\s*```(?:json)?\r?\n([^`]*?)\r?\n```\s*", text)
+        if match:
+            text = match.group(1)
+    return parse_probability(text)
+
+
+def score_attempt(attempt, parser=STRICT_PARSER):
     status = attempt["status"]
     if status != "completed":
         return {"status": status, "probability": None}
     try:
-        return {"status": "valid", "probability": parse_probability(attempt["text"])}
+        return {"status": "valid", "probability": (parse_probability if parser == STRICT_PARSER else parse_diagnostic)(attempt["text"])}
     except ValueError:
         return {"status": "malformed", "probability": None}
 
@@ -62,6 +76,11 @@ def paired_requests(raw, left, right):
         other = indexes[1][identity]
         if request["input"] != other["input"] or request["decoding"] != other["decoding"]:
             raise ValueError("paired inputs or decoding differ")
+        if raw["schema_version"] == "cib.real-run.v1":
+            latest = {a["request_id"]: a for a in raw["attempts"]}
+            a, b = latest.get(request["request_id"], {}), latest.get(other["request_id"], {})
+            if "actual" in a and "actual" in b and a["actual"] != b["actual"]:
+                raise ValueError("paired rendered inputs or token IDs differ")
         pairs.append((request, other))
     return pairs
 
@@ -84,16 +103,17 @@ def summarize(rows):
     return metrics
 
 
-def calculate(raw):
+def calculate(raw, parser=STRICT_PARSER):
     validate_raw(raw)
-    left, right = "fixture-perfect", "fixture-perturbed"
+    left, right = (("reference", "quantized") if raw["schema_version"] == "cib.real-run.v1"
+                   else ("fixture-perfect", "fixture-perturbed"))
     pairs = paired_requests(raw, left, right)
     observations = []
     attempts = {a["request_id"]: a for a in raw["attempts"]}
     by_identity = {}
     for request in raw["requests"]:
         scored = {"schema_version": "cib.score.v1", "request_id": request["request_id"],
-                  "deployment_id": request["deployment_id"], **score_attempt(attempts[request["request_id"]])}
+                  "deployment_id": request["deployment_id"], **score_attempt(attempts[request["request_id"]], parser)}
         observations.append(scored)
         by_identity[(request["deployment_id"], *key(request))] = scored
     rows = []
@@ -125,12 +145,15 @@ def calculate(raw):
             for scenario in dataset["scenarios"]}
         selected_observations = [o for o in observations if o["deployment_id"] == deployment]
         counts = Counter(o["status"] for o in selected_observations)
-        selected_attempts = [a for a in raw["attempts"] if a["deployment_id"] == deployment]
+        selected_attempts = [a for a in raw["attempts"] if a["deployment_id"] == deployment and a["status"] != "not_attempted"]
         coverage[deployment] = {
             "requested": len(selected_observations), "attempts": len(selected_attempts),
-            "completed_generations": sum(a["status"] != "infrastructure_error" for a in selected_attempts),
+            "executed_observations": len({a["request_id"] for a in selected_attempts}),
+            "attempt_status_counts": dict(Counter(a["status"] for a in selected_attempts)),
+            "completed_generations": sum(a["status"] in {"completed", "refusal", "truncated"} for a in selected_attempts),
             "normal_completions": sum(a["status"] == "completed" for a in selected_attempts),
             "valid": counts["valid"], "scoreable": counts["valid"],
+            "not_attempted": counts["not_attempted"],
             "malformed": counts["malformed"], "refusal": counts["refusal"],
             "truncated": counts["truncated"], "infrastructure_error": counts["infrastructure_error"],
         }
@@ -161,11 +184,23 @@ def calculate(raw):
     }
 
 
-def score_file(raw_path, output):
+def score_file(raw_path, output, parser=STRICT_PARSER):
+    if parser not in {STRICT_PARSER, DIAGNOSTIC_PARSER}:
+        raise ValueError("unsupported parser")
     raw = read(raw_path)
     scores = {"schema_version": "cib.scores.v1", "raw_sha256": file_hash(raw_path),
               "run_id": raw["manifest"]["run_id"], "dataset_sha256": digest(raw["dataset"]),
-              "scorer_version": SCORER_VERSION, "scorer_source_sha256": source_hash(),
-              "analysis": raw["manifest"]["analysis"], **calculate(raw)}
+              "scorer_version": SCORER_VERSION if parser == STRICT_PARSER else "updating-diagnostic-v1",
+              "parser_version": parser, "scorer_source_sha256": source_hash(),
+              "analysis": raw["manifest"]["analysis"], **calculate(raw, parser)}
+    if raw["schema_version"] == "cib.real-run.v1":
+        strict = calculate(raw, STRICT_PARSER)["coverage"]
+        diagnostic = calculate(raw, DIAGNOSTIC_PARSER)["coverage"]
+        scores["format_coverage"] = {name: {
+            "planned": strict[name]["requested"],
+            "normal_completions": strict[name]["normal_completions"],
+            "strict_format_compliant": strict[name]["valid"],
+            "diagnostic_scoreable": diagnostic[name]["valid"],
+            "not_attempted": strict[name]["not_attempted"]} for name in strict}
     write_new(output, scores)
     return scores

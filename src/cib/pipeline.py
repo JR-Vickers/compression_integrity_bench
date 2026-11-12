@@ -97,6 +97,9 @@ def generate(output):
 
 
 def validate_raw(raw):
+    if raw["schema_version"] == "cib.real-run.v1":
+        from .runner import validate_real
+        return validate_real(raw)
     if raw["schema_version"] != SCHEMA:
         raise ValueError("unsupported raw schema")
     manifest = raw["manifest"]

@@ -52,7 +52,7 @@ The scorer calculates posterior absolute error, prior absolute error, update err
 
 [ARCHITECTURE.md](docs/ARCHITECTURE.md) describes record ownership and lineage; [DECISIONS.md](docs/DECISIONS.md) records development choices. Small versioned task definitions and response scripts live in `src/cib/data/`; bulk outputs, models, caches, and credentials are ignored by Git. Raw v1 records include a complete task snapshot and are supported by this fixture implementation; new fixture/protocol versions require explicit implementation support.
 
-Milestones 1 and 2 are implemented. The real feasibility probe is separate from the fixture runner; there is no integrated real comparison/resume/retry runner, empirical uncertainty analysis, held-out evaluation, or preservation threshold. Next: Milestone 3 runner integration, followed by explicit instrument development for the observed format failures. The original grant proposal was not present in the initial repository and has not been reconstructed.
+Milestones 1–3 are implemented: offline fixtures, local feasibility, and a resumable MLX runner with saved-output scoring/reporting. There is no empirical uncertainty analysis, held-out evaluation, or preservation threshold. Next: an explicitly configured Milestone 4 exploratory pilot and instrument development for the observed format failures. The original grant proposal was not present in the initial repository and has not been reconstructed.
 
 ## Local deployment feasibility (Milestone 2)
 
@@ -84,3 +84,70 @@ PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v
 ```
 
 All 13 tests passed on CPython 3.11.17 and 3.15.0. The original offline fixture commands were rerun successfully with artifacts at `outputs/m2-offline-regression/report.md`.
+
+## Integrated local runner and diagnostic rescoring (Milestone 3)
+
+The integrated runner uses the same pinned model artifacts and dependencies above. It always plans the **full 24-request development set per deployment** (two scenarios, three conditions, two labels, two stages), independently of the six M2 probe selections in the model configuration. The commands below ran successfully using the existing preparation. They execute only six new attempts per deployment, sequentially, and retain 18 unexecuted observations each. Metal access is required for generation; no downloads or paid services occur. Choose a new run directory for a new experiment.
+
+```sh
+export PYTHONPATH="$PWD/src"
+outputs/mlx-env/bin/python -m cib.runner run --run outputs/m3-integration --deployment reference --limit 6
+outputs/mlx-env/bin/python -m cib.runner run --run outputs/m3-integration --deployment quantized --limit 6
+.venv/bin/python -m cib.runner snapshot --run outputs/m3-integration --output outputs/m3-integration/raw-final.json
+.venv/bin/python -m cib score --raw outputs/m3-integration/raw-final.json --output outputs/m3-integration/strict-final.json
+.venv/bin/python -m cib score --raw outputs/m3-integration/raw-final.json --parser outer-json-fence-v1 --output outputs/m3-integration/diagnostic-final.json
+.venv/bin/python -m cib report --raw outputs/m3-integration/raw-final.json --scores outputs/m3-integration/diagnostic-final.json --output outputs/m3-integration/report-final.md
+```
+
+Defaults resolve to `--config configs/feasibility-qwen25-1.5b.json --prepared outputs/m2-prepare/prepared.json`; pass these options to use another preparation of the same pinned protocol. The original per-call probe configuration retains `generation.retries=0`; the runner's separately recorded policy permits **one infrastructure retry on a later invocation**, with both attempts saved. Returned malformed/incorrect answers, refusals and truncations never cause retries. Repeating a positive `--limit` resumes pending observations and advances beyond the completed prefix; it can execute additional prompts. Once the plan is exhausted it executes none. `--limit 0` executes none and was verified for both deployments without MLX access:
+
+```sh
+.venv/bin/python -m cib.runner run --run outputs/m3-integration --deployment reference --limit 0
+.venv/bin/python -m cib.runner run --run outputs/m3-integration --deployment quantized --limit 0
+```
+
+The run directory preserves the original plan, loaded precision metadata, immutable per-attempt starts/results, flushed token streams and exact rendered inputs/token IDs. Interrupted attempts retain partial text and may be retried once. Snapshot, scoring and reporting create new destinations exclusively; use new filenames for every repeat. Journals are the only output cache; artifact, messages, actual rendered/tokenized input, decoding and trial identity separate cache entries. A lock prevents concurrent modification. Scorer-only targets never enter the adapter.
+
+Reuse M2 outputs without inference, with explicit source lineage and no changes to original files:
+
+```sh
+mkdir -p outputs/m3-m2-final
+.venv/bin/python -m cib.runner import-m2 --config configs/feasibility-qwen25-1.5b.json --prepared outputs/m2-prepare/prepared.json --reference outputs/m2-reference-v2/checked.json --quantized outputs/m2-quantized-v2/checked.json --output outputs/m3-m2-final/raw.json
+.venv/bin/python -m cib score --raw outputs/m3-m2-final/raw.json --output outputs/m3-m2-final/strict.json
+.venv/bin/python -m cib score --raw outputs/m3-m2-final/raw.json --parser outer-json-fence-v1 --output outputs/m3-m2-final/diagnostic.json
+.venv/bin/python -m cib report --raw outputs/m3-m2-final/raw.json --scores outputs/m3-m2-final/strict.json --output outputs/m3-m2-final/strict-report.md
+.venv/bin/python -m cib report --raw outputs/m3-m2-final/raw.json --scores outputs/m3-m2-final/diagnostic.json --output outputs/m3-m2-final/report.md
+```
+
+`strict-probability-v1` remains the default. Opt-in `outer-json-fence-v1` accepts bare strict JSON or one complete outer triple-backtick block, unlabeled or lowercase `json`, with newlines around its JSON body. It then applies the same strict schema and probability checks. Extra prose/answers, duplicate keys and invalid values remain malformed. This is an **exploratory methodology amendment after seeing development responses**, not a replacement primary scoring policy. Earlier M2 strict scores remain missing. Both real reports show strict and diagnostic coverage separately.
+
+| Saved set | Deployment | Strict compliance / completed | Diagnostic scoreable / completed | Unexecuted / planned |
+| --- | --- | --- | --- | --- |
+| M2 rescoring | BF16 | 0/6 | 6/6 | 18/24 |
+| M2 rescoring | 4-bit | 0/6 | 6/6 | 18/24 |
+| New integration | BF16 | 0/6 | 6/6 | 18/24 |
+| New integration | 4-bit | 0/6 | 6/6 | 18/24 |
+
+All 12 new attempts ended at EOS with BF16 KV caches and matched rendered inputs/token IDs. The two sets use different six-request subsets and are analyzed separately. No scenario is fully observed; scenario means and full-set point contrasts are withheld. Reports retain independent condition losses and conservative full-set bounds. For example, M2 balanced/support posterior target is 0.8: BF16 reports 0.6 (absolute error 0.20), 4-bit reports 0.64 (0.16); balanced/oppose target is 0.2: BF16 reports 0.3 (0.10), 4-bit reports 0.4 (0.20). These are exploratory examples, not aggregate compression findings.
+
+The token audit verifies that fences originate in generated tokens, not instrumentation. It requires only the optional environment's tokenizer library and the existing source tokenizer/streams; it does not load MLX or generate responses:
+
+```sh
+outputs/mlx-env/bin/python scripts/audit_m2_streams.py --output outputs/m3-m2-final/stream-audit.json
+```
+
+Offline regression and saved-output regeneration remain independent of Metal/network/models:
+
+```sh
+.venv/bin/python -m unittest discover -s tests -v
+mkdir -p outputs/m3-offline-regression
+.venv/bin/python -m cib fixture --output outputs/m3-offline-regression/raw.json
+.venv/bin/python -m cib score --raw outputs/m3-offline-regression/raw.json --output outputs/m3-offline-regression/scores.json
+.venv/bin/python -m cib report --raw outputs/m3-offline-regression/raw.json --scores outputs/m3-offline-regression/scores.json --output outputs/m3-offline-regression/report.md
+.venv/bin/python -m cib score --raw outputs/m3-m2-final/raw.json --parser outer-json-fence-v1 --output outputs/m3-m2-final/rescored.json
+.venv/bin/python -m cib report --raw outputs/m3-m2-final/raw.json --scores outputs/m3-m2-final/rescored.json --output outputs/m3-m2-final/regenerated.md
+```
+
+All 19 offline tests passed on CPython 3.11.17. They cover strict/diagnostic boundaries, independent numerical targets, pairing, resume/interruption and retry exhaustion, cache separation, raw immutability, deterministic rescoring and report lineage. [M3 evidence](docs/evidence/m3/README.md) contains the audit findings, hashes and saved integration excerpts. `/.cache/`, model files, environments and generated run outputs remain Git-ignored.
+
+Limitations: one pinned development instrument/pair; sequential deployment order; backend-defined accumulation and different quantized kernels; tiny incomplete engineering samples; no empirical uncertainty intervals or study conclusions. MLX has no refusal flag: textual refusals are malformed unless an upstream explicit refusal status exists. Format reliability, capability controls, final model/sample selection and preservation margins remain unresolved. Next is the explicitly configured Milestone 4 exploratory pilot; the diagnostic parser alone does not validate that instrument.
