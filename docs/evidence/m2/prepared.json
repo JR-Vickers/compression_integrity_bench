@@ -1,0 +1,127 @@
+{
+  "config_sha256": "3133696ee4b2068ccc9b8bee32b355743ef2066d5da1fdf00cb272a5427d9163",
+  "environment": {
+    "git": {
+      "commit": "f30ca6c0116840e60f92f528c014e369feb0d4ed",
+      "working_tree": "?? configs/\n?? src/cib/feasibility.py"
+    },
+    "packages": {
+      "huggingface-hub": "2.4.0",
+      "mlx": "0.32.4",
+      "mlx-lm": "0.32.2",
+      "mlx-metal": "0.32.4",
+      "numpy": "2.4.6",
+      "tokenizers": "0.23.3",
+      "transformers": "5.22.2"
+    },
+    "platform": "macOS-15.7.7-arm64-arm-64bit",
+    "python": "3.11.17",
+    "source_sha256": "1fabaa1459b89871b2b91c312b5ef21f8bd8e87a91c2bbf087cd5a07a0e7f7ad"
+  },
+  "memory": {
+    "mlx_active_bytes": 8,
+    "mlx_cache_bytes": 2717711996,
+    "mlx_peak_bytes": 2177583624,
+    "process_peak_rss_bytes": 5578964992
+  },
+  "quantization_config": {
+    "bits": 4,
+    "group_size": 64,
+    "mode": "affine"
+  },
+  "quantization_seconds": 1.0517832499463111,
+  "quantized": {
+    "files": {
+      "README.md": {
+        "bytes": 81,
+        "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6"
+      },
+      "chat_template.jinja": {
+        "bytes": 2507,
+        "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+      },
+      "config.json": {
+        "bytes": 948,
+        "sha256": "50a221780f3d0a08544721497bba4dfccaada164791d057143ebf613ced6530c"
+      },
+      "generation_config.json": {
+        "bytes": 242,
+        "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+      },
+      "model.safetensors": {
+        "bytes": 868629082,
+        "sha256": "5b6abb3e8bbb783216a1a034fe742de5f25a836f3c642910ce327199c51217e7"
+      },
+      "model.safetensors.index.json": {
+        "bytes": 51609,
+        "sha256": "19e664257b50911ac12ff231c42e952c210d48d1861f7fa304eb640dd10dccb8"
+      },
+      "tokenizer.json": {
+        "bytes": 11421892,
+        "sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8"
+      },
+      "tokenizer_config.json": {
+        "bytes": 729,
+        "sha256": "ee8f6d44bf2353e6d3686c3adaf70e1ccfe9e6ed6822d0ab2f28cafdd7754792"
+      }
+    },
+    "path": "/Users/jarrett/dev/compression_integrity_bench/.cache/m2-qwen25/affine-4bit-g64"
+  },
+  "reference": {
+    "files": {
+      "LICENSE": {
+        "bytes": 11343,
+        "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+      },
+      "README.md": {
+        "bytes": 4917,
+        "sha256": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada"
+      },
+      "config.json": {
+        "bytes": 660,
+        "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670"
+      },
+      "generation_config.json": {
+        "bytes": 242,
+        "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+      },
+      "merges.txt": {
+        "bytes": 1671839,
+        "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+      },
+      "model.safetensors": {
+        "bytes": 3087467144,
+        "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+      },
+      "tokenizer.json": {
+        "bytes": 7031645,
+        "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+      },
+      "tokenizer_config.json": {
+        "bytes": 7305,
+        "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+      },
+      "vocab.json": {
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    },
+    "path": "/Users/jarrett/dev/compression_integrity_bench/.cache/m2-qwen25/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  },
+  "schema_version": "cib.prepared.v1",
+  "source": {
+    "license": "Apache-2.0",
+    "reference_dtype": "bfloat16",
+    "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  },
+  "tensor_dtype_counts": {
+    "quantized": {
+      "BF16": 535,
+      "U32": 197
+    },
+    "reference": {
+      "BF16": 338
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "checked_sha256": {
+    "quantized": "436596860c331935275e8bfab8ae2ad37e0cd880773b45603d4d3de9e7674bcd",
+    "reference": "c4926c643a48670ef20f54dfaf7f5b1ced89eb2fcc7a1357de32f31867cdc521"
+  },
+  "config_sha256": "3133696ee4b2068ccc9b8bee32b355743ef2066d5da1fdf00cb272a5427d9163",
+  "eos_completions": {
+    "quantized": 6,
+    "reference": 6
+  },
+  "exact_same_raw_text_after_metadata_fix": {
+    "quantized": true,
+    "reference": true
+  },
+  "generation_seconds_total": {
+    "quantized": 0.553115458926186,
+    "reference": 1.0078727081418037
+  },
+  "identical_input_pairs": 6,
+  "label": "Real local feasibility on development tasks; no numerical performance scores or compression conclusions",
+  "memory_note": "Byte units. MLX allocator peak differs from process peak RSS; load times are after file hashing and have warm OS caches. No speed benchmark claim.",
+  "schema_version": "cib.feasibility-verification.v1",
+  "score_policy": "All strict-format failures remain missing probabilities. Fenced numeric content is not extracted or scored.",
+  "strict_format_valid": {
+    "quantized": 0,
+    "reference": 0
+  }
+}

@@ -173,7 +173,7 @@ Routine engineering details can be resolved during development. Changes to the m
 
 ## 9. Open decisions
 
-1. Exact pilot checkpoint, final study model selection, and reference precision.
+1. Final study model selection and reference precision remain unresolved. Milestone 2 selected a local feasibility pair only: Qwen2.5-1.5B-Instruct BF16 versus its direct MLX 4-bit derivative; see [D004](DECISIONS.md#d004--local-pilot-deployment-pair). This does not freeze the study population.
 2. Quantization method, configuration, and artifact provenance.
 3. Backend and available hardware or compute budget.
 4. Initial task generator and wording variants.

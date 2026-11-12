@@ -1,6 +1,6 @@
 # Compression Integrity Bench: Development Plan
 
-Status: Working implementation plan, v0.4; Milestone 1 verified  
+Status: Working implementation plan, v0.5; Milestones 1 and 2 verified
 Updated: 2026-11-12  
 Project: Compression Integrity Bench (CIB)  
 Repository filename: `PLAN.md`
@@ -11,18 +11,18 @@ This is the development roadmap for evaluating how quantization changes the epis
 
 The project owner has reviewed [PROJECT.md](PROJECT.md) and [METHODOLOGY.md](METHODOLOGY.md) and is satisfied with them as working specifications. Their explicitly proposed scientific choices remain provisional.
 
-The initial repository contained specifications and no implementation. Milestone 1 now has an implemented and verified offline fixture pipeline; evidence is recorded in Section 12. No real model runs or benchmark findings are implied. Later milestones remain pending.
+The initial repository contained specifications and no implementation. Milestone 1 has a verified offline fixture pipeline. Milestone 2 has observed local BF16/4-bit loading and generation checks, with strict-format failures retained; evidence is recorded in Section 12. These are development feasibility runs, not benchmark findings. Milestones 3–8 remain pending.
 
 Keep AGENTS.md in the repository root and PROJECT.md, METHODOLOGY.md, and PLAN.md in `docs/`, matching the existing layout and links. Retain the original grant proposal unchanged as `docs/original-proposal.md` when supplied; it was absent at bootstrap. Root README.md describes the verified setup and workflow. Scientific requirements live in METHODOLOGY.md; this plan sequences their implementation and does not override them.
 
-The immediate objective is to make one complete example work: construct tasks, obtain clearly synthetic responses, retain records, calculate scores, compare outputs, and regenerate an inspectable report.
+The offline example now constructs tasks, obtains clearly synthetic responses, retains records, calculates scores, compares outputs, and regenerates a report. A separate real feasibility probe now loads a selected local deployment pair. The next objective is the resumable real comparison runner, with the observed output-format limitation kept explicit.
 
 ## 2. Milestone sequence
 
 | Milestone | Outcome | Main dependency | Status |
 | --- | --- | --- | --- |
 | 1. Offline pipeline | An auditable example runs without model access | Current specifications | Complete — verified 2026-11-12 |
-| 2. Deployment feasibility | One reference/quantized pair is chosen and can run | Declared hardware and resource budget | Pending |
+| 2. Deployment feasibility | One reference/quantized pair is chosen and can run | Declared hardware and resource budget | Complete — loading/generation verified 2026-11-12; strict-format failure recorded |
 | 3. Real comparison runner | Matched model runs can be resumed, rescored, and compared | Milestones 1 and 2 | Pending |
 | 4. Exploratory pilot | The instrument and practical workflow are assessed | Real runner and explicit pilot configuration | Pending |
 | 5. Full benchmark preparation | All five modules and the dedicated human-review workflow are piloted | Validated pipeline and explicit module designs | Pending |
@@ -74,7 +74,7 @@ A recorded choice of one checkpoint, a reference precision, one weight-quantized
 
 ### Work and acceptance criteria
 
-- Establish the actual execution environment and compute budget. Local Apple hardware and rented accelerators are possible routes; neither is selected by this plan.
+- Establish the actual execution environment and compute budget. For Milestone 2, local M4 Max hardware and free public artifacts were selected; no paid compute. Later study resources remain unresolved.
 - Check that both artifacts derive from the same checkpoint and that their licensing and provenance support the intended experiment.
 - Verify matched tokenizer, template, decoding, context, reasoning settings, and relevant numerical precisions. Record any backend or kernel differences.
 - Run a tiny feasibility check that confirms both deployments load and can respond to the prescribed task format. Record memory, timing, settings, outputs, and failures.
@@ -195,7 +195,7 @@ Do not mark the final research release complete based only on the updating pilot
 
 ## 11. Current task and handoff
 
-Current handoff: **Milestone 1 complete: offline fixture pipeline verified.** No model choice, model download, paid inference, GPU rental, or final scientific threshold was selected. The next dependency is Milestone 2: declared hardware/budget and deployment feasibility.
+Current handoff: **Milestones 1 and 2 complete: offline fixture pipeline and real local loading/generation feasibility verified.** The engineering pilot pair is pinned in `configs/feasibility-qwen25-1.5b.json`; D004–D005 document selection and failures. Strict-format compliance failed (0/6 valid per deployment) and no numerical task scores are claimed. No paid inference, GPU rental, final study model selection, or scientific threshold was selected. Next: Milestone 3 resumable real runner, followed by explicit instrument development for format reliability before a scoreable pilot.
 
 Original Milestone 1 instruction:
 
@@ -210,7 +210,7 @@ Update this table with observed evidence as work completes. Keep consequential d
 | Milestone | Completed work | Verification evidence | Remaining dependency |
 | --- | --- | --- | --- |
 | 1 | Python package/CLI; versioned development tasks, deployments, requests, attempts, raw records and scores; strict parser; independent analytic targets; scenario aggregation, missing-data bounds, and static paired report; README, decisions, architecture | 2026-11-12: README generation/rescoring/report commands succeeded; 8 offline tests passed on Python 3.11.17 and 3.15.0; raw hash unchanged and rescored bytes identical; details below | Milestone 2 hardware, budget, and feasible same-checkpoint deployment pair; study choices remain open |
-| 2 | None yet | None yet | Hardware, budget, deployment feasibility |
+| 2 | Hardware/tooling inspected; official candidates verified; pinned Qwen2.5-1.5B-Instruct BF16 / local MLX 4-bit affine g64 pair; isolated dependency pins, reproducible probe, raw attempts/streams, sanitized/versioned evidence, decisions and README | 2026-11-12: both load and complete six identical prompts at EOS; source BF16/LFS identity and both BF16 KV caches verified; 0/6 strict-format valid each, retained as missing; 13 offline tests pass on Python 3.11/3.15; fixture workflow rerun | Milestone 3 runner integration/resume/scoring/reporting; explicit format instrument development before scoreable pilot; final study choices remain unresolved |
 | 3 | None yet | None yet | Milestones 1 and 2 |
 | 4 | None yet | None yet | Real runner and pilot configuration |
 | 5 | None yet | None yet | Module specifications, sources, rubrics, rater workflow |
@@ -231,3 +231,17 @@ All Milestone 1 acceptance criteria are satisfied for the pinned development fix
 The root README contains the exact reproducible commands. The report prominently labels synthetic development fixtures, includes all paired inputs/responses and failures, and makes no compression claim. D001–D003 in DECISIONS.md record implementation choices, development-only scoring/aggregation policy, and the existing document layout; ARCHITECTURE.md documents concrete record/data flow.
 
 Limitations and next dependency: only the pinned offline fixture protocol is supported; real inference, resume/retry, empirical intervals, held-out evaluation, and the other modules remain later work. Direction/stability tolerances are null. Model/backend, hardware/budget, scientific sample sizes, and preservation margins remain unresolved. Git had no resolvable HEAD at verification, so the manifest explicitly records an unknown commit and a package source fingerprint. The original grant proposal was absent and has not been fabricated. Milestone 2 requires declared resources and a feasible same-checkpoint reference/quantized pair.
+
+### Milestone 2 verification — 2026-11-12
+
+Milestone 2 local loading/generation feasibility work is complete. The prescribed development prompts were executed unchanged; strict bare-JSON compliance **failed** and is explicitly retained as a limitation, not reported as successful format validation. A feasible loading/generation pair does not establish that the instrument is ready for a scoreable pilot.
+
+- **Environment and resources:** observed Apple M4 Max, MacBook Pro Mac16,5, 16 CPU/40 GPU cores, 64 GiB unified memory, macOS 15.7.7. Initial `vm_stat` free pages implied about 13.75 GiB immediately free, plus about 3.60 GiB purgeable; swap I/O counters were zero. `memory_pressure` reported 91% system-wide memory free (a separate counter). `df -h . /private/tmp` reported 239 GiB available before download, 234 GiB afterward. Existing llama.cpp/Ollama/hf/uv tooling was inspected. Actual sanitized observations are in `docs/evidence/m2/hardware.json`. Budget was local only, zero paid services, free ungated artifacts.
+- **Selection and provenance:** official publisher cards/APIs verified `Qwen/Qwen2.5-0.5B-Instruct`, `Qwen/Qwen2.5-1.5B-Instruct`, and `Qwen/Qwen3-1.7B`, with revisions, Apache-2.0 licenses, and official MLX-LM qwen2/qwen3 source support. Only the selected 1.5B pair was downloaded/run. Source revision `989aa7980e4cf806f80c7fef2b1adb7bc71aa306` has 338 BF16 tensors; its source weight hash matches official Hub LFS metadata. The 4-bit affine/group-64 derivative was produced locally without calibration data using MLX-LM 0.32.2 / MLX 0.32.4. File-by-file hashes and dtype counts are in `docs/evidence/m2/prepared.json`; candidate disposition is in `candidates.json`. D004 records rationale and alternatives; final study/model/MoE scope remains unresolved.
+- **Matched controls:** all six message pairs, rendered prompts, and token-ID arrays were identical. Both used the exact pinned original source tokenizer/template, including its default system message, EOS IDs `[151643, 151645]`, greedy temperature 0, seed 0, 64 new tokens, 2048 input-plus-output acceptance limit, and prefill step 512. No generated pre answer entered a post request. No scorer-only annotations/targets, constrained decoding, penalties, retries, separate reasoning mode, or KV quantization. Observed cache dtype was BF16 in every request. Source and derivative kernels differ; accumulations are backend-defined.
+- **Observed loading/generation:** corrected checks each completed **6/6** at EOS with no truncation or generation exceptions. Reference load 0.3164 s, total six-request generation 1.0079 s, peak MLX allocation 3,242,028,692 bytes, peak process RSS 3,461,627,904 bytes. Quantized load 0.2462 s, generation 0.5531 s, peak MLX allocation 1,197,387,536 bytes, peak RSS 1,236,353,024 bytes. Conversion took 1.0518 s after download/source verification, with peak RSS 5,578,964,992 bytes. Native counters differ; hashing warmed file caches and these are not throughput benchmarks. All twelve outputs were Markdown-fenced JSON, so **0/6 per deployment are strict-format valid**. Probabilities remain null; no posterior-error contrast or compression finding is reported.
+- **Preserved failures and correction:** initial sandbox sysctl/network/Metal access failed; required inspection/download/inference succeeded outside the sandbox. Initial six-request checks generated responses but then failed cache dtype inspection on an integer offset. Their raw output/error records remain untouched at `outputs/m2-reference` and `outputs/m2-quantized`. The fixed checks live separately at `outputs/m2-reference-v2` and `outputs/m2-quantized-v2`; no prompts, parsing, model selection, or output budgets changed. Raw output text matched the initial runs exactly. D005 and `docs/evidence/m2/failures.json` record the issue and fix. Total real generation calls were 24, not twelve independent scenario samples.
+- **Verified commands and artifacts:** ran the root README's isolated-environment setup/dependency-pin installation, `python -m cib.feasibility prepare`, and sequential `check --deployment reference` / `check --deployment quantized` commands with the exact paths shown there. `outputs/m2-prepare` retains invocation, source inventory, and preparation metadata; each check directory retains invocation, loaded metadata, six requests, six flushed raw streams, six attempts, and the final check. Corresponding `.log` files remain saved. Weights/caches/environment directories are Git-ignored. Small byte-for-byte corrected check snapshots, hashes, verification, alternatives, hardware, and failure summaries are versioned under `docs/evidence/m2/` (about 76 KB JSON total).
+- **Relevant checks:** `PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v` and `PYTHONPATH=src python3 -m unittest discover -s tests -v` each passed **13 tests** on CPython 3.11.17 and 3.15.0. Tests remain independent of MLX/network/weights/GPU, verify selected-input leakage controls and unsupported-config rejection, reproduce artifact/header checks, cover cache offsets, and audit saved real pairing/precision/format failures and artifact hashes. The original fixture generation/scoring/report commands also succeeded at `outputs/m2-offline-regression/report.md`; prior Milestone 1 outputs remain untouched.
+
+Remaining limitations and next dependency: Milestone 3 must integrate a resumable real adapter with explicit retry/cache/stop/refusal rules and saved-output scoring/report regeneration. This separate smoke probe is not that runner and does not feed real responses into the synthetic fixture report. Strict-format reliability needs explicit development before a scoreable pilot; missing scores must remain missing. The final study matrix, sample size, capability controls, uncertainty design, preservation margins, and larger model/MoE feasibility remain open. A successful six-prompt load test does not complete Milestone 4 or the first functioning research release.

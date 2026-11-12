@@ -308,7 +308,7 @@ Show representative paired cases and explain their selection. Include improvemen
 
 | Decision | Current status |
 | --- | --- |
-| Checkpoint, reference precision, quantizer, and backend | Unresolved |
+| Checkpoint, reference precision, quantizer, and backend | Local feasibility pair recorded in [D004](DECISIONS.md#d004--local-pilot-deployment-pair); held-out study configuration remains unresolved |
 | Scenario generator, evidence allocation, and task language | Synthetic binary updating in English proposed |
 | Pilot and held-out sizes and grouping | Unresolved |
 | Primary endpoint and condition weights | Posterior absolute error and equal weights proposed |

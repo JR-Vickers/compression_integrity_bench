@@ -1,0 +1,37 @@
+{
+  "observed_at": "2026-11-12T11:10:30.210184+00:00",
+  "hardware": {
+    "chip_type": "Apple M4 Max",
+    "machine_model": "Mac16,5",
+    "machine_name": "MacBook Pro",
+    "number_processors": "proc 16:12:4",
+    "physical_memory": "64 GB"
+  },
+  "gpu": {
+    "_name": "Apple M4 Max",
+    "spdisplays_metal": "spdisplays_supported",
+    "sppci_cores": "40",
+    "sppci_model": "Apple M4 Max"
+  },
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t15.7.7\nBuildVersion:\t\t24G720\n",
+  "disk": "Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk3s5   926Gi   657Gi   234Gi    74%    7.5M  2.5G    0%   /System/Volumes/Data\n/dev/disk3s5   926Gi   657Gi   234Gi    74%    7.5M  2.5G    0%   /System/Volumes/Data\n",
+  "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                              602884.\nPages active:                           1470342.\nPages inactive:                         1437462.\nPages speculative:                       246590.\nPages throttled:                              0.\nPages wired down:                        270593.\nPages purgeable:                         222538.\n\"Translation faults\":               10099241420.\nPages copy-on-write:                  276482062.\nPages zero filled:                   3866969053.\nPages reactivated:                     34717647.\nPages purged:                          58866511.\nFile-backed pages:                      1462853.\nAnonymous pages:                        1691541.\nPages stored in compressor:              490075.\nPages occupied by compressor:            106100.\nDecompressions:                        10889198.\nCompressions:                          21715689.\nPageins:                              155594647.\nPageouts:                               1992141.\nSwapins:                                      0.\nSwapouts:                                     0.\n",
+  "initial_memory_observation": {
+    "physical_bytes": 68719476736,
+    "page_size_bytes": 16384,
+    "free_pages": 901233,
+    "purgeable_pages": 235642,
+    "swapins": 0,
+    "swapouts": 0,
+    "memory_pressure_free_percent": 91
+  },
+  "tooling_before_install": {
+    "llama.cpp": "0.7.0 build 11669 commit 620d2225c",
+    "hf": "2.2.0",
+    "uv": "0.13.5",
+    "ollama": "binary present at /usr/local/bin/ollama; not used or started",
+    "mlx_lm": "absent from project environment; isolated installation subsequently created"
+  },
+  "resource_budget": "local only; zero paid compute, six generations per deployment; one identical repeat per deployment to fix metadata inspection; no performance-based selection",
+  "privacy": "Hardware serial numbers and UUIDs excluded."
+}

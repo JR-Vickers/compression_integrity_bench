@@ -20,3 +20,4 @@ models/
 *.safetensors
 *.gguf
 *.bin
+/.cache/

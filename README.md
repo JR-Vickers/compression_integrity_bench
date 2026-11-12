@@ -1,6 +1,6 @@
 # Compression Integrity Bench
 
-CIB investigates how quantization changes specified epistemic behaviors. The implemented Milestone 1 workflow uses **synthetic development fixtures only**. It runs no models and produces no evidence about compression effects. Research scope and open choices live in [PROJECT.md](docs/PROJECT.md), [METHODOLOGY.md](docs/METHODOLOGY.md), and [PLAN.md](docs/PLAN.md).
+CIB investigates how quantization changes specified epistemic behaviors. The Milestone 1 workflow uses **synthetic development fixtures only**. Milestone 2 adds a separate, explicit local MLX loading/generation check using a real BF16/4-bit pair. Neither workflow establishes compression effects. Research scope and open choices live in [PROJECT.md](docs/PROJECT.md), [METHODOLOGY.md](docs/METHODOLOGY.md), and [PLAN.md](docs/PLAN.md).
 
 ## Offline setup and workflow
 
@@ -52,4 +52,35 @@ The scorer calculates posterior absolute error, prior absolute error, update err
 
 [ARCHITECTURE.md](docs/ARCHITECTURE.md) describes record ownership and lineage; [DECISIONS.md](docs/DECISIONS.md) records development choices. Small versioned task definitions and response scripts live in `src/cib/data/`; bulk outputs, models, caches, and credentials are ignored by Git. Raw v1 records include a complete task snapshot and are supported by this fixture implementation; new fixture/protocol versions require explicit implementation support.
 
-Only Milestone 1 is implemented. There is no real inference adapter, resume/retry runner, empirical uncertainty analysis, held-out data, preservation threshold, or result from a real model. Next: declare hardware and budget, then establish a feasible same-checkpoint reference/quantized deployment pair. The original grant proposal was not present in the initial repository and has not been reconstructed.
+Milestones 1 and 2 are implemented. The real feasibility probe is separate from the fixture runner; there is no integrated real comparison/resume/retry runner, empirical uncertainty analysis, held-out evaluation, or preservation threshold. Next: Milestone 3 runner integration, followed by explicit instrument development for the observed format failures. The original grant proposal was not present in the initial repository and has not been reconstructed.
+
+## Local deployment feasibility (Milestone 2)
+
+Selected engineering pilot pair: official `Qwen/Qwen2.5-1.5B-Instruct` at revision `989aa7980e4cf806f80c7fef2b1adb7bc71aa306`, **original BF16 reference** versus a **locally derived 4-bit affine/group-64** variant. Both use MLX-LM 0.32.2 / MLX 0.32.4 on the same Apple GPU and the exact original tokenizer/template. This does not select the final study models. See [D004–D005](docs/DECISIONS.md#d004--local-pilot-deployment-pair) for verified alternatives, licensing/provenance, controls, and confounds, and [saved evidence](docs/evidence/m2/README.md) for raw outputs and measurements.
+
+Observed on a 64 GiB M4 Max, macOS 15.7.7: each deployment loaded and generated all six predefined task prompts to EOS. Peak MLX allocations were 3.24 GB (reference) and 1.20 GB (quantized); process peak RSS was 3.46 GB and 1.24 GB. These are decimal GB, distinct counters, and smoke measurements rather than performance benchmarks. All twelve responses were Markdown-fenced JSON: **0/6 per deployment pass the unchanged strict bare-JSON parser**. Probabilities remain missing; no numerical task performance is claimed. No prompts or parser rules were changed to obtain a favorable result.
+
+The following commands were verified from the repository root. They require Apple silicon with Metal access and Python 3.11. Preparation downloads approximately 3.1 GB of public source weights and saves an approximately 0.87 GB derivative. Initial dependency installation/preparation needs network access; generation uses local files with Hub/Transformers offline mode. No credentials or paid services are used. Keep the standard-library fixture environment separate:
+
+```sh
+python3.11 -m venv outputs/mlx-env
+uv --cache-dir outputs/uv-cache pip install --python outputs/mlx-env/bin/python -r requirements-feasibility.txt
+export PYTHONPATH="$PWD/src"
+outputs/mlx-env/bin/python -m cib.feasibility prepare --config configs/feasibility-qwen25-1.5b.json --artifacts .cache/m2-qwen25 --output outputs/m2-prepare > outputs/m2-prepare.log 2>&1
+outputs/mlx-env/bin/python -m cib.feasibility check --config configs/feasibility-qwen25-1.5b.json --prepared outputs/m2-prepare/prepared.json --deployment reference --output outputs/m2-reference-v2 > outputs/m2-reference-v2.log 2>&1
+outputs/mlx-env/bin/python -m cib.feasibility check --config configs/feasibility-qwen25-1.5b.json --prepared outputs/m2-prepare/prepared.json --deployment quantized --output outputs/m2-quantized-v2 > outputs/m2-quantized-v2.log 2>&1
+```
+
+Run checks sequentially in separate processes. Output directories and derivative model directories must be new: after an existing run, choose new `--output` paths/log filenames; for a new preparation also choose a new `--artifacts` root. Existing raw records are never replaced. If preparation already exists on this machine, use just the two `check` commands with new output paths. The cached source contains the original license. No upload occurs.
+
+The probe enforces pinned backend versions, verifies downloaded source weights are BF16 and match the official LFS hash, and fingerprints both artifacts before loading. Both deployments intentionally load the source tokenizer rather than the converter's reserialized copy. The same greedy settings, original EOS IDs, 64-token output budget, 2048-token context acceptance limit, and full unquantized KV caches apply to both. No separate reasoning mode, output constraints, penalties, retries, or generated prior answers enter the inputs. Floating-point accumulation remains backend-defined; quantized and BF16 kernels differ.
+
+The first sandbox preparation failed because Metal was unavailable; rerunning with local GPU access succeeded. Initial checks completed generation but failed cache dtype inspection on its integer offset; those records remain at `outputs/m2-reference` and `outputs/m2-quantized`. The fixed `*-v2` records preserve the same prompts and raw text and include BF16 cache evidence. In a restricted execution environment, local Metal access must be permitted to run these commands. Failures and partial streamed outputs remain saved rather than being silently retried.
+
+Default regression checks still need no MLX installation, network, model files, or accelerator:
+
+```sh
+PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v
+```
+
+All 13 tests passed on CPython 3.11.17 and 3.15.0. The original offline fixture commands were rerun successfully with artifacts at `outputs/m2-offline-regression/report.md`.
