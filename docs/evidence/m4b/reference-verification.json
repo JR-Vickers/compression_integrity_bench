@@ -1,0 +1,23 @@
+{
+  "artifacts": {
+    "outputs/m4b-reference-verification-v1/regenerated.md": "9d11db3d5963fe691693c72433f3e7a6407e3a42d9447c1812996b34785739c6",
+    "outputs/m4b-reference-verification-v1/report.md": "9d11db3d5963fe691693c72433f3e7a6407e3a42d9447c1812996b34785739c6",
+    "outputs/m4b-reference-verification-v1/rescored.json": "8b333c9cb0c8f15728a3119ccc69dd12a26b86cf28c96b76892bb4f67cad2dae",
+    "outputs/m4b-reference-verification-v1/scores.json": "8b333c9cb0c8f15728a3119ccc69dd12a26b86cf28c96b76892bb4f67cad2dae"
+  },
+  "attempts": 60,
+  "bfloat16_kv": true,
+  "historical_files_checked": 1055,
+  "historical_files_unchanged": true,
+  "historical_inventory_sha256": "f47d58eee3b815106875e5ab14742a53e1bae20547d7ab861917407a0cee8fb9",
+  "numerical_results_equal_original": true,
+  "planned": 60,
+  "raw_sha256": "760e5cbb13651af2193bf71de52e2f2b3c028b796f8a5480839f4fb489e055a1",
+  "raw_streams_match": true,
+  "repeated_reports_byte_identical": true,
+  "repeated_scores_byte_identical": true,
+  "run_files_checked": 185,
+  "run_files_unchanged": true,
+  "run_inventory_sha256": "854cb68381780ead00c2d7e4af235fbed330eb03af7caf17b43eb3f153ed7cac",
+  "schema_version": "cib.diagnostic-verification.v1"
+}

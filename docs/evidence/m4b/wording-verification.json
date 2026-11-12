@@ -1,0 +1,23 @@
+{
+  "artifacts": {
+    "outputs/m4b-wording-verification-v1/regenerated.md": "9a64009943ec3a972a8f52cb08e681d16b79382ba99693a7e1210357c68d1fa0",
+    "outputs/m4b-wording-verification-v1/report.md": "9a64009943ec3a972a8f52cb08e681d16b79382ba99693a7e1210357c68d1fa0",
+    "outputs/m4b-wording-verification-v1/rescored.json": "515076aeda015b8f33bd2187bb5253486e505ebfdd25ff56a7253bf8478563e8",
+    "outputs/m4b-wording-verification-v1/scores.json": "515076aeda015b8f33bd2187bb5253486e505ebfdd25ff56a7253bf8478563e8"
+  },
+  "attempts": 180,
+  "bfloat16_kv": true,
+  "historical_files_checked": 1055,
+  "historical_files_unchanged": true,
+  "historical_inventory_sha256": "f47d58eee3b815106875e5ab14742a53e1bae20547d7ab861917407a0cee8fb9",
+  "numerical_results_equal_original": true,
+  "planned": 180,
+  "raw_sha256": "c5789161a93e86409ef330c5b6e8f97804d173a9ecb4b299a045c9ec12512cf8",
+  "raw_streams_match": true,
+  "repeated_reports_byte_identical": true,
+  "repeated_scores_byte_identical": true,
+  "run_files_checked": 547,
+  "run_files_unchanged": true,
+  "run_inventory_sha256": "a48d62826bd85f7421de5471defa691090ced2d920661ba22a844120fce24d44",
+  "schema_version": "cib.diagnostic-verification.v1"
+}

@@ -1,0 +1,2163 @@
+{
+  "all_main_targets_and_losses_match": true,
+  "all_pair_messages_decoding_rendered_tokens_match": true,
+  "control_audit": [
+    {
+      "control_id": "likelihood-1",
+      "deployments": {
+        "quantized": {
+          "attempt": {
+            "actual": {
+              "input_token_ids": [
+                151644,
+                8948,
+                198,
+                2610,
+                525,
+                1207,
+                16948,
+                11,
+                3465,
+                553,
+                54364,
+                14817,
+                13,
+                1446,
+                525,
+                264,
+                10950,
+                17847,
+                13,
+                151645,
+                198,
+                151644,
+                872,
+                198,
+                785,
+                8286,
+                18927,
+                2661,
+                472,
+                374,
+                220,
+                15,
+                13,
+                16,
+                26,
+                279,
+                8286,
+                18927,
+                2661,
+                537,
+                472,
+                374,
+                220,
+                15,
+                13,
+                21,
+                13,
+                8259,
+                393,
+                56782,
+                91,
+                39,
+                701,
+                537,
+                393,
+                10896,
+                91,
+                26622,
+                568,
+                3411,
+                1172,
+                264,
+                4718,
+                1633,
+                448,
+                6896,
+                279,
+                1376,
+                330,
+                87440,
+                1,
+                323,
+                264,
+                24064,
+                897,
+                304,
+                508,
+                15,
+                11,
+                16,
+                936,
+                151645,
+                198,
+                151644,
+                77091,
+                198
+              ],
+              "rendered_input": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nThe signal probability given H is 0.1; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].<|im_end|>\n<|im_start|>assistant\n"
+            },
+            "cache_identity": "e5ab80ac3289b28223f55a95ace48b9ad4887eb0c7ae40b60c3f5897423ebf33",
+            "status": "completed",
+            "stop_reason": "stop",
+            "text": "```json\n{\n  \"probability\": 0.166667\n}\n```"
+          },
+          "correct": false,
+          "independent_absolute_error": 0.066667,
+          "request": {
+            "cluster_id": "control-likelihood",
+            "condition_id": "likelihood",
+            "decoding": {
+              "constrained_decoding": false,
+              "context_limit": 2048,
+              "kv_bits": null,
+              "logits_processors": [],
+              "max_kv_size": null,
+              "max_tokens": 64,
+              "prefill_step_size": 512,
+              "reasoning": "no separate reasoning mode in this checkpoint",
+              "retries": 0,
+              "seed": 0,
+              "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+              "temperature": 0.0,
+              "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+            },
+            "deployment_fingerprint": "6b4291238b0e0e8b1e048cc26f0a8f9e2fdee929722fd0c27e4fc8bfd77fa3fa",
+            "deployment_id": "quantized",
+            "input": {
+              "messages": [
+                {
+                  "content": "The signal probability given H is 0.1; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+                  "role": "user"
+                }
+              ]
+            },
+            "input_sha256": "77d7df043f78bfd9cbbddeaf300c8c1b1f34699ae288b7fdfaf4e89835882a65",
+            "label_variant": "original",
+            "prompt_variant": "three-templates-v1",
+            "request_id": "ab1650dc1358d6f64b53f3e5a119a2389dd4119d392299d62191db0d8bf19264",
+            "scenario_id": "control-likelihood-1",
+            "schema_version": "cib.request.v1",
+            "stage": "control",
+            "task_version": "updating-pilot-v1",
+            "trial_index": 0
+          }
+        },
+        "reference": {
+          "attempt": {
+            "actual": {
+              "input_token_ids": [
+                151644,
+                8948,
+                198,
+                2610,
+                525,
+                1207,
+                16948,
+                11,
+                3465,
+                553,
+                54364,
+                14817,
+                13,
+                1446,
+                525,
+                264,
+                10950,
+                17847,
+                13,
+                151645,
+                198,
+                151644,
+                872,
+                198,
+                785,
+                8286,
+                18927,
+                2661,
+                472,
+                374,
+                220,
+                15,
+                13,
+                16,
+                26,
+                279,
+                8286,
+                18927,
+                2661,
+                537,
+                472,
+                374,
+                220,
+                15,
+                13,
+                21,
+                13,
+                8259,
+                393,
+                56782,
+                91,
+                39,
+                701,
+                537,
+                393,
+                10896,
+                91,
+                26622,
+                568,
+                3411,
+                1172,
+                264,
+                4718,
+                1633,
+                448,
+                6896,
+                279,
+                1376,
+                330,
+                87440,
+                1,
+                323,
+                264,
+                24064,
+                897,
+                304,
+                508,
+                15,
+                11,
+                16,
+                936,
+                151645,
+                198,
+                151644,
+                77091,
+                198
+              ],
+              "rendered_input": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nThe signal probability given H is 0.1; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].<|im_end|>\n<|im_start|>assistant\n"
+            },
+            "cache_identity": "b668ae8da7438ed85c6592c3c1a25da92bc0fd97bcaaf39da1b4206fde1b4f65",
+            "status": "completed",
+            "stop_reason": "stop",
+            "text": "```json\n{\n  \"probability\": 0.16666666666666666\n}\n```"
+          },
+          "correct": false,
+          "independent_absolute_error": 0.06666666666666665,
+          "request": {
+            "cluster_id": "control-likelihood",
+            "condition_id": "likelihood",
+            "decoding": {
+              "constrained_decoding": false,
+              "context_limit": 2048,
+              "kv_bits": null,
+              "logits_processors": [],
+              "max_kv_size": null,
+              "max_tokens": 64,
+              "prefill_step_size": 512,
+              "reasoning": "no separate reasoning mode in this checkpoint",
+              "retries": 0,
+              "seed": 0,
+              "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+              "temperature": 0.0,
+              "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+            },
+            "deployment_fingerprint": "4b291d6c43d1cd2d310db04ae8f4c64c41aca4d3de1f5e0e821de240bc299a10",
+            "deployment_id": "reference",
+            "input": {
+              "messages": [
+                {
+                  "content": "The signal probability given H is 0.1; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+                  "role": "user"
+                }
+              ]
+            },
+            "input_sha256": "77d7df043f78bfd9cbbddeaf300c8c1b1f34699ae288b7fdfaf4e89835882a65",
+            "label_variant": "original",
+            "prompt_variant": "three-templates-v1",
+            "request_id": "04761f04dcec20485c6caf2ed54c2268f76a85148746118e562ec6520d3a34b4",
+            "scenario_id": "control-likelihood-1",
+            "schema_version": "cib.request.v1",
+            "stage": "control",
+            "task_version": "updating-pilot-v1",
+            "trial_index": 0
+          }
+        }
+      },
+      "independent_target": "1/10",
+      "interpretation": "Among cases where H holds, the fraction with signal E. The other conditional is given separately; no prior is supplied or needed.",
+      "quantity": "P(E|H), not P(H|E)"
+    },
+    {
+      "control_id": "likelihood-2",
+      "deployments": {
+        "quantized": {
+          "attempt": {
+            "actual": {
+              "input_token_ids": [
+                151644,
+                8948,
+                198,
+                2610,
+                525,
+                1207,
+                16948,
+                11,
+                3465,
+                553,
+                54364,
+                14817,
+                13,
+                1446,
+                525,
+                264,
+                10950,
+                17847,
+                13,
+                151645,
+                198,
+                151644,
+                872,
+                198,
+                785,
+                8286,
+                18927,
+                2661,
+                472,
+                374,
+                220,
+                15,
+                13,
+                17,
+                20,
+                26,
+                279,
+                8286,
+                18927,
+                2661,
+                537,
+                472,
+                374,
+                220,
+                15,
+                13,
+                21,
+                13,
+                8259,
+                393,
+                56782,
+                91,
+                39,
+                701,
+                537,
+                393,
+                10896,
+                91,
+                26622,
+                568,
+                3411,
+                1172,
+                264,
+                4718,
+                1633,
+                448,
+                6896,
+                279,
+                1376,
+                330,
+                87440,
+                1,
+                323,
+                264,
+                24064,
+                897,
+                304,
+                508,
+                15,
+                11,
+                16,
+                936,
+                151645,
+                198,
+                151644,
+                77091,
+                198
+              ],
+              "rendered_input": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nThe signal probability given H is 0.25; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].<|im_end|>\n<|im_start|>assistant\n"
+            },
+            "cache_identity": "3b0a1fa7b9ffe794f29d5de247a9ab6edcb48431935f9e0cf24f6a8179a4cc18",
+            "status": "completed",
+            "stop_reason": "stop",
+            "text": "```json\n{\n  \"probability\": 0.4\n}\n```"
+          },
+          "correct": false,
+          "independent_absolute_error": 0.15000000000000002,
+          "request": {
+            "cluster_id": "control-likelihood",
+            "condition_id": "likelihood",
+            "decoding": {
+              "constrained_decoding": false,
+              "context_limit": 2048,
+              "kv_bits": null,
+              "logits_processors": [],
+              "max_kv_size": null,
+              "max_tokens": 64,
+              "prefill_step_size": 512,
+              "reasoning": "no separate reasoning mode in this checkpoint",
+              "retries": 0,
+              "seed": 0,
+              "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+              "temperature": 0.0,
+              "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+            },
+            "deployment_fingerprint": "6b4291238b0e0e8b1e048cc26f0a8f9e2fdee929722fd0c27e4fc8bfd77fa3fa",
+            "deployment_id": "quantized",
+            "input": {
+              "messages": [
+                {
+                  "content": "The signal probability given H is 0.25; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+                  "role": "user"
+                }
+              ]
+            },
+            "input_sha256": "865ffcbadddab8b4a7eb042437e29c5426c076b461360241a1c0322d60fa8b83",
+            "label_variant": "original",
+            "prompt_variant": "three-templates-v1",
+            "request_id": "92ed57c14f3635b9bfbe7b2b13864f3ae03c5ebbaefb70020f8f22f1ad15655c",
+            "scenario_id": "control-likelihood-2",
+            "schema_version": "cib.request.v1",
+            "stage": "control",
+            "task_version": "updating-pilot-v1",
+            "trial_index": 0
+          }
+        },
+        "reference": {
+          "attempt": {
+            "actual": {
+              "input_token_ids": [
+                151644,
+                8948,
+                198,
+                2610,
+                525,
+                1207,
+                16948,
+                11,
+                3465,
+                553,
+                54364,
+                14817,
+                13,
+                1446,
+                525,
+                264,
+                10950,
+                17847,
+                13,
+                151645,
+                198,
+                151644,
+                872,
+                198,
+                785,
+                8286,
+                18927,
+                2661,
+                472,
+                374,
+                220,
+                15,
+                13,
+                17,
+                20,
+                26,
+                279,
+                8286,
+                18927,
+                2661,
+                537,
+                472,
+                374,
+                220,
+                15,
+                13,
+                21,
+                13,
+                8259,
+                393,
+                56782,
+                91,
+                39,
+                701,
+                537,
+                393,
+                10896,
+                91,
+                26622,
+                568,
+                3411,
+                1172,
+                264,
+                4718,
+                1633,
+                448,
+                6896,
+                279,
+                1376,
+                330,
+                87440,
+                1,
+                323,
+                264,
+                24064,
+                897,
+                304,
+                508,
+                15,
+                11,
+                16,
+                936,
+                151645,
+                198,
+                151644,
+                77091,
+                198
+              ],
+              "rendered_input": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nThe signal probability given H is 0.25; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].<|im_end|>\n<|im_start|>assistant\n"
+            },
+            "cache_identity": "1f3ab99b0f3bb13cb8d3fef0770b86be665c37575cbd67c18a8e08cbdb522800",
+            "status": "completed",
+            "stop_reason": "stop",
+            "text": "```json\n{\n  \"probability\": 0.4\n}\n```"
+          },
+          "correct": false,
+          "independent_absolute_error": 0.15000000000000002,
+          "request": {
+            "cluster_id": "control-likelihood",
+            "condition_id": "likelihood",
+            "decoding": {
+              "constrained_decoding": false,
+              "context_limit": 2048,
+              "kv_bits": null,
+              "logits_processors": [],
+              "max_kv_size": null,
+              "max_tokens": 64,
+              "prefill_step_size": 512,
+              "reasoning": "no separate reasoning mode in this checkpoint",
+              "retries": 0,
+              "seed": 0,
+              "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+              "temperature": 0.0,
+              "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+            },
+            "deployment_fingerprint": "4b291d6c43d1cd2d310db04ae8f4c64c41aca4d3de1f5e0e821de240bc299a10",
+            "deployment_id": "reference",
+            "input": {
+              "messages": [
+                {
+                  "content": "The signal probability given H is 0.25; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+                  "role": "user"
+                }
+              ]
+            },
+            "input_sha256": "865ffcbadddab8b4a7eb042437e29c5426c076b461360241a1c0322d60fa8b83",
+            "label_variant": "original",
+            "prompt_variant": "three-templates-v1",
+            "request_id": "898ff636ba95f82024363b4e4a4a5844b700ccdfe7d4a4bb80f70115665bc6a2",
+            "scenario_id": "control-likelihood-2",
+            "schema_version": "cib.request.v1",
+            "stage": "control",
+            "task_version": "updating-pilot-v1",
+            "trial_index": 0
+          }
+        }
+      },
+      "independent_target": "1/4",
+      "interpretation": "Among cases where H holds, the fraction with signal E. The other conditional is given separately; no prior is supplied or needed.",
+      "quantity": "P(E|H), not P(H|E)"
+    },
+    {
+      "control_id": "likelihood-3",
+      "deployments": {
+        "quantized": {
+          "attempt": {
+            "actual": {
+              "input_token_ids": [
+                151644,
+                8948,
+                198,
+                2610,
+                525,
+                1207,
+                16948,
+                11,
+                3465,
+                553,
+                54364,
+                14817,
+                13,
+                1446,
+                525,
+                264,
+                10950,
+                17847,
+                13,
+                151645,
+                198,
+                151644,
+                872,
+                198,
+                785,
+                8286,
+                18927,
+                2661,
+                472,
+                374,
+                220,
+                15,
+                13,
+                20,
+                26,
+                279,
+                8286,
+                18927,
+                2661,
+                537,
+                472,
+                374,
+                220,
+                15,
+                13,
+                21,
+                13,
+                8259,
+                393,
+                56782,
+                91,
+                39,
+                701,
+                537,
+                393,
+                10896,
+                91,
+                26622,
+                568,
+                3411,
+                1172,
+                264,
+                4718,
+                1633,
+                448,
+                6896,
+                279,
+                1376,
+                330,
+                87440,
+                1,
+                323,
+                264,
+                24064,
+                897,
+                304,
+                508,
+                15,
+                11,
+                16,
+                936,
+                151645,
+                198,
+                151644,
+                77091,
+                198
+              ],
+              "rendered_input": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nThe signal probability given H is 0.5; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].<|im_end|>\n<|im_start|>assistant\n"
+            },
+            "cache_identity": "01ffd778bb2905bb269510f094ca093c5283ab691634c1ba06393ae800649c5c",
+            "status": "completed",
+            "stop_reason": "stop",
+            "text": "```json\n{\n  \"probability\": 0.8\n}\n```"
+          },
+          "correct": false,
+          "independent_absolute_error": 0.30000000000000004,
+          "request": {
+            "cluster_id": "control-likelihood",
+            "condition_id": "likelihood",
+            "decoding": {
+              "constrained_decoding": false,
+              "context_limit": 2048,
+              "kv_bits": null,
+              "logits_processors": [],
+              "max_kv_size": null,
+              "max_tokens": 64,
+              "prefill_step_size": 512,
+              "reasoning": "no separate reasoning mode in this checkpoint",
+              "retries": 0,
+              "seed": 0,
+              "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+              "temperature": 0.0,
+              "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+            },
+            "deployment_fingerprint": "6b4291238b0e0e8b1e048cc26f0a8f9e2fdee929722fd0c27e4fc8bfd77fa3fa",
+            "deployment_id": "quantized",
+            "input": {
+              "messages": [
+                {
+                  "content": "The signal probability given H is 0.5; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+                  "role": "user"
+                }
+              ]
+            },
+            "input_sha256": "832cdbcf621f97e830fdf675d14e7be6df8373e029bfbffde3fb701ba88842c9",
+            "label_variant": "original",
+            "prompt_variant": "three-templates-v1",
+            "request_id": "fa68be4ebf97662ec89965311e7dfc45d2ccc6069abc00b4a9383bc36b3d6e9a",
+            "scenario_id": "control-likelihood-3",
+            "schema_version": "cib.request.v1",
+            "stage": "control",
+            "task_version": "updating-pilot-v1",
+            "trial_index": 0
+          }
+        },
+        "reference": {
+          "attempt": {
+            "actual": {
+              "input_token_ids": [
+                151644,
+                8948,
+                198,
+                2610,
+                525,
+                1207,
+                16948,
+                11,
+                3465,
+                553,
+                54364,
+                14817,
+                13,
+                1446,
+                525,
+                264,
+                10950,
+                17847,
+                13,
+                151645,
+                198,
+                151644,
+                872,
+                198,
+                785,
+                8286,
+                18927,
+                2661,
+                472,
+                374,
+                220,
+                15,
+                13,
+                20,
+                26,
+                279,
+                8286,
+                18927,
+                2661,
+                537,
+                472,
+                374,
+                220,
+                15,
+                13,
+                21,
+                13,
+                8259,
+                393,
+                56782,
+                91,
+                39,
+                701,
+                537,
+                393,
+                10896,
+                91,
+                26622,
+                568,
+                3411,
+                1172,
+                264,
+                4718,
+                1633,
+                448,
+                6896,
+                279,
+                1376,
+                330,
+                87440,
+                1,
+                323,
+                264,
+                24064,
+                897,
+                304,
+                508,
+                15,
+                11,
+                16,
+                936,
+                151645,
+                198,
+                151644,
+                77091,
+                198
+              ],
+              "rendered_input": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nThe signal probability given H is 0.5; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].<|im_end|>\n<|im_start|>assistant\n"
+            },
+            "cache_identity": "f98b18d271bb73522063f73070d3a13f751921c03104dd0ab969310b00fe0532",
+            "status": "completed",
+            "stop_reason": "stop",
+            "text": "```json\n{\n  \"probability\": 0.8\n}\n```"
+          },
+          "correct": false,
+          "independent_absolute_error": 0.30000000000000004,
+          "request": {
+            "cluster_id": "control-likelihood",
+            "condition_id": "likelihood",
+            "decoding": {
+              "constrained_decoding": false,
+              "context_limit": 2048,
+              "kv_bits": null,
+              "logits_processors": [],
+              "max_kv_size": null,
+              "max_tokens": 64,
+              "prefill_step_size": 512,
+              "reasoning": "no separate reasoning mode in this checkpoint",
+              "retries": 0,
+              "seed": 0,
+              "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+              "temperature": 0.0,
+              "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+            },
+            "deployment_fingerprint": "4b291d6c43d1cd2d310db04ae8f4c64c41aca4d3de1f5e0e821de240bc299a10",
+            "deployment_id": "reference",
+            "input": {
+              "messages": [
+                {
+                  "content": "The signal probability given H is 0.5; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+                  "role": "user"
+                }
+              ]
+            },
+            "input_sha256": "832cdbcf621f97e830fdf675d14e7be6df8373e029bfbffde3fb701ba88842c9",
+            "label_variant": "original",
+            "prompt_variant": "three-templates-v1",
+            "request_id": "b064773261021fe4a8c40886cc235b7db9d44e96e3d14f27eb91e5d04b389099",
+            "scenario_id": "control-likelihood-3",
+            "schema_version": "cib.request.v1",
+            "stage": "control",
+            "task_version": "updating-pilot-v1",
+            "trial_index": 0
+          }
+        }
+      },
+      "independent_target": "1/2",
+      "interpretation": "Among cases where H holds, the fraction with signal E. The other conditional is given separately; no prior is supplied or needed.",
+      "quantity": "P(E|H), not P(H|E)"
+    },
+    {
+      "control_id": "likelihood-4",
+      "deployments": {
+        "quantized": {
+          "attempt": {
+            "actual": {
+              "input_token_ids": [
+                151644,
+                8948,
+                198,
+                2610,
+                525,
+                1207,
+                16948,
+                11,
+                3465,
+                553,
+                54364,
+                14817,
+                13,
+                1446,
+                525,
+                264,
+                10950,
+                17847,
+                13,
+                151645,
+                198,
+                151644,
+                872,
+                198,
+                785,
+                8286,
+                18927,
+                2661,
+                472,
+                374,
+                220,
+                15,
+                13,
+                22,
+                20,
+                26,
+                279,
+                8286,
+                18927,
+                2661,
+                537,
+                472,
+                374,
+                220,
+                15,
+                13,
+                21,
+                13,
+                8259,
+                393,
+                56782,
+                91,
+                39,
+                701,
+                537,
+                393,
+                10896,
+                91,
+                26622,
+                568,
+                3411,
+                1172,
+                264,
+                4718,
+                1633,
+                448,
+                6896,
+                279,
+                1376,
+                330,
+                87440,
+                1,
+                323,
+                264,
+                24064,
+                897,
+                304,
+                508,
+                15,
+                11,
+                16,
+                936,
+                151645,
+                198,
+                151644,
+                77091,
+                198
+              ],
+              "rendered_input": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nThe signal probability given H is 0.75; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].<|im_end|>\n<|im_start|>assistant\n"
+            },
+            "cache_identity": "14693ef6ba4756991f8a150923ed8c98c1f5cbf070bc4b5d0ecbdf1617e92917",
+            "status": "completed",
+            "stop_reason": "stop",
+            "text": "```json\n{\n  \"probability\": 0.8333333333333334\n}\n```"
+          },
+          "correct": false,
+          "independent_absolute_error": 0.08333333333333337,
+          "request": {
+            "cluster_id": "control-likelihood",
+            "condition_id": "likelihood",
+            "decoding": {
+              "constrained_decoding": false,
+              "context_limit": 2048,
+              "kv_bits": null,
+              "logits_processors": [],
+              "max_kv_size": null,
+              "max_tokens": 64,
+              "prefill_step_size": 512,
+              "reasoning": "no separate reasoning mode in this checkpoint",
+              "retries": 0,
+              "seed": 0,
+              "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+              "temperature": 0.0,
+              "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+            },
+            "deployment_fingerprint": "6b4291238b0e0e8b1e048cc26f0a8f9e2fdee929722fd0c27e4fc8bfd77fa3fa",
+            "deployment_id": "quantized",
+            "input": {
+              "messages": [
+                {
+                  "content": "The signal probability given H is 0.75; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+                  "role": "user"
+                }
+              ]
+            },
+            "input_sha256": "c62d8361034192755ec89660f6592702f669ab3381c498fc12b79a9d316af89c",
+            "label_variant": "original",
+            "prompt_variant": "three-templates-v1",
+            "request_id": "569dc89d865cf792afb5c2eab2f402cba3dbf19c44010436213ab9f4e096cffd",
+            "scenario_id": "control-likelihood-4",
+            "schema_version": "cib.request.v1",
+            "stage": "control",
+            "task_version": "updating-pilot-v1",
+            "trial_index": 0
+          }
+        },
+        "reference": {
+          "attempt": {
+            "actual": {
+              "input_token_ids": [
+                151644,
+                8948,
+                198,
+                2610,
+                525,
+                1207,
+                16948,
+                11,
+                3465,
+                553,
+                54364,
+                14817,
+                13,
+                1446,
+                525,
+                264,
+                10950,
+                17847,
+                13,
+                151645,
+                198,
+                151644,
+                872,
+                198,
+                785,
+                8286,
+                18927,
+                2661,
+                472,
+                374,
+                220,
+                15,
+                13,
+                22,
+                20,
+                26,
+                279,
+                8286,
+                18927,
+                2661,
+                537,
+                472,
+                374,
+                220,
+                15,
+                13,
+                21,
+                13,
+                8259,
+                393,
+                56782,
+                91,
+                39,
+                701,
+                537,
+                393,
+                10896,
+                91,
+                26622,
+                568,
+                3411,
+                1172,
+                264,
+                4718,
+                1633,
+                448,
+                6896,
+                279,
+                1376,
+                330,
+                87440,
+                1,
+                323,
+                264,
+                24064,
+                897,
+                304,
+                508,
+                15,
+                11,
+                16,
+                936,
+                151645,
+                198,
+                151644,
+                77091,
+                198
+              ],
+              "rendered_input": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nThe signal probability given H is 0.75; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].<|im_end|>\n<|im_start|>assistant\n"
+            },
+            "cache_identity": "8ee36afce03a6bf19c9d9614ab69768bd43a87aa309ffc7bb5bcc8cb8398b9ed",
+            "status": "completed",
+            "stop_reason": "stop",
+            "text": "```json\n{\n  \"probability\": 0.8333333333333334\n}\n```"
+          },
+          "correct": false,
+          "independent_absolute_error": 0.08333333333333337,
+          "request": {
+            "cluster_id": "control-likelihood",
+            "condition_id": "likelihood",
+            "decoding": {
+              "constrained_decoding": false,
+              "context_limit": 2048,
+              "kv_bits": null,
+              "logits_processors": [],
+              "max_kv_size": null,
+              "max_tokens": 64,
+              "prefill_step_size": 512,
+              "reasoning": "no separate reasoning mode in this checkpoint",
+              "retries": 0,
+              "seed": 0,
+              "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+              "temperature": 0.0,
+              "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+            },
+            "deployment_fingerprint": "4b291d6c43d1cd2d310db04ae8f4c64c41aca4d3de1f5e0e821de240bc299a10",
+            "deployment_id": "reference",
+            "input": {
+              "messages": [
+                {
+                  "content": "The signal probability given H is 0.75; the signal probability given not H is 0.6. Report P(signal|H), not P(H|signal). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+                  "role": "user"
+                }
+              ]
+            },
+            "input_sha256": "c62d8361034192755ec89660f6592702f669ab3381c498fc12b79a9d316af89c",
+            "label_variant": "original",
+            "prompt_variant": "three-templates-v1",
+            "request_id": "74d30ead3518ef0e2b96c76c38d99f19d04d38b21a72a7af4aa8c4b8b68a2d22",
+            "scenario_id": "control-likelihood-4",
+            "schema_version": "cib.request.v1",
+            "stage": "control",
+            "task_version": "updating-pilot-v1",
+            "trial_index": 0
+          }
+        }
+      },
+      "independent_target": "3/4",
+      "interpretation": "Among cases where H holds, the fraction with signal E. The other conditional is given separately; no prior is supplied or needed.",
+      "quantity": "P(E|H), not P(H|E)"
+    }
+  ],
+  "defects_found": [],
+  "independently_checked_main_rows": 144,
+  "main_discrepancies": [
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.4\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.9\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "irrelevant",
+        "deployment_id": "quantized",
+        "label_variant": "original",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "1461d111869d6f37255597a433153509ea871976ff2c13309f5e332ca779a095",
+        "post_status": "valid",
+        "posterior": 0.1,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "763414367725fa90cdc33b4c3c75d96cd855a48ed5899e442d164babe8d40caa",
+        "pre_status": "valid",
+        "prior": 0.1,
+        "prior_error": 0.8,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": true,
+        "uninformative_drift": 0.5,
+        "update_error": 0.5
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.6\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.1\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "irrelevant",
+        "deployment_id": "quantized",
+        "label_variant": "swapped",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "eb505bb242249bc514d72d97bf00696a47d6051042e3ed5371966d5a6da87f43",
+        "post_status": "valid",
+        "posterior": 0.9,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "5fefabf18903591a5e9bb60cb43b2b86ada867e4cb086493f6ba80557a6c7f7d",
+        "pre_status": "valid",
+        "prior": 0.9,
+        "prior_error": 0.8,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": true,
+        "uninformative_drift": 0.5,
+        "update_error": 0.5
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "An urn is selected once, either urn B or urn A. H means the selected urn is B. The prior P(H) is 0.9. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.4\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "An urn is selected once, either urn B or urn A. H means the selected urn is B. The prior P(H) is 0.9. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.9\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-1",
+        "condition_id": "irrelevant",
+        "deployment_id": "reference",
+        "label_variant": "swapped",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "ebc36d651647cdbd25a31a913f7c60ce617020a78991c050cff9174efa4800c5",
+        "post_status": "valid",
+        "posterior": 0.9,
+        "posterior_error": 0.5,
+        "pre_request_id": "0b713c34fc67ef445867c519ec27b8aca7dcd15143f39a25a85e55709516e6cf",
+        "pre_status": "valid",
+        "prior": 0.9,
+        "prior_error": 0.0,
+        "scenario_id": "t1-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-1",
+        "uninformative": true,
+        "uninformative_drift": 0.5,
+        "update_error": 0.5
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.5\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.9\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "irrelevant",
+        "deployment_id": "reference",
+        "label_variant": "swapped",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "7346eab339698ddfbf7dcd22b3702319fa4ddc507a6c12c3fdee975582817ab4",
+        "post_status": "valid",
+        "posterior": 0.9,
+        "posterior_error": 0.4,
+        "pre_request_id": "567486e803711e7fc3b76a0ad2543726d7d2a2b3223e9336a2db8024882cc0e7",
+        "pre_status": "valid",
+        "prior": 0.9,
+        "prior_error": 0.0,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": true,
+        "uninformative_drift": 0.4,
+        "update_error": 0.4
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "An urn is selected once, either urn A or urn B. H means the selected urn is A. The prior P(H) is 0.1. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.4\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "An urn is selected once, either urn A or urn B. H means the selected urn is A. The prior P(H) is 0.1. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.1\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-1",
+        "condition_id": "irrelevant",
+        "deployment_id": "quantized",
+        "label_variant": "original",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "1bbfd9664c818ec612f83fea9494cc5d09ed546c345960fcf146e9f023f56c12",
+        "post_status": "valid",
+        "posterior": 0.1,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "c44c0f1ffe9ebd0e93e260ca393549c7b067aa2889ebf68b7372fedbf1adc4ae",
+        "pre_status": "valid",
+        "prior": 0.1,
+        "prior_error": 0.0,
+        "scenario_id": "t1-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-1",
+        "uninformative": true,
+        "uninformative_drift": 0.30000000000000004,
+        "update_error": 0.30000000000000004
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "An urn is selected once, either urn B or urn A. H means the selected urn is B. The prior P(H) is 0.9. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.6\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "An urn is selected once, either urn B or urn A. H means the selected urn is B. The prior P(H) is 0.9. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.9\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-1",
+        "condition_id": "irrelevant",
+        "deployment_id": "quantized",
+        "label_variant": "swapped",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "7658e4a99f079bc51efdad4ced0f2db70d0c60eb78f453be1ac009f6761cf8e9",
+        "post_status": "valid",
+        "posterior": 0.9,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "55a60176e8141c762f01e504cde4d867802fe8ae991118ddcaf4ae90b9b010e3",
+        "pre_status": "valid",
+        "prior": 0.9,
+        "prior_error": 0.0,
+        "scenario_id": "t1-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-1",
+        "uninformative": true,
+        "uninformative_drift": 0.30000000000000004,
+        "update_error": 0.30000000000000004
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A factory uses machine A or machine B for one item. H means machine A was used. The prior P(H) is 0.1. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.4\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A factory uses machine A or machine B for one item. H means machine A was used. The prior P(H) is 0.1. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.1\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-2",
+        "condition_id": "irrelevant",
+        "deployment_id": "quantized",
+        "label_variant": "original",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "b5e77d0faec34dba081c53dad39aa2334e4c051eba6ff52437be00c17685431e",
+        "post_status": "valid",
+        "posterior": 0.1,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "894768ad92e511444fe5ac6b2b907175f9308a893ff85d558c54c3b4a7b43c79",
+        "pre_status": "valid",
+        "prior": 0.1,
+        "prior_error": 0.0,
+        "scenario_id": "t2-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-2",
+        "uninformative": true,
+        "uninformative_drift": 0.30000000000000004,
+        "update_error": 0.30000000000000004
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A factory uses machine B or machine A for one item. H means machine B was used. The prior P(H) is 0.9. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.6\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A factory uses machine B or machine A for one item. H means machine B was used. The prior P(H) is 0.9. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.9\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-2",
+        "condition_id": "irrelevant",
+        "deployment_id": "quantized",
+        "label_variant": "swapped",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "8928f13f6d4885d99a0ef1fca949a9087a26ce4bfed0b9f5fa0093b5fffe4d64",
+        "post_status": "valid",
+        "posterior": 0.9,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "96b77b5008232b6f47d9c21d5a36df9f0c02c08bca5740c13194f574aaae57d7",
+        "pre_status": "valid",
+        "prior": 0.9,
+        "prior_error": 0.0,
+        "scenario_id": "t2-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-2",
+        "uninformative": true,
+        "uninformative_drift": 0.30000000000000004,
+        "update_error": 0.30000000000000004
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A factory uses machine B or machine A for one item. H means machine B was used. The prior P(H) is 0.9. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.6\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A factory uses machine B or machine A for one item. H means machine B was used. The prior P(H) is 0.9. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.9\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-2",
+        "condition_id": "irrelevant",
+        "deployment_id": "reference",
+        "label_variant": "swapped",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "5503d571b35cc30203766a92065802f3ecf52278236eeb1eba1d8e2459af606e",
+        "post_status": "valid",
+        "posterior": 0.9,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "07e0ef1749b3a3875dbd9e420f7fddb1607f2098d533dccfaccfa753b5131615",
+        "pre_status": "valid",
+        "prior": 0.9,
+        "prior_error": 0.0,
+        "scenario_id": "t2-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-2",
+        "uninformative": true,
+        "uninformative_drift": 0.30000000000000004,
+        "update_error": 0.30000000000000004
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.4\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.1\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "irrelevant",
+        "deployment_id": "reference",
+        "label_variant": "original",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "0db42b2f289726163dd12174a72b526e79816af79463272209fcba774f0e2a84",
+        "post_status": "valid",
+        "posterior": 0.1,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "c9fa5db26f828fbff1f5201c835f17b1f9f824698e8faf6f9d430b2bfebca543",
+        "pre_status": "valid",
+        "prior": 0.1,
+        "prior_error": 0.0,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": true,
+        "uninformative_drift": 0.30000000000000004,
+        "update_error": 0.30000000000000004
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. A single signal E has been observed. P(E|H)=0.8; P(E|not H)=0.2. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.4\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.9\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "support",
+        "deployment_id": "quantized",
+        "label_variant": "original",
+        "likelihood_h": 0.8,
+        "likelihood_not_h": 0.2,
+        "post_request_id": "6ec18467383949d96b5a530586b9085c4afa02135deaa1bffefccecc4cfc4c0a",
+        "post_status": "valid",
+        "posterior": 0.3076923076923077,
+        "posterior_error": 0.09230769230769231,
+        "pre_request_id": "432b4ae0ace01c8947755ea6d071f228be49c0b99c9ac596cc5f7e5eff85ee31",
+        "pre_status": "valid",
+        "prior": 0.1,
+        "prior_error": 0.8,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": false,
+        "uninformative_drift": null,
+        "update_error": 0.7076923076923077
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. A single signal E has been observed. P(E|H)=0.2; P(E|not H)=0.8. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.4\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.9\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "oppose",
+        "deployment_id": "quantized",
+        "label_variant": "original",
+        "likelihood_h": 0.2,
+        "likelihood_not_h": 0.8,
+        "post_request_id": "c3a7a67860f03525377f08ec06aaa898185283334f9fe8d430e28b4adc2728e7",
+        "post_status": "valid",
+        "posterior": 0.02702702702702703,
+        "posterior_error": 0.372972972972973,
+        "pre_request_id": "682b706ec74737d3b123b7d071bd11d7705fe20d4cfc22f992c707ce96da1d84",
+        "pre_status": "valid",
+        "prior": 0.1,
+        "prior_error": 0.8,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": false,
+        "uninformative_drift": null,
+        "update_error": 0.427027027027027
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.4\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source A or source B. H means its source is A. The prior P(H) is 0.1. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.9\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "irrelevant",
+        "deployment_id": "quantized",
+        "label_variant": "original",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "1461d111869d6f37255597a433153509ea871976ff2c13309f5e332ca779a095",
+        "post_status": "valid",
+        "posterior": 0.1,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "763414367725fa90cdc33b4c3c75d96cd855a48ed5899e442d164babe8d40caa",
+        "pre_status": "valid",
+        "prior": 0.1,
+        "prior_error": 0.8,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": true,
+        "uninformative_drift": 0.5,
+        "update_error": 0.5
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. A single signal E has been observed. P(E|H)=0.2; P(E|not H)=0.8. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.4\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.1\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "support",
+        "deployment_id": "quantized",
+        "label_variant": "swapped",
+        "likelihood_h": 0.2,
+        "likelihood_not_h": 0.8,
+        "post_request_id": "5a51d969d7903f4a0f3679e797ad14e3f9fbe3b74fce31c7cc205f88d33b8046",
+        "post_status": "valid",
+        "posterior": 0.6923076923076923,
+        "posterior_error": 0.29230769230769227,
+        "pre_request_id": "64d889b5d8ebb8c2224dbdd2068d64858615ac2ecae4af4b52072783de661613",
+        "pre_status": "valid",
+        "prior": 0.9,
+        "prior_error": 0.8,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": false,
+        "uninformative_drift": null,
+        "update_error": 0.5076923076923078
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. A single signal E has been observed. P(E|H)=0.8; P(E|not H)=0.2. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.64\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.1\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "oppose",
+        "deployment_id": "quantized",
+        "label_variant": "swapped",
+        "likelihood_h": 0.8,
+        "likelihood_not_h": 0.2,
+        "post_request_id": "7e133aee0ef158e37164a20db1e672d1f09bc154f2fdb12d5d1a5e775df30c79",
+        "post_status": "valid",
+        "posterior": 0.972972972972973,
+        "posterior_error": 0.332972972972973,
+        "pre_request_id": "d7f6d3fb70c3ad35aa65868af521caeb8aad37d63a3be6abc963c7092a1425f5",
+        "pre_status": "valid",
+        "prior": 0.9,
+        "prior_error": 0.8,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": false,
+        "uninformative_drift": null,
+        "update_error": 0.46702702702702703
+      }
+    },
+    {
+      "post_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. A single signal E has been observed. P(E|H)=0.4; P(E|not H)=0.4. There are no other observations. Report P(H|E). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "post_raw": "```json\n{\n  \"probability\": 0.6\n}\n```",
+      "pre_prompt": {
+        "messages": [
+          {
+            "content": "A packet comes from source B or source A. H means its source is B. The prior P(H) is 0.9. No signal has been observed. Report P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+            "role": "user"
+          }
+        ]
+      },
+      "pre_raw": "```json\n{\n  \"probability\": 0.1\n}\n```",
+      "row": {
+        "cluster_id": "pilot-template-3",
+        "condition_id": "irrelevant",
+        "deployment_id": "quantized",
+        "label_variant": "swapped",
+        "likelihood_h": 0.4,
+        "likelihood_not_h": 0.4,
+        "post_request_id": "eb505bb242249bc514d72d97bf00696a47d6051042e3ed5371966d5a6da87f43",
+        "post_status": "valid",
+        "posterior": 0.9,
+        "posterior_error": 0.30000000000000004,
+        "pre_request_id": "5fefabf18903591a5e9bb60cb43b2b86ada867e4cb086493f6ba80557a6c7f7d",
+        "pre_status": "valid",
+        "prior": 0.9,
+        "prior_error": 0.8,
+        "scenario_id": "t3-s1",
+        "schema_version": "cib.condition-score.v1",
+        "template": "pilot-template-3",
+        "uninformative": true,
+        "uninformative_drift": 0.5,
+        "update_error": 0.5
+      }
+    }
+  ],
+  "paired_requests": 172,
+  "prior_controls": [
+    {
+      "raw": "```json\n{\n  \"probability\": 0.1\n}\n```",
+      "request": {
+        "cluster_id": "control-prior",
+        "condition_id": "prior",
+        "decoding": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 64,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "deployment_fingerprint": "4b291d6c43d1cd2d310db04ae8f4c64c41aca4d3de1f5e0e821de240bc299a10",
+        "deployment_id": "reference",
+        "input": {
+          "messages": [
+            {
+              "content": "The stated prior P(H) is 0.1. No evidence is available. Read and report the stated prior P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+              "role": "user"
+            }
+          ]
+        },
+        "input_sha256": "2532a07474255a45ee2c87889525e648cdd1a7261edd4b484e99668e5b6fbb1f",
+        "label_variant": "original",
+        "prompt_variant": "three-templates-v1",
+        "request_id": "3cb265711bd2e5cde1e41b148379ef0a223a55957686e1efd705d207546f5e4b",
+        "scenario_id": "control-prior-1",
+        "schema_version": "cib.request.v1",
+        "stage": "control",
+        "task_version": "updating-pilot-v1",
+        "trial_index": 0
+      }
+    },
+    {
+      "raw": "```json\n{\n  \"probability\": 0.25\n}\n```",
+      "request": {
+        "cluster_id": "control-prior",
+        "condition_id": "prior",
+        "decoding": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 64,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "deployment_fingerprint": "4b291d6c43d1cd2d310db04ae8f4c64c41aca4d3de1f5e0e821de240bc299a10",
+        "deployment_id": "reference",
+        "input": {
+          "messages": [
+            {
+              "content": "The stated prior P(H) is 0.25. No evidence is available. Read and report the stated prior P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+              "role": "user"
+            }
+          ]
+        },
+        "input_sha256": "90cf995b91e96e6a5ec076f2d1573ecc33241b4f31ba7c6c6afea81498a6c707",
+        "label_variant": "original",
+        "prompt_variant": "three-templates-v1",
+        "request_id": "10e47f47127ad601a3b75b706efb49ce316d7dc680ccd21afcfa8c0489f2cef9",
+        "scenario_id": "control-prior-2",
+        "schema_version": "cib.request.v1",
+        "stage": "control",
+        "task_version": "updating-pilot-v1",
+        "trial_index": 0
+      }
+    },
+    {
+      "raw": "```json\n{\n  \"probability\": 0.5\n}\n```",
+      "request": {
+        "cluster_id": "control-prior",
+        "condition_id": "prior",
+        "decoding": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 64,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "deployment_fingerprint": "4b291d6c43d1cd2d310db04ae8f4c64c41aca4d3de1f5e0e821de240bc299a10",
+        "deployment_id": "reference",
+        "input": {
+          "messages": [
+            {
+              "content": "The stated prior P(H) is 0.5. No evidence is available. Read and report the stated prior P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+              "role": "user"
+            }
+          ]
+        },
+        "input_sha256": "8190765eeb15129239764415818f8a85f37a477b505d99a2368b36a7b1e15e0a",
+        "label_variant": "original",
+        "prompt_variant": "three-templates-v1",
+        "request_id": "7f64a97878deb34742a5dae1e2f06b535856e65a5e3aacacced161c9f383a96b",
+        "scenario_id": "control-prior-3",
+        "schema_version": "cib.request.v1",
+        "stage": "control",
+        "task_version": "updating-pilot-v1",
+        "trial_index": 0
+      }
+    },
+    {
+      "raw": "```json\n{\n  \"probability\": 0.75\n}\n```",
+      "request": {
+        "cluster_id": "control-prior",
+        "condition_id": "prior",
+        "decoding": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 64,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "deployment_fingerprint": "4b291d6c43d1cd2d310db04ae8f4c64c41aca4d3de1f5e0e821de240bc299a10",
+        "deployment_id": "reference",
+        "input": {
+          "messages": [
+            {
+              "content": "The stated prior P(H) is 0.75. No evidence is available. Read and report the stated prior P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+              "role": "user"
+            }
+          ]
+        },
+        "input_sha256": "a43c993b39e55665664048d499e2fb0035f38169b8c54899e06cdc2d4b4c747a",
+        "label_variant": "original",
+        "prompt_variant": "three-templates-v1",
+        "request_id": "7fad3e5317af1ada92345983f34893a4ef60f2b8c833f6841e65d5924dc23cb9",
+        "scenario_id": "control-prior-4",
+        "schema_version": "cib.request.v1",
+        "stage": "control",
+        "task_version": "updating-pilot-v1",
+        "trial_index": 0
+      }
+    },
+    {
+      "raw": "```json\n{\n  \"probability\": 0.1\n}\n```",
+      "request": {
+        "cluster_id": "control-prior",
+        "condition_id": "prior",
+        "decoding": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 64,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "deployment_fingerprint": "6b4291238b0e0e8b1e048cc26f0a8f9e2fdee929722fd0c27e4fc8bfd77fa3fa",
+        "deployment_id": "quantized",
+        "input": {
+          "messages": [
+            {
+              "content": "The stated prior P(H) is 0.1. No evidence is available. Read and report the stated prior P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+              "role": "user"
+            }
+          ]
+        },
+        "input_sha256": "2532a07474255a45ee2c87889525e648cdd1a7261edd4b484e99668e5b6fbb1f",
+        "label_variant": "original",
+        "prompt_variant": "three-templates-v1",
+        "request_id": "ecd933942db97bb1cdcdf26267dd7e0e6b0ac24eb1ce9ec6002179f9ee1e2bb9",
+        "scenario_id": "control-prior-1",
+        "schema_version": "cib.request.v1",
+        "stage": "control",
+        "task_version": "updating-pilot-v1",
+        "trial_index": 0
+      }
+    },
+    {
+      "raw": "```json\n{\n  \"probability\": 0.25\n}\n```",
+      "request": {
+        "cluster_id": "control-prior",
+        "condition_id": "prior",
+        "decoding": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 64,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "deployment_fingerprint": "6b4291238b0e0e8b1e048cc26f0a8f9e2fdee929722fd0c27e4fc8bfd77fa3fa",
+        "deployment_id": "quantized",
+        "input": {
+          "messages": [
+            {
+              "content": "The stated prior P(H) is 0.25. No evidence is available. Read and report the stated prior P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+              "role": "user"
+            }
+          ]
+        },
+        "input_sha256": "90cf995b91e96e6a5ec076f2d1573ecc33241b4f31ba7c6c6afea81498a6c707",
+        "label_variant": "original",
+        "prompt_variant": "three-templates-v1",
+        "request_id": "961caa5eb442fd1691a66b90cbd7caff58c47d2a33ad8fd60d55e585c78a4d0c",
+        "scenario_id": "control-prior-2",
+        "schema_version": "cib.request.v1",
+        "stage": "control",
+        "task_version": "updating-pilot-v1",
+        "trial_index": 0
+      }
+    },
+    {
+      "raw": "```json\n{\n  \"probability\": 0.5\n}\n```",
+      "request": {
+        "cluster_id": "control-prior",
+        "condition_id": "prior",
+        "decoding": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 64,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "deployment_fingerprint": "6b4291238b0e0e8b1e048cc26f0a8f9e2fdee929722fd0c27e4fc8bfd77fa3fa",
+        "deployment_id": "quantized",
+        "input": {
+          "messages": [
+            {
+              "content": "The stated prior P(H) is 0.5. No evidence is available. Read and report the stated prior P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+              "role": "user"
+            }
+          ]
+        },
+        "input_sha256": "8190765eeb15129239764415818f8a85f37a477b505d99a2368b36a7b1e15e0a",
+        "label_variant": "original",
+        "prompt_variant": "three-templates-v1",
+        "request_id": "744d38a845bd1816789bf9b612fd1888242933080f24686a89b054379fc1af18",
+        "scenario_id": "control-prior-3",
+        "schema_version": "cib.request.v1",
+        "stage": "control",
+        "task_version": "updating-pilot-v1",
+        "trial_index": 0
+      }
+    },
+    {
+      "raw": "```json\n{\n  \"probability\": 0.75\n}\n```",
+      "request": {
+        "cluster_id": "control-prior",
+        "condition_id": "prior",
+        "decoding": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 64,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "deployment_fingerprint": "6b4291238b0e0e8b1e048cc26f0a8f9e2fdee929722fd0c27e4fc8bfd77fa3fa",
+        "deployment_id": "quantized",
+        "input": {
+          "messages": [
+            {
+              "content": "The stated prior P(H) is 0.75. No evidence is available. Read and report the stated prior P(H). Return only a JSON object with exactly the key \"probability\" and a numeric value in [0,1].",
+              "role": "user"
+            }
+          ]
+        },
+        "input_sha256": "a43c993b39e55665664048d499e2fb0035f38169b8c54899e06cdc2d4b4c747a",
+        "label_variant": "original",
+        "prompt_variant": "three-templates-v1",
+        "request_id": "ecb2d91d37fe7b22f180f34d4fa035690bc6c5beaa7567cacc382a3f8a1b3aba",
+        "scenario_id": "control-prior-4",
+        "schema_version": "cib.request.v1",
+        "stage": "control",
+        "task_version": "updating-pilot-v1",
+        "trial_index": 0
+      }
+    }
+  ],
+  "schema_version": "cib.m4b-audit.v1",
+  "source_raw_sha256": "705d97368fce38317a6e067721a69d885d313fa6e3498d7fa08f5c597b0f1543"
+}

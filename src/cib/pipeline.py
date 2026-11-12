@@ -16,6 +16,9 @@ DECODING = {"policy": "scripted", "seed": None, "max_output_tokens": None,
 
 
 def planned_requests(dataset, deployments):
+    if dataset.get('schema_version') == 'cib.diagnostic-dataset.v1':
+        from .diagnostic import planned
+        return planned(dataset, deployments)
     result = []
     for deployment in deployments:
         for case in cases(dataset):

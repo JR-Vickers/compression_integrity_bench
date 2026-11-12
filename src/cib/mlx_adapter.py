@@ -35,6 +35,10 @@ class MLXAdapter:
             'quantized_modules': [n for n, m in self.model.named_modules() if hasattr(m, 'bits')]}
         expected = ({'mlx.core.bfloat16': 338} if deployment == 'reference' else
                     {'mlx.core.bfloat16': 535, 'mlx.core.uint32': 197})
+        if config['schema_version'] == 'cib.larger-reference-config.v1':
+            expected = {'mlx.core.bfloat16': prepared['source_tensor_count']}
+            if self.metadata['quantized_modules'] or prepared['tensor_dtype_counts'] != {'BF16': prepared['source_tensor_count']}:
+                raise ValueError('larger reference must remain unquantized BF16')
         if self.metadata['parameter_dtype_counts'] != expected:
             raise ValueError('unexpected loaded parameter precision')
 

@@ -21,6 +21,14 @@ from .records import digest, file_hash, key, observation_id, read, encode
 from .tasks import load_fixture, load_pilot
 
 
+def validate_run_config(config):
+    if config['schema_version'] == 'cib.larger-reference-config.v1':
+        from .larger_reference import validate_config as validate_larger
+        validate_larger(config)
+    else:
+        validate_config(config)
+
+
 def write_new(path, value):
     """Commit complete journal files atomically, never replacing a destination."""
     path = Path(path)
@@ -56,6 +64,11 @@ def now():
 
 
 def deployment_registry(config, prepared):
+    if config['schema_version'] == 'cib.larger-reference-config.v1':
+        return {'reference': {'deployment_id': 'reference', 'kind': 'real_local_mlx',
+                'source': config['source'], 'backend': config['backend'],
+                'artifact_files': prepared['reference']['files'],
+                'tokenizer_files': prepared['reference']['files'], 'quantization': None}}
     return {name: {'deployment_id': name, 'kind': 'real_local_mlx', 'source': config['source'],
                    'backend': config['backend'], 'artifact_files': prepared[name]['files'],
                    'tokenizer_files': prepared['reference']['files'],
@@ -64,7 +77,7 @@ def deployment_registry(config, prepared):
 
 
 def requests_for(dataset, deployments, config):
-    result = planned_requests(dataset, ("reference", "quantized"))
+    result = planned_requests(dataset, ('reference', 'quantized') if 'quantized' in deployments else ('reference',))
     for request in result:
         request['decoding'] = config['generation']
         request['deployment_fingerprint'] = digest(deployments[request['deployment_id']])
@@ -79,7 +92,7 @@ def cache_identity(request, actual):
 
 
 def new_run(config, prepared, dataset=None):
-    validate_config(config)
+    validate_run_config(config)
     if prepared['schema_version'] != 'cib.prepared.v1' or prepared['config_sha256'] != digest(config):
         raise ValueError('preparation/config mismatch')
     dataset = load_fixture() if dataset is None else dataset
@@ -104,8 +117,9 @@ def missing(request):
 def validate_real(raw):
     manifest, dataset = raw['manifest'], raw['dataset']
     config, prepared = manifest['config'], manifest['prepared']
-    validate_config(config)
-    if prepared['config_sha256'] != digest(config) or dataset not in (load_fixture(), load_pilot()):
+    validate_run_config(config)
+    from .diagnostic import load_diagnostic
+    if prepared['config_sha256'] != digest(config) or dataset not in (load_fixture(), load_pilot(), load_diagnostic(), load_diagnostic(True)):
         raise ValueError('unsupported task or preparation')
     if (manifest['dataset_sha256'] != digest(dataset) or manifest['analysis'] != dataset['analysis']
             or manifest['deployments'] != deployment_registry(config, prepared)):
@@ -165,8 +179,8 @@ def run(config, prepared, root, deployment, limit, factory=None, dataset=None):
         if not (root / 'run.json').exists():
             plan = new_run(config, prepared, dataset)
             if dataset is not None:
-                plan['manifest'].update(label='Exploratory pilot v1; not held out',
-                    planning_policy=dataset['pilot_protocol'])
+                policy = dataset.get('diagnostic_protocol', dataset.get('pilot_protocol'))
+                plan['manifest'].update(label=dataset.get('split', 'exploratory'), planning_policy=policy)
             write_new(root / 'run.json', plan)
         plan = read(root / 'run.json')
         if plan['manifest']['config'] != config or plan['manifest']['prepared'] != prepared:
@@ -177,7 +191,8 @@ def run(config, prepared, root, deployment, limit, factory=None, dataset=None):
         adapter = None
         executed = 0
         invocation_start = time.monotonic()
-        protocol = plan['dataset'].get('pilot_protocol')
+        protocol = plan['dataset'].get('diagnostic_protocol', plan['dataset'].get('pilot_protocol'))
+        prior_attempts = len(list(root.glob('*.start.json')))
         if protocol:
             saved = [read(p) for p in root.glob('*.result.json')]
             prior_seconds = sum(a.get('generation_wall_seconds', 0) for a in saved)
@@ -198,6 +213,8 @@ def run(config, prepared, root, deployment, limit, factory=None, dataset=None):
             if executed >= limit:
                 break
             if protocol:
+                if prior_attempts + executed >= protocol['max_generation_requests']:
+                    raise ValueError('configured generation request ceiling reached; remaining work is unexecuted')
                 if prior_seconds + time.monotonic() - invocation_start > protocol['max_wall_seconds']:
                     raise ValueError('pilot wall budget exhausted')
                 if sum(p.stat().st_size for p in root.iterdir() if p.is_file()) > protocol['max_disk_bytes']:
@@ -300,6 +317,7 @@ def main():
     parser.add_argument('--deployment', choices=('reference', 'quantized'))
     parser.add_argument('--limit', type=int, default=6, help='maximum new attempts this invocation')
     parser.add_argument('--pilot', action='store_true', help='use the pinned exploratory pilot v1')
+    parser.add_argument('--diagnostic', action='store_true', help='use the pinned M4b wording diagnostic')
     parser.add_argument('--reference', type=Path)
     parser.add_argument('--quantized', type=Path)
     parser.add_argument('--output', type=Path)
@@ -307,8 +325,13 @@ def main():
     if args.command == 'run':
         if args.run is None or args.deployment is None:
             parser.error('run requires --run and --deployment')
-        print(run(read(args.config), read(args.prepared), args.run, args.deployment, args.limit,
-                  dataset=load_pilot() if args.pilot else None))
+        if args.pilot and args.diagnostic:
+            parser.error('choose only one dataset')
+        from .diagnostic import load_diagnostic
+        config = read(args.config)
+        dataset = (load_diagnostic(config['schema_version'] == 'cib.larger-reference-config.v1') if args.diagnostic
+                   else load_pilot() if args.pilot else None)
+        print(run(config, read(args.prepared), args.run, args.deployment, args.limit, dataset=dataset))
     elif args.command == 'snapshot':
         if args.run is None or args.output is None:
             parser.error('snapshot requires --run and --output')

@@ -1,0 +1,150 @@
+{
+  "license": "apache-2.0",
+  "loaded_metadata": {
+    "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] }}\n    {%- else %}\n        {{- 'You are Qwen, created by Alibaba Cloud. You are a helpful assistant.' }}\n    {%- endif %}\n    {{- \"\\n\\n# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0]['content'] + '<|im_end|>\\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and not message.tool_calls) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role }}\n        {%- if message.content %}\n            {{- '\\n' + message.content }}\n        {%- endif %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '\\n<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}\n",
+    "device": "Device(gpu, 0)",
+    "environment": {
+      "git": {
+        "commit": "bb08535db2d4db4d2d7684e4368212bb84965bed",
+        "working_tree": "M docs/DECISIONS.md\n M docs/METHODOLOGY.md\n M src/cib/mlx_adapter.py\n M src/cib/pipeline.py\n M src/cib/runner.py\n?? configs/diagnostic-v1.json\n?? configs/reference-check-qwen25-7b.json\n?? docs/evidence/m4b/\n?? scripts/audit_m4b.py\n?? scripts/verify_diagnostic.py\n?? src/cib/data/diagnostic-v1.json\n?? src/cib/diagnostic.py\n?? src/cib/diagnostic_report.py\n?? src/cib/larger_reference.py\n?? tests/test_diagnostic.py"
+      },
+      "packages": {
+        "huggingface-hub": "2.4.0",
+        "mlx": "0.32.4",
+        "mlx-lm": "0.32.2",
+        "mlx-metal": "0.32.4",
+        "numpy": "2.4.6",
+        "tokenizers": "0.23.3",
+        "transformers": "5.22.2"
+      },
+      "platform": "macOS-15.7.7-arm64-arm-64bit",
+      "python": "3.11.17",
+      "source_sha256": "65c995c4eb23bec26a4717fb24c120385e55af16d839aef6299a2194b7cd84a2"
+    },
+    "eos_token_ids": [
+      151643,
+      151645
+    ],
+    "model_config": {
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "attention_dropout": 0.0,
+      "bos_token_id": 151643,
+      "eos_token_id": [
+        151645,
+        151643
+      ],
+      "hidden_act": "silu",
+      "hidden_size": 3584,
+      "initializer_range": 0.02,
+      "intermediate_size": 18944,
+      "max_position_embeddings": 32768,
+      "max_window_layers": 28,
+      "model_type": "qwen2",
+      "num_attention_heads": 28,
+      "num_hidden_layers": 28,
+      "num_key_value_heads": 4,
+      "rms_norm_eps": 1e-06,
+      "rope_theta": 1000000.0,
+      "sliding_window": 131072,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.43.1",
+      "use_cache": true,
+      "use_sliding_window": false,
+      "vocab_size": 152064
+    },
+    "parameter_dtype_counts": {
+      "mlx.core.bfloat16": 339
+    },
+    "quantized_modules": [],
+    "template_sha256": "718d67db7e7b8db25e9beb07550e548e941da07b804d12322bfc406212670e70"
+  },
+  "matching_small_inputs": 56,
+  "official_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "official_weights": {
+    "model-00001-of-00004.safetensors": {
+      "bytes": 3945441440,
+      "sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7"
+    },
+    "model-00002-of-00004.safetensors": {
+      "bytes": 3864726352,
+      "sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185"
+    },
+    "model-00003-of-00004.safetensors": {
+      "bytes": 3864726424,
+      "sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5"
+    },
+    "model-00004-of-00004.safetensors": {
+      "bytes": 3556377672,
+      "sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd"
+    }
+  },
+  "prepared_sha256": "40fb3cbb9438275074e2d289cf92664191dbf63988a948de758dc4b0a35424bf",
+  "quantization_performed": false,
+  "reference_files": {
+    "LICENSE": {
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    "README.md": {
+      "bytes": 6240,
+      "sha256": "f366f33bbf6bcadbb7d87f0a21a7b65584a56b8d58b0743c77c88bee625b93a6"
+    },
+    "config.json": {
+      "bytes": 663,
+      "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c"
+    },
+    "generation_config.json": {
+      "bytes": 243,
+      "sha256": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f"
+    },
+    "merges.txt": {
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    "model-00001-of-00004.safetensors": {
+      "bytes": 3945441440,
+      "sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7"
+    },
+    "model-00002-of-00004.safetensors": {
+      "bytes": 3864726352,
+      "sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185"
+    },
+    "model-00003-of-00004.safetensors": {
+      "bytes": 3864726424,
+      "sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5"
+    },
+    "model-00004-of-00004.safetensors": {
+      "bytes": 3556377672,
+      "sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 27752,
+      "sha256": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028"
+    },
+    "tokenizer.json": {
+      "bytes": 7031645,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    "tokenizer_config.json": {
+      "bytes": 7305,
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    },
+    "vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "saved_tensor_dtype_counts": {
+    "BF16": 339
+  },
+  "source": {
+    "license": "Apache-2.0",
+    "reference_dtype": "bfloat16",
+    "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+  },
+  "source_tensor_count": 339
+}

@@ -178,3 +178,21 @@ PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v
 ```
 
 Observed: 23 offline tests pass; all 1,039 original pilot files were unchanged during rescoring; scores and reports regenerate byte-identically against the same source/score inputs. A report-only source change is retained in source lineage, with numerical equality to original scoring checked separately. Full raw/journal/token streams live in `outputs/m4-pilot-v1/`; the full updated report is `outputs/m4-verification-v2/report.md`. Compact measured summaries, examples and hashes are versioned in `docs/evidence/m4/`. Fixture generation/scoring/reporting was verified again at `outputs/m4-offline-fixture/` with the original strict policy. No earlier evidence was replaced.
+
+## Updating diagnosis (Milestone 4b)
+
+The [M4b evidence report](docs/evidence/m4b/README.md) audits all four original likelihood controls, exact rendered prompts/raw responses, independent targets, largest drift cases and every quantized prior-error case. No target, conditional-direction, pairing or scorer defect was demonstrated; historical M4 results remain unchanged.
+
+The fixed wording diagnostic completed180/180 requests within its200-call ceiling; the separately triggered official Qwen2.5-7B-Instruct **unquantized BF16** check completed60/60 within its100-call ceiling. Primary parser coverage is 240/240; strict compliance 0/240. Mathematical direct-likelihood controls score4/4 for both small deployments, versus original 0/4; clearer wording removes the quantized prior complements. Updating/drift gates still fail for both small deployments and the verified 7B reference. All repeats reproduce exactly. Neither reference replacement nor benchmark expansion is justified yet. Next is one new exploratory check separating Bayes-rule application from numerical expression evaluation on unequal priors and irrelevant evidence.
+
+Verified saved-output commands below require no inference or MLX. Use new output directories when repeating them; recorded destinations already exist:
+
+```sh
+export PYTHONPATH="$PWD/src"
+.venv/bin/python scripts/audit_m4b.py --output outputs/m4b-audit-reproduction-v1
+.venv/bin/python scripts/verify_diagnostic.py --run outputs/m4b-wording-v1 --output outputs/m4b-wording-verification-v1 --historical-hashes outputs/m4b-audit-v1/original-hashes.json
+.venv/bin/python scripts/verify_diagnostic.py --run outputs/m4b-reference-7b-v1 --output outputs/m4b-reference-verification-v1 --historical-hashes outputs/m4b-audit-v1/original-hashes.json
+.venv/bin/python -m unittest discover -s tests -v
+```
+
+All 29 offline tests pass. Regeneration confirms unchanged historical/new raw records and byte-identical repeated scores/reports. The [report](docs/evidence/m4b/README.md#verification-cost-and-reproduction) gives the full generation, preparation, snapshot and scoring commands, pinned provenance and artifact paths. The runner's explicit `--diagnostic` selects this instrument; `python -m cib.diagnostic score/report` analyze it. Larger-model preparation verifies official shard hashes and BF16 headers and performs no quantization. Optional model files and environments remain Git-ignored. Fixture commands were reverified at `outputs/m4b-offline-fixture/`. Findings remain exploratory, without empirical-calibration or preservation claims.

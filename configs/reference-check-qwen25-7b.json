@@ -1,0 +1,48 @@
+{
+  "schema_version": "cib.larger-reference-config.v1",
+  "label": "One exploratory unquantized-reference competence check, not final reference selection",
+  "source": {
+    "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "license": "Apache-2.0",
+    "reference_dtype": "bfloat16"
+  },
+  "backend": {
+    "mlx-lm": "0.32.2",
+    "mlx": "0.32.4"
+  },
+  "generation": {
+    "temperature": 0.0,
+    "seed": 0,
+    "max_tokens": 64,
+    "context_limit": 2048,
+    "prefill_step_size": 512,
+    "kv_bits": null,
+    "max_kv_size": null,
+    "reasoning": "no separate reasoning mode in this checkpoint",
+    "logits_processors": [],
+    "retries": 0,
+    "constrained_decoding": false,
+    "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+    "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+  },
+  "quantization": null,
+  "protocol_source": "diagnostic-v1.json larger_trigger; unchanged competence gates",
+  "selection_rationale": "Same Qwen2.5 non-thinking qwen2 family and MLX backend; 7.62B BF16 parameters ~15.23GB, feasible within 64GiB; larger models and additional checkpoints outside this check",
+  "budget": {
+    "planned_generations": 60,
+    "max_generation_requests": 100,
+    "paid_compute": false,
+    "max_download_bytes": 17000000000,
+    "max_mlx_peak_bytes": 24000000000
+  },
+  "criteria": {
+    "applies": "each of mathematical and natural variants separately, full coverage required; exploratory competence screen, not preservation",
+    "likelihood_correct_at_least": 3,
+    "likelihood_planned": 4,
+    "prior_mean_error_at_most": 0.01,
+    "irrelevant_mean_drift_at_most": 0.02,
+    "posterior_mean_error_at_most": 0.05,
+    "posterior_baseline_ratio_at_most": 0.75
+  }
+}

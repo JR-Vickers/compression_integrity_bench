@@ -1,0 +1,4645 @@
+{
+  "label": "Measured exploratory diagnostics; no held-out or preservation conclusion",
+  "larger_reference": {
+    "dataset_sha256": "243ab133c906081fedc7b239c11fb0a827bac4e44275d38c1f26be0b2293903c",
+    "deployments": {
+      "reference": {
+        "condition_rows": [
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.14285714285714285,
+            "post_request_id": "a209c051fc2ac00ac4d1b47c961fddeff23ccbfed8ba5465c3809d15f59e1a36",
+            "posterior": 0.1,
+            "posterior_error": 0.042857142857142844,
+            "pre_probability": 0.1,
+            "pre_request_id": "2368ff851b8f18aeea2881d13a3362bf16a9203f16a593a0d1071872fc4422fb",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.042857142857142844,
+            "update_error": 0.042857142857142844,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.2857142857142857,
+            "post_request_id": "8a6e449b44c71141a9d5fd55b093210d842d0dfb5d85cc2f92818cff2ae8eb8b",
+            "posterior": 0.3076923076923077,
+            "posterior_error": 0.02197802197802201,
+            "pre_probability": 0.1,
+            "pre_request_id": "9b4c3316ddfc0d34c61555acd700576ceb916845aa09db4a33850eba0220ed60",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.02197802197802201,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.25,
+            "post_request_id": "9956294f150e5b3ce22a4a604ce152abfdb79921a2b0f709114d4213204a7a79",
+            "posterior": 0.1,
+            "posterior_error": 0.15,
+            "pre_probability": 0.1,
+            "pre_request_id": "0a59632666499ae9a5a16f363c100b737659fbb2018dd11bf12e56b1ea938034",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.15,
+            "update_error": 0.15,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.8,
+            "post_request_id": "3ce44b9e5b0dc0b46d77c47b76014f61cb21e37210f03ff0f5f232a3ff780427",
+            "posterior": 0.3076923076923077,
+            "posterior_error": 0.49230769230769234,
+            "pre_probability": 0.1,
+            "pre_request_id": "d1274988ccd4dca55920b5d1896343b4d0e90109743d1d98704d9714bdfa9c8c",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.49230769230769234,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.8,
+            "post_request_id": "b96094027be7a85c14810d7ce81732898396348d68bba373e0cd25bd21f51b9c",
+            "posterior": 0.9,
+            "posterior_error": 0.09999999999999998,
+            "pre_probability": 0.9,
+            "pre_request_id": "10cec95eb63360a6515e998e1caf9d8c20cddfae5ae204f25db0e252660b1839",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.09999999999999998,
+            "update_error": 0.09999999999999998,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.18,
+            "post_request_id": "843e6d20d461c5f619fdb4cf62677ddaa5818c1c764d6828514ac000a3f3fa4c",
+            "posterior": 0.6923076923076923,
+            "posterior_error": 0.5123076923076924,
+            "pre_probability": 0.9,
+            "pre_request_id": "41f0044ea227262ccd66401fac9241909880e555b18a37dd103141218a408902",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.5123076923076922,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.75,
+            "post_request_id": "ca0d5e03e3dc03dc9006a7a5c09ffc3a2da65203619f0ed4cf78f79dccc95313",
+            "posterior": 0.9,
+            "posterior_error": 0.15000000000000002,
+            "pre_probability": 0.9,
+            "pre_request_id": "d26bd05bf203749940ea6c62d1cb646840cd348a0c195a6af5e71f2fc2f7308c",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.15000000000000002,
+            "update_error": 0.15000000000000002,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.18181818181818182,
+            "post_request_id": "fb978765f7265e83f74aaa3425bb9ef6a998a2abce8c2d46af9fcac231e03e06",
+            "posterior": 0.6923076923076923,
+            "posterior_error": 0.5104895104895104,
+            "pre_probability": 0.9,
+            "pre_request_id": "db4225bd446ada97a7183bd13516a73212893eeae1f35ca4a0a4a4c056747997",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.5104895104895105,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4444444444444444,
+            "post_request_id": "786a229d2972e01e50ac84b010a06e3efb3ccc69661c4a156331fb75ca31d3ab",
+            "posterior": 0.5,
+            "posterior_error": 0.05555555555555558,
+            "pre_probability": 0.5,
+            "pre_request_id": "234d4e99840841e33ffc15ce8c3b4d81b43d2c77387923dbfb4860d4a4befd63",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.05555555555555558,
+            "update_error": 0.05555555555555558,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.8,
+            "post_request_id": "6a334a19d580552dd31648ccc9b942a86047363859caa2606c6ae6ced3c03a37",
+            "posterior": 0.8,
+            "posterior_error": 0.0,
+            "pre_probability": 0.5,
+            "pre_request_id": "6c24b9ab1bb60d8ac2d15d6b282f56dadfeae7c4c095c672cc6c5fa867b4d627",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.0,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.5,
+            "post_request_id": "a06cfcb581610f469a721bdc5d4deb1f8fd6cd1a8ebb6158d5ca22fcb93fd511",
+            "posterior": 0.5,
+            "posterior_error": 0.0,
+            "pre_probability": 0.5,
+            "pre_request_id": "65e24e723cf302b220433aaee1f1a68ab4072506a0ebbc8d02bb31114bf6238f",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.0,
+            "update_error": 0.0,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.8,
+            "post_request_id": "dafabeba80b6cab6072797514a38d5d216d51c31371bc502530c753e26b29605",
+            "posterior": 0.8,
+            "posterior_error": 0.0,
+            "pre_probability": 0.5,
+            "pre_request_id": "ae19e97d37f0b1b590e135373e43c0c2d09c9eeb9f3fdc232ab7287e4fb9a9ab",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.0,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4444444444444444,
+            "post_request_id": "5e528237770f88afb31bfc2bb2fed0d92edc3a3017c5be901dbdbcc761efcbbb",
+            "posterior": 0.5,
+            "posterior_error": 0.05555555555555558,
+            "pre_probability": 0.5,
+            "pre_request_id": "a6901f6596fa51a4ae4648c0fcc80b717e1bf764e0fd6e1aec3a19348eb7ff25",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.05555555555555558,
+            "update_error": 0.05555555555555558,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.2,
+            "post_request_id": "445ce524cc8bffb96509b66f04f2c95d7328a2b9e219d47bfa18dae12d83885c",
+            "posterior": 0.2,
+            "posterior_error": 0.0,
+            "pre_probability": 0.5,
+            "pre_request_id": "3526db2940f9d515034bf0540cf994f7c7d39a3f9f0713a3a3207935d09b0605",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.0,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.5,
+            "post_request_id": "9d33e85dc504682d77c40c664941a5af7e2ddecfc54661c08a73d18b38e62d1c",
+            "posterior": 0.5,
+            "posterior_error": 0.0,
+            "pre_probability": 0.5,
+            "pre_request_id": "9b5a415b4d8707a848900a3cdc4946cd0447d8ae8673cae536c969307667fea6",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.0,
+            "update_error": 0.0,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.2,
+            "post_request_id": "6f7f322f3db78d36326bd4dab35f9da613badba53fb343639764dc0858047d85",
+            "posterior": 0.2,
+            "posterior_error": 0.0,
+            "pre_probability": 0.5,
+            "pre_request_id": "c033fab721b69c7c8aded2d217eddbce1b8c82d1261d4079c8cb1ba5b0a2cf7e",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.0,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "4340301cd9e5adb4241ebac14fe8f7045297cfe225e31a07e66d49f5ec90caaa",
+            "posterior": 0.75,
+            "posterior_error": 0.15000000000000002,
+            "pre_probability": 0.75,
+            "pre_request_id": "9163334d8b7fc0613c2415c14bf8fc2e702c3a4b59710b893a713d2cdf5867a3",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.15000000000000002,
+            "update_error": 0.15000000000000002,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.75,
+            "post_request_id": "4824b141abdb66c3816db44a294727250aaaad7280e68e70242c4464fea3b1aa",
+            "posterior": 0.9230769230769231,
+            "posterior_error": 0.17307692307692313,
+            "pre_probability": 0.75,
+            "pre_request_id": "20aea2f4948e7b1f70728b856947fda696e060445b5c46d28a6a368bc52b08f8",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.17307692307692313,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "abc3b704357f6b12b70f184530aa396fb3840ed29e3405f18bb10b1b7528f3aa",
+            "posterior": 0.75,
+            "posterior_error": 0.15000000000000002,
+            "pre_probability": 0.75,
+            "pre_request_id": "9db8d1eac95cf1f6cedc69382817252bf88a7a79f70566b6f9c70be8cdbd3a8c",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.15000000000000002,
+            "update_error": 0.15000000000000002,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.75,
+            "post_request_id": "0ab46127eda567375820eac1aad58dfc9d7e0db6d2f82c17190620ca7371d631",
+            "posterior": 0.9230769230769231,
+            "posterior_error": 0.17307692307692313,
+            "pre_probability": 0.75,
+            "pre_request_id": "71cdcdd9b41157bab63bead4cef3100895b75ba8978f5ca8c5b73f5f3a9c7df1",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.17307692307692313,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.2222222222222222,
+            "post_request_id": "68825810354d221b6623a3d0a3be643cb1c4414522b05382df4b34ab89ee4553",
+            "posterior": 0.25,
+            "posterior_error": 0.02777777777777779,
+            "pre_probability": 0.25,
+            "pre_request_id": "3460976bc3a40f38c63760435d88695e9ad388279be3cb59496ae80c2d322727",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.02777777777777779,
+            "update_error": 0.02777777777777779,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.2222222222222222,
+            "post_request_id": "3904441607aa91367ddb5ef97f1c250476372b3b413c8aec3b1e863595245563",
+            "posterior": 0.07692307692307693,
+            "posterior_error": 0.14529914529914528,
+            "pre_probability": 0.25,
+            "pre_request_id": "21cce5ca21ef3bf0b16f323474a3a32843a1fe2afcb84c648105a4d4bb0302be",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.14529914529914528,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "d95bcc42a0f750d87fadf4d3a7673fb60df5b7cb0c62b583f26dc96845421171",
+            "posterior": 0.25,
+            "posterior_error": 0.15000000000000002,
+            "pre_probability": 0.25,
+            "pre_request_id": "f89523bd5f3ad282c82eaeedd018168403bc107b79c87574161291c29f5e8c67",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.15000000000000002,
+            "update_error": 0.15000000000000002,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.25,
+            "post_request_id": "92ee81c087e3afa60fbed656beb9b819cb1e0a4dcdde0a9d5a13f3c01046c90c",
+            "posterior": 0.07692307692307693,
+            "posterior_error": 0.17307692307692307,
+            "pre_probability": 0.25,
+            "pre_request_id": "bceb47de789d28e72c0d2a6bdbd1f7492b5a7369fbc0af217f15d0955fe2e835",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.17307692307692307,
+            "wording": "natural"
+          }
+        ],
+        "controls": [
+          {
+            "absolute_error": 0.0,
+            "control_id": "l1",
+            "correct": true,
+            "probability": 0.1,
+            "request_id": "df467e7077cf541fe0833cb2007ea10e5d367c42629cc282c56f89f5c0e071cb",
+            "target": 0.1,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l1",
+            "correct": true,
+            "probability": 0.1,
+            "request_id": "493b29b5e4b56d5aaf97cd2d1cdb9d08b71e63ad28160063dec6a4a064e5f86f",
+            "target": 0.1,
+            "wording": "natural"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l2",
+            "correct": true,
+            "probability": 0.25,
+            "request_id": "646e0a7a1e8c46cd59bf75a7c98af6b11d207bd1d63dac340732d964765ce4a1",
+            "target": 0.25,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l2",
+            "correct": true,
+            "probability": 0.25,
+            "request_id": "a7eadc083407f91a26573e8f7390e4f88261d16fbd9e8f7773dcb8574adeb0ed",
+            "target": 0.25,
+            "wording": "natural"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l3",
+            "correct": true,
+            "probability": 0.5,
+            "request_id": "09c11f53b55ace304dea91c3891281bb5c32d3661d03617dc5925909f004f403",
+            "target": 0.5,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l3",
+            "correct": true,
+            "probability": 0.5,
+            "request_id": "e3fb1fd342a4708efe722477134b41e97c0def227021daccc9c93f924022022c",
+            "target": 0.5,
+            "wording": "natural"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l4",
+            "correct": true,
+            "probability": 0.75,
+            "request_id": "97ce08126c42c1ae281e89488ed35d0f3d90f5d80b73f5afc2755e902049d570",
+            "target": 0.75,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l4",
+            "correct": true,
+            "probability": 0.75,
+            "request_id": "39cf2dacbb89a02d35e438419fe383574df9a3358a5517809a2757491142a1ec",
+            "target": 0.75,
+            "wording": "natural"
+          }
+        ],
+        "cost": {
+          "attempts": 60,
+          "generation_wall_seconds": 44.6195517918095,
+          "mlx_peak_bytes": 15362289188
+        },
+        "coverage": {
+          "completed_eligible": 60,
+          "executed": 60,
+          "planned": 60,
+          "primary_scoreable": 60,
+          "statuses": {
+            "valid": 60
+          },
+          "strict_compliant": 0,
+          "strict_denominator": 60
+        },
+        "groups": {
+          "mathematical": {
+            "condition_scores": {
+              "irrelevant": {
+                "posterior_bounds": [
+                  0.07195767195767197,
+                  0.07195767195767197
+                ],
+                "posterior_error": {
+                  "mean": 0.07195767195767197,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": 0.07195767195767197,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "update_error": {
+                  "mean": 0.07195767195767197,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              },
+              "relevant": {
+                "posterior_bounds": [
+                  0.14211029711029713,
+                  0.14211029711029713
+                ],
+                "posterior_error": {
+                  "mean": 0.14211029711029713,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": null,
+                  "planned": 0,
+                  "scoreable": 0
+                },
+                "update_error": {
+                  "mean": 0.1421102971102971,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              }
+            },
+            "coverage": {
+              "completed_eligible": 28,
+              "executed": 28,
+              "planned": 28,
+              "primary_scoreable": 28,
+              "statuses": {
+                "valid": 28
+              },
+              "strict_compliant": 0,
+              "strict_denominator": 28
+            },
+            "likelihood": {
+              "absolute_error": 0.0,
+              "correct": 4,
+              "planned": 4,
+              "scoreable": 4
+            },
+            "metrics": {
+              "posterior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.10703398453398455,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "prior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.0,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "uninformative_drift": {
+                "complete_scenarios": 3,
+                "mean": 0.07195767195767197,
+                "planned": 6,
+                "scoreable": 6
+              },
+              "update_error": {
+                "complete_scenarios": 3,
+                "mean": 0.10703398453398454,
+                "planned": 12,
+                "scoreable": 12
+              }
+            },
+            "posterior_loss_bounds": [
+              0.10703398453398455,
+              0.10703398453398455
+            ],
+            "scenario_scores": {
+              "d1": {
+                "posterior_bounds": [
+                  0.1692857142857143,
+                  0.1692857142857143
+                ],
+                "posterior_error": {
+                  "mean": 0.1692857142857143,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.07142857142857141,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.16928571428571426,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d2": {
+                "posterior_bounds": [
+                  0.02777777777777779,
+                  0.02777777777777779
+                ],
+                "posterior_error": {
+                  "mean": 0.02777777777777779,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.05555555555555558,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.02777777777777779,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d3": {
+                "posterior_bounds": [
+                  0.12403846153846156,
+                  0.12403846153846156
+                ],
+                "posterior_error": {
+                  "mean": 0.12403846153846156,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.0888888888888889,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.12403846153846156,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              }
+            },
+            "unchanged_prior_posterior_baseline": 0.11346153846153847
+          },
+          "natural": {
+            "condition_scores": {
+              "irrelevant": {
+                "posterior_bounds": [
+                  0.1,
+                  0.1
+                ],
+                "posterior_error": {
+                  "mean": 0.1,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": 0.1,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "update_error": {
+                  "mean": 0.1,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              },
+              "relevant": {
+                "posterior_bounds": [
+                  0.22482517482517483,
+                  0.22482517482517483
+                ],
+                "posterior_error": {
+                  "mean": 0.22482517482517483,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": null,
+                  "planned": 0,
+                  "scoreable": 0
+                },
+                "update_error": {
+                  "mean": 0.22482517482517483,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              }
+            },
+            "coverage": {
+              "completed_eligible": 28,
+              "executed": 28,
+              "planned": 28,
+              "primary_scoreable": 28,
+              "statuses": {
+                "valid": 28
+              },
+              "strict_compliant": 0,
+              "strict_denominator": 28
+            },
+            "likelihood": {
+              "absolute_error": 0.0,
+              "correct": 4,
+              "planned": 4,
+              "scoreable": 4
+            },
+            "metrics": {
+              "posterior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.16241258741258743,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "prior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.0,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "uninformative_drift": {
+                "complete_scenarios": 3,
+                "mean": 0.10000000000000002,
+                "planned": 6,
+                "scoreable": 6
+              },
+              "update_error": {
+                "complete_scenarios": 3,
+                "mean": 0.16241258741258743,
+                "planned": 12,
+                "scoreable": 12
+              }
+            },
+            "posterior_loss_bounds": [
+              0.16241258741258743,
+              0.16241258741258743
+            ],
+            "scenario_scores": {
+              "d1": {
+                "posterior_bounds": [
+                  0.3256993006993007,
+                  0.3256993006993007
+                ],
+                "posterior_error": {
+                  "mean": 0.3256993006993007,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.15000000000000002,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.3256993006993007,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d2": {
+                "posterior_bounds": [
+                  0.0,
+                  0.0
+                ],
+                "posterior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.0,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d3": {
+                "posterior_bounds": [
+                  0.16153846153846158,
+                  0.16153846153846158
+                ],
+                "posterior_error": {
+                  "mean": 0.16153846153846158,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.15000000000000002,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.16153846153846158,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              }
+            },
+            "unchanged_prior_posterior_baseline": 0.11346153846153847
+          }
+        },
+        "repeats": [
+          {
+            "original_request_id": "2368ff851b8f18aeea2881d13a3362bf16a9203f16a593a0d1071872fc4422fb",
+            "probability_difference": 0.0,
+            "request_id": "d749615ba2a13107ecbad764bc2b1d2ba0d1f38d88ffdc7e7f055c2a201ffe35",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "a209c051fc2ac00ac4d1b47c961fddeff23ccbfed8ba5465c3809d15f59e1a36",
+            "probability_difference": 0.0,
+            "request_id": "0538cac124c1dc119630d7c47563779bf4244023fad297968aaf8deb61ae9a3c",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "9b4c3316ddfc0d34c61555acd700576ceb916845aa09db4a33850eba0220ed60",
+            "probability_difference": 0.0,
+            "request_id": "87d4ef4af30871c3dd623652e8dedd3a38808b7d36f96c27b8b35039f6705fbe",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "8a6e449b44c71141a9d5fd55b093210d842d0dfb5d85cc2f92818cff2ae8eb8b",
+            "probability_difference": 0.0,
+            "request_id": "1cb02520e496274576ebc2a63ff51b2383ccf0ac5f6685d8dc3f2f146517978a",
+            "status_equal": true,
+            "text_equal": true
+          }
+        ],
+        "suitability_checks": {
+          "mathematical": {
+            "drift": false,
+            "full_coverage": true,
+            "likelihood": true,
+            "posterior": false,
+            "prior": true
+          },
+          "natural": {
+            "drift": false,
+            "full_coverage": true,
+            "likelihood": true,
+            "posterior": false,
+            "prior": true
+          }
+        },
+        "suitability_pass": false
+      }
+    },
+    "observations": {
+      "0538cac124c1dc119630d7c47563779bf4244023fad297968aaf8deb61ae9a3c": {
+        "probability": 0.14285714285714285,
+        "status": "valid"
+      },
+      "09c11f53b55ace304dea91c3891281bb5c32d3661d03617dc5925909f004f403": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "0a59632666499ae9a5a16f363c100b737659fbb2018dd11bf12e56b1ea938034": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "0ab46127eda567375820eac1aad58dfc9d7e0db6d2f82c17190620ca7371d631": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "10cec95eb63360a6515e998e1caf9d8c20cddfae5ae204f25db0e252660b1839": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "1cb02520e496274576ebc2a63ff51b2383ccf0ac5f6685d8dc3f2f146517978a": {
+        "probability": 0.2857142857142857,
+        "status": "valid"
+      },
+      "20aea2f4948e7b1f70728b856947fda696e060445b5c46d28a6a368bc52b08f8": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "21cce5ca21ef3bf0b16f323474a3a32843a1fe2afcb84c648105a4d4bb0302be": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "234d4e99840841e33ffc15ce8c3b4d81b43d2c77387923dbfb4860d4a4befd63": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "2368ff851b8f18aeea2881d13a3362bf16a9203f16a593a0d1071872fc4422fb": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "3460976bc3a40f38c63760435d88695e9ad388279be3cb59496ae80c2d322727": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "3526db2940f9d515034bf0540cf994f7c7d39a3f9f0713a3a3207935d09b0605": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "3904441607aa91367ddb5ef97f1c250476372b3b413c8aec3b1e863595245563": {
+        "probability": 0.2222222222222222,
+        "status": "valid"
+      },
+      "39cf2dacbb89a02d35e438419fe383574df9a3358a5517809a2757491142a1ec": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "3ce44b9e5b0dc0b46d77c47b76014f61cb21e37210f03ff0f5f232a3ff780427": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "41f0044ea227262ccd66401fac9241909880e555b18a37dd103141218a408902": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "4340301cd9e5adb4241ebac14fe8f7045297cfe225e31a07e66d49f5ec90caaa": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "445ce524cc8bffb96509b66f04f2c95d7328a2b9e219d47bfa18dae12d83885c": {
+        "probability": 0.2,
+        "status": "valid"
+      },
+      "4824b141abdb66c3816db44a294727250aaaad7280e68e70242c4464fea3b1aa": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "493b29b5e4b56d5aaf97cd2d1cdb9d08b71e63ad28160063dec6a4a064e5f86f": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "5e528237770f88afb31bfc2bb2fed0d92edc3a3017c5be901dbdbcc761efcbbb": {
+        "probability": 0.4444444444444444,
+        "status": "valid"
+      },
+      "646e0a7a1e8c46cd59bf75a7c98af6b11d207bd1d63dac340732d964765ce4a1": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "65e24e723cf302b220433aaee1f1a68ab4072506a0ebbc8d02bb31114bf6238f": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "68825810354d221b6623a3d0a3be643cb1c4414522b05382df4b34ab89ee4553": {
+        "probability": 0.2222222222222222,
+        "status": "valid"
+      },
+      "6a334a19d580552dd31648ccc9b942a86047363859caa2606c6ae6ced3c03a37": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "6c24b9ab1bb60d8ac2d15d6b282f56dadfeae7c4c095c672cc6c5fa867b4d627": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "6f7f322f3db78d36326bd4dab35f9da613badba53fb343639764dc0858047d85": {
+        "probability": 0.2,
+        "status": "valid"
+      },
+      "71cdcdd9b41157bab63bead4cef3100895b75ba8978f5ca8c5b73f5f3a9c7df1": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "786a229d2972e01e50ac84b010a06e3efb3ccc69661c4a156331fb75ca31d3ab": {
+        "probability": 0.4444444444444444,
+        "status": "valid"
+      },
+      "843e6d20d461c5f619fdb4cf62677ddaa5818c1c764d6828514ac000a3f3fa4c": {
+        "probability": 0.18,
+        "status": "valid"
+      },
+      "87d4ef4af30871c3dd623652e8dedd3a38808b7d36f96c27b8b35039f6705fbe": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "8a6e449b44c71141a9d5fd55b093210d842d0dfb5d85cc2f92818cff2ae8eb8b": {
+        "probability": 0.2857142857142857,
+        "status": "valid"
+      },
+      "9163334d8b7fc0613c2415c14bf8fc2e702c3a4b59710b893a713d2cdf5867a3": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "92ee81c087e3afa60fbed656beb9b819cb1e0a4dcdde0a9d5a13f3c01046c90c": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "97ce08126c42c1ae281e89488ed35d0f3d90f5d80b73f5afc2755e902049d570": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "9956294f150e5b3ce22a4a604ce152abfdb79921a2b0f709114d4213204a7a79": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "9b4c3316ddfc0d34c61555acd700576ceb916845aa09db4a33850eba0220ed60": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "9b5a415b4d8707a848900a3cdc4946cd0447d8ae8673cae536c969307667fea6": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "9d33e85dc504682d77c40c664941a5af7e2ddecfc54661c08a73d18b38e62d1c": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "9db8d1eac95cf1f6cedc69382817252bf88a7a79f70566b6f9c70be8cdbd3a8c": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "a06cfcb581610f469a721bdc5d4deb1f8fd6cd1a8ebb6158d5ca22fcb93fd511": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "a209c051fc2ac00ac4d1b47c961fddeff23ccbfed8ba5465c3809d15f59e1a36": {
+        "probability": 0.14285714285714285,
+        "status": "valid"
+      },
+      "a6901f6596fa51a4ae4648c0fcc80b717e1bf764e0fd6e1aec3a19348eb7ff25": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "a7eadc083407f91a26573e8f7390e4f88261d16fbd9e8f7773dcb8574adeb0ed": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "abc3b704357f6b12b70f184530aa396fb3840ed29e3405f18bb10b1b7528f3aa": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "ae19e97d37f0b1b590e135373e43c0c2d09c9eeb9f3fdc232ab7287e4fb9a9ab": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "b96094027be7a85c14810d7ce81732898396348d68bba373e0cd25bd21f51b9c": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "bceb47de789d28e72c0d2a6bdbd1f7492b5a7369fbc0af217f15d0955fe2e835": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "c033fab721b69c7c8aded2d217eddbce1b8c82d1261d4079c8cb1ba5b0a2cf7e": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "ca0d5e03e3dc03dc9006a7a5c09ffc3a2da65203619f0ed4cf78f79dccc95313": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "d1274988ccd4dca55920b5d1896343b4d0e90109743d1d98704d9714bdfa9c8c": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "d26bd05bf203749940ea6c62d1cb646840cd348a0c195a6af5e71f2fc2f7308c": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "d749615ba2a13107ecbad764bc2b1d2ba0d1f38d88ffdc7e7f055c2a201ffe35": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "d95bcc42a0f750d87fadf4d3a7673fb60df5b7cb0c62b583f26dc96845421171": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "dafabeba80b6cab6072797514a38d5d216d51c31371bc502530c753e26b29605": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "db4225bd446ada97a7183bd13516a73212893eeae1f35ca4a0a4a4c056747997": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "df467e7077cf541fe0833cb2007ea10e5d367c42629cc282c56f89f5c0e071cb": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "e3fb1fd342a4708efe722477134b41e97c0def227021daccc9c93f924022022c": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "f89523bd5f3ad282c82eaeedd018168403bc107b79c87574161291c29f5e8c67": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "fb978765f7265e83f74aaa3425bb9ef6a998a2abce8c2d46af9fcac231e03e06": {
+        "probability": 0.18181818181818182,
+        "status": "valid"
+      }
+    },
+    "parser_implementation_sha256": "92f451443a7cbe42af80ec5ec1c578e40651a1745c4bd9f57ed3c2444d6638e5",
+    "primary_parser": "outer-json-fence-v1",
+    "raw_sha256": "760e5cbb13651af2193bf71de52e2f2b3c028b796f8a5480839f4fb489e055a1",
+    "run_id": "bb1e5085-d8cc-46c2-8b04-752779be2de4",
+    "schema_version": "cib.diagnostic-scores.v1",
+    "scorer_version": "m4b-scorer-v1",
+    "source_sha256": "65c995c4eb23bec26a4717fb24c120385e55af16d839aef6299a2194b7cd84a2"
+  },
+  "larger_to_small_exact_rendered_token_matches": 56,
+  "wording": {
+    "dataset_sha256": "2f77d5443fcd5261d163dc04d9d01382dd092fd48b58885066213caecb01caa1",
+    "deployments": {
+      "quantized": {
+        "condition_rows": [
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "d01077f7bbbcfc25cad0c540f511ba28dd34e2b79abaa1c4bac508ce896f57df",
+            "posterior": 0.1,
+            "posterior_error": 0.30000000000000004,
+            "pre_probability": 0.9,
+            "pre_request_id": "7dcf4a08c710bf8c9fcf8ceeaf79fb94e11ca913e49c206cbc5cef03ed346456",
+            "prior": 0.1,
+            "prior_error": 0.8,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.5,
+            "update_error": 0.5,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "04097c74136ada7920cd950caa1e58dfeeb89f71c16b1756740e2842d00ab4dc",
+            "posterior": 0.3076923076923077,
+            "posterior_error": 0.09230769230769231,
+            "pre_probability": 0.9,
+            "pre_request_id": "d708bcc371acb304959507bdad443f08bbce9a892c1c4f0dee55abc06a19e817",
+            "prior": 0.1,
+            "prior_error": 0.8,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.7076923076923077,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "2c1495db177a2dd2305c6c72e0ea2917d8fb571b7a0a73881953c49d61dfebca",
+            "posterior": 0.1,
+            "posterior_error": 0.30000000000000004,
+            "pre_probability": 0.1,
+            "pre_request_id": "f6e80caa494e06d73f01bc1508783c7dea097f2e30cce6535a4193cba2b75b6f",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.30000000000000004,
+            "update_error": 0.30000000000000004,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "d6a914fe9cfb4a9647b4d3c0b028ccb76ed73293b122b286eead0058a68357fe",
+            "posterior": 0.3076923076923077,
+            "posterior_error": 0.09230769230769231,
+            "pre_probability": 0.1,
+            "pre_request_id": "9d9584e5083082818cb4987748239e6a91cb4df57359d12f3225a0ffbccd0134",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.09230769230769234,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "f885d5efeabf1548f9677bb494a861a634f68493775607efbaa6742f04104b1f",
+            "posterior": 0.1,
+            "posterior_error": 0.30000000000000004,
+            "pre_probability": 0.1,
+            "pre_request_id": "e1a817b824778bca5d8e6fe68c3238fefac6aa92bf1b2465466955d738c9ec15",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.30000000000000004,
+            "update_error": 0.30000000000000004,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "1b3c8c6a72a6089f2fe6e3457bb2beac5b8d1d9ec88263847417d83604c2d79a",
+            "posterior": 0.3076923076923077,
+            "posterior_error": 0.09230769230769231,
+            "pre_probability": 0.1,
+            "pre_request_id": "74d33d205d576134b86fd44d921cf872a9e2bd7501febd1fb505d80fb39619bd",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.09230769230769234,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.6,
+            "post_request_id": "02fa8b4a2b498215f1555f1049bcb055166c9a1aff1d944948db115b61bc638a",
+            "posterior": 0.9,
+            "posterior_error": 0.30000000000000004,
+            "pre_probability": 0.1,
+            "pre_request_id": "fdc5401582b04dca63b9af13a9ed2856669418a694ea2bf7688c086380c08a9d",
+            "prior": 0.9,
+            "prior_error": 0.8,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.5,
+            "update_error": 0.5,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "965f593d24db536f8212bad3c33392a98e19602e350b90d98f7b083f226eb07f",
+            "posterior": 0.6923076923076923,
+            "posterior_error": 0.29230769230769227,
+            "pre_probability": 0.1,
+            "pre_request_id": "1534442a10b3090c5ad900a677587229e33545d36034d3ce7fd6946dddcf6ab6",
+            "prior": 0.9,
+            "prior_error": 0.8,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.5076923076923078,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "7d78c9a5be2f594f46116b7571e8a198658fd6fde7a90dc75115480efe4d7089",
+            "posterior": 0.9,
+            "posterior_error": 0.5,
+            "pre_probability": 0.9,
+            "pre_request_id": "b85e984206f918c3099e5ce5ac738afd4c6d9cc337575f9944c02c63dd3aad95",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.5,
+            "update_error": 0.4999999999999999,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "8a767d8d737b5fcea0d276fb5350971de07059c0370516b37a7dd9b5bc58a87a",
+            "posterior": 0.6923076923076923,
+            "posterior_error": 0.29230769230769227,
+            "pre_probability": 0.9,
+            "pre_request_id": "123b6333e6516e4bcd89a8fcc0dc3a020f915485403cdee4476383d36f19576d",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.29230769230769227,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "0a8aa1658d88578d11692adf9f9f817720d61b7e4271c1bb429e2c345d84205c",
+            "posterior": 0.9,
+            "posterior_error": 0.5,
+            "pre_probability": 0.9,
+            "pre_request_id": "c5324318777fbf89d619217b605c46f7727ef8278662e1127f99393bcceb478d",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.5,
+            "update_error": 0.4999999999999999,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "4bbd66b4fa32b2e92af50c304805012ef8906cc79160da7a2f3fd3279800a6b0",
+            "posterior": 0.6923076923076923,
+            "posterior_error": 0.29230769230769227,
+            "pre_probability": 0.9,
+            "pre_request_id": "fdd5efcd5e1bf1600da26b22205714cc94119e598d043ab7cff143e3f5d8d4b0",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.29230769230769227,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.6666666666666666,
+            "post_request_id": "24ac1f3b56983936d63527735cfc1dc6b6e0cbc59524a69d6e59b510c7ed9697",
+            "posterior": 0.5,
+            "posterior_error": 0.16666666666666663,
+            "pre_probability": 0.5,
+            "pre_request_id": "65effbad6749db4e916d73b76a6066f856fd17f0395e8389cde028b2c21af351",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.16666666666666663,
+            "update_error": 0.16666666666666663,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "6b301d3172fee93996157cf7e999afd8d0b51c2cc1c792c80e8ebd2ce5ec333b",
+            "posterior": 0.8,
+            "posterior_error": 0.20000000000000007,
+            "pre_probability": 0.5,
+            "pre_request_id": "74a5ce76fed1d7a8b35b83f156452600cee56927ef46ffd0e70382173cfaae08",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.20000000000000007,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.5,
+            "post_request_id": "dd66353d9e5e01cad695103042b4abcee70c3fa396bded1f1806eeb6b5cd1016",
+            "posterior": 0.5,
+            "posterior_error": 0.0,
+            "pre_probability": 0.5,
+            "pre_request_id": "c246facdde56dcb6f366c613e3625e03b091f1de951bb48fb0ff10f4db0fff15",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.0,
+            "update_error": 0.0,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "190119f4c941fc3c6ab20f836003cd111c494e7c7640860ff66a024078d7f84c",
+            "posterior": 0.8,
+            "posterior_error": 0.20000000000000007,
+            "pre_probability": 0.5,
+            "pre_request_id": "87660fa3c407d49173b73f20e855a3bdc56f4665d347bda16dc92127fe05e409",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.20000000000000007,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "f47d87b98e20af60e9a830f82bc7f95b55e80618cdee1b9952904ede57d476b7",
+            "posterior": 0.5,
+            "posterior_error": 0.09999999999999998,
+            "pre_probability": 0.5,
+            "pre_request_id": "d9e93d4b3af6101cef73894c02aa2c5c43e09978a05fadc3533516b716084b01",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.09999999999999998,
+            "update_error": 0.09999999999999998,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "5dbbb65b4659a8521211f6f328d0f97a7d0ad70fa9199010373e81140a00c55d",
+            "posterior": 0.8,
+            "posterior_error": 0.4,
+            "pre_probability": 0.5,
+            "pre_request_id": "853e9be65b602c668e5a658f61f7735aa859826f1f7f6ef16f34f38e531475c2",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.4,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.6666666666666666,
+            "post_request_id": "dc8243390f8ef1bc5fba1a2671fce23379131a28f7b04280e7e56e6681b812d8",
+            "posterior": 0.5,
+            "posterior_error": 0.16666666666666663,
+            "pre_probability": 0.5,
+            "pre_request_id": "6a81330e1650bbfda91210bb5f4a80c5d9a8e7b7729948f656bfa7ba5645dfe2",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.16666666666666663,
+            "update_error": 0.16666666666666663,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "fde832eab45673568d91f87ca59d0541fdb08565ee2cf3f7aa982993672b6d19",
+            "posterior": 0.2,
+            "posterior_error": 0.2,
+            "pre_probability": 0.5,
+            "pre_request_id": "c93b27e0fd741d9fe90162fdae9ab7f99fa06ae2f733262cbd16c23f5055a72c",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.2,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.5,
+            "post_request_id": "58d762d99761b5eb6280a792c7937589842ca80d860f160fa378ef2473fdbb83",
+            "posterior": 0.5,
+            "posterior_error": 0.0,
+            "pre_probability": 0.5,
+            "pre_request_id": "8810d1368b5f6560f44a002134f50d012fa5af1a6fccd81bf57071e08975516c",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.0,
+            "update_error": 0.0,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "308c46694dc04f1a8b3b7b57a828a3d15006b66fb22f655a1ffcecb07a71d07a",
+            "posterior": 0.2,
+            "posterior_error": 0.2,
+            "pre_probability": 0.5,
+            "pre_request_id": "d9ac697305e3f8daf5ec347fbeade58efb6e419f62801fb8f4558a4823207778",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.2,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "21bdab2870b8fdd6da4fd36d7b078adf4df764a3ed71099541912f426eb845b4",
+            "posterior": 0.5,
+            "posterior_error": 0.09999999999999998,
+            "pre_probability": 0.5,
+            "pre_request_id": "93ceb1d5deb6a7576a23592ec77dba509f91254acd83c173a7b3bdef260eaf5f",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.09999999999999998,
+            "update_error": 0.09999999999999998,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "fc60ade40825e9582c69c2e84064e3f4d61fe72842d18153b348641878a11003",
+            "posterior": 0.2,
+            "posterior_error": 0.2,
+            "pre_probability": 0.5,
+            "pre_request_id": "47b9de6bca03eeedc759450e234e0010642c6b782ae698faaa43d41c217580ad",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.2,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.6666666666666666,
+            "post_request_id": "5f34dc7f1a4cfa4407d60c9491532e9367e33fa53600ddc18d4b2c0ce158b986",
+            "posterior": 0.75,
+            "posterior_error": 0.08333333333333337,
+            "pre_probability": 0.75,
+            "pre_request_id": "e15101ef985ceaf7218ff46182c7db1c214a5b7c601c11752a4e7b557e048a3f",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.08333333333333337,
+            "update_error": 0.08333333333333337,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.8,
+            "post_request_id": "ad80cac13ae425f97f4bd61bd76c86bca700f71b8c9f04829e2a79e5541100a1",
+            "posterior": 0.9230769230769231,
+            "posterior_error": 0.12307692307692308,
+            "pre_probability": 0.75,
+            "pre_request_id": "6ff96e18ef6812778cc554a060370a5de73d42163c0965c4bfa82b368bd9b707",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.12307692307692308,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.5,
+            "post_request_id": "1a0ca3fcace9a5581bbae1a650510167af923e6b0c3dae4884a4c2bbf16adcc9",
+            "posterior": 0.75,
+            "posterior_error": 0.25,
+            "pre_probability": 0.75,
+            "pre_request_id": "d8b08eebe0c7d60e528aef74ed179f998748cf7fd4db3565456133f89d154b78",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.25,
+            "update_error": 0.25,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.75,
+            "post_request_id": "e5cb84b49353484ae30852e36d8d473514a0fd665c40eb8f86c3acb7953aca6d",
+            "posterior": 0.9230769230769231,
+            "posterior_error": 0.17307692307692313,
+            "pre_probability": 0.75,
+            "pre_request_id": "d19bcd8f5f2afad1b0e43b31959de936ff865782da137b6d232e26a659f3fa00",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.17307692307692313,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "72f4a2264285905b355b53270f7a2a4dbe82869f66bd27fda03e60253affbc53",
+            "posterior": 0.75,
+            "posterior_error": 0.35,
+            "pre_probability": 0.75,
+            "pre_request_id": "c67151d98ffd0b1c9be12b413c6b25ca7117aa01ca361e222a8348c0e708e5a4",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.35,
+            "update_error": 0.3500000000000001,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "ed79899820398a1221d5b715771dce0d4e4e8acf4d0e0173a3c212adf3f65707",
+            "posterior": 0.9230769230769231,
+            "posterior_error": 0.5230769230769231,
+            "pre_probability": 0.75,
+            "pre_request_id": "4283fc023559edcd89fd72f5d9c2ec15c7d56c3db28e7e6ac80b9b33ec804829",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.523076923076923,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.5,
+            "post_request_id": "fd7d05943e45be8de0dbaaa69f4625f7a5b7f32481ace78939242cc4ac2fe059",
+            "posterior": 0.25,
+            "posterior_error": 0.25,
+            "pre_probability": 0.25,
+            "pre_request_id": "0f3de169fc095abf08f8d801cae47e1a9cfb0c7bf14ecbd5886c679749646071",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.25,
+            "update_error": 0.25,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "16d4d82ee2ebe8e846e3964337ffa2b1acff36c2e3270ccc2fdf884fe72788c0",
+            "posterior": 0.07692307692307693,
+            "posterior_error": 0.3230769230769231,
+            "pre_probability": 0.25,
+            "pre_request_id": "67860901b115d7e7e0f7d6a7919cebeb9bba4aa39a12b5660274ca67a21134e6",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.3230769230769231,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "e0bd309c7ccf21c8c428827f0ada0d624c2e10fd6f8d34b46f2b312b2f6e036d",
+            "posterior": 0.25,
+            "posterior_error": 0.15000000000000002,
+            "pre_probability": 0.25,
+            "pre_request_id": "6d49b9122373f6440bd8cee621195c2899fb6e0cf2cb4c6d6f8441f1e356caea",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.15000000000000002,
+            "update_error": 0.15000000000000002,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "d19e7fc803e062d9814ff0b498d5a6c359b0731a6953726010208b360535e589",
+            "posterior": 0.07692307692307693,
+            "posterior_error": 0.3230769230769231,
+            "pre_probability": 0.25,
+            "pre_request_id": "f3e692d88862a1aeb455c309c6983a1e3528a4705d5a6bbc42bf5b92899ee2a8",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.3230769230769231,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "ae81d77b49d5283aa76bdc38b483ed62a5b66a03b9d4f5163b50252f88fb24cc",
+            "posterior": 0.25,
+            "posterior_error": 0.15000000000000002,
+            "pre_probability": 0.25,
+            "pre_request_id": "d3d32e61e9da515f7cf2b89f58fe80f05b750c080dadb808f4b45bb5910b9a18",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.15000000000000002,
+            "update_error": 0.15000000000000002,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "1f410992443773a67e62c473206a387147f28a03c9bdf72b98128ad59f444c8f",
+            "posterior": 0.07692307692307693,
+            "posterior_error": 0.3230769230769231,
+            "pre_probability": 0.25,
+            "pre_request_id": "ca1be2f7abc05254228857398c65f51bb744f54c9edb252d2717af09254dcaf6",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.3230769230769231,
+            "wording": "natural"
+          }
+        ],
+        "controls": [
+          {
+            "absolute_error": 0.066667,
+            "control_id": "l1",
+            "correct": false,
+            "probability": 0.166667,
+            "request_id": "4e7ba1a7f114a41c15a9121035134bc5056b15246f0056fcda51dcdcb58016c6",
+            "target": 0.1,
+            "wording": "original"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l1",
+            "correct": true,
+            "probability": 0.1,
+            "request_id": "11d5c9a84f45aacfac4819d30297523bf96725ca0b218cd09b228e758a4e63c5",
+            "target": 0.1,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l1",
+            "correct": true,
+            "probability": 0.1,
+            "request_id": "064b5c1412113fc78a7e1084306e36ed3bff4202923ccba637d11d692a06807e",
+            "target": 0.1,
+            "wording": "natural"
+          },
+          {
+            "absolute_error": 0.15000000000000002,
+            "control_id": "l2",
+            "correct": false,
+            "probability": 0.4,
+            "request_id": "b118f49c1bec3c6163d3eca9bd85556127b79987b1bea3207c868124a5feef6b",
+            "target": 0.25,
+            "wording": "original"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l2",
+            "correct": true,
+            "probability": 0.25,
+            "request_id": "06eef201c1c18cb3cd38aa2c946049d521a38e173b4697d41d88438b3b166343",
+            "target": 0.25,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.25,
+            "control_id": "l2",
+            "correct": false,
+            "probability": 0.5,
+            "request_id": "82e4a6a02a11190a6da452129e46a8a7f5c6b301e8a010ebb92d338bce86b5c8",
+            "target": 0.25,
+            "wording": "natural"
+          },
+          {
+            "absolute_error": 0.30000000000000004,
+            "control_id": "l3",
+            "correct": false,
+            "probability": 0.8,
+            "request_id": "00f155defef7a0b954fc0ce955a08dd24a70c9d58fa37a1c47ac94a4895f2eaf",
+            "target": 0.5,
+            "wording": "original"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l3",
+            "correct": true,
+            "probability": 0.5,
+            "request_id": "e43a48cdbe0e7bbf74bfeddbb274d9de4b2cd004767a1c45da4e3d668099bc27",
+            "target": 0.5,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l3",
+            "correct": true,
+            "probability": 0.5,
+            "request_id": "80427fa71c9ba4793dd89476ba8dde1d721310a5c5d811422a7cac1ea957ec16",
+            "target": 0.5,
+            "wording": "natural"
+          },
+          {
+            "absolute_error": 0.08333333333333337,
+            "control_id": "l4",
+            "correct": false,
+            "probability": 0.8333333333333334,
+            "request_id": "3dbac8eb2ef2742b138197f90ca07229a0dbed418b0cd4497043eb5bd84c955d",
+            "target": 0.75,
+            "wording": "original"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l4",
+            "correct": true,
+            "probability": 0.75,
+            "request_id": "7a04416ab1db4c447484fbabfa88fd0804a690b4ea861df4f7fa4efab365e3f7",
+            "target": 0.75,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.050000000000000044,
+            "control_id": "l4",
+            "correct": false,
+            "probability": 0.8,
+            "request_id": "00a0ee5fcbee24c30f8ea85606c02aeb41219ec09d527c8276c1ceb832f314b3",
+            "target": 0.75,
+            "wording": "natural"
+          }
+        ],
+        "cost": {
+          "attempts": 90,
+          "generation_wall_seconds": 8.173055669525638,
+          "mlx_peak_bytes": 1253191720
+        },
+        "coverage": {
+          "completed_eligible": 90,
+          "executed": 90,
+          "planned": 90,
+          "primary_scoreable": 90,
+          "statuses": {
+            "valid": 90
+          },
+          "strict_compliant": 0,
+          "strict_denominator": 90
+        },
+        "groups": {
+          "mathematical": {
+            "condition_scores": {
+              "irrelevant": {
+                "posterior_bounds": [
+                  0.2,
+                  0.2
+                ],
+                "posterior_error": {
+                  "mean": 0.2,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": 0.2,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "update_error": {
+                  "mean": 0.19999999999999998,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              },
+              "relevant": {
+                "posterior_bounds": [
+                  0.21346153846153848,
+                  0.21346153846153848
+                ],
+                "posterior_error": {
+                  "mean": 0.21346153846153848,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": null,
+                  "planned": 0,
+                  "scoreable": 0
+                },
+                "update_error": {
+                  "mean": 0.21346153846153848,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              }
+            },
+            "coverage": {
+              "completed_eligible": 28,
+              "executed": 28,
+              "planned": 28,
+              "primary_scoreable": 28,
+              "statuses": {
+                "valid": 28
+              },
+              "strict_compliant": 0,
+              "strict_denominator": 28
+            },
+            "likelihood": {
+              "absolute_error": 0.0,
+              "correct": 4,
+              "planned": 4,
+              "scoreable": 4
+            },
+            "metrics": {
+              "posterior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.20673076923076925,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "prior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.0,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "uninformative_drift": {
+                "complete_scenarios": 3,
+                "mean": 0.2,
+                "planned": 6,
+                "scoreable": 6
+              },
+              "update_error": {
+                "complete_scenarios": 3,
+                "mean": 0.20673076923076925,
+                "planned": 12,
+                "scoreable": 12
+              }
+            },
+            "posterior_loss_bounds": [
+              0.20673076923076925,
+              0.20673076923076925
+            ],
+            "scenario_scores": {
+              "d1": {
+                "posterior_bounds": [
+                  0.29615384615384616,
+                  0.29615384615384616
+                ],
+                "posterior_error": {
+                  "mean": 0.29615384615384616,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.4,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.29615384615384616,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d2": {
+                "posterior_bounds": [
+                  0.10000000000000002,
+                  0.10000000000000002
+                ],
+                "posterior_error": {
+                  "mean": 0.10000000000000002,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.0,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.10000000000000002,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d3": {
+                "posterior_bounds": [
+                  0.22403846153846158,
+                  0.22403846153846158
+                ],
+                "posterior_error": {
+                  "mean": 0.22403846153846158,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.2,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.22403846153846158,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              }
+            },
+            "unchanged_prior_posterior_baseline": 0.11346153846153847
+          },
+          "natural": {
+            "condition_scores": {
+              "irrelevant": {
+                "posterior_bounds": [
+                  0.25,
+                  0.25
+                ],
+                "posterior_error": {
+                  "mean": 0.25,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": 0.25,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "update_error": {
+                  "mean": 0.25,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              },
+              "relevant": {
+                "posterior_bounds": [
+                  0.30512820512820515,
+                  0.30512820512820515
+                ],
+                "posterior_error": {
+                  "mean": 0.30512820512820515,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": null,
+                  "planned": 0,
+                  "scoreable": 0
+                },
+                "update_error": {
+                  "mean": 0.3051282051282051,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              }
+            },
+            "coverage": {
+              "completed_eligible": 28,
+              "executed": 28,
+              "planned": 28,
+              "primary_scoreable": 28,
+              "statuses": {
+                "valid": 28
+              },
+              "strict_compliant": 0,
+              "strict_denominator": 28
+            },
+            "likelihood": {
+              "absolute_error": 0.07500000000000001,
+              "correct": 2,
+              "planned": 4,
+              "scoreable": 4
+            },
+            "metrics": {
+              "posterior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.2775641025641026,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "prior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.0,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "uninformative_drift": {
+                "complete_scenarios": 3,
+                "mean": 0.25,
+                "planned": 6,
+                "scoreable": 6
+              },
+              "update_error": {
+                "complete_scenarios": 3,
+                "mean": 0.2775641025641026,
+                "planned": 12,
+                "scoreable": 12
+              }
+            },
+            "posterior_loss_bounds": [
+              0.2775641025641026,
+              0.2775641025641026
+            ],
+            "scenario_scores": {
+              "d1": {
+                "posterior_bounds": [
+                  0.29615384615384616,
+                  0.29615384615384616
+                ],
+                "posterior_error": {
+                  "mean": 0.29615384615384616,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.4,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.29615384615384616,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d2": {
+                "posterior_bounds": [
+                  0.2,
+                  0.2
+                ],
+                "posterior_error": {
+                  "mean": 0.2,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.09999999999999998,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.2,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d3": {
+                "posterior_bounds": [
+                  0.33653846153846156,
+                  0.33653846153846156
+                ],
+                "posterior_error": {
+                  "mean": 0.33653846153846156,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.25,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.33653846153846156,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              }
+            },
+            "unchanged_prior_posterior_baseline": 0.11346153846153847
+          },
+          "original": {
+            "condition_scores": {
+              "irrelevant": {
+                "posterior_bounds": [
+                  0.2111111111111111,
+                  0.2111111111111111
+                ],
+                "posterior_error": {
+                  "mean": 0.2111111111111111,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.26666666666666666,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": 0.2777777777777778,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "update_error": {
+                  "mean": 0.2777777777777778,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              },
+              "relevant": {
+                "posterior_bounds": [
+                  0.20512820512820515,
+                  0.20512820512820515
+                ],
+                "posterior_error": {
+                  "mean": 0.20512820512820515,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.26666666666666666,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": null,
+                  "planned": 0,
+                  "scoreable": 0
+                },
+                "update_error": {
+                  "mean": 0.34358974358974365,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              }
+            },
+            "coverage": {
+              "completed_eligible": 28,
+              "executed": 28,
+              "planned": 28,
+              "primary_scoreable": 28,
+              "statuses": {
+                "valid": 28
+              },
+              "strict_compliant": 0,
+              "strict_denominator": 28
+            },
+            "likelihood": {
+              "absolute_error": 0.15000008333333337,
+              "correct": 0,
+              "planned": 4,
+              "scoreable": 4
+            },
+            "metrics": {
+              "posterior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.20811965811965813,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "prior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.26666666666666666,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "uninformative_drift": {
+                "complete_scenarios": 3,
+                "mean": 0.2777777777777778,
+                "planned": 6,
+                "scoreable": 6
+              },
+              "update_error": {
+                "complete_scenarios": 3,
+                "mean": 0.3106837606837607,
+                "planned": 12,
+                "scoreable": 12
+              }
+            },
+            "posterior_loss_bounds": [
+              0.20811965811965813,
+              0.20811965811965813
+            ],
+            "scenario_scores": {
+              "d1": {
+                "posterior_bounds": [
+                  0.24615384615384617,
+                  0.24615384615384617
+                ],
+                "posterior_error": {
+                  "mean": 0.24615384615384617,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.8,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.5,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.5538461538461539,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d2": {
+                "posterior_bounds": [
+                  0.18333333333333335,
+                  0.18333333333333335
+                ],
+                "posterior_error": {
+                  "mean": 0.18333333333333335,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.16666666666666663,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.18333333333333335,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d3": {
+                "posterior_bounds": [
+                  0.1948717948717949,
+                  0.1948717948717949
+                ],
+                "posterior_error": {
+                  "mean": 0.1948717948717949,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.16666666666666669,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.1948717948717949,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              }
+            },
+            "unchanged_prior_posterior_baseline": 0.11346153846153847
+          }
+        },
+        "repeats": [
+          {
+            "original_request_id": "7dcf4a08c710bf8c9fcf8ceeaf79fb94e11ca913e49c206cbc5cef03ed346456",
+            "probability_difference": 0.0,
+            "request_id": "77ca15d5fd2b28a265ea69cd42bbc620c4294a8a33714401288ecaf8e2647f74",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "d01077f7bbbcfc25cad0c540f511ba28dd34e2b79abaa1c4bac508ce896f57df",
+            "probability_difference": 0.0,
+            "request_id": "adf173f9982db68d03806f0e9621c5e8c984ef527b87f07cf3e1ff033c3becd5",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "d708bcc371acb304959507bdad443f08bbce9a892c1c4f0dee55abc06a19e817",
+            "probability_difference": 0.0,
+            "request_id": "cdd03dcd882123091a8f0bfdd036f4ed2bd31fd5c221abd7c6f0353d5b04fa81",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "04097c74136ada7920cd950caa1e58dfeeb89f71c16b1756740e2842d00ab4dc",
+            "probability_difference": 0.0,
+            "request_id": "9a9b3f95dd7ce9f50d6a0b79efa14d02972756a031d2b68b42b548735fe722ec",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "f6e80caa494e06d73f01bc1508783c7dea097f2e30cce6535a4193cba2b75b6f",
+            "probability_difference": 0.0,
+            "request_id": "71df12ec1f8bbd05aea4240de6f8e42dd185786b0fd9595a3c7e10c366d3a2e0",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "2c1495db177a2dd2305c6c72e0ea2917d8fb571b7a0a73881953c49d61dfebca",
+            "probability_difference": 0.0,
+            "request_id": "c867152c123ab79bfc0220b0820d6f228644a622d26b4d47f8e5873b274da867",
+            "status_equal": true,
+            "text_equal": true
+          }
+        ],
+        "suitability_checks": {
+          "mathematical": {
+            "drift": false,
+            "full_coverage": true,
+            "likelihood": true,
+            "posterior": false,
+            "prior": true
+          },
+          "natural": {
+            "drift": false,
+            "full_coverage": true,
+            "likelihood": false,
+            "posterior": false,
+            "prior": true
+          }
+        },
+        "suitability_pass": false
+      },
+      "reference": {
+        "condition_rows": [
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "74aafe57ed49380a1d34736e8ed34a6df31c7266f35207fd8e856c6ee48cdb5d",
+            "posterior": 0.1,
+            "posterior_error": 0.30000000000000004,
+            "pre_probability": 0.1,
+            "pre_request_id": "7fb7bfa4bb845ce31654522ac11896c287758cc02eb21c096c2780c18d83cbc4",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.30000000000000004,
+            "update_error": 0.30000000000000004,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "01682dd00f59a3deee8a30e482104ce9973a876b4d1ae354102e39f68208b03a",
+            "posterior": 0.3076923076923077,
+            "posterior_error": 0.09230769230769231,
+            "pre_probability": 0.1,
+            "pre_request_id": "941984600a2f35958b05c693843d69e63a08b79b16628172fa501935cc371787",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.09230769230769234,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "fea5ae7bacc77c70b63cb88f88299dbadc59318fe7668f73d0d80e3cf8d3a41e",
+            "posterior": 0.1,
+            "posterior_error": 0.30000000000000004,
+            "pre_probability": 0.1,
+            "pre_request_id": "e6b7d7b31bc6df38736fe3833028e48cdb7193c94163290bbd784dffc5c51693",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.30000000000000004,
+            "update_error": 0.30000000000000004,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.8,
+            "post_request_id": "2d1bd0a592d5ca04a521624179ffb674ad74f27aa6c6e9a33552ff58b3c07426",
+            "posterior": 0.3076923076923077,
+            "posterior_error": 0.49230769230769234,
+            "pre_probability": 0.1,
+            "pre_request_id": "568125d2524c08c01fc048b37fc6c779d084419dedca0805b49bcfbb9dc393ef",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.49230769230769234,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "c5f1e7616bbe61cc29b125a496370600aa38f99642b27f2f8ea1603ed90c09d7",
+            "posterior": 0.1,
+            "posterior_error": 0.30000000000000004,
+            "pre_probability": 0.1,
+            "pre_request_id": "3819ccc8de2d9c3a9d9302ce250c67a859542f41881a4298a2ad3a74fb3f6ff4",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.30000000000000004,
+            "update_error": 0.30000000000000004,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "acbc1c8a70256a1b19708a44b718a4944d8051534e49e88d33b3cc65830597bc",
+            "posterior": 0.3076923076923077,
+            "posterior_error": 0.09230769230769231,
+            "pre_probability": 0.1,
+            "pre_request_id": "ecc3bac5d36cf5de3ed11eb45d92f057651f4b5ac9290486debbebaf1bccc6e1",
+            "prior": 0.1,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.09230769230769234,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.5,
+            "post_request_id": "8a750956261f098362cd4fc0fad5638e72082b579c1631db9c3a93a0e43535a1",
+            "posterior": 0.9,
+            "posterior_error": 0.4,
+            "pre_probability": 0.9,
+            "pre_request_id": "40655c4b7a0a39df1b82b0c48608d56c2abd8bbf9a25cfbcc44d21fb09d8b9a2",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.4,
+            "update_error": 0.4,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.2,
+            "post_request_id": "2f291ef4bb0c52c673c3d12eea39294fffdaf75d99f14e55989e3a3a1b15a085",
+            "posterior": 0.6923076923076923,
+            "posterior_error": 0.4923076923076923,
+            "pre_probability": 0.9,
+            "pre_request_id": "3be9a21d08d5fd2c7fee3465aa84c3a50806cb63e1e41db86e94474b554d014a",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.4923076923076922,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "b34bc9c0b827bdbbc15bf50567814719e413ab41cece47d4f6bf4b4941842989",
+            "posterior": 0.9,
+            "posterior_error": 0.5,
+            "pre_probability": 0.9,
+            "pre_request_id": "3f3290dae38d60a641421b6e0e6ad8ccd200e1dee758ae3623a6b73d6c2a3e93",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.5,
+            "update_error": 0.4999999999999999,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.6,
+            "post_request_id": "a08ecb2296c98e22927b1bb6a73ffa521105a004096d28af198d5bf361189312",
+            "posterior": 0.6923076923076923,
+            "posterior_error": 0.09230769230769231,
+            "pre_probability": 0.9,
+            "pre_request_id": "d9657c7a87ba5fc78fca342fc166bdac5eef565f8b39b97b98c3bada298f4e7a",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.09230769230769231,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "c3ecbc6d9cac018a561fb9ef2d7e899c1e6a784103920551cebee95865ea6ea7",
+            "posterior": 0.9,
+            "posterior_error": 0.5,
+            "pre_probability": 0.9,
+            "pre_request_id": "6f71b3553d08e481dc80a252b8decb524517624250be10017b5df532bd02de54",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": true,
+            "uninformative_drift": 0.5,
+            "update_error": 0.4999999999999999,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.3333333333333333,
+            "post_request_id": "588c373287835c714bec722ae559fae1c97ecf26a7f54def93e1c00c06b38256",
+            "posterior": 0.6923076923076923,
+            "posterior_error": 0.358974358974359,
+            "pre_probability": 0.9,
+            "pre_request_id": "6597c9e87c46ea22fb2c9eb44bb40e4753c25823fb9eada86677c6c5585852a2",
+            "prior": 0.9,
+            "prior_error": 0.0,
+            "scenario_id": "d1",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.3589743589743589,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "b4dc26e40b3afd6ec0525f43c025f212f2c8983dcd855bea0119952f1cc4fb08",
+            "posterior": 0.5,
+            "posterior_error": 0.09999999999999998,
+            "pre_probability": 0.5,
+            "pre_request_id": "a57594b36c3793ba15cda15c4b8d3c1c77cab0b7884920c277f64c6056c73bc3",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.09999999999999998,
+            "update_error": 0.09999999999999998,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "f6de0674ff0e868b60d800fa82f39ac5bdeb7906ffbfb915c3202eea6755e252",
+            "posterior": 0.8,
+            "posterior_error": 0.20000000000000007,
+            "pre_probability": 0.5,
+            "pre_request_id": "f4557604feb1677c946d147847ec1dfce98a3087441b1980ca358401e2fc7679",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.20000000000000007,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "83456baf776ed8f9f276313d7172d8813f640efee8868aca54bd408391c4cb88",
+            "posterior": 0.5,
+            "posterior_error": 0.09999999999999998,
+            "pre_probability": 0.5,
+            "pre_request_id": "5a0ec276366e77152e4642f4260fa338eb7cd7b54db467064bf3579904ec0352",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.09999999999999998,
+            "update_error": 0.09999999999999998,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "2b07e4b4906329d2103763df08fb40212d1d265c9f017858223f3b8f4a0a4412",
+            "posterior": 0.8,
+            "posterior_error": 0.20000000000000007,
+            "pre_probability": 0.5,
+            "pre_request_id": "24250a464f3e10cc1b05deef167748e18a5bd4146df2ee40ba31fe4fd4ac4d70",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.20000000000000007,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "8bd5b0c054756ed2b85715cf77b560e1217aac5720a81ab6014411c32ed00ec3",
+            "posterior": 0.5,
+            "posterior_error": 0.09999999999999998,
+            "pre_probability": 0.5,
+            "pre_request_id": "0fa83d5bf62ed149247402b1f52bb1291a6d475f3efeabdb688007bea9077bee",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.09999999999999998,
+            "update_error": 0.09999999999999998,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "127766f7733310cc60abaf6e596255411b333d97853def8c5a4d900d05337155",
+            "posterior": 0.8,
+            "posterior_error": 0.4,
+            "pre_probability": 0.5,
+            "pre_request_id": "a7fa99cc7527d0395ddb8a2c12f9836bf78d05ab838caade267921faf3f7b253",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.4,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.6,
+            "post_request_id": "50b54ecc1989517c0890f045023f03f8c7b0547a62751adda3e8510bdce40479",
+            "posterior": 0.5,
+            "posterior_error": 0.09999999999999998,
+            "pre_probability": 0.5,
+            "pre_request_id": "9e9dc379c8b52149fb91156e10f808c21be7195b4888584e801fa920682bfd2c",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.09999999999999998,
+            "update_error": 0.09999999999999998,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.2,
+            "post_request_id": "2edcfe267d13255af4a8b7e90cddad6f8eadcc3c23ae4b42bebd0b3cc6eff911",
+            "posterior": 0.2,
+            "posterior_error": 0.0,
+            "pre_probability": 0.5,
+            "pre_request_id": "1e13d55a827f14a07d729d7e90a86b5ee1f808e35fc4d13725bfa4dd3effb3dd",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.0,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.6,
+            "post_request_id": "8f60f96ed8b0b46b9a30bf8299088cfd1bd6fcb86775dea098bff2f230ca24c4",
+            "posterior": 0.5,
+            "posterior_error": 0.09999999999999998,
+            "pre_probability": 0.5,
+            "pre_request_id": "b658c31f50169eb2358c54feeba334962ddd426ab6edf426d6e0ccd668b6f5ea",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.09999999999999998,
+            "update_error": 0.09999999999999998,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "73c4c3de8fc4dca78e6940ba5e5ffdbe7186fa65d23b8b4dc00c5beea029a1a4",
+            "posterior": 0.2,
+            "posterior_error": 0.2,
+            "pre_probability": 0.5,
+            "pre_request_id": "102f281646528c02dedc7ad43b406787211d23eb5346cec13adf29a88c75a5cc",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.2,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "5de03adc93648e6ce2b71b3b42fed294e49c81004fa784dc94b1229d61d717aa",
+            "posterior": 0.5,
+            "posterior_error": 0.09999999999999998,
+            "pre_probability": 0.5,
+            "pre_request_id": "e7896a71bd43ca0adcb1ec4e34a6664c73d238bc5c4b40af50e5d362709e12f1",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": true,
+            "uninformative_drift": 0.09999999999999998,
+            "update_error": 0.09999999999999998,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.3333333333333333,
+            "post_request_id": "359d90568d4d1711cc3073a1bc1fed70c6195a8474937698da10f5fa6647ee8c",
+            "posterior": 0.2,
+            "posterior_error": 0.1333333333333333,
+            "pre_probability": 0.5,
+            "pre_request_id": "02a2c9847f37e4c108a7c08f1d3ca412e2802fc3cdc6060f5d38ee1418d958c0",
+            "prior": 0.5,
+            "prior_error": 0.0,
+            "scenario_id": "d2",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.1333333333333333,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "11caf1c9c339c120a3e719accf485ac98336389e9b507224d1aace867c66ab90",
+            "posterior": 0.75,
+            "posterior_error": 0.15000000000000002,
+            "pre_probability": 0.75,
+            "pre_request_id": "261b4c82293a2cf1a37543e3b268a19cc1682d4199e28fd5cda6adffd9638a0c",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.15000000000000002,
+            "update_error": 0.15000000000000002,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.8,
+            "post_request_id": "5fe2779bf796392dc77a6c3f7b03a8bc3476267278be6c414e2edc90c21225f2",
+            "posterior": 0.9230769230769231,
+            "posterior_error": 0.12307692307692308,
+            "pre_probability": 0.75,
+            "pre_request_id": "5d356ec02206a41b3f15ea7058b9d7b5016f8b61fe42742fea4656804a5e858a",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.12307692307692308,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.6,
+            "post_request_id": "67692c43d55f1f401fd80e41fb208a8ab76d67151d1ca2372b7414aa4a65f9f1",
+            "posterior": 0.75,
+            "posterior_error": 0.15000000000000002,
+            "pre_probability": 0.75,
+            "pre_request_id": "625f9198fbc85da71ae9ec62306960b7e62a248a6c66cec3210e6bce34131cc9",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.15000000000000002,
+            "update_error": 0.15000000000000002,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.8,
+            "post_request_id": "b17d6fe3c1bbd291c397d9014207d017832573b13f40625f624c318ffb765a6b",
+            "posterior": 0.9230769230769231,
+            "posterior_error": 0.12307692307692308,
+            "pre_probability": 0.75,
+            "pre_request_id": "20f3e7be7358ddec99b36a0e97f93a47f0d5ed472a5e9000fc9ac03aabd306c8",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.12307692307692308,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "c3d51bbe5b5ab627488248e72460a6397a73e290f67ecd54c24cb70c9f596d57",
+            "posterior": 0.75,
+            "posterior_error": 0.35,
+            "pre_probability": 0.75,
+            "pre_request_id": "8bb7f5cd2635e3048f9e12663a6d96d297c836232d364ebe1d801fc08147476e",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.35,
+            "update_error": 0.3500000000000001,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "original",
+            "post_probability": 0.4,
+            "post_request_id": "0f33fc5300cd4f61889334f0384c0fe4b8bb9fe4d77ab3b7093c5370b0ac78a1",
+            "posterior": 0.9230769230769231,
+            "posterior_error": 0.5230769230769231,
+            "pre_probability": 0.75,
+            "pre_request_id": "d9b95e6ab9586f3e778bf6da0a5b6e9775b505ae44fcb5c62212d392d685cc70",
+            "prior": 0.75,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.523076923076923,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.5,
+            "post_request_id": "d7f197b8b92b51ea6f5f8aef4c9b38f95f945fdad5ba85dce3a326af84b46fb2",
+            "posterior": 0.25,
+            "posterior_error": 0.25,
+            "pre_probability": 0.25,
+            "pre_request_id": "38e365e3f1ffb5702056aa8a57a12031ede4b011118fe34a8197956cd51dfd2f",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.25,
+            "update_error": 0.25,
+            "wording": "original"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.2,
+            "post_request_id": "96fc0bb19715bba4726ba5240e2811388c78535a6658899683627627ea1cfa3d",
+            "posterior": 0.07692307692307693,
+            "posterior_error": 0.12307692307692308,
+            "pre_probability": 0.25,
+            "pre_request_id": "604e82b0150d6f886f03e0ebffe86a07232bdc8a64814368b56c437093386477",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.12307692307692308,
+            "wording": "original"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.5,
+            "post_request_id": "59d433aec696201fb4d72def10f55f1302373e2d6c80569df02c1cf4094b8fbf",
+            "posterior": 0.25,
+            "posterior_error": 0.25,
+            "pre_probability": 0.25,
+            "pre_request_id": "6f13c19a5369a2999756889ab4c40c278bfd975c521d5d7bde3dcb82f92e1a95",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.25,
+            "update_error": 0.25,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.25,
+            "post_request_id": "6cf06d918cc6ee024d4a35067eba9ef82553b4ede67b0186d2c4425db0daa52b",
+            "posterior": 0.07692307692307693,
+            "posterior_error": 0.17307692307692307,
+            "pre_probability": 0.25,
+            "pre_request_id": "74cbbc73580b01d42d5bc7db78c9a15a8fc7d9369060f5b2d57f259f9c31332c",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.17307692307692307,
+            "wording": "mathematical"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "swapped",
+            "post_probability": 0.4,
+            "post_request_id": "2ea133fb5594b40b795e587ccd1f07fa21737ab9c1a08b8897b983cea8893cd2",
+            "posterior": 0.25,
+            "posterior_error": 0.15000000000000002,
+            "pre_probability": 0.25,
+            "pre_request_id": "6df0a53938d9a79a36112a9e8bd6e74687ba72467c7e5d5455e586d01b790d64",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": true,
+            "uninformative_drift": 0.15000000000000002,
+            "update_error": 0.15000000000000002,
+            "wording": "natural"
+          },
+          {
+            "condition_id": "relevant",
+            "label_variant": "swapped",
+            "post_probability": 0.25,
+            "post_request_id": "ced64f83ebe2d4405b35d163f7ce03628475a364bcee0d65bb0100caaafd43d9",
+            "posterior": 0.07692307692307693,
+            "posterior_error": 0.17307692307692307,
+            "pre_probability": 0.25,
+            "pre_request_id": "2fe9c2da1303622b00a2a0a421576977fb080de4b3158c12dff1f0fcc0ced81d",
+            "prior": 0.25,
+            "prior_error": 0.0,
+            "scenario_id": "d3",
+            "uninformative": false,
+            "uninformative_drift": null,
+            "update_error": 0.17307692307692307,
+            "wording": "natural"
+          }
+        ],
+        "controls": [
+          {
+            "absolute_error": 0.06666666666666665,
+            "control_id": "l1",
+            "correct": false,
+            "probability": 0.16666666666666666,
+            "request_id": "36307a340bb2a8145e5103025c9fef79d8efd687b812ed26cc2ab62e7e14ced7",
+            "target": 0.1,
+            "wording": "original"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l1",
+            "correct": true,
+            "probability": 0.1,
+            "request_id": "f7bc041e2cba872da75ebf2889cda2f31b008be1216905b8a492da852ab794d8",
+            "target": 0.1,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l1",
+            "correct": true,
+            "probability": 0.1,
+            "request_id": "9b39ef793eedf0ab72a88dac1b08566ed1c9400384d0af7adc7be2c90bc8c139",
+            "target": 0.1,
+            "wording": "natural"
+          },
+          {
+            "absolute_error": 0.15000000000000002,
+            "control_id": "l2",
+            "correct": false,
+            "probability": 0.4,
+            "request_id": "791b7107c42fda5bb0b13d4b7cb489d54da0c495e1569b10fd26b0380bf03c30",
+            "target": 0.25,
+            "wording": "original"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l2",
+            "correct": true,
+            "probability": 0.25,
+            "request_id": "8451626b9223a42bf25ac5fc740bd01bafd92356b0712717cca9ea9b19bef385",
+            "target": 0.25,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.25,
+            "control_id": "l2",
+            "correct": false,
+            "probability": 0.5,
+            "request_id": "c5bcc045062c8d8797162f854178df8273d9e3b906a6f0e07f65285ab90013e8",
+            "target": 0.25,
+            "wording": "natural"
+          },
+          {
+            "absolute_error": 0.30000000000000004,
+            "control_id": "l3",
+            "correct": false,
+            "probability": 0.8,
+            "request_id": "4b663fa40abbe4488a30ad40d2f3858aa7e893e0d476f5534c3b6acafe2a2b74",
+            "target": 0.5,
+            "wording": "original"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l3",
+            "correct": true,
+            "probability": 0.5,
+            "request_id": "d67cb76121be1b3386be9f11f0f86f4112e28b5f43de9a332858b60a77862212",
+            "target": 0.5,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l3",
+            "correct": true,
+            "probability": 0.5,
+            "request_id": "f8332f498f0ddf796cf925bf7c503f9cc8d565d35fc81098290c8c820d58f8f3",
+            "target": 0.5,
+            "wording": "natural"
+          },
+          {
+            "absolute_error": 0.08333333333333337,
+            "control_id": "l4",
+            "correct": false,
+            "probability": 0.8333333333333334,
+            "request_id": "8cfe71cad9b83b60002d93212547a39cb6c7e46398089f1bd65b9fdbc0c728a6",
+            "target": 0.75,
+            "wording": "original"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l4",
+            "correct": true,
+            "probability": 0.75,
+            "request_id": "c06b9dd81f23a367f4b8468996e2956e68eb47ea18f5a3bda5fe31b8518f5140",
+            "target": 0.75,
+            "wording": "mathematical"
+          },
+          {
+            "absolute_error": 0.0,
+            "control_id": "l4",
+            "correct": true,
+            "probability": 0.75,
+            "request_id": "e1b757680ec3c3f73b3c0ac1e69937ee14f5861c98477b961bc130a78a2a7ade",
+            "target": 0.75,
+            "wording": "natural"
+          }
+        ],
+        "cost": {
+          "attempts": 90,
+          "generation_wall_seconds": 15.407070003682747,
+          "mlx_peak_bytes": 3263803276
+        },
+        "coverage": {
+          "completed_eligible": 90,
+          "executed": 90,
+          "planned": 90,
+          "primary_scoreable": 90,
+          "statuses": {
+            "valid": 90
+          },
+          "strict_compliant": 0,
+          "strict_denominator": 90
+        },
+        "groups": {
+          "mathematical": {
+            "condition_scores": {
+              "irrelevant": {
+                "posterior_bounds": [
+                  0.23333333333333334,
+                  0.23333333333333334
+                ],
+                "posterior_error": {
+                  "mean": 0.23333333333333334,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": 0.23333333333333334,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "update_error": {
+                  "mean": 0.2333333333333333,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              },
+              "relevant": {
+                "posterior_bounds": [
+                  0.21346153846153848,
+                  0.21346153846153848
+                ],
+                "posterior_error": {
+                  "mean": 0.21346153846153848,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": null,
+                  "planned": 0,
+                  "scoreable": 0
+                },
+                "update_error": {
+                  "mean": 0.21346153846153848,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              }
+            },
+            "coverage": {
+              "completed_eligible": 28,
+              "executed": 28,
+              "planned": 28,
+              "primary_scoreable": 28,
+              "statuses": {
+                "valid": 28
+              },
+              "strict_compliant": 0,
+              "strict_denominator": 28
+            },
+            "likelihood": {
+              "absolute_error": 0.0,
+              "correct": 4,
+              "planned": 4,
+              "scoreable": 4
+            },
+            "metrics": {
+              "posterior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.2233974358974359,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "prior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.0,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "uninformative_drift": {
+                "complete_scenarios": 3,
+                "mean": 0.23333333333333334,
+                "planned": 6,
+                "scoreable": 6
+              },
+              "update_error": {
+                "complete_scenarios": 3,
+                "mean": 0.2233974358974359,
+                "planned": 12,
+                "scoreable": 12
+              }
+            },
+            "posterior_loss_bounds": [
+              0.2233974358974359,
+              0.2233974358974359
+            ],
+            "scenario_scores": {
+              "d1": {
+                "posterior_bounds": [
+                  0.34615384615384615,
+                  0.34615384615384615
+                ],
+                "posterior_error": {
+                  "mean": 0.34615384615384615,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.4,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.34615384615384615,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d2": {
+                "posterior_bounds": [
+                  0.15000000000000002,
+                  0.15000000000000002
+                ],
+                "posterior_error": {
+                  "mean": 0.15000000000000002,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.09999999999999998,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.15000000000000002,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d3": {
+                "posterior_bounds": [
+                  0.17403846153846153,
+                  0.17403846153846153
+                ],
+                "posterior_error": {
+                  "mean": 0.17403846153846153,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.2,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.17403846153846153,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              }
+            },
+            "unchanged_prior_posterior_baseline": 0.11346153846153847
+          },
+          "natural": {
+            "condition_scores": {
+              "irrelevant": {
+                "posterior_bounds": [
+                  0.25,
+                  0.25
+                ],
+                "posterior_error": {
+                  "mean": 0.25,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": 0.25,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "update_error": {
+                  "mean": 0.25,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              },
+              "relevant": {
+                "posterior_bounds": [
+                  0.28012820512820513,
+                  0.28012820512820513
+                ],
+                "posterior_error": {
+                  "mean": 0.28012820512820513,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": null,
+                  "planned": 0,
+                  "scoreable": 0
+                },
+                "update_error": {
+                  "mean": 0.28012820512820513,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              }
+            },
+            "coverage": {
+              "completed_eligible": 28,
+              "executed": 28,
+              "planned": 28,
+              "primary_scoreable": 28,
+              "statuses": {
+                "valid": 28
+              },
+              "strict_compliant": 0,
+              "strict_denominator": 28
+            },
+            "likelihood": {
+              "absolute_error": 0.0625,
+              "correct": 3,
+              "planned": 4,
+              "scoreable": 4
+            },
+            "metrics": {
+              "posterior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.26506410256410257,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "prior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.0,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "uninformative_drift": {
+                "complete_scenarios": 3,
+                "mean": 0.25,
+                "planned": 6,
+                "scoreable": 6
+              },
+              "update_error": {
+                "complete_scenarios": 3,
+                "mean": 0.26506410256410257,
+                "planned": 12,
+                "scoreable": 12
+              }
+            },
+            "posterior_loss_bounds": [
+              0.26506410256410257,
+              0.26506410256410257
+            ],
+            "scenario_scores": {
+              "d1": {
+                "posterior_bounds": [
+                  0.3128205128205128,
+                  0.3128205128205128
+                ],
+                "posterior_error": {
+                  "mean": 0.3128205128205128,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.4,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.3128205128205128,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d2": {
+                "posterior_bounds": [
+                  0.18333333333333332,
+                  0.18333333333333332
+                ],
+                "posterior_error": {
+                  "mean": 0.18333333333333332,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.09999999999999998,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.18333333333333332,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d3": {
+                "posterior_bounds": [
+                  0.29903846153846153,
+                  0.29903846153846153
+                ],
+                "posterior_error": {
+                  "mean": 0.29903846153846153,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.25,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.29903846153846153,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              }
+            },
+            "unchanged_prior_posterior_baseline": 0.11346153846153847
+          },
+          "original": {
+            "condition_scores": {
+              "irrelevant": {
+                "posterior_bounds": [
+                  0.21666666666666667,
+                  0.21666666666666667
+                ],
+                "posterior_error": {
+                  "mean": 0.21666666666666667,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": 0.21666666666666667,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "update_error": {
+                  "mean": 0.21666666666666667,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              },
+              "relevant": {
+                "posterior_bounds": [
+                  0.1717948717948718,
+                  0.1717948717948718
+                ],
+                "posterior_error": {
+                  "mean": 0.1717948717948718,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 6,
+                  "scoreable": 6
+                },
+                "uninformative_drift": {
+                  "mean": null,
+                  "planned": 0,
+                  "scoreable": 0
+                },
+                "update_error": {
+                  "mean": 0.1717948717948718,
+                  "planned": 6,
+                  "scoreable": 6
+                }
+              }
+            },
+            "coverage": {
+              "completed_eligible": 28,
+              "executed": 28,
+              "planned": 28,
+              "primary_scoreable": 28,
+              "statuses": {
+                "valid": 28
+              },
+              "strict_compliant": 0,
+              "strict_denominator": 28
+            },
+            "likelihood": {
+              "absolute_error": 0.15000000000000002,
+              "correct": 0,
+              "planned": 4,
+              "scoreable": 4
+            },
+            "metrics": {
+              "posterior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.19423076923076923,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "prior_error": {
+                "complete_scenarios": 3,
+                "mean": 0.0,
+                "planned": 12,
+                "scoreable": 12
+              },
+              "uninformative_drift": {
+                "complete_scenarios": 3,
+                "mean": 0.21666666666666667,
+                "planned": 6,
+                "scoreable": 6
+              },
+              "update_error": {
+                "complete_scenarios": 3,
+                "mean": 0.19423076923076923,
+                "planned": 12,
+                "scoreable": 12
+              }
+            },
+            "posterior_loss_bounds": [
+              0.19423076923076923,
+              0.19423076923076923
+            ],
+            "scenario_scores": {
+              "d1": {
+                "posterior_bounds": [
+                  0.3211538461538462,
+                  0.3211538461538462
+                ],
+                "posterior_error": {
+                  "mean": 0.3211538461538462,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.35000000000000003,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.3211538461538462,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d2": {
+                "posterior_bounds": [
+                  0.1,
+                  0.1
+                ],
+                "posterior_error": {
+                  "mean": 0.1,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.09999999999999998,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.1,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              },
+              "d3": {
+                "posterior_bounds": [
+                  0.16153846153846155,
+                  0.16153846153846155
+                ],
+                "posterior_error": {
+                  "mean": 0.16153846153846155,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "prior_error": {
+                  "mean": 0.0,
+                  "planned": 4,
+                  "scoreable": 4
+                },
+                "uninformative_drift": {
+                  "mean": 0.2,
+                  "planned": 2,
+                  "scoreable": 2
+                },
+                "update_error": {
+                  "mean": 0.16153846153846155,
+                  "planned": 4,
+                  "scoreable": 4
+                }
+              }
+            },
+            "unchanged_prior_posterior_baseline": 0.11346153846153847
+          }
+        },
+        "repeats": [
+          {
+            "original_request_id": "7fb7bfa4bb845ce31654522ac11896c287758cc02eb21c096c2780c18d83cbc4",
+            "probability_difference": 0.0,
+            "request_id": "0a01b94c502c357dfd15171b4bb6300257a7161d8d8b33bf859e8e7faa76bfe6",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "74aafe57ed49380a1d34736e8ed34a6df31c7266f35207fd8e856c6ee48cdb5d",
+            "probability_difference": 0.0,
+            "request_id": "8e4574d454b3e8dca763ce682ebd0ea695cbca3dba7040b64059f1c6770c0801",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "941984600a2f35958b05c693843d69e63a08b79b16628172fa501935cc371787",
+            "probability_difference": 0.0,
+            "request_id": "601a7545ea8e7d0f0927e5de8badfb2a0a3fa9b4a43095d1a8d3f1d2999ed664",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "01682dd00f59a3deee8a30e482104ce9973a876b4d1ae354102e39f68208b03a",
+            "probability_difference": 0.0,
+            "request_id": "e671d96be50410ea9ebad78fe93e195b62b52017a50374acfc8346a361d8c691",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "e6b7d7b31bc6df38736fe3833028e48cdb7193c94163290bbd784dffc5c51693",
+            "probability_difference": 0.0,
+            "request_id": "b038b11e7c393666c8080ea58a0a75872487e2af4816cbab932bf00f16bfa67e",
+            "status_equal": true,
+            "text_equal": true
+          },
+          {
+            "original_request_id": "fea5ae7bacc77c70b63cb88f88299dbadc59318fe7668f73d0d80e3cf8d3a41e",
+            "probability_difference": 0.0,
+            "request_id": "87f412fc88ae2f950719822f5c734fb2599885367c3161f39affe04af58098ff",
+            "status_equal": true,
+            "text_equal": true
+          }
+        ],
+        "suitability_checks": {
+          "mathematical": {
+            "drift": false,
+            "full_coverage": true,
+            "likelihood": true,
+            "posterior": false,
+            "prior": true
+          },
+          "natural": {
+            "drift": false,
+            "full_coverage": true,
+            "likelihood": true,
+            "posterior": false,
+            "prior": true
+          }
+        },
+        "suitability_pass": false
+      }
+    },
+    "observations": {
+      "00a0ee5fcbee24c30f8ea85606c02aeb41219ec09d527c8276c1ceb832f314b3": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "00f155defef7a0b954fc0ce955a08dd24a70c9d58fa37a1c47ac94a4895f2eaf": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "01682dd00f59a3deee8a30e482104ce9973a876b4d1ae354102e39f68208b03a": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "02a2c9847f37e4c108a7c08f1d3ca412e2802fc3cdc6060f5d38ee1418d958c0": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "02fa8b4a2b498215f1555f1049bcb055166c9a1aff1d944948db115b61bc638a": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "04097c74136ada7920cd950caa1e58dfeeb89f71c16b1756740e2842d00ab4dc": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "064b5c1412113fc78a7e1084306e36ed3bff4202923ccba637d11d692a06807e": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "06eef201c1c18cb3cd38aa2c946049d521a38e173b4697d41d88438b3b166343": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "0a01b94c502c357dfd15171b4bb6300257a7161d8d8b33bf859e8e7faa76bfe6": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "0a8aa1658d88578d11692adf9f9f817720d61b7e4271c1bb429e2c345d84205c": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "0f33fc5300cd4f61889334f0384c0fe4b8bb9fe4d77ab3b7093c5370b0ac78a1": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "0f3de169fc095abf08f8d801cae47e1a9cfb0c7bf14ecbd5886c679749646071": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "0fa83d5bf62ed149247402b1f52bb1291a6d475f3efeabdb688007bea9077bee": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "102f281646528c02dedc7ad43b406787211d23eb5346cec13adf29a88c75a5cc": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "11caf1c9c339c120a3e719accf485ac98336389e9b507224d1aace867c66ab90": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "11d5c9a84f45aacfac4819d30297523bf96725ca0b218cd09b228e758a4e63c5": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "123b6333e6516e4bcd89a8fcc0dc3a020f915485403cdee4476383d36f19576d": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "127766f7733310cc60abaf6e596255411b333d97853def8c5a4d900d05337155": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "1534442a10b3090c5ad900a677587229e33545d36034d3ce7fd6946dddcf6ab6": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "16d4d82ee2ebe8e846e3964337ffa2b1acff36c2e3270ccc2fdf884fe72788c0": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "190119f4c941fc3c6ab20f836003cd111c494e7c7640860ff66a024078d7f84c": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "1a0ca3fcace9a5581bbae1a650510167af923e6b0c3dae4884a4c2bbf16adcc9": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "1b3c8c6a72a6089f2fe6e3457bb2beac5b8d1d9ec88263847417d83604c2d79a": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "1e13d55a827f14a07d729d7e90a86b5ee1f808e35fc4d13725bfa4dd3effb3dd": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "1f410992443773a67e62c473206a387147f28a03c9bdf72b98128ad59f444c8f": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "20f3e7be7358ddec99b36a0e97f93a47f0d5ed472a5e9000fc9ac03aabd306c8": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "21bdab2870b8fdd6da4fd36d7b078adf4df764a3ed71099541912f426eb845b4": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "24250a464f3e10cc1b05deef167748e18a5bd4146df2ee40ba31fe4fd4ac4d70": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "24ac1f3b56983936d63527735cfc1dc6b6e0cbc59524a69d6e59b510c7ed9697": {
+        "probability": 0.6666666666666666,
+        "status": "valid"
+      },
+      "261b4c82293a2cf1a37543e3b268a19cc1682d4199e28fd5cda6adffd9638a0c": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "2b07e4b4906329d2103763df08fb40212d1d265c9f017858223f3b8f4a0a4412": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "2c1495db177a2dd2305c6c72e0ea2917d8fb571b7a0a73881953c49d61dfebca": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "2d1bd0a592d5ca04a521624179ffb674ad74f27aa6c6e9a33552ff58b3c07426": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "2ea133fb5594b40b795e587ccd1f07fa21737ab9c1a08b8897b983cea8893cd2": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "2edcfe267d13255af4a8b7e90cddad6f8eadcc3c23ae4b42bebd0b3cc6eff911": {
+        "probability": 0.2,
+        "status": "valid"
+      },
+      "2f291ef4bb0c52c673c3d12eea39294fffdaf75d99f14e55989e3a3a1b15a085": {
+        "probability": 0.2,
+        "status": "valid"
+      },
+      "2fe9c2da1303622b00a2a0a421576977fb080de4b3158c12dff1f0fcc0ced81d": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "308c46694dc04f1a8b3b7b57a828a3d15006b66fb22f655a1ffcecb07a71d07a": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "359d90568d4d1711cc3073a1bc1fed70c6195a8474937698da10f5fa6647ee8c": {
+        "probability": 0.3333333333333333,
+        "status": "valid"
+      },
+      "36307a340bb2a8145e5103025c9fef79d8efd687b812ed26cc2ab62e7e14ced7": {
+        "probability": 0.16666666666666666,
+        "status": "valid"
+      },
+      "3819ccc8de2d9c3a9d9302ce250c67a859542f41881a4298a2ad3a74fb3f6ff4": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "38e365e3f1ffb5702056aa8a57a12031ede4b011118fe34a8197956cd51dfd2f": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "3be9a21d08d5fd2c7fee3465aa84c3a50806cb63e1e41db86e94474b554d014a": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "3dbac8eb2ef2742b138197f90ca07229a0dbed418b0cd4497043eb5bd84c955d": {
+        "probability": 0.8333333333333334,
+        "status": "valid"
+      },
+      "3f3290dae38d60a641421b6e0e6ad8ccd200e1dee758ae3623a6b73d6c2a3e93": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "40655c4b7a0a39df1b82b0c48608d56c2abd8bbf9a25cfbcc44d21fb09d8b9a2": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "4283fc023559edcd89fd72f5d9c2ec15c7d56c3db28e7e6ac80b9b33ec804829": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "47b9de6bca03eeedc759450e234e0010642c6b782ae698faaa43d41c217580ad": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "4b663fa40abbe4488a30ad40d2f3858aa7e893e0d476f5534c3b6acafe2a2b74": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "4bbd66b4fa32b2e92af50c304805012ef8906cc79160da7a2f3fd3279800a6b0": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "4e7ba1a7f114a41c15a9121035134bc5056b15246f0056fcda51dcdcb58016c6": {
+        "probability": 0.166667,
+        "status": "valid"
+      },
+      "50b54ecc1989517c0890f045023f03f8c7b0547a62751adda3e8510bdce40479": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "568125d2524c08c01fc048b37fc6c779d084419dedca0805b49bcfbb9dc393ef": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "588c373287835c714bec722ae559fae1c97ecf26a7f54def93e1c00c06b38256": {
+        "probability": 0.3333333333333333,
+        "status": "valid"
+      },
+      "58d762d99761b5eb6280a792c7937589842ca80d860f160fa378ef2473fdbb83": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "59d433aec696201fb4d72def10f55f1302373e2d6c80569df02c1cf4094b8fbf": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "5a0ec276366e77152e4642f4260fa338eb7cd7b54db467064bf3579904ec0352": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "5d356ec02206a41b3f15ea7058b9d7b5016f8b61fe42742fea4656804a5e858a": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "5dbbb65b4659a8521211f6f328d0f97a7d0ad70fa9199010373e81140a00c55d": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "5de03adc93648e6ce2b71b3b42fed294e49c81004fa784dc94b1229d61d717aa": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "5f34dc7f1a4cfa4407d60c9491532e9367e33fa53600ddc18d4b2c0ce158b986": {
+        "probability": 0.6666666666666666,
+        "status": "valid"
+      },
+      "5fe2779bf796392dc77a6c3f7b03a8bc3476267278be6c414e2edc90c21225f2": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "601a7545ea8e7d0f0927e5de8badfb2a0a3fa9b4a43095d1a8d3f1d2999ed664": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "604e82b0150d6f886f03e0ebffe86a07232bdc8a64814368b56c437093386477": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "625f9198fbc85da71ae9ec62306960b7e62a248a6c66cec3210e6bce34131cc9": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "6597c9e87c46ea22fb2c9eb44bb40e4753c25823fb9eada86677c6c5585852a2": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "65effbad6749db4e916d73b76a6066f856fd17f0395e8389cde028b2c21af351": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "67692c43d55f1f401fd80e41fb208a8ab76d67151d1ca2372b7414aa4a65f9f1": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "67860901b115d7e7e0f7d6a7919cebeb9bba4aa39a12b5660274ca67a21134e6": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "6a81330e1650bbfda91210bb5f4a80c5d9a8e7b7729948f656bfa7ba5645dfe2": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "6b301d3172fee93996157cf7e999afd8d0b51c2cc1c792c80e8ebd2ce5ec333b": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "6cf06d918cc6ee024d4a35067eba9ef82553b4ede67b0186d2c4425db0daa52b": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "6d49b9122373f6440bd8cee621195c2899fb6e0cf2cb4c6d6f8441f1e356caea": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "6df0a53938d9a79a36112a9e8bd6e74687ba72467c7e5d5455e586d01b790d64": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "6f13c19a5369a2999756889ab4c40c278bfd975c521d5d7bde3dcb82f92e1a95": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "6f71b3553d08e481dc80a252b8decb524517624250be10017b5df532bd02de54": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "6ff96e18ef6812778cc554a060370a5de73d42163c0965c4bfa82b368bd9b707": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "71df12ec1f8bbd05aea4240de6f8e42dd185786b0fd9595a3c7e10c366d3a2e0": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "72f4a2264285905b355b53270f7a2a4dbe82869f66bd27fda03e60253affbc53": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "73c4c3de8fc4dca78e6940ba5e5ffdbe7186fa65d23b8b4dc00c5beea029a1a4": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "74a5ce76fed1d7a8b35b83f156452600cee56927ef46ffd0e70382173cfaae08": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "74aafe57ed49380a1d34736e8ed34a6df31c7266f35207fd8e856c6ee48cdb5d": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "74cbbc73580b01d42d5bc7db78c9a15a8fc7d9369060f5b2d57f259f9c31332c": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "74d33d205d576134b86fd44d921cf872a9e2bd7501febd1fb505d80fb39619bd": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "77ca15d5fd2b28a265ea69cd42bbc620c4294a8a33714401288ecaf8e2647f74": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "791b7107c42fda5bb0b13d4b7cb489d54da0c495e1569b10fd26b0380bf03c30": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "7a04416ab1db4c447484fbabfa88fd0804a690b4ea861df4f7fa4efab365e3f7": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "7d78c9a5be2f594f46116b7571e8a198658fd6fde7a90dc75115480efe4d7089": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "7dcf4a08c710bf8c9fcf8ceeaf79fb94e11ca913e49c206cbc5cef03ed346456": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "7fb7bfa4bb845ce31654522ac11896c287758cc02eb21c096c2780c18d83cbc4": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "80427fa71c9ba4793dd89476ba8dde1d721310a5c5d811422a7cac1ea957ec16": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "82e4a6a02a11190a6da452129e46a8a7f5c6b301e8a010ebb92d338bce86b5c8": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "83456baf776ed8f9f276313d7172d8813f640efee8868aca54bd408391c4cb88": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "8451626b9223a42bf25ac5fc740bd01bafd92356b0712717cca9ea9b19bef385": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "853e9be65b602c668e5a658f61f7735aa859826f1f7f6ef16f34f38e531475c2": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "87660fa3c407d49173b73f20e855a3bdc56f4665d347bda16dc92127fe05e409": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "87f412fc88ae2f950719822f5c734fb2599885367c3161f39affe04af58098ff": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "8810d1368b5f6560f44a002134f50d012fa5af1a6fccd81bf57071e08975516c": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "8a750956261f098362cd4fc0fad5638e72082b579c1631db9c3a93a0e43535a1": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "8a767d8d737b5fcea0d276fb5350971de07059c0370516b37a7dd9b5bc58a87a": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "8bb7f5cd2635e3048f9e12663a6d96d297c836232d364ebe1d801fc08147476e": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "8bd5b0c054756ed2b85715cf77b560e1217aac5720a81ab6014411c32ed00ec3": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "8cfe71cad9b83b60002d93212547a39cb6c7e46398089f1bd65b9fdbc0c728a6": {
+        "probability": 0.8333333333333334,
+        "status": "valid"
+      },
+      "8e4574d454b3e8dca763ce682ebd0ea695cbca3dba7040b64059f1c6770c0801": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "8f60f96ed8b0b46b9a30bf8299088cfd1bd6fcb86775dea098bff2f230ca24c4": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "93ceb1d5deb6a7576a23592ec77dba509f91254acd83c173a7b3bdef260eaf5f": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "941984600a2f35958b05c693843d69e63a08b79b16628172fa501935cc371787": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "965f593d24db536f8212bad3c33392a98e19602e350b90d98f7b083f226eb07f": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "96fc0bb19715bba4726ba5240e2811388c78535a6658899683627627ea1cfa3d": {
+        "probability": 0.2,
+        "status": "valid"
+      },
+      "9a9b3f95dd7ce9f50d6a0b79efa14d02972756a031d2b68b42b548735fe722ec": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "9b39ef793eedf0ab72a88dac1b08566ed1c9400384d0af7adc7be2c90bc8c139": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "9d9584e5083082818cb4987748239e6a91cb4df57359d12f3225a0ffbccd0134": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "9e9dc379c8b52149fb91156e10f808c21be7195b4888584e801fa920682bfd2c": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "a08ecb2296c98e22927b1bb6a73ffa521105a004096d28af198d5bf361189312": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "a57594b36c3793ba15cda15c4b8d3c1c77cab0b7884920c277f64c6056c73bc3": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "a7fa99cc7527d0395ddb8a2c12f9836bf78d05ab838caade267921faf3f7b253": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "acbc1c8a70256a1b19708a44b718a4944d8051534e49e88d33b3cc65830597bc": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "ad80cac13ae425f97f4bd61bd76c86bca700f71b8c9f04829e2a79e5541100a1": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "adf173f9982db68d03806f0e9621c5e8c984ef527b87f07cf3e1ff033c3becd5": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "ae81d77b49d5283aa76bdc38b483ed62a5b66a03b9d4f5163b50252f88fb24cc": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "b038b11e7c393666c8080ea58a0a75872487e2af4816cbab932bf00f16bfa67e": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "b118f49c1bec3c6163d3eca9bd85556127b79987b1bea3207c868124a5feef6b": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "b17d6fe3c1bbd291c397d9014207d017832573b13f40625f624c318ffb765a6b": {
+        "probability": 0.8,
+        "status": "valid"
+      },
+      "b34bc9c0b827bdbbc15bf50567814719e413ab41cece47d4f6bf4b4941842989": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "b4dc26e40b3afd6ec0525f43c025f212f2c8983dcd855bea0119952f1cc4fb08": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "b658c31f50169eb2358c54feeba334962ddd426ab6edf426d6e0ccd668b6f5ea": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "b85e984206f918c3099e5ce5ac738afd4c6d9cc337575f9944c02c63dd3aad95": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "c06b9dd81f23a367f4b8468996e2956e68eb47ea18f5a3bda5fe31b8518f5140": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "c246facdde56dcb6f366c613e3625e03b091f1de951bb48fb0ff10f4db0fff15": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "c3d51bbe5b5ab627488248e72460a6397a73e290f67ecd54c24cb70c9f596d57": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "c3ecbc6d9cac018a561fb9ef2d7e899c1e6a784103920551cebee95865ea6ea7": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "c5324318777fbf89d619217b605c46f7727ef8278662e1127f99393bcceb478d": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "c5bcc045062c8d8797162f854178df8273d9e3b906a6f0e07f65285ab90013e8": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "c5f1e7616bbe61cc29b125a496370600aa38f99642b27f2f8ea1603ed90c09d7": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "c67151d98ffd0b1c9be12b413c6b25ca7117aa01ca361e222a8348c0e708e5a4": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "c867152c123ab79bfc0220b0820d6f228644a622d26b4d47f8e5873b274da867": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "c93b27e0fd741d9fe90162fdae9ab7f99fa06ae2f733262cbd16c23f5055a72c": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "ca1be2f7abc05254228857398c65f51bb744f54c9edb252d2717af09254dcaf6": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "cdd03dcd882123091a8f0bfdd036f4ed2bd31fd5c221abd7c6f0353d5b04fa81": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "ced64f83ebe2d4405b35d163f7ce03628475a364bcee0d65bb0100caaafd43d9": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "d01077f7bbbcfc25cad0c540f511ba28dd34e2b79abaa1c4bac508ce896f57df": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "d19bcd8f5f2afad1b0e43b31959de936ff865782da137b6d232e26a659f3fa00": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "d19e7fc803e062d9814ff0b498d5a6c359b0731a6953726010208b360535e589": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "d3d32e61e9da515f7cf2b89f58fe80f05b750c080dadb808f4b45bb5910b9a18": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "d67cb76121be1b3386be9f11f0f86f4112e28b5f43de9a332858b60a77862212": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "d6a914fe9cfb4a9647b4d3c0b028ccb76ed73293b122b286eead0058a68357fe": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "d708bcc371acb304959507bdad443f08bbce9a892c1c4f0dee55abc06a19e817": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "d7f197b8b92b51ea6f5f8aef4c9b38f95f945fdad5ba85dce3a326af84b46fb2": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "d8b08eebe0c7d60e528aef74ed179f998748cf7fd4db3565456133f89d154b78": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "d9657c7a87ba5fc78fca342fc166bdac5eef565f8b39b97b98c3bada298f4e7a": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "d9ac697305e3f8daf5ec347fbeade58efb6e419f62801fb8f4558a4823207778": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "d9b95e6ab9586f3e778bf6da0a5b6e9775b505ae44fcb5c62212d392d685cc70": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "d9e93d4b3af6101cef73894c02aa2c5c43e09978a05fadc3533516b716084b01": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "dc8243390f8ef1bc5fba1a2671fce23379131a28f7b04280e7e56e6681b812d8": {
+        "probability": 0.6666666666666666,
+        "status": "valid"
+      },
+      "dd66353d9e5e01cad695103042b4abcee70c3fa396bded1f1806eeb6b5cd1016": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "e0bd309c7ccf21c8c428827f0ada0d624c2e10fd6f8d34b46f2b312b2f6e036d": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "e15101ef985ceaf7218ff46182c7db1c214a5b7c601c11752a4e7b557e048a3f": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "e1a817b824778bca5d8e6fe68c3238fefac6aa92bf1b2465466955d738c9ec15": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "e1b757680ec3c3f73b3c0ac1e69937ee14f5861c98477b961bc130a78a2a7ade": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "e43a48cdbe0e7bbf74bfeddbb274d9de4b2cd004767a1c45da4e3d668099bc27": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "e5cb84b49353484ae30852e36d8d473514a0fd665c40eb8f86c3acb7953aca6d": {
+        "probability": 0.75,
+        "status": "valid"
+      },
+      "e671d96be50410ea9ebad78fe93e195b62b52017a50374acfc8346a361d8c691": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "e6b7d7b31bc6df38736fe3833028e48cdb7193c94163290bbd784dffc5c51693": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "e7896a71bd43ca0adcb1ec4e34a6664c73d238bc5c4b40af50e5d362709e12f1": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "ecc3bac5d36cf5de3ed11eb45d92f057651f4b5ac9290486debbebaf1bccc6e1": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "ed79899820398a1221d5b715771dce0d4e4e8acf4d0e0173a3c212adf3f65707": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "f3e692d88862a1aeb455c309c6983a1e3528a4705d5a6bbc42bf5b92899ee2a8": {
+        "probability": 0.25,
+        "status": "valid"
+      },
+      "f4557604feb1677c946d147847ec1dfce98a3087441b1980ca358401e2fc7679": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "f47d87b98e20af60e9a830f82bc7f95b55e80618cdee1b9952904ede57d476b7": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "f6de0674ff0e868b60d800fa82f39ac5bdeb7906ffbfb915c3202eea6755e252": {
+        "probability": 0.6,
+        "status": "valid"
+      },
+      "f6e80caa494e06d73f01bc1508783c7dea097f2e30cce6535a4193cba2b75b6f": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "f7bc041e2cba872da75ebf2889cda2f31b008be1216905b8a492da852ab794d8": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "f8332f498f0ddf796cf925bf7c503f9cc8d565d35fc81098290c8c820d58f8f3": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "f885d5efeabf1548f9677bb494a861a634f68493775607efbaa6742f04104b1f": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "fc60ade40825e9582c69c2e84064e3f4d61fe72842d18153b348641878a11003": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "fd7d05943e45be8de0dbaaa69f4625f7a5b7f32481ace78939242cc4ac2fe059": {
+        "probability": 0.5,
+        "status": "valid"
+      },
+      "fdc5401582b04dca63b9af13a9ed2856669418a694ea2bf7688c086380c08a9d": {
+        "probability": 0.1,
+        "status": "valid"
+      },
+      "fdd5efcd5e1bf1600da26b22205714cc94119e598d043ab7cff143e3f5d8d4b0": {
+        "probability": 0.9,
+        "status": "valid"
+      },
+      "fde832eab45673568d91f87ca59d0541fdb08565ee2cf3f7aa982993672b6d19": {
+        "probability": 0.4,
+        "status": "valid"
+      },
+      "fea5ae7bacc77c70b63cb88f88299dbadc59318fe7668f73d0d80e3cf8d3a41e": {
+        "probability": 0.4,
+        "status": "valid"
+      }
+    },
+    "paired_changes": {
+      "mathematical": {
+        "posterior_error": -0.016666666666666663,
+        "prior_error": 0.0,
+        "uninformative_drift": -0.033333333333333326,
+        "update_error": -0.016666666666666663
+      },
+      "natural": {
+        "posterior_error": 0.012500000000000011,
+        "prior_error": 0.0,
+        "uninformative_drift": 0.0,
+        "update_error": 0.012500000000000011
+      },
+      "original": {
+        "posterior_error": 0.013888888888888895,
+        "prior_error": 0.26666666666666666,
+        "uninformative_drift": 0.061111111111111116,
+        "update_error": 0.11645299145299146
+      }
+    },
+    "parser_implementation_sha256": "92f451443a7cbe42af80ec5ec1c578e40651a1745c4bd9f57ed3c2444d6638e5",
+    "primary_parser": "outer-json-fence-v1",
+    "raw_sha256": "c5789161a93e86409ef330c5b6e8f97804d173a9ecb4b299a045c9ec12512cf8",
+    "run_id": "6b2e1ea9-9a4b-4e35-9a2b-8e073d7c4ef9",
+    "schema_version": "cib.diagnostic-scores.v1",
+    "scorer_version": "m4b-scorer-v1",
+    "source_sha256": "b7011c1e1068e0223d2e0c90db75b457704380016b5d5d952b131fb32b610ef0"
+  }
+}
