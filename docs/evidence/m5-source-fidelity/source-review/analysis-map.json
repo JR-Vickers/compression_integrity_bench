@@ -1,0 +1,82 @@
+{
+  "review-0a21b0549797340a3beecd0f": {
+    "model": "reference",
+    "scenario_id": "sf108",
+    "slot": "sf108-main"
+  },
+  "review-0e00c24e7819486406cadbb9": {
+    "model": "reference",
+    "scenario_id": "sf102",
+    "slot": "sf102-main"
+  },
+  "review-3b58ea83c6246e56e90d2321": {
+    "model": "quantized",
+    "scenario_id": "sf101",
+    "slot": "sf101-main"
+  },
+  "review-40b814eea69ef71d0862f03e": {
+    "model": "reference",
+    "scenario_id": "sf105",
+    "slot": "sf105-main"
+  },
+  "review-4104e6b271f843e13851987b": {
+    "model": "reference",
+    "scenario_id": "sf103",
+    "slot": "sf103-main"
+  },
+  "review-4c9c8687946b11d20a0897f3": {
+    "model": "quantized",
+    "scenario_id": "sf104",
+    "slot": "sf104-main"
+  },
+  "review-4ff6d6924dab819e0cdc850b": {
+    "model": "reference",
+    "scenario_id": "sf104",
+    "slot": "sf104-main"
+  },
+  "review-58f60bbda6654ded68647b25": {
+    "model": "quantized",
+    "scenario_id": "sf103",
+    "slot": "sf103-main"
+  },
+  "review-5fa2fdd8928c6cd2ded24e1d": {
+    "model": "reference",
+    "scenario_id": "sf107",
+    "slot": "sf107-main"
+  },
+  "review-753aeddb894d5563a5e536a6": {
+    "model": "quantized",
+    "scenario_id": "sf106",
+    "slot": "sf106-main"
+  },
+  "review-a93149f7c7af23fea6e8b37c": {
+    "model": "quantized",
+    "scenario_id": "sf102",
+    "slot": "sf102-main"
+  },
+  "review-b00e0c7a7ae8b7b00b48ee97": {
+    "model": "quantized",
+    "scenario_id": "sf107",
+    "slot": "sf107-main"
+  },
+  "review-b483fec292f8d845137fac80": {
+    "model": "quantized",
+    "scenario_id": "sf105",
+    "slot": "sf105-main"
+  },
+  "review-c7c60fafb03d4bad18cbee93": {
+    "model": "quantized",
+    "scenario_id": "sf108",
+    "slot": "sf108-main"
+  },
+  "review-e1c0eb5dae63e05fafa52059": {
+    "model": "reference",
+    "scenario_id": "sf101",
+    "slot": "sf101-main"
+  },
+  "review-f514d568030539ae2109badf": {
+    "model": "reference",
+    "scenario_id": "sf106",
+    "slot": "sf106-main"
+  }
+}

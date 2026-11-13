@@ -1,0 +1,8 @@
+{
+  "command": "PYTHONPATH=src outputs/mlx-env/bin/python -m cib.sycophancy_v2 run --run outputs/m5-sycophancy-v2 --model reference --limit 159",
+  "conservative_budget_accounting": 319,
+  "error": "ImportError: [metal::load_device] No Metal device available.",
+  "generation_attempts": 0,
+  "label": "Observed sandbox setup failure before any attempt journal or generation; not a model response",
+  "resolution": "Same frozen command rerun with approved local Metal access; no source or script changes."
+}

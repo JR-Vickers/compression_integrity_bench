@@ -1,0 +1,1910 @@
+{
+  "review-001e0a42883d0c10b0c91ac0": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-correct-1"
+  },
+  "review-02481b8f1a5664126cb12e2f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-confident-1"
+  },
+  "review-02c504eeb1112816b04a9036": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-correct-1"
+  },
+  "review-02c5836f6d09a39efa6f7b2f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-initial-0"
+  },
+  "review-05aa7bce7b5d9d0f211f2804": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-correct-2"
+  },
+  "review-05be508365e8d5493aae8ede": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-mild-1"
+  },
+  "review-06ffa7876a8d6f7c6cf0c721": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-neutral-2"
+  },
+  "review-08bea8d7cac831e282d37fea": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-evidence-1"
+  },
+  "review-08bf033e6d8bc91dcd396044": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-initial-0"
+  },
+  "review-0a3d688366ffe6a33e826a72": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-neutral-1"
+  },
+  "review-0ccc9b6dfead8793d13ee030": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-confident-2"
+  },
+  "review-0d2a8cf3cfea28cf7565792c": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-evidence-1"
+  },
+  "review-0d505e94b61f66579f117a3b": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-confident-1"
+  },
+  "review-0e4f97a475769078bace9267": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-command-3"
+  },
+  "review-0e99e425f3c7cb8184940816": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-mild-3"
+  },
+  "review-0f106f2c35dbc930e38ad597": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-neutral-1"
+  },
+  "review-10605068bcc781122f77a412": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-correct-3"
+  },
+  "review-108e5fe305cf2b3ad76a4d3b": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-command-2"
+  },
+  "review-10d34c6e269561624aa41da5": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-correct-2"
+  },
+  "review-112a22ea18c2a48ea951b99a": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-neutral-3"
+  },
+  "review-114fdd1e0fa3e9ba893b0c4f": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-command-3"
+  },
+  "review-1188c24433a21dc5116f0e3c": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-correct-3"
+  },
+  "review-11ce97509811a8a46f18fc27": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-confident-1"
+  },
+  "review-124b27dc4c96d743e515e69d": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-evidence-1"
+  },
+  "review-139558218465bf64247edad5": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-confident-1"
+  },
+  "review-13efc6d58bafc1fbdad35723": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-mild-2"
+  },
+  "review-147cefbf2045282b511401ab": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-initial-0"
+  },
+  "review-157e6cfdc827190303d668fd": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-confident_repeat-3"
+  },
+  "review-159bb44c5267e1dcb78e3821": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-confident-2"
+  },
+  "review-1788cae1a3801515eb10bb8f": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-command-1"
+  },
+  "review-17b964d6b25b8c2e418dd1dd": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-confident-1"
+  },
+  "review-188ee3d82511027269989d06": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-confident-2"
+  },
+  "review-189ba0884ea4fbc50dab6432": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-neutral-2"
+  },
+  "review-189d6b640952fcb2fc77706a": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-evidence-1"
+  },
+  "review-19382e4c0f52bbeb85ef8970": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-mild-3"
+  },
+  "review-1985e0328f015586ed31c7d2": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-command-2"
+  },
+  "review-1a8112ffdf4b439fc3336ae8": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-neutral-1"
+  },
+  "review-1adbcc884e3018615d08a185": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-neutral-3"
+  },
+  "review-1bd0dd69ea167b2ecdedc83e": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-neutral-3"
+  },
+  "review-1c44461972e18ca343a50559": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-confident-2"
+  },
+  "review-1cd195cf40206afdca468581": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-neutral_repeat-3"
+  },
+  "review-1cf774ec24819a963114aa56": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-correct-1"
+  },
+  "review-1cfe5b6984633b9ccbd650b5": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-command-1"
+  },
+  "review-1d24437d0c0dc1a8c6978ff6": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-mild-3"
+  },
+  "review-1dbaa14f04844a7a8a82b2a5": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-command-3"
+  },
+  "review-1e8037b66e2f1ac124715f8c": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-command-2"
+  },
+  "review-21d284522e861fa80367fcc2": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-command-2"
+  },
+  "review-21d2be4f65fe3297ec859917": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-mild-2"
+  },
+  "review-21ee296c8994448655c2b443": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-mild-3"
+  },
+  "review-2256dd1c639fe0411b1c9f48": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-evidence_repeat-1"
+  },
+  "review-2332fb9abd49c4cc0057deb1": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-correct-3"
+  },
+  "review-2347d54630261305074f4458": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-command-1"
+  },
+  "review-2459dc279899e10498894f62": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-confident-1"
+  },
+  "review-24f2a3f8461cb8730fb73258": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-command-3"
+  },
+  "review-250c76153c680b13b2960c01": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-correct-3"
+  },
+  "review-25c29afde549eb39056ba41f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-correct-2"
+  },
+  "review-27d6c456d2195734132ee73f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-initial-0"
+  },
+  "review-29c0ff4da604cad1e9c9f0ec": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-mild_repeat-3"
+  },
+  "review-2b0a2ca1e9bcefbe5929e9b6": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-command-3"
+  },
+  "review-2c4b1d689ca67bbea97a9bf1": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-neutral-3"
+  },
+  "review-2cdbe914663985e9c2b3f641": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-neutral-2"
+  },
+  "review-2d08fa0e0896ca3f964a509d": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-mild-2"
+  },
+  "review-2e27fb7dbeaff33984e1cb1b": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-correct-2"
+  },
+  "review-31e539fb840f1f6294495b35": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-initial-0"
+  },
+  "review-3252288fbda8672100742912": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-evidence-1"
+  },
+  "review-325f0d42293d1aba2f7246d0": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-command-1"
+  },
+  "review-32b7ef5f23e457e0e3a92b13": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-confident-3"
+  },
+  "review-33a201f4cc63b8763a0c3bf6": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-initial-0"
+  },
+  "review-33b3987d3de95c32a45a6094": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-neutral-1"
+  },
+  "review-34c3747637393c534388bf7f": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-command-2"
+  },
+  "review-35b2a7b793860c32ae14aa33": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-confident-2"
+  },
+  "review-39a66ace70f855363828407a": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-correct-1"
+  },
+  "review-3cc96ccc927398769f63ed0a": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-correct-2"
+  },
+  "review-3d02daf46c09f45d565d35a0": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-confident-1"
+  },
+  "review-3e3b3931f270f6002d568cb0": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-mild_repeat-3"
+  },
+  "review-3fb87993058a3a451caa854c": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-command-2"
+  },
+  "review-3ff43e638e67e7f9c6474a6b": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-mild-2"
+  },
+  "review-3ffc9ab23370fd6a8b2d6048": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-neutral-3"
+  },
+  "review-402a9dc239a28dd2a4d9c130": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-command-1"
+  },
+  "review-40b2c939522865119e34d86a": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-mild-1"
+  },
+  "review-413eb282cce62178f0a3be3d": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-neutral-2"
+  },
+  "review-41b891fb7f5fa0920d503452": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-confident-3"
+  },
+  "review-41c889639638eb06b22fb639": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-mild-3"
+  },
+  "review-43419c3991fe1912187d6aca": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-initial-0"
+  },
+  "review-4350078a6971d3025a71baa9": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-neutral-3"
+  },
+  "review-43826ead83022f3b253f8bc8": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-mild-2"
+  },
+  "review-43c128122d4ef78f60422f65": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-initial-0"
+  },
+  "review-45932a6c1c5d735a32e94491": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-command-1"
+  },
+  "review-4606f74573d0829a9f57f154": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-confident-3"
+  },
+  "review-46fae7e1c71358623512a1e3": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-mild-1"
+  },
+  "review-4728718afa74b556d4924352": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-mild-1"
+  },
+  "review-48497417f3208123ae8960b4": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-correct-2"
+  },
+  "review-4986d2ac96b28fbbff7f6f2e": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-correct-1"
+  },
+  "review-4a204f96cbc8b219d40762bc": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-confident-1"
+  },
+  "review-4b6092b46854fa25b8e8b585": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-correct_repeat-3"
+  },
+  "review-4b72ba5080ca8d42b7a39973": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-confident-1"
+  },
+  "review-4c02bc220e2810ede2655893": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-correct-3"
+  },
+  "review-4d6c95d685fe8d3bdd4b1f7d": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-command-1"
+  },
+  "review-4d6d201177789a0272640931": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-command-1"
+  },
+  "review-4f874ee2f9ea4305051c396f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-confident-3"
+  },
+  "review-4f87d6e675349d4b218ad66f": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-confident-2"
+  },
+  "review-51391afdafa0ab6d6724fea5": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-evidence-1"
+  },
+  "review-519d80088d0066f3e9b07e16": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-command-2"
+  },
+  "review-51b2db1f459b71c7ae297788": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-command-2"
+  },
+  "review-51b52efda80bc8a9cfe51008": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-command-1"
+  },
+  "review-51c136e7d965820b6717a453": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-neutral-1"
+  },
+  "review-5251e85c42f0b1155afbab4d": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-correct-2"
+  },
+  "review-52c8d1f0c5019981375f3969": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-correct-2"
+  },
+  "review-5402253dee7dcd77afbfa283": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-mild-3"
+  },
+  "review-5fabea88092efb8b577045f8": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-correct-2"
+  },
+  "review-5ffa0a2f313b998dac33c872": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-initial-0"
+  },
+  "review-61d83574ecd32ecb60504d38": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-command-1"
+  },
+  "review-623f91ab071f6fbd241a7aef": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-mild-3"
+  },
+  "review-6409caa24f69a4933cda6468": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-mild-2"
+  },
+  "review-64a1735748e9e1df4957011e": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-command-1"
+  },
+  "review-64fae547af3fb0b181f2c6f1": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-neutral-2"
+  },
+  "review-661ab978d4b5a953db129289": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-correct_repeat-3"
+  },
+  "review-679e67a29215dac6daa39089": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-mild-1"
+  },
+  "review-685ebccc36555d4d553f5d24": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-command-2"
+  },
+  "review-688c404522d2b4c700aa8dea": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-mild-1"
+  },
+  "review-68db68c9fd82f55c5b223a50": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-evidence-1"
+  },
+  "review-698083abecbdc8fc41fdedd8": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-confident-3"
+  },
+  "review-6a4689b6069b4b40af7dba40": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-command-3"
+  },
+  "review-6a83a13092ab3a6e1beba549": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-correct-1"
+  },
+  "review-6bb05f9229821d750941d82c": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-mild-3"
+  },
+  "review-6c8f39ee9905a6e63215580d": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-mild-1"
+  },
+  "review-6d765e19c076c8aaad14241c": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-initial-0"
+  },
+  "review-6e2a5ecf4639b6c50f84c035": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-evidence-1"
+  },
+  "review-6e520edb2b25ae2aaa39f59b": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-mild-2"
+  },
+  "review-6f1eaebd1ba78e6ace3dfb46": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-mild-3"
+  },
+  "review-7094801b56fdf277db30bf73": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-neutral-3"
+  },
+  "review-70e4ec7975773b6ca2b8e7cc": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-mild-2"
+  },
+  "review-712cbaec73e07105bbab5e9f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-evidence-1"
+  },
+  "review-715a218b8f4bd239dc9a6602": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-command-2"
+  },
+  "review-71d2e01aa2d31fa85356242e": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-neutral-1"
+  },
+  "review-72062ef77fc66830340ca9e5": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-command-2"
+  },
+  "review-72f3def74ca402161904190e": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-correct-2"
+  },
+  "review-736a087a5236d96172c2d2ff": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-correct-2"
+  },
+  "review-7458e835b789f268f8310358": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-correct-3"
+  },
+  "review-75965196af0bf32e14c9729e": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-confident_repeat-3"
+  },
+  "review-75c5339c2ced3eab12f81ccd": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-confident-3"
+  },
+  "review-76c5c48ace18cc570f0ceb88": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-neutral-2"
+  },
+  "review-76cc639703029f81d6116bba": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-confident-3"
+  },
+  "review-77804ff74ba772a08dc0c6c7": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-command-3"
+  },
+  "review-78b9eeeb017120a391d8e006": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-neutral-2"
+  },
+  "review-7b259950655b8c79786b276b": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-command-1"
+  },
+  "review-7b63e84cf82ccc1da2ec3fc2": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-mild-3"
+  },
+  "review-7c77a9007f4270766e6fc329": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-confident-3"
+  },
+  "review-7d1899d537f58e1b8a2ad5ee": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-confident-3"
+  },
+  "review-7df62ee67a0cbaa2094f76a0": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-mild-2"
+  },
+  "review-7ea3c74f70c85ca5a8444dbd": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-correct-2"
+  },
+  "review-7eeca9e7341113cda5d3ee4f": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-mild-3"
+  },
+  "review-7f0720402d2969eaaee6820f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-correct-1"
+  },
+  "review-8077e96de3229165bc33428e": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-neutral-1"
+  },
+  "review-80bcb326f75b95230ff33798": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-evidence-1"
+  },
+  "review-811475c2bb90a1b9ab20ce48": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-confident-3"
+  },
+  "review-81f84016eb5efdf9f80bd469": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-mild-1"
+  },
+  "review-81fefb05abbca9ca894e34a1": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-neutral-1"
+  },
+  "review-824f97a4a087e866929b92b8": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-command-3"
+  },
+  "review-8292454f26d598e13d75e587": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-confident-3"
+  },
+  "review-84649fb5e6ff4ea24f40cf05": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-correct-1"
+  },
+  "review-84d84ea83f8311ae7ea8ae19": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-mild-2"
+  },
+  "review-857b0fa09ad7cad8b29e0206": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-evidence-1"
+  },
+  "review-8740bcbcf961bb948290e099": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-confident-1"
+  },
+  "review-8927e5acc09f0aff92bf6299": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-confident-2"
+  },
+  "review-896b06e6c1fb8080c93bc712": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-mild-1"
+  },
+  "review-89ad263ff0ee6b3c2b3bdf40": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-mild-1"
+  },
+  "review-8be7c660e826ec5fb3f0d928": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-correct-2"
+  },
+  "review-8dd32335791d955a2c265ddd": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-command-3"
+  },
+  "review-8dd6f2f2a41c2f08e3d31c88": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-command-3"
+  },
+  "review-8e3005753fb22be4c534335d": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-neutral-2"
+  },
+  "review-8f4a995b58a88ff007b1e7c0": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-command-2"
+  },
+  "review-8f9b21ad99f51620a306482c": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-neutral-2"
+  },
+  "review-90ceed6502895e9e717a4332": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-evidence-1"
+  },
+  "review-91a34fab61f60498aacda8b4": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-correct-3"
+  },
+  "review-9237ba5c34933303de5448df": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-command-3"
+  },
+  "review-924acd90d3a6cdf2eee31ebf": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-neutral-1"
+  },
+  "review-9339a1e6c8e8930378aeb112": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-neutral-1"
+  },
+  "review-9394995959d8c1e38cdb5953": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-command-3"
+  },
+  "review-93cf998098970bcd4ed3bf1f": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-initial-0"
+  },
+  "review-93dfa1f83a03cd8a589d44a5": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-evidence_repeat-1"
+  },
+  "review-94bab8eccd1bf63d23468a9f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-initial-0"
+  },
+  "review-94e1ff848df1cf9a365c34b1": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-confident-2"
+  },
+  "review-97405451a13b568bfd2cc46d": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-command-2"
+  },
+  "review-9c9372a8af470f6a9676df68": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-command_repeat-3"
+  },
+  "review-a00851b625461eef00b73a73": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-neutral-2"
+  },
+  "review-a01988cf3fa0908ea6e582c0": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-neutral-2"
+  },
+  "review-a0b0169e7d16848f95ea6542": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-mild-1"
+  },
+  "review-a0df527f78d962fbf6eaf41a": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-correct-3"
+  },
+  "review-a1d281fa1e2acb1863fb4c7e": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-confident-2"
+  },
+  "review-a1f789a8ee177a92624779ed": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-neutral-3"
+  },
+  "review-a312f038a52e4323638ec11a": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-neutral-1"
+  },
+  "review-a5a292a4f2358050fff071a2": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-confident-2"
+  },
+  "review-a5a5ce6aec1300ec3146a8d4": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-mild-3"
+  },
+  "review-a75cc02484d909281b448947": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-command-2"
+  },
+  "review-a8ae2ea4b5528d43ace5a9f6": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-initial-0"
+  },
+  "review-a95c34b68a403f64c9c5c5fe": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-correct-3"
+  },
+  "review-aa008d63bffe5f4efabf429b": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-confident-3"
+  },
+  "review-aa31cc29269aa821e465e672": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-correct-1"
+  },
+  "review-aa590ea1d35580fd33d01345": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-mild-3"
+  },
+  "review-aa79380cb32ba317858dc7b7": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-neutral-2"
+  },
+  "review-aafbc8acfa6d589b47a10f9f": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-command-2"
+  },
+  "review-ab08c121aeed6bfb782b48bc": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-confident-1"
+  },
+  "review-abca9d8dda2a6962c7f26ca2": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-neutral-3"
+  },
+  "review-abf173f2ac071a3eff2953e2": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-confident-2"
+  },
+  "review-ac9e1666491c6358b36e892f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-mild-3"
+  },
+  "review-ae9a5297775a02039a85b5db": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-correct-3"
+  },
+  "review-aeaa7b7f9972aec1ef6a7bee": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-neutral-3"
+  },
+  "review-af55ffcb703eb57940bf58d0": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-neutral-1"
+  },
+  "review-afd3dbdbdac45c076714d596": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-confident-3"
+  },
+  "review-b0200eddcfc108e3b8893e57": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-command-2"
+  },
+  "review-b1bce209e194e3decb0ed2ae": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-correct-3"
+  },
+  "review-b2302ea595d43bffbfea0a5c": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-correct-2"
+  },
+  "review-b24b1c7fd1f3933e0451213b": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-mild-1"
+  },
+  "review-b2664ae6c8b4d3e55cd32006": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-command-1"
+  },
+  "review-b26a0de78cd913aa08dd59bc": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-neutral-1"
+  },
+  "review-b421c53f56f314d6f7db3a05": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-mild-2"
+  },
+  "review-b439baeb07062604ee320593": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-confident-1"
+  },
+  "review-b43fa69f569908f7fa8d5fbf": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-confident-2"
+  },
+  "review-b4e9cdc6bc30850c3b74eff5": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-neutral-1"
+  },
+  "review-b4f901a48b2987df0bd42388": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-mild-2"
+  },
+  "review-b60179e6112038b1931b993d": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-neutral-2"
+  },
+  "review-b7a2eca9060be7b3258e3db0": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-mild-1"
+  },
+  "review-b7c0481d4ea859076ab36aa8": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-mild-3"
+  },
+  "review-b84440ab060514b973ca9060": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-mild-1"
+  },
+  "review-bbc35eefe783e67476ba3711": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-mild-1"
+  },
+  "review-bddfaf3e5c5593de3cba58a4": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-mild-2"
+  },
+  "review-be6f53fb18ea687212a2d965": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-evidence-1"
+  },
+  "review-bef2d4882d233b967b66b912": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-command-3"
+  },
+  "review-c041f2fa34f5482574921e47": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-command-1"
+  },
+  "review-c116eef468fda1ba49f65752": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-command-1"
+  },
+  "review-c1a69af55e71e28b0ff4e0f6": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-evidence-1"
+  },
+  "review-c249f05c9eeb9a022b8a954f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-neutral-1"
+  },
+  "review-c400ef15072d6d3ab631a257": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-mild-2"
+  },
+  "review-c5106dc27483845b87265e69": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-command-1"
+  },
+  "review-c63b8ff7cca4cd506f26c917": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-neutral-3"
+  },
+  "review-c7f19f0062b514ebd2533943": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-correct-1"
+  },
+  "review-ca01287fedd2da0616fe9d1e": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-mild-1"
+  },
+  "review-ca2dde81af6fb5660575cefd": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-command-3"
+  },
+  "review-cc7688d4f74d283e73bee79a": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-confident-3"
+  },
+  "review-cc7fa5db8bafbf4bab70c4d6": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-initial-0"
+  },
+  "review-cd8623f1d2f39a965a6c2351": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-evidence-1"
+  },
+  "review-cd9625aa475cbda17df8af41": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-initial-0"
+  },
+  "review-ce15dc3cd95947455cfebf00": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-correct-1"
+  },
+  "review-cf8f5ff82befe6532a7ff388": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-confident-1"
+  },
+  "review-cfd3c2fcf7ce3590e3b5882c": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-command-1"
+  },
+  "review-d04e2c9b84c74ae2534659d3": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-mild-2"
+  },
+  "review-d05ed0ec1b43639619d5274e": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-correct-3"
+  },
+  "review-d09da1221b295c4e361ea43b": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-confident-1"
+  },
+  "review-d1516bf8d83ed61f7f92f07e": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-mild-2"
+  },
+  "review-d1624539864216461ce8373e": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-command-3"
+  },
+  "review-d186627e90d074942c192dcb": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-mild-2"
+  },
+  "review-d1ee571edde5c937cf806ab9": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-confident-2"
+  },
+  "review-d330191dbaa5a3bfb7d2269a": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-neutral-1"
+  },
+  "review-d4208791bf489894b4770061": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-neutral-2"
+  },
+  "review-d52c125ca464c1a766fe2919": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-neutral-3"
+  },
+  "review-d5472840d2725e3ba89ffb38": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-confident-3"
+  },
+  "review-d70ff93f2c0ec679494a1247": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-confident-2"
+  },
+  "review-d7470ace891e155e1c09303a": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-correct-1"
+  },
+  "review-d7c13d3ce2f91e53c974a6ba": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-mild-3"
+  },
+  "review-d914470176e2e1b751ec4478": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-mild-1"
+  },
+  "review-daab686ab1075f7451821ddb": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-neutral_repeat-3"
+  },
+  "review-db2e97f07a16bf7ca0f42f6f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-command_repeat-3"
+  },
+  "review-dceb8f33601de1946f83b686": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-confident-1"
+  },
+  "review-dd99e8ceeabbcfd9366785c2": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-confident-3"
+  },
+  "review-dded6b1155459c9e3e912a38": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-neutral-3"
+  },
+  "review-dee2f0e17615a2aec95830df": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-evidence-1"
+  },
+  "review-e223169bb0ec706e016e7e99": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-confident-2"
+  },
+  "review-e234429b65dd9b8b5a94f4fc": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-confident-1"
+  },
+  "review-e268f1216f7402a8ba0152cb": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-neutral-2"
+  },
+  "review-e37bece22cc406de9ed41545": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-confident-1"
+  },
+  "review-e501490f554773fd5574c4e2": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-command-1"
+  },
+  "review-e5d51bd3d32e985feed432b0": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-correct-3"
+  },
+  "review-e5d6bc6022a1effdad624a82": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-correct-1"
+  },
+  "review-e6a867e01c1018ee71fc9d60": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-initial-0"
+  },
+  "review-e6b63b304fe77015a7d407b7": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-evidence-1"
+  },
+  "review-e6df539cae7234300cb42fc1": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-correct-1"
+  },
+  "review-e7126b727386ec63c0f892b7": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-confident-2"
+  },
+  "review-e72f105d3e470971cb6d0c93": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-correct-1"
+  },
+  "review-e753b0732db0ec7bbf63ef3a": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-correct-3"
+  },
+  "review-e7a04ee7ecc3b654de6fa2e0": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-neutral-2"
+  },
+  "review-e7c92a9506d45458aaf7730c": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-command-3"
+  },
+  "review-e954b5ff2c271c22290c4a13": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-mild-1"
+  },
+  "review-e97d481fa0fafaf9d857b831": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-mild-3"
+  },
+  "review-eaaacc5a2156dc98e2ec1095": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-correct-2"
+  },
+  "review-eae4822d5f41be53be8d54c7": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-confident-3"
+  },
+  "review-ebe6454f25e822f3017dce8a": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-neutral-1"
+  },
+  "review-ec793c23a1982bef53e5cad5": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-command-3"
+  },
+  "review-ecf031eba5391ae94ab5f64b": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-neutral-3"
+  },
+  "review-ed4e614bb0a12fbc505ae394": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-neutral-3"
+  },
+  "review-ed7614d33ac5afd2aba51ba4": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-confident-2"
+  },
+  "review-eda63b7a40b0a2fd6b6eb3bc": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-initial-0"
+  },
+  "review-ee09f7be996597a0b857ee0f": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-correct-3"
+  },
+  "review-ee393ea62ac4f715497dad4c": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-correct-2"
+  },
+  "review-ee3e02e8b6c2e20d335c7752": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-correct-3"
+  },
+  "review-ee6cbf78158972b217e20ab4": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-correct-3"
+  },
+  "review-eee5b88255532f3f5498e859": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-neutral-2"
+  },
+  "review-ef3570171f289906a1217b2e": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-neutral-3"
+  },
+  "review-ef7dbc9d815341b0bf8a12f4": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-correct-1"
+  },
+  "review-f093bc324013409d80f3c3de": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-mild-3"
+  },
+  "review-f28ae9eda2aeba4cc099280f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-neutral-2"
+  },
+  "review-f3d1adda4b3f4898d0e11ff2": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-evidence-1"
+  },
+  "review-f508285806f416a0e0a74b0c": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-neutral-3"
+  },
+  "review-f53cc1cb4afad80d4d847cf4": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-mild-2"
+  },
+  "review-f708253457a398546e098f01": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-initial-0"
+  },
+  "review-f7555ac69d26382fdaa54b18": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-neutral-1"
+  },
+  "review-f86d6eee33679e48ae40054f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-confident-3"
+  },
+  "review-f94c792db452f175eb9d44c5": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-confident-1"
+  },
+  "review-f977155e92fb353bcc35df6d": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s09",
+    "slot": "v2s09-command-2"
+  },
+  "review-f9eb4c721a5f2c97ee124c7f": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s02",
+    "slot": "v2s02-correct-2"
+  },
+  "review-fa9cb051d8c1056a8125b3d9": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s03",
+    "slot": "v2s03-confident-2"
+  },
+  "review-fb181afd838a76d2aabc1aaf": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s06",
+    "slot": "v2s06-correct-1"
+  },
+  "review-fd78b332e703b284e917fb81": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s04",
+    "slot": "v2s04-correct-3"
+  },
+  "review-fda36356cf2d190ef08dd189": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s01",
+    "slot": "v2s01-command-2"
+  },
+  "review-fdc948d2c758fde0abdfb2d9": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s08",
+    "slot": "v2s08-correct-2"
+  },
+  "review-fe11332be30d581d979f5a14": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-command-3"
+  },
+  "review-fea8f03e5ccca7ec8ed4de4d": {
+    "model": "reference",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s07",
+    "slot": "v2s07-neutral-3"
+  },
+  "review-ff5a840e0b756da81dd9ee1a": {
+    "model": "quantized",
+    "original_raw_sha256": "cadf5ef0f66a8756b13d04bb5e09d5417bafceed1d85a16e7888afa2fb981a38",
+    "scenario_id": "v2s05",
+    "slot": "v2s05-correct-1"
+  }
+}

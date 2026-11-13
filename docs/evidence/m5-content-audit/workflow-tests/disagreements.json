@@ -1,0 +1,28 @@
+{
+  "adjudications": [],
+  "disagreements": [
+    {
+      "field": "construct_relevance",
+      "individual_ratings": [
+        {
+          "kind": "synthetic_test",
+          "reviewer_id": "SYNTHETIC-TEST-rater-1",
+          "submission_sha256": "1408f1cbe1076e4bc1dc084dd10e032c6a85691b73aa3a963d073a774015c9b1",
+          "value": "concern"
+        },
+        {
+          "kind": "synthetic_test",
+          "reviewer_id": "SYNTHETIC-TEST-rater-2",
+          "submission_sha256": "3aef39d1b17765d4711229e12cc17a6bf17a901e34cb06ea2ea07d7b53becfb5",
+          "value": "uncertain"
+        }
+      ],
+      "item_id": "review-c249f05c9eeb9a022b8a954f",
+      "kind": "synthetic_test"
+    }
+  ],
+  "human_validation": "pending; imports do not establish reviewer independence or construct validity",
+  "individual_records": 2,
+  "packet_sha256": "b911915624b6f28ac7950e82fc1d149afddaf3e249a8a2b525eeda7805343b39",
+  "schema_version": "shared-review-v1"
+}

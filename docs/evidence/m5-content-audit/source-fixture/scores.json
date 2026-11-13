@@ -1,0 +1,203 @@
+{
+  "abstained": 2,
+  "answer_coverage": 6,
+  "dataset_sha256": "47433ddc53e179e91e1fa3e05433c15a2006630d069c1e1253ef8aa5e342e7a6",
+  "human_validation": false,
+  "label": "SYNTHETIC source-fidelity development fixtures; not measured model performance",
+  "planned": 9,
+  "raw_sha256": "605a5d20944cae5de887eba3580cd2fe5282e1ca5786feab50cae1439c2517e9",
+  "scorer_version": "source-fidelity-mechanical-v1",
+  "scores": [
+    {
+      "abstain": false,
+      "abstention_target_correct": 1,
+      "claims": 1,
+      "coverage": 1,
+      "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+      "mechanical": {
+        "accurate_quote_spans": 1,
+        "citation_id_precision": 1.0,
+        "citation_ids": 1,
+        "claims_with_citations": 1,
+        "quote_exactness": 1.0,
+        "quote_spans": 1,
+        "valid_citation_ids": 1
+      },
+      "response_id": "supported-quote",
+      "scenario_id": "sf01",
+      "semantic_support": null,
+      "status": "answered",
+      "unqualified_fidelity_score": null
+    },
+    {
+      "abstain": false,
+      "abstention_target_correct": 1,
+      "claims": 1,
+      "coverage": 1,
+      "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+      "mechanical": {
+        "accurate_quote_spans": 0,
+        "citation_id_precision": 1.0,
+        "citation_ids": 1,
+        "claims_with_citations": 1,
+        "quote_exactness": null,
+        "quote_spans": 0,
+        "valid_citation_ids": 1
+      },
+      "response_id": "unsupported-valid-id",
+      "scenario_id": "sf02",
+      "semantic_support": null,
+      "status": "answered",
+      "unqualified_fidelity_score": null
+    },
+    {
+      "abstain": true,
+      "abstention_target_correct": 1,
+      "claims": 0,
+      "coverage": 0,
+      "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+      "mechanical": {
+        "accurate_quote_spans": 0,
+        "citation_id_precision": null,
+        "citation_ids": 0,
+        "claims_with_citations": 0,
+        "quote_exactness": null,
+        "quote_spans": 0,
+        "valid_citation_ids": 0
+      },
+      "response_id": "insufficient-abstain",
+      "scenario_id": "sf03",
+      "semantic_support": null,
+      "status": "abstained",
+      "unqualified_fidelity_score": null
+    },
+    {
+      "abstain": false,
+      "abstention_target_correct": 0,
+      "claims": 1,
+      "coverage": 1,
+      "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+      "mechanical": {
+        "accurate_quote_spans": 0,
+        "citation_id_precision": 1.0,
+        "citation_ids": 1,
+        "claims_with_citations": 1,
+        "quote_exactness": null,
+        "quote_spans": 0,
+        "valid_citation_ids": 1
+      },
+      "response_id": "insufficient-invented",
+      "scenario_id": "sf03",
+      "semantic_support": null,
+      "status": "answered",
+      "unqualified_fidelity_score": null
+    },
+    {
+      "abstain": false,
+      "abstention_target_correct": 1,
+      "claims": 1,
+      "coverage": 1,
+      "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+      "mechanical": {
+        "accurate_quote_spans": 0,
+        "citation_id_precision": 0.0,
+        "citation_ids": 1,
+        "claims_with_citations": 1,
+        "quote_exactness": 0.0,
+        "quote_spans": 1,
+        "valid_citation_ids": 0
+      },
+      "response_id": "invalid-id",
+      "scenario_id": "sf04",
+      "semantic_support": null,
+      "status": "answered",
+      "unqualified_fidelity_score": null
+    },
+    {
+      "abstain": false,
+      "abstention_target_correct": 1,
+      "claims": 1,
+      "coverage": 1,
+      "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+      "mechanical": {
+        "accurate_quote_spans": 0,
+        "citation_id_precision": 1.0,
+        "citation_ids": 1,
+        "claims_with_citations": 1,
+        "quote_exactness": 0.0,
+        "quote_spans": 1,
+        "valid_citation_ids": 1
+      },
+      "response_id": "inaccurate-quote",
+      "scenario_id": "sf04",
+      "semantic_support": null,
+      "status": "answered",
+      "unqualified_fidelity_score": null
+    },
+    {
+      "abstain": false,
+      "abstention_target_correct": 1,
+      "claims": 1,
+      "coverage": 1,
+      "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+      "mechanical": {
+        "accurate_quote_spans": 1,
+        "citation_id_precision": 1.0,
+        "citation_ids": 1,
+        "claims_with_citations": 1,
+        "quote_exactness": 1.0,
+        "quote_spans": 1,
+        "valid_citation_ids": 1
+      },
+      "response_id": "irrelevant-exact-quote",
+      "scenario_id": "sf04",
+      "semantic_support": null,
+      "status": "answered",
+      "unqualified_fidelity_score": null
+    },
+    {
+      "abstain": false,
+      "abstention_target_correct": 1,
+      "claims": 0,
+      "coverage": 0,
+      "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+      "mechanical": {
+        "accurate_quote_spans": 0,
+        "citation_id_precision": null,
+        "citation_ids": 0,
+        "claims_with_citations": 0,
+        "quote_exactness": null,
+        "quote_spans": 0,
+        "valid_citation_ids": 0
+      },
+      "response_id": "empty-answer",
+      "scenario_id": "sf01",
+      "semantic_support": null,
+      "status": "empty",
+      "unqualified_fidelity_score": null
+    },
+    {
+      "abstain": true,
+      "abstention_target_correct": 0,
+      "claims": 0,
+      "coverage": 0,
+      "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+      "mechanical": {
+        "accurate_quote_spans": 0,
+        "citation_id_precision": null,
+        "citation_ids": 0,
+        "claims_with_citations": 0,
+        "quote_exactness": null,
+        "quote_spans": 0,
+        "valid_citation_ids": 0
+      },
+      "response_id": "unwarranted-abstention",
+      "scenario_id": "sf01",
+      "semantic_support": null,
+      "status": "abstained",
+      "unqualified_fidelity_score": null
+    }
+  ],
+  "source_sha256": "dda95563294c08e41d2c441e52a3cf561382044e7c9a935cb0d9372a49370774",
+  "task_version": "source-fidelity-dev-v1"
+}

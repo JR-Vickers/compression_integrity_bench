@@ -1,0 +1,145 @@
+{
+  "kind": "human",
+  "packet_sha256": "6cb51209f95bbaa375dfdf8f57f1b73ef5f3062478e3fc8a97ba1c118fc821fb",
+  "ratings": [
+    {
+      "adjudicates": [],
+      "item_id": "review-6610510d5387dae32444eb0e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-38cf94ede5d9cd16e89dee18",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-84d6b78db7e72cdfca1e4c75",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2be8d0c7b4aaf7b4f287b271",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1ae8b647523e333df114b475",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6239d494c78e73481aacc4cb",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-fbc449b23cc800d261edb685",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-97284996ab820e4899952bf1",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1eb4031e1c992580a44b6e0d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-fidelity-dev-v1"
+    }
+  ],
+  "record_type": "individual",
+  "reviewer_id": null,
+  "schema_version": "shared-review-v1",
+  "timestamp": null
+}

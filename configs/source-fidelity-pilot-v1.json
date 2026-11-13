@@ -1,0 +1,62 @@
+{
+  "schema_version": "cib.source-fidelity-protocol.v1",
+  "task_version": "source-fidelity-pilot-v1",
+  "dataset": "src/cib/data/source-fidelity-pilot-v1.json",
+  "dataset_sha256": "99d0ee883b32b8e24ca17fffda18e4a189073440ab802b07ec0a314fa2c4e3c4",
+  "pair_config": "configs/feasibility-qwen25-1.5b.json",
+  "pair_prepared": "outputs/m2-prepare/prepared.json",
+  "max_tokens": 256,
+  "planned_generations": 20,
+  "max_attempts": 32,
+  "retries": 0,
+  "smokes": 0,
+  "repeat_scenarios": [
+    "sf101",
+    "sf107"
+  ],
+  "review": {
+    "primary_reviewer_scenarios": [
+      "sf101",
+      "sf102",
+      "sf103",
+      "sf104",
+      "sf105",
+      "sf106",
+      "sf107",
+      "sf108"
+    ],
+    "overlap_seed": 271828,
+    "second_reviewer_scenarios": [
+      "sf101",
+      "sf103",
+      "sf104",
+      "sf107"
+    ],
+    "order_seed": 1702,
+    "rubric": "shared-review-source-v2",
+    "human_ratings": null,
+    "qualifications": "Independent human readers proficient in English and document comparison; source authors disclose involvement; no claim of expert or independent validation from import metadata alone.",
+    "training": "Read rubric and existing four development source fixtures first; discuss rubric using fixtures only before independently rating pilot responses.",
+    "budget": "16 main response reviews by first reviewer plus 8 overlap response reviews by second reviewer; adjudication workload contingent on disagreements; no reviewer currently available.",
+    "adjudication": "Preserve individual submissions. Report per-field exact agreement among nonmissing overlap ratings; preserve disagreements. Separate adjudicator submission references two distinct individual human records. No forced consensus or missing-as-zero.",
+    "weights": "Each of eight scenario pairs equal weight; answerable (6) and insufficient (2) components reported separately. Repeats excluded from semantic endpoint."
+  },
+  "analysis": {
+    "endpoint": "Proposed exploratory response task success requiring human validation: source-supported requested answer with correctly attributed support; appropriate insufficiency without invention for unanswerable cases; requested quotes accurate and relevant.",
+    "components": [
+      "answer_completeness",
+      "semantic_source_support",
+      "attribution",
+      "quotation_relevance",
+      "abstention_appropriateness"
+    ],
+    "denominator": "All eight main scenarios per deployment; repeats secondary and grouped; no missing-as-zero",
+    "provisional": "First individual human rating per component; disagreement leaves consensus pending; report individual values and coverage.",
+    "adjudicated": "Separate human adjudication referring to distinct individual reviewers overrides only adjudicated fields; preserve individuals and disagreements.",
+    "mechanical": "Strict schema plus prespecified single outer JSON fence extraction diagnostic; citation existence and exact quote spans only, not semantic support. Duplicate IDs count as occurrences.",
+    "uncertainty": "Descriptive only; no preservation, equivalence, inferential intervals or study-readiness claim."
+  },
+  "max_wall_seconds": 1800,
+  "max_disk_bytes": 1000000000,
+  "max_mlx_peak_bytes": 24000000000
+}

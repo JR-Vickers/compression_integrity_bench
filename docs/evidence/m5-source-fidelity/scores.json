@@ -1,0 +1,2080 @@
+{
+  "human_validation": "Only genuine human imports contribute; all unavailable labels stay null. No semantic inference from mechanics.",
+  "mechanical_scorer": "source-fidelity-mechanical-v1",
+  "mechanical_source_sha256": "dda95563294c08e41d2c441e52a3cf561382044e7c9a935cb0d9372a49370774",
+  "overlap_agreement": {
+    "abstention_appropriateness": {
+      "exact_agreement": 0,
+      "jointly_rated": 0,
+      "planned_overlap_responses": 8,
+      "rate": null
+    },
+    "answer_completeness": {
+      "exact_agreement": 0,
+      "jointly_rated": 0,
+      "planned_overlap_responses": 8,
+      "rate": null
+    },
+    "attribution": {
+      "exact_agreement": 0,
+      "jointly_rated": 0,
+      "planned_overlap_responses": 8,
+      "rate": null
+    },
+    "human_assessability": {
+      "exact_agreement": 0,
+      "jointly_rated": 0,
+      "planned_overlap_responses": 8,
+      "rate": null
+    },
+    "quotation_relevance": {
+      "exact_agreement": 0,
+      "jointly_rated": 0,
+      "planned_overlap_responses": 8,
+      "rate": null
+    },
+    "response_behavior": {
+      "exact_agreement": 0,
+      "jointly_rated": 0,
+      "planned_overlap_responses": 8,
+      "rate": null
+    },
+    "semantic_source_support": {
+      "exact_agreement": 0,
+      "jointly_rated": 0,
+      "planned_overlap_responses": 8,
+      "rate": null
+    },
+    "task_success": {
+      "exact_agreement": 0,
+      "jointly_rated": 0,
+      "planned_overlap_responses": 8,
+      "rate": null
+    }
+  },
+  "plan_sha256": "fe3af2bded7e5e19bd9c5dca0f03fb090b1512e1dd6b56ab3734c34cbec0e956",
+  "raw_sha256": "a7f631cd8b3e5aa3e44ebcd79d1195aef395be2d0ade2450ccd5fd04f2e17e8a",
+  "review_packet_sha256": "1a288032424045698cc936a5916d68c4cb512320262adc3d49f69ebf853dd9d2",
+  "review_sha256": [],
+  "rows": [
+    {
+      "answerable": true,
+      "model": "reference",
+      "quote_required": true,
+      "result": {
+        "abstain": null,
+        "coverage": null,
+        "empty_answer": null,
+        "human_assessability": null,
+        "mechanical": null,
+        "mechanically_extractable": false,
+        "parsed_status": "malformed",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf101",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf101-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "quantized",
+      "quote_required": true,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf101",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf101-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "reference",
+      "quote_required": true,
+      "result": {
+        "abstain": null,
+        "coverage": null,
+        "empty_answer": null,
+        "human_assessability": null,
+        "mechanical": null,
+        "mechanically_extractable": false,
+        "parsed_status": "malformed",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf102",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf102-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "quantized",
+      "quote_required": true,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf102",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf102-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "reference",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf103",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf103-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "quantized",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf103",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf103-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "reference",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf104",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf104-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "quantized",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf104",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf104-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "reference",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf105",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf105-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "quantized",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf105",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf105-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "reference",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf106",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf106-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "quantized",
+      "quote_required": false,
+      "result": {
+        "abstain": false,
+        "abstention_target_correct": 1,
+        "coverage": 1,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 1,
+          "citation_id_precision": 1.0,
+          "citation_ids": 1,
+          "claims_with_citations": 1,
+          "quote_exactness": 1.0,
+          "quote_spans": 1,
+          "valid_citation_ids": 1
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "answered",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf106",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf106-main",
+      "trial": 0
+    },
+    {
+      "answerable": false,
+      "model": "reference",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 1,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf107",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf107-main",
+      "trial": 0
+    },
+    {
+      "answerable": false,
+      "model": "quantized",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 1,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf107",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf107-main",
+      "trial": 0
+    },
+    {
+      "answerable": false,
+      "model": "reference",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 1,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf108",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf108-main",
+      "trial": 0
+    },
+    {
+      "answerable": false,
+      "model": "quantized",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 1,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf108",
+      "semantic": {
+        "abstention_appropriateness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "answer_completeness": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "attribution": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "human_assessability": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "quotation_relevance": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "response_behavior": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "semantic_source_support": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        },
+        "task_success": {
+          "adjudicated": null,
+          "adjudications": [],
+          "consensus": null,
+          "disagreement": false,
+          "individuals": [],
+          "provisional": null
+        }
+      },
+      "slot": "sf108-main",
+      "trial": 0
+    },
+    {
+      "answerable": true,
+      "model": "reference",
+      "quote_required": true,
+      "result": {
+        "abstain": null,
+        "coverage": null,
+        "empty_answer": null,
+        "human_assessability": null,
+        "mechanical": null,
+        "mechanically_extractable": false,
+        "parsed_status": "malformed",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf101",
+      "semantic": null,
+      "slot": "sf101-repeat",
+      "trial": 1
+    },
+    {
+      "answerable": true,
+      "model": "quantized",
+      "quote_required": true,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf101",
+      "semantic": null,
+      "slot": "sf101-repeat",
+      "trial": 1
+    },
+    {
+      "answerable": false,
+      "model": "reference",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 1,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf107",
+      "semantic": null,
+      "slot": "sf107-repeat",
+      "trial": 1
+    },
+    {
+      "answerable": false,
+      "model": "quantized",
+      "quote_required": false,
+      "result": {
+        "abstain": true,
+        "abstention_target_correct": 1,
+        "coverage": 0,
+        "empty_answer": false,
+        "human_assessability": null,
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "mechanically_extractable": true,
+        "parsed_status": "abstained",
+        "raw_content_available": true,
+        "status": "completed",
+        "strict_compliance": false
+      },
+      "scenario_id": "sf107",
+      "semantic": null,
+      "slot": "sf107-repeat",
+      "trial": 1
+    }
+  ],
+  "schema_version": "source-fidelity-pilot-scorer-v1",
+  "scorer_source_sha256": "b25f5b79882bd94af95e46aaa9bfede56f4d627886236dc836d9a7872114d0da",
+  "summary": {
+    "quantized": {
+      "abstentions": 7,
+      "accurate_quote_spans": 1,
+      "adjudicated_full_set_success": null,
+      "adjudicated_pass": 0,
+      "adjudicated_success_coverage": 0,
+      "answerable_abstentions": 5,
+      "answers": 1,
+      "attempted_main": 8,
+      "citation_id_precision": 1.0,
+      "citation_ids": 1,
+      "claims": 1,
+      "claims_with_citations": 1,
+      "completed": 8,
+      "empty_answers": 0,
+      "human_components": {
+        "abstention_appropriateness": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "answer_completeness": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "attribution": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "human_assessability": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "quotation_relevance": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "response_behavior": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "semantic_source_support": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "task_success": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "insufficient_abstentions": 2,
+      "mechanically_extractable": 8,
+      "planned_main": 8,
+      "provisional_full_set_success": null,
+      "provisional_pass": 0,
+      "provisional_success_coverage": 0,
+      "quote_exactness": 1.0,
+      "quote_spans": 1,
+      "raw_content_available": 8,
+      "repeats": [
+        {
+          "exact_text_status_match": true,
+          "main_present": true,
+          "repeat_present": true,
+          "scenario_id": "sf101"
+        },
+        {
+          "exact_text_status_match": true,
+          "main_present": true,
+          "repeat_present": true,
+          "scenario_id": "sf107"
+        }
+      ],
+      "strata": {
+        "answerable": {
+          "abstentions": 5,
+          "adjudicated_determinate": 0,
+          "adjudicated_pass": 0,
+          "answers": 1,
+          "extracted": 6,
+          "planned": 6,
+          "provisional_determinate": 0,
+          "provisional_pass": 0
+        },
+        "insufficient_source": {
+          "abstentions": 2,
+          "adjudicated_determinate": 0,
+          "adjudicated_pass": 0,
+          "answers": 0,
+          "extracted": 2,
+          "planned": 2,
+          "provisional_determinate": 0,
+          "provisional_pass": 0
+        }
+      },
+      "strict_compliance": 0,
+      "valid_citation_ids": 1
+    },
+    "reference": {
+      "abstentions": 6,
+      "accurate_quote_spans": 0,
+      "adjudicated_full_set_success": null,
+      "adjudicated_pass": 0,
+      "adjudicated_success_coverage": 0,
+      "answerable_abstentions": 4,
+      "answers": 0,
+      "attempted_main": 8,
+      "citation_id_precision": null,
+      "citation_ids": 0,
+      "claims": 0,
+      "claims_with_citations": 0,
+      "completed": 8,
+      "empty_answers": 0,
+      "human_components": {
+        "abstention_appropriateness": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "answer_completeness": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "attribution": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "human_assessability": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "quotation_relevance": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "response_behavior": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "semantic_source_support": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "task_success": {
+          "adjudication_coverage": 0,
+          "consensus_coverage": 0,
+          "disagreement_count": 0,
+          "individual_rating_count": 0,
+          "planned": 8,
+          "provisional_values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "insufficient_abstentions": 2,
+      "mechanically_extractable": 6,
+      "planned_main": 8,
+      "provisional_full_set_success": null,
+      "provisional_pass": 0,
+      "provisional_success_coverage": 0,
+      "quote_exactness": null,
+      "quote_spans": 0,
+      "raw_content_available": 8,
+      "repeats": [
+        {
+          "exact_text_status_match": true,
+          "main_present": true,
+          "repeat_present": true,
+          "scenario_id": "sf101"
+        },
+        {
+          "exact_text_status_match": true,
+          "main_present": true,
+          "repeat_present": true,
+          "scenario_id": "sf107"
+        }
+      ],
+      "strata": {
+        "answerable": {
+          "abstentions": 4,
+          "adjudicated_determinate": 0,
+          "adjudicated_pass": 0,
+          "answers": 0,
+          "extracted": 4,
+          "planned": 6,
+          "provisional_determinate": 0,
+          "provisional_pass": 0
+        },
+        "insufficient_source": {
+          "abstentions": 2,
+          "adjudicated_determinate": 0,
+          "adjudicated_pass": 0,
+          "answers": 0,
+          "extracted": 2,
+          "planned": 2,
+          "provisional_determinate": 0,
+          "provisional_pass": 0
+        }
+      },
+      "strict_compliance": 0,
+      "valid_citation_ids": 0
+    }
+  }
+}

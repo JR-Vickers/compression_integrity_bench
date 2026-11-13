@@ -1,0 +1,4780 @@
+{
+  "kind": "human",
+  "packet_sha256": "b911915624b6f28ac7950e82fc1d149afddaf3e249a8a2b525eeda7805343b39",
+  "ratings": [
+    {
+      "adjudicates": [],
+      "item_id": "review-c249f05c9eeb9a022b8a954f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-19382e4c0f52bbeb85ef8970",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a75cc02484d909281b448947",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-81f84016eb5efdf9f80bd469",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d914470176e2e1b751ec4478",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-11ce97509811a8a46f18fc27",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-139558218465bf64247edad5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1c44461972e18ca343a50559",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b1bce209e194e3decb0ed2ae",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-27d6c456d2195734132ee73f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-250c76153c680b13b2960c01",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1985e0328f015586ed31c7d2",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-aa79380cb32ba317858dc7b7",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2256dd1c639fe0411b1c9f48",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-924acd90d3a6cdf2eee31ebf",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-77804ff74ba772a08dc0c6c7",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1788cae1a3801515eb10bb8f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-afd3dbdbdac45c076714d596",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-c1a69af55e71e28b0ff4e0f6",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1cfe5b6984633b9ccbd650b5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1d24437d0c0dc1a8c6978ff6",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d70ff93f2c0ec679494a1247",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8be7c660e826ec5fb3f0d928",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-dee2f0e17615a2aec95830df",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-97405451a13b568bfd2cc46d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a01988cf3fa0908ea6e582c0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-0d505e94b61f66579f117a3b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-08bea8d7cac831e282d37fea",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ae9a5297775a02039a85b5db",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8740bcbcf961bb948290e099",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ff5a840e0b756da81dd9ee1a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7d1899d537f58e1b8a2ad5ee",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-91a34fab61f60498aacda8b4",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ef3570171f289906a1217b2e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ee3e02e8b6c2e20d335c7752",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-5fabea88092efb8b577045f8",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-10605068bcc781122f77a412",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-c5106dc27483845b87265e69",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b60179e6112038b1931b993d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-147cefbf2045282b511401ab",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2e27fb7dbeaff33984e1cb1b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-40b2c939522865119e34d86a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2c4b1d689ca67bbea97a9bf1",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-3fb87993058a3a451caa854c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e234429b65dd9b8b5a94f4fc",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8f9b21ad99f51620a306482c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-08bf033e6d8bc91dcd396044",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-3e3b3931f270f6002d568cb0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4b72ba5080ca8d42b7a39973",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ca2dde81af6fb5660575cefd",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-5402253dee7dcd77afbfa283",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a312f038a52e4323638ec11a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-188ee3d82511027269989d06",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d186627e90d074942c192dcb",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-39a66ace70f855363828407a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f508285806f416a0e0a74b0c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e6a867e01c1018ee71fc9d60",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b26a0de78cd913aa08dd59bc",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-eaaacc5a2156dc98e2ec1095",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-89ad263ff0ee6b3c2b3bdf40",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-0d2a8cf3cfea28cf7565792c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1cf774ec24819a963114aa56",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-41c889639638eb06b22fb639",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-3252288fbda8672100742912",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f093bc324013409d80f3c3de",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ee393ea62ac4f715497dad4c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-75c5339c2ced3eab12f81ccd",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6a83a13092ab3a6e1beba549",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-cf8f5ff82befe6532a7ff388",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b2664ae6c8b4d3e55cd32006",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-71d2e01aa2d31fa85356242e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6a4689b6069b4b40af7dba40",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-9237ba5c34933303de5448df",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b439baeb07062604ee320593",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2b0a2ca1e9bcefbe5929e9b6",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ac9e1666491c6358b36e892f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d1ee571edde5c937cf806ab9",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8077e96de3229165bc33428e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-0e4f97a475769078bace9267",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7b259950655b8c79786b276b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f9eb4c721a5f2c97ee124c7f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d7c13d3ce2f91e53c974a6ba",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e97d481fa0fafaf9d857b831",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-aa31cc29269aa821e465e672",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-623f91ab071f6fbd241a7aef",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-3cc96ccc927398769f63ed0a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-811475c2bb90a1b9ab20ce48",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-32b7ef5f23e457e0e3a92b13",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f977155e92fb353bcc35df6d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ed4e614bb0a12fbc505ae394",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-33a201f4cc63b8763a0c3bf6",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e7c92a9506d45458aaf7730c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-5251e85c42f0b1155afbab4d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-35b2a7b793860c32ae14aa33",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-daab686ab1075f7451821ddb",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-81fefb05abbca9ca894e34a1",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-68db68c9fd82f55c5b223a50",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1cd195cf40206afdca468581",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-736a087a5236d96172c2d2ff",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-824f97a4a087e866929b92b8",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6bb05f9229821d750941d82c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-715a218b8f4bd239dc9a6602",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-84649fb5e6ff4ea24f40cf05",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-413eb282cce62178f0a3be3d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-76cc639703029f81d6116bba",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a5a292a4f2358050fff071a2",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b43fa69f569908f7fa8d5fbf",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8292454f26d598e13d75e587",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1188c24433a21dc5116f0e3c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-3ffc9ab23370fd6a8b2d6048",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-cc7fa5db8bafbf4bab70c4d6",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-10d34c6e269561624aa41da5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f708253457a398546e098f01",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b0200eddcfc108e3b8893e57",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-aa008d63bffe5f4efabf429b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-72062ef77fc66830340ca9e5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ed7614d33ac5afd2aba51ba4",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-72f3def74ca402161904190e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-325f0d42293d1aba2f7246d0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ebe6454f25e822f3017dce8a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4728718afa74b556d4924352",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-fe11332be30d581d979f5a14",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e223169bb0ec706e016e7e99",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-fa9cb051d8c1056a8125b3d9",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d04e2c9b84c74ae2534659d3",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-02481b8f1a5664126cb12e2f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ee09f7be996597a0b857ee0f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7ea3c74f70c85ca5a8444dbd",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-dceb8f33601de1946f83b686",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-108e5fe305cf2b3ad76a4d3b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f94c792db452f175eb9d44c5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4d6c95d685fe8d3bdd4b1f7d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-9394995959d8c1e38cdb5953",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-eee5b88255532f3f5498e859",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-be6f53fb18ea687212a2d965",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ee6cbf78158972b217e20ab4",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-90ceed6502895e9e717a4332",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b4e9cdc6bc30850c3b74eff5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e7126b727386ec63c0f892b7",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-51c136e7d965820b6717a453",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-c400ef15072d6d3ab631a257",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1adbcc884e3018615d08a185",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f7555ac69d26382fdaa54b18",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8927e5acc09f0aff92bf6299",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-9339a1e6c8e8930378aeb112",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f86d6eee33679e48ae40054f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ca01287fedd2da0616fe9d1e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-fda36356cf2d190ef08dd189",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-43826ead83022f3b253f8bc8",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-cd8623f1d2f39a965a6c2351",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-21ee296c8994448655c2b443",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-157e6cfdc827190303d668fd",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8f4a995b58a88ff007b1e7c0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a00851b625461eef00b73a73",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e5d6bc6022a1effdad624a82",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-76c5c48ace18cc570f0ceb88",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-06ffa7876a8d6f7c6cf0c721",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-48497417f3208123ae8960b4",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d1516bf8d83ed61f7f92f07e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-896b06e6c1fb8080c93bc712",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e37bece22cc406de9ed41545",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7458e835b789f268f8310358",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a1d281fa1e2acb1863fb4c7e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a8ae2ea4b5528d43ace5a9f6",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d4208791bf489894b4770061",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a0b0169e7d16848f95ea6542",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6409caa24f69a4933cda6468",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-cd9625aa475cbda17df8af41",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-02c504eeb1112816b04a9036",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f3d1adda4b3f4898d0e11ff2",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-bbc35eefe783e67476ba3711",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-685ebccc36555d4d553f5d24",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-fea8f03e5ccca7ec8ed4de4d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-712cbaec73e07105bbab5e9f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d05ed0ec1b43639619d5274e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b84440ab060514b973ca9060",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1dbaa14f04844a7a8a82b2a5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-0a3d688366ffe6a33e826a72",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8dd32335791d955a2c265ddd",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4350078a6971d3025a71baa9",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-124b27dc4c96d743e515e69d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a0df527f78d962fbf6eaf41a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-84d84ea83f8311ae7ea8ae19",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-aa590ea1d35580fd33d01345",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1a8112ffdf4b439fc3336ae8",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-af55ffcb703eb57940bf58d0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b24b1c7fd1f3933e0451213b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-698083abecbdc8fc41fdedd8",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-29c0ff4da604cad1e9c9f0ec",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1bd0dd69ea167b2ecdedc83e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-33b3987d3de95c32a45a6094",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-25c29afde549eb39056ba41f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-9c9372a8af470f6a9676df68",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4c02bc220e2810ede2655893",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a5a5ce6aec1300ec3146a8d4",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6f1eaebd1ba78e6ace3dfb46",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-112a22ea18c2a48ea951b99a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7094801b56fdf277db30bf73",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4f874ee2f9ea4305051c396f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2cdbe914663985e9c2b3f641",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-dd99e8ceeabbcfd9366785c2",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-679e67a29215dac6daa39089",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2d08fa0e0896ca3f964a509d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-93dfa1f83a03cd8a589d44a5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-661ab978d4b5a953db129289",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-51391afdafa0ab6d6724fea5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-dded6b1155459c9e3e912a38",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-21d2be4f65fe3297ec859917",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7eeca9e7341113cda5d3ee4f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-159bb44c5267e1dcb78e3821",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ecf031eba5391ae94ab5f64b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-52c8d1f0c5019981375f3969",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d52c125ca464c1a766fe2919",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-aeaa7b7f9972aec1ef6a7bee",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8dd6f2f2a41c2f08e3d31c88",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-519d80088d0066f3e9b07e16",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-94bab8eccd1bf63d23468a9f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4b6092b46854fa25b8e8b585",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-94e1ff848df1cf9a365c34b1",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-114fdd1e0fa3e9ba893b0c4f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-001e0a42883d0c10b0c91ac0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-bef2d4882d233b967b66b912",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d09da1221b295c4e361ea43b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e954b5ff2c271c22290c4a13",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-64a1735748e9e1df4957011e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2332fb9abd49c4cc0057deb1",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4a204f96cbc8b219d40762bc",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6e520edb2b25ae2aaa39f59b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7c77a9007f4270766e6fc329",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e501490f554773fd5574c4e2",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d330191dbaa5a3bfb7d2269a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-857b0fa09ad7cad8b29e0206",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e753b0732db0ec7bbf63ef3a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7f0720402d2969eaaee6820f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4d6d201177789a0272640931",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-05aa7bce7b5d9d0f211f2804",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-41b891fb7f5fa0920d503452",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-0ccc9b6dfead8793d13ee030",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4986d2ac96b28fbbff7f6f2e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e72f105d3e470971cb6d0c93",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e268f1216f7402a8ba0152cb",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d7470ace891e155e1c09303a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-fd78b332e703b284e917fb81",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-43419c3991fe1912187d6aca",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-45932a6c1c5d735a32e94491",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-c041f2fa34f5482574921e47",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-5ffa0a2f313b998dac33c872",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f28ae9eda2aeba4cc099280f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6e2a5ecf4639b6c50f84c035",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-75965196af0bf32e14c9729e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-abca9d8dda2a6962c7f26ca2",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4606f74573d0829a9f57f154",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-db2e97f07a16bf7ca0f42f6f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-61d83574ecd32ecb60504d38",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-eae4822d5f41be53be8d54c7",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b4f901a48b2987df0bd42388",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e6b63b304fe77015a7d407b7",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ec793c23a1982bef53e5cad5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b421c53f56f314d6f7db3a05",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-cc7688d4f74d283e73bee79a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-93cf998098970bcd4ed3bf1f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-13efc6d58bafc1fbdad35723",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-cfd3c2fcf7ce3590e3b5882c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-3d02daf46c09f45d565d35a0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b2302ea595d43bffbfea0a5c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d5472840d2725e3ba89ffb38",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-1e8037b66e2f1ac124715f8c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-21d284522e861fa80367fcc2",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-02c5836f6d09a39efa6f7b2f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-43c128122d4ef78f60422f65",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-189ba0884ea4fbc50dab6432",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-c63b8ff7cca4cd506f26c917",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-64fae547af3fb0b181f2c6f1",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ce15dc3cd95947455cfebf00",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-0e99e425f3c7cb8184940816",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-aafbc8acfa6d589b47a10f9f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-688c404522d2b4c700aa8dea",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-05be508365e8d5493aae8ede",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ab08c121aeed6bfb782b48bc",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2459dc279899e10498894f62",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b7c0481d4ea859076ab36aa8",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-78b9eeeb017120a391d8e006",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a95c34b68a403f64c9c5c5fe",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-abf173f2ac071a3eff2953e2",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-c7f19f0062b514ebd2533943",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7df62ee67a0cbaa2094f76a0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6d765e19c076c8aaad14241c",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-6c8f39ee9905a6e63215580d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e5d51bd3d32e985feed432b0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-70e4ec7975773b6ca2b8e7cc",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-bddfaf3e5c5593de3cba58a4",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-fb181afd838a76d2aabc1aaf",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4f87d6e675349d4b218ad66f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-ef7dbc9d815341b0bf8a12f4",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-eda63b7a40b0a2fd6b6eb3bc",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-7b63e84cf82ccc1da2ec3fc2",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-a1f789a8ee177a92624779ed",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-c116eef468fda1ba49f65752",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-17b964d6b25b8c2e418dd1dd",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-fdc948d2c758fde0abdfb2d9",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-8e3005753fb22be4c534335d",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-46fae7e1c71358623512a1e3",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-f53cc1cb4afad80d4d847cf4",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-51b2db1f459b71c7ae297788",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-51b52efda80bc8a9cfe51008",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e7a04ee7ecc3b654de6fa2e0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-80bcb326f75b95230ff33798",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b7a2eca9060be7b3258e3db0",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-2347d54630261305074f4458",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-31e539fb840f1f6294495b35",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-189d6b640952fcb2fc77706a",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-34c3747637393c534388bf7f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-402a9dc239a28dd2a4d9c130",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-d1624539864216461ce8373e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-3ff43e638e67e7f9c6474a6b",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e6df539cae7234300cb42fc1",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-0f106f2c35dbc930e38ad597",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-24f2a3f8461cb8730fb73258",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    }
+  ],
+  "record_type": "individual",
+  "reviewer_id": null,
+  "schema_version": "shared-review-v1",
+  "timestamp": null
+}

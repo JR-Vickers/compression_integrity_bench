@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "quantized": {
+      "max_input_tokens": 387,
+      "slots": 159,
+      "template_sha256": "718d67db7e7b8db25e9beb07550e548e941da07b804d12322bfc406212670e70"
+    },
+    "reference": {
+      "max_input_tokens": 387,
+      "slots": 159,
+      "template_sha256": "718d67db7e7b8db25e9beb07550e548e941da07b804d12322bfc406212670e70"
+    }
+  },
+  "human_validation": false,
+  "label": "AGENT tokenizer-only synthetic-history check; no inference"
+}

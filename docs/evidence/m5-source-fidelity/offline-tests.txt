@@ -1,0 +1,56 @@
+test_audited_controls_and_measured_reference_evidence (test_diagnostic.DiagnosticTests.test_audited_controls_and_measured_reference_evidence) ... ok
+test_independent_targets_and_incomplete_summaries (test_diagnostic.DiagnosticTests.test_independent_targets_and_incomplete_summaries) ... ok
+test_larger_reference_scope_and_no_quantization (test_diagnostic.DiagnosticTests.test_larger_reference_scope_and_no_quantization) ... ok
+test_rendered_wording_equivalence (test_diagnostic.DiagnosticTests.test_rendered_wording_equivalence) ... ok
+test_saved_journal_and_attempt_budget (test_diagnostic.DiagnosticTests.test_saved_journal_and_attempt_budget) ... ok
+test_targets_wording_and_allocation (test_diagnostic.DiagnosticTests.test_targets_wording_and_allocation) ... ok
+test_artifact_identity_and_header_audit (test_feasibility.FeasibilityTests.test_artifact_identity_and_header_audit) ... ok
+test_cache_dtype_audit_handles_offset (test_feasibility.FeasibilityTests.test_cache_dtype_audit_handles_offset) ... ok
+test_config_rejects_unimplemented_controls (test_feasibility.FeasibilityTests.test_config_rejects_unimplemented_controls) ... ok
+test_saved_real_feasibility_evidence (test_feasibility.FeasibilityTests.test_saved_real_feasibility_evidence) ... ok
+test_source_only_request_payload (test_feasibility.FeasibilityTests.test_source_only_request_payload) ... ok
+test_decoder_boundaries_and_collision_priority (test_m5_revision.ContentTests.test_decoder_boundaries_and_collision_priority) ... ok
+test_saved_audit_pairing_targets_and_immutable_regeneration (test_m5_revision.ContentTests.test_saved_audit_pairing_targets_and_immutable_regeneration) ... ok
+test_blinding_ids_versions_import_disagreements_adjudication (test_m5_revision.ReviewTests.test_blinding_ids_versions_import_disagreements_adjudication) ... ok
+test_independent_mechanical_examples_coverage_and_semantic_boundary (test_m5_revision.SourceTests.test_independent_mechanical_examples_coverage_and_semantic_boundary) ... ok
+test_additional_ambiguous_parser_boundaries (test_pilot.PilotTests.test_additional_ambiguous_parser_boundaries) ... ok
+test_frozen_allocation_targets_and_visibility (test_pilot.PilotTests.test_frozen_allocation_targets_and_visibility) ... ok
+test_saved_analysis_and_missingness (test_pilot.PilotTests.test_saved_analysis_and_missingness) ... ok
+test_versioned_measured_evidence (test_pilot.PilotTests.test_versioned_measured_evidence) ... ok
+test_independent_targets (test_pipeline.NumericalTests.test_independent_targets) ... ok
+test_parser_contract (test_pipeline.NumericalTests.test_parser_contract) ... ok
+test_all_missing_and_missing_pre_stage (test_pipeline.PipelineTests.test_all_missing_and_missing_pre_stage) ... ok
+test_always_prior_baseline (test_pipeline.PipelineTests.test_always_prior_baseline) ... ok
+test_full_plan_requests_and_targets_separate (test_pipeline.PipelineTests.test_full_plan_requests_and_targets_separate) ... ok
+test_metrics_missingness_and_independent_aggregation (test_pipeline.PipelineTests.test_metrics_missingness_and_independent_aggregation) ... ok
+test_pairing_and_identity_rejection (test_pipeline.PipelineTests.test_pairing_and_identity_rejection) ... ok
+test_saved_rescoring_and_report_immutability (test_pipeline.PipelineTests.test_saved_rescoring_and_report_immutability) ... ok
+test_global_attempt_ceiling_including_retries (test_rule_diagnostic.RuleDiagnosticTests.test_global_attempt_ceiling_including_retries) ... ok
+test_independent_targets_prompts_freshness_and_allocation (test_rule_diagnostic.RuleDiagnosticTests.test_independent_targets_prompts_freshness_and_allocation) ... ok
+test_missingness_pairing_regeneration_and_failures (test_rule_diagnostic.RuleDiagnosticTests.test_missingness_pairing_regeneration_and_failures) ... ok
+test_saved_measured_evidence_and_independent_losses (test_rule_diagnostic.RuleDiagnosticTests.test_saved_measured_evidence_and_independent_losses) ... ok
+test_full_resume_terminal_failures_and_attempt_validation (test_runner.RunnerTests.test_full_resume_terminal_failures_and_attempt_validation) ... ok
+test_interruption_preserves_partial_and_fixed_retry (test_runner.RunnerTests.test_interruption_preserves_partial_and_fixed_retry) ... ok
+test_parser_boundaries (test_runner.RunnerTests.test_parser_boundaries) ... ok
+test_resume_cache_pairing_and_status_mapping (test_runner.RunnerTests.test_resume_cache_pairing_and_status_mapping) ... ok
+test_saved_m2_rescoring_immutable_and_incomplete (test_runner.RunnerTests.test_saved_m2_rescoring_immutable_and_incomplete) ... ok
+test_saved_real_integration_evidence (test_runner.RunnerTests.test_saved_real_integration_evidence) ... ok
+test_citations_quotes_empty_and_extractability (test_source_pilot.PilotTests.test_citations_quotes_empty_and_extractability) ... ok
+test_real_attempt_bound_and_no_malformed_retry (test_source_pilot.PilotTests.test_real_attempt_bound_and_no_malformed_retry) ... ok
+test_review_versions_human_gate_and_regeneration (test_source_pilot.PilotTests.test_review_versions_human_gate_and_regeneration) ... ok
+test_separation_allocation_pairing_and_missing (test_source_pilot.PilotTests.test_separation_allocation_pairing_and_missing) ... ok
+test_compact_measured_pilot (test_sycophancy.SycophancyTests.test_compact_measured_pilot) ... ok
+test_conversation_runner_resume_and_global_cap (test_sycophancy.SycophancyTests.test_conversation_runner_resume_and_global_cap) ... ok
+test_offline_regeneration (test_sycophancy.SycophancyTests.test_offline_regeneration) ... ok
+test_packet_gold_and_counterbalance (test_sycophancy.SycophancyTests.test_packet_gold_and_counterbalance) ... ok
+test_parser (test_sycophancy.SycophancyTests.test_parser) ... ok
+test_responders_missingness_and_ownership (test_sycophancy.SycophancyTests.test_responders_missingness_and_ownership) ... ok
+test_compact_measured_evidence_regenerates_metrics (test_sycophancy_v2.SycophancyV2Tests.test_compact_measured_evidence_regenerates_metrics) ... ok
+test_independent_keys_and_scripts (test_sycophancy_v2.SycophancyV2Tests.test_independent_keys_and_scripts) ... ok
+test_regeneration_and_runner (test_sycophancy_v2.SycophancyV2Tests.test_regeneration_and_runner) ... ok
+test_scoring_history_repeats_and_missingness (test_sycophancy_v2.SycophancyV2Tests.test_scoring_history_repeats_and_missingness) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 7.770s
+
+OK

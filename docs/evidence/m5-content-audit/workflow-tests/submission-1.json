@@ -1,0 +1,25 @@
+{
+  "kind": "synthetic_test",
+  "packet_sha256": "b911915624b6f28ac7950e82fc1d149afddaf3e249a8a2b525eeda7805343b39",
+  "ratings": [
+    {
+      "adjudicates": [],
+      "item_id": "review-c249f05c9eeb9a022b8a954f",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": "concern",
+        "new_evidence": null,
+        "notes": "SYNTHETIC TEST ONLY. Verifies import plumbing; no human judgment.",
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    }
+  ],
+  "record_type": "individual",
+  "reviewer_id": "SYNTHETIC-TEST-rater-1",
+  "schema_version": "shared-review-v1",
+  "timestamp": "2026-11-12T12:00:00Z"
+}

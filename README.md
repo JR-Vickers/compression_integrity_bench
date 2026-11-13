@@ -203,4 +203,105 @@ The fixed fresh diagnostic completed42/42 planned responses using only the exist
 
 [Complete M4c evidence and exercised reproduction commands](docs/evidence/m4c/README.md) include all cases/forms, exact targets, raw measured outputs, paired/type metrics, provenance and immutable regeneration. The existing runner adds `--rule-diagnostic` (single `evaluation` responses, no pre answers); saved outputs use `python -m cib.rule_diagnostic score` / `report`. Protocol: `configs/rule-diagnostic-v1.json`; preparation/dependencies remain unchanged. Default tests remain standard-library/offline. Code, fixtures, configurations, protocol versions, raw data, scores and negative findings remain available as diagnostic assets. Historical reports and scores are unchanged.
 
-M4c is closed as diagnostic work; evidence-sensitive belief revision remains an unvalidated part of the five-category scope, alongside calibration and uncertainty, resistance to sycophancy, source fidelity and counterargument representation. [Milestone 5](docs/PLAN.md#7-milestone-5-prepare-the-full-benchmark) still needs all five module designs/validation, a replacement belief-revision design and dedicated human-rated subsets for belief revision, source fidelity and counterargument representation. [Next implementation task](docs/PLAN.md#11-current-task-and-handoff): sycophancy specification and offline fixtures/scoring. Replacement-instrument reference competence, final study models/protocols, samples, uncertainty methods and preservation margins remain unresolved.
+M4c is closed as diagnostic work; evidence-sensitive belief revision remains an unvalidated part of the five-category scope, alongside calibration and uncertainty, resistance to sycophancy, source fidelity and counterargument representation. [Milestone 5](docs/PLAN.md#7-milestone-5-prepare-the-full-benchmark) still needs all five module designs/validation, a replacement belief-revision design and dedicated human-rated subsets for belief revision, source fidelity and counterargument representation. The bounded sycophancy implementation and pilot are documented below; [current handoff](docs/PLAN.md#11-current-task-and-handoff) records the remaining instrument-validation and M5 dependencies. Replacement-instrument reference competence, final study models/protocols, samples, uncertainty methods and preservation margins remain unresolved.
+
+## M5: bounded structured-answer sycophancy work package
+
+This separate exploratory instrument uses12 fictional source packets, balanced A/B/C correct/pressured-false/distractor roles, one initial answer and three sustained follow-ups in each neutral/false/correct branch. One additional valid-evidence control per scenario distinguishes justified revision. Each deployment continues its own history; this is a conversation-level deployment comparison. Numerical updating remains parked. Protocol and limitations: METHODOLOGY §20 / D011; results and disposition: [M5 evidence](docs/evidence/m5-sycophancy/README.md). Other M5 modules and independent human validation remain pending.
+
+Offline fixtures require only the standard library and no model artifacts. Resistant, false-claim-adopting and unrelated-error responders are explicitly synthetic:
+
+```sh
+export PYTHONPATH=src
+.venv/bin/python -m cib.sycophancy fixture --run outputs/m5-sycophancy-fixture-v1
+.venv/bin/python -m cib.sycophancy score --raw outputs/m5-sycophancy-fixture-v1/fixture-raw.json --output outputs/m5-sycophancy-fixture-v1/scores.json
+.venv/bin/python -m cib.sycophancy report --raw outputs/m5-sycophancy-fixture-v1/fixture-raw.json --scores outputs/m5-sycophancy-fixture-v1/scores.json --output outputs/m5-sycophancy-fixture-v1/report.md
+.venv/bin/python -m unittest discover -s tests -v
+```
+
+Local pilot preparation uses only existing pinned configurations/preparations, records an immutable plan and source hash, and exports `review.json`. Choose a fresh directory to repeat. Generation needs Metal access and existing `outputs/mlx-env/`; no download, conversion or paid service. Global ceiling400 new starts includes controls and interruptions, with no retries/repeats. The fixed allocation is132 calls per deployment. Complete the reference first; the runner enforces the frozen suitability gate before allowing quantized or fallback execution. `--limit 0` creates no attempts; completed runs resume with zero new calls. Do not run the fallback unless the reference fails.
+
+```sh
+.venv/bin/python -m cib.sycophancy prepare --run outputs/m5-sycophancy-v1
+outputs/mlx-env/bin/python -m cib.sycophancy run --run outputs/m5-sycophancy-v1 --model reference --limit 132
+# If reference passes: existing matched 1.5B quantized deployment.
+outputs/mlx-env/bin/python -m cib.sycophancy run --run outputs/m5-sycophancy-v1 --model quantized --limit 132
+# If reference fails instead: existing 7B BF16 instrument validation only.
+# outputs/mlx-env/bin/python -m cib.sycophancy run --run outputs/m5-sycophancy-v1 --model fallback --limit 132
+.venv/bin/python -m cib.sycophancy snapshot --run outputs/m5-sycophancy-v1 --output outputs/m5-sycophancy-v1/raw.json
+.venv/bin/python -m cib.sycophancy score --raw outputs/m5-sycophancy-v1/raw.json --output outputs/m5-sycophancy-v1/scores.json
+.venv/bin/python -m cib.sycophancy report --raw outputs/m5-sycophancy-v1/raw.json --scores outputs/m5-sycophancy-v1/scores.json --output outputs/m5-sycophancy-v1/report.md
+.venv/bin/python -m cib.sycophancy verify --run outputs/m5-sycophancy-v1 --raw outputs/m5-sycophancy-v1/raw.json --output outputs/m5-sycophancy-verification-v1
+```
+
+Score/report/verify use saved outputs without inference. All destinations are exclusive; use fresh filenames for regeneration and a fresh verification directory. `verify` checks two byte-identical score/report regenerations, streams and unchanged raw/historical files. The human-review export has no completed human ratings. Suitability (≥90% initial/final-neutral accuracy and full categorical parsing) is an engineering screen; short structured answers and a small retrieval cluster do not establish broader sycophancy resistance or preservation.
+
+## M5: versioned sycophancy-v2 belief pilot
+
+V2 separates unsupported mild/confident factual beliefs from explicit commands to agree. Nine fresh source packets use two wording templates, five three-turn branches, authoritative replacement-packet controls and six fixed exact-message replays per deployment. Both existing1.5B BF16/4-bit MLX deployments are allocated159 calls,318 total, with no fallback/retries/tuning and a400-attempt ceiling. See METHODOLOGY §21, D012 and [v2 evidence](docs/evidence/m5-sycophancy-v2/README.md). V1 and its interpretation remain intact. Independent human validation and the rest of M5 remain pending; numerical updating is parked.
+
+Run from the repository root with `export PYTHONPATH=src`. Offline fixture/scoring/reporting require only the existing Python ≥3.11 standard-library environment. Real generation requires the existing local MLX environment, weights/preparation and Metal GPU access. These commands use exclusive destinations; select fresh names for regeneration. No model download is part of this workflow.
+
+```sh
+.venv/bin/python -m cib.sycophancy_v2 fixture --run outputs/m5-sycophancy-fixture-v2
+.venv/bin/python -m cib.sycophancy_v2 score --raw outputs/m5-sycophancy-fixture-v2/fixture-raw.json --output outputs/m5-sycophancy-fixture-v2/scores.json
+.venv/bin/python -m cib.sycophancy_v2 report --raw outputs/m5-sycophancy-fixture-v2/fixture-raw.json --scores outputs/m5-sycophancy-fixture-v2/scores.json --output outputs/m5-sycophancy-fixture-v2/report.md
+.venv/bin/python -m cib.sycophancy_v2 prepare --run outputs/m5-sycophancy-v2
+HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 outputs/mlx-env/bin/python scripts/verify_sycophancy_v2.py preflight --run outputs/m5-sycophancy-v2
+outputs/mlx-env/bin/python -m cib.sycophancy_v2 run --run outputs/m5-sycophancy-v2 --model reference --limit 159
+outputs/mlx-env/bin/python -m cib.sycophancy_v2 run --run outputs/m5-sycophancy-v2 --model quantized --limit 159
+.venv/bin/python -m cib.sycophancy_v2 snapshot --run outputs/m5-sycophancy-v2 --output outputs/m5-sycophancy-v2/raw.json
+# All commands below use saved outputs; zero model inference:
+.venv/bin/python -m cib.sycophancy_v2 score --raw outputs/m5-sycophancy-v2/raw.json --output outputs/m5-sycophancy-v2/scores.json
+.venv/bin/python -m cib.sycophancy_v2 report --raw outputs/m5-sycophancy-v2/raw.json --scores outputs/m5-sycophancy-v2/scores.json --output outputs/m5-sycophancy-v2/report.md
+.venv/bin/python -m cib.sycophancy_v2 verify --run outputs/m5-sycophancy-v2 --raw outputs/m5-sycophancy-v2/raw.json --output outputs/m5-sycophancy-verification-v2
+HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 outputs/mlx-env/bin/python scripts/verify_sycophancy_v2.py export --run outputs/m5-sycophancy-v2 --output docs/evidence/m5-sycophancy-v2
+.venv/bin/python -m unittest discover -s tests -v
+git diff --check
+```
+
+## M5 saved-output audit and review workflow
+
+The [content audit](docs/evidence/m5-content-audit/README.md) adds a post-hoc exact-option-text diagnostic, shared review packets and [source-fidelity development specification](docs/SOURCE_FIDELITY.md). No inference or downloads are needed. Frozen v2 primary results and scripts remain unchanged; human validation is pending. All commands below use the existing standard-library-only environment and exclusive output destinations; use fresh paths when repeating them.
+
+```sh
+export PYTHONPATH=src
+.venv/bin/python -m cib.content_audit --output /tmp/cib-content-audit-new
+.venv/bin/python -m cib.review export-sycophancy --output /tmp/cib-sycophancy-review-new
+.venv/bin/python -m cib.source_fidelity fixture --output /tmp/cib-source-fixture-new
+.venv/bin/python -m cib.source_fidelity score --raw /tmp/cib-source-fixture-new/raw.json --output /tmp/cib-source-scores-new.json
+.venv/bin/python -m cib.source_fidelity review --raw /tmp/cib-source-fixture-new/raw.json --output /tmp/cib-source-review-new
+.venv/bin/python scripts/verify_m5_revision.py --inventory docs/evidence/m5-content-audit/historical-hashes.json --output /tmp/cib-m5-verification-new
+.venv/bin/python -m unittest discover -s tests -v
+```
+
+Share `packet.json` and `template.json` only; retain `analysis-map.json` separately. Reviewers copy the template to a submission, fill `reviewer_id`, timezone-aware `timestamp`, and ratings/notes, leaving unavailable ratings null. `kind` is `human`, `agent` or `synthetic_test`; `record_type` is `individual`. Item IDs, task versions, schema and packet hash must remain intact. All current exported human fields are unset. Existing synthetic workflow checks can exercise the actual import commands without inventing human annotations:
+
+```sh
+.venv/bin/python -m cib.review import --packet docs/evidence/m5-content-audit/sycophancy-review/packet.json --reviews docs/evidence/m5-content-audit/workflow-tests/submission-1.json --output /tmp/cib-review-import-new.json
+.venv/bin/python -m cib.review disagreements --packet docs/evidence/m5-content-audit/sycophancy-review/packet.json --reviews docs/evidence/m5-content-audit/workflow-tests/individual-1.json docs/evidence/m5-content-audit/workflow-tests/individual-2.json --output /tmp/cib-review-disagreements-new.json
+.venv/bin/python -m cib.review import --packet docs/evidence/m5-content-audit/sycophancy-review/packet.json --reviews docs/evidence/m5-content-audit/workflow-tests/adjudication-submission.json --prior docs/evidence/m5-content-audit/workflow-tests/individual-1.json docs/evidence/m5-content-audit/workflow-tests/individual-2.json --output /tmp/cib-review-adjudication-new.json
+```
+
+For actual reviews, substitute the matching packet/submission paths and retain each individual import separately. An adjudication uses `record_type: "adjudication"` and per-item `adjudicates` hashes from at least two compatible individual imports by distinct reviewers, provided with `--prior`. Disagreements remain available after adjudication; imports do not overwrite ratings or validate reviewer independence. Source-fidelity packets use the same import commands. Formatting and raw content can reveal deployment clues despite removal of explicit identities. Study subset selection, rater overlap/budget and agreement design remain unresolved.
+
+## M5: actionable review and bounded source-fidelity pilot
+
+The [new work-package evidence and precise review handoff](docs/evidence/m5-source-fidelity/README.md) records20/20 EOS generations on the existing pinned1.5B BF16/4-bit MLX pair:8 main plus2 fixed repeats per deployment,256 new tokens,32-attempt ceiling, no retries or expansion. Frozen sources/configuration are separately versioned; the earlier candidate/fixtures and all historical sycophancy results remain unchanged. Engineering/pilot execution is complete; human semantic validation is pending. M5 remains open and numerical updating stays parked.
+
+Main strict compliance0/8 each; prespecified mechanical fence extraction6/8 BF16 and8/8 quantized. Extracted abstentions6/8 and7/8 include4/6 and5/6 answerable cases. Two BF16 responses have `abstain:true` with claims and remain malformed, with raw text available for humans. Citation existence/quote exactness do not establish semantic support. All four secondary repeats match their main raw text/status. No human outcomes are filled.
+
+Start human review with the [nine-packet sycophancy instructions](docs/evidence/m5-source-fidelity/sycophancy-first-review/INSTRUCTIONS.md) and [form](docs/evidence/m5-source-fidelity/sycophancy-first-review/template.json). Source review uses [instructions/raw packets](docs/evidence/m5-source-fidelity/source-review/packet.md), [first-review form:16 rows](docs/evidence/m5-source-fidelity/source-review/reviewer-1.json), and [independent second-review form:8 rows](docs/evidence/m5-source-fidelity/source-review/reviewer-2.json). Keep identity maps and results separate from reviewers. Copy forms before editing; the evidence README provides exact copy/import/disagreement/adjudication and human-only analysis commands. Existing synthetic workflow checks are never human validation.
+
+The following inference-free commands were verified using the standard-library environment, with no weights, optional MLX packages or credentials. All destinations are exclusive; choose fresh paths for repeats:
+
+```sh
+export PYTHONPATH=src
+.venv/bin/python -m cib.source_pilot score --raw docs/evidence/m5-source-fidelity/raw.json --packet docs/evidence/m5-source-fidelity/source-review/packet.json --output /tmp/cib-source-reproduced-scores.json
+.venv/bin/python -m cib.source_pilot report --raw docs/evidence/m5-source-fidelity/raw.json --scores /tmp/cib-source-reproduced-scores.json --packet docs/evidence/m5-source-fidelity/source-review/packet.json --output /tmp/cib-source-reproduced-report.md
+.venv/bin/python -m cib.source_pilot review --raw docs/evidence/m5-source-fidelity/raw.json --output /tmp/cib-source-reproduced-review
+.venv/bin/python -m cib.review first-batch --output /tmp/cib-sycophancy-first-review
+.venv/bin/python -m unittest discover -s tests -v
+```
+
+The original fixture workflow remains operational. Full historical/journal verification additionally needs this checkout's ignored outputs; generation commands and artifact paths are documented in the evidence README as the already completed allocation, not an instruction to expand the pilot.52 offline tests pass; two byte-identical regenerations match published score/report;4154 historical and85 run artifacts unchanged. Next dependency is genuine independent human completion/import and semantic/rubric validation. Calibration, replacement belief revision, counterargument representation, held-out design and other unfinished M5 packages remain open.

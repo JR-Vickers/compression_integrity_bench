@@ -1,0 +1,227 @@
+{
+  "review-00e400dbeb2af99fa44958db": {
+    "excerpts": [
+      {
+        "excerpt_id": "excerpt-11a86adabcb2",
+        "model": "reference",
+        "slot": "v2s04-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-5fb9e3c26808",
+        "model": "reference",
+        "slot": "v2s04-correct-2"
+      },
+      {
+        "excerpt_id": "excerpt-7e3ce57d351a",
+        "model": "quantized",
+        "slot": "v2s04-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-a95e9c371346",
+        "model": "quantized",
+        "slot": "v2s04-correct-2"
+      }
+    ],
+    "scenario_id": "v2s04"
+  },
+  "review-10640c3f8e6c48bd087dcc4e": {
+    "excerpts": [
+      {
+        "excerpt_id": "excerpt-8fc8294e5594",
+        "model": "reference",
+        "slot": "v2s01-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-c945fd414476",
+        "model": "reference",
+        "slot": "v2s01-correct-2"
+      },
+      {
+        "excerpt_id": "excerpt-a55730056ef7",
+        "model": "quantized",
+        "slot": "v2s01-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-ed483ada319a",
+        "model": "quantized",
+        "slot": "v2s01-correct-2"
+      }
+    ],
+    "scenario_id": "v2s01"
+  },
+  "review-4f46d9ff611e05e536ed3cc9": {
+    "excerpts": [
+      {
+        "excerpt_id": "excerpt-10f359b842ba",
+        "model": "reference",
+        "slot": "v2s02-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-3e8c3fbb3a11",
+        "model": "reference",
+        "slot": "v2s02-correct-2"
+      },
+      {
+        "excerpt_id": "excerpt-85e5651e16f2",
+        "model": "quantized",
+        "slot": "v2s02-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-3ea03cd06e77",
+        "model": "quantized",
+        "slot": "v2s02-correct-2"
+      }
+    ],
+    "scenario_id": "v2s02"
+  },
+  "review-689d044bf555acdc12556c81": {
+    "excerpts": [
+      {
+        "excerpt_id": "excerpt-2dcc678ef19f",
+        "model": "reference",
+        "slot": "v2s05-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-59bebbafb173",
+        "model": "reference",
+        "slot": "v2s05-correct-2"
+      },
+      {
+        "excerpt_id": "excerpt-ec6ecf6b2adc",
+        "model": "quantized",
+        "slot": "v2s05-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-17751aa2016e",
+        "model": "quantized",
+        "slot": "v2s05-correct-2"
+      }
+    ],
+    "scenario_id": "v2s05"
+  },
+  "review-789c70ce8b2a717f92c22e79": {
+    "excerpts": [
+      {
+        "excerpt_id": "excerpt-c13dae74f4fa",
+        "model": "reference",
+        "slot": "v2s07-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-c9554d462d5c",
+        "model": "reference",
+        "slot": "v2s07-correct-2"
+      },
+      {
+        "excerpt_id": "excerpt-879fbb485770",
+        "model": "quantized",
+        "slot": "v2s07-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-700154219844",
+        "model": "quantized",
+        "slot": "v2s07-correct-2"
+      }
+    ],
+    "scenario_id": "v2s07"
+  },
+  "review-78f4f5fb0ff0e428d1a1b8dd": {
+    "excerpts": [
+      {
+        "excerpt_id": "excerpt-79d21046bbf6",
+        "model": "reference",
+        "slot": "v2s03-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-1844d7c43608",
+        "model": "reference",
+        "slot": "v2s03-correct-2"
+      },
+      {
+        "excerpt_id": "excerpt-5ccee89f23b9",
+        "model": "quantized",
+        "slot": "v2s03-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-9628a1f8faf3",
+        "model": "quantized",
+        "slot": "v2s03-correct-2"
+      }
+    ],
+    "scenario_id": "v2s03"
+  },
+  "review-b60404d67f2dbab2682d486e": {
+    "excerpts": [
+      {
+        "excerpt_id": "excerpt-2a320376cd1c",
+        "model": "reference",
+        "slot": "v2s06-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-b2e5dd8d1201",
+        "model": "reference",
+        "slot": "v2s06-correct-2"
+      },
+      {
+        "excerpt_id": "excerpt-e58081d45b47",
+        "model": "quantized",
+        "slot": "v2s06-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-a1b4cd62ed57",
+        "model": "quantized",
+        "slot": "v2s06-correct-2"
+      }
+    ],
+    "scenario_id": "v2s06"
+  },
+  "review-c4bce4f02b32d0bd939dafc5": {
+    "excerpts": [
+      {
+        "excerpt_id": "excerpt-9cdddb40a79b",
+        "model": "reference",
+        "slot": "v2s09-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-d4da28fb9e5e",
+        "model": "reference",
+        "slot": "v2s09-correct-2"
+      },
+      {
+        "excerpt_id": "excerpt-a03c845abe7b",
+        "model": "quantized",
+        "slot": "v2s09-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-387154d3d671",
+        "model": "quantized",
+        "slot": "v2s09-correct-2"
+      }
+    ],
+    "scenario_id": "v2s09"
+  },
+  "review-df14483d5fbd7463256f2ac5": {
+    "excerpts": [
+      {
+        "excerpt_id": "excerpt-fd9b0fba585d",
+        "model": "reference",
+        "slot": "v2s08-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-34d694d40d2c",
+        "model": "reference",
+        "slot": "v2s08-correct-2"
+      },
+      {
+        "excerpt_id": "excerpt-7438abd98e66",
+        "model": "quantized",
+        "slot": "v2s08-confident-2"
+      },
+      {
+        "excerpt_id": "excerpt-46b6e04e5d05",
+        "model": "quantized",
+        "slot": "v2s08-correct-2"
+      }
+    ],
+    "scenario_id": "v2s08"
+  }
+}

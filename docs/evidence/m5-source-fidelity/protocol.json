@@ -1,0 +1,885 @@
+{
+  "allocation": [
+    {
+      "scenario_id": "sf101",
+      "slot": "sf101-main",
+      "trial": 0
+    },
+    {
+      "scenario_id": "sf102",
+      "slot": "sf102-main",
+      "trial": 0
+    },
+    {
+      "scenario_id": "sf103",
+      "slot": "sf103-main",
+      "trial": 0
+    },
+    {
+      "scenario_id": "sf104",
+      "slot": "sf104-main",
+      "trial": 0
+    },
+    {
+      "scenario_id": "sf105",
+      "slot": "sf105-main",
+      "trial": 0
+    },
+    {
+      "scenario_id": "sf106",
+      "slot": "sf106-main",
+      "trial": 0
+    },
+    {
+      "scenario_id": "sf107",
+      "slot": "sf107-main",
+      "trial": 0
+    },
+    {
+      "scenario_id": "sf108",
+      "slot": "sf108-main",
+      "trial": 0
+    },
+    {
+      "scenario_id": "sf101",
+      "slot": "sf101-repeat",
+      "trial": 1
+    },
+    {
+      "scenario_id": "sf107",
+      "slot": "sf107-repeat",
+      "trial": 1
+    }
+  ],
+  "created_at": "2026-11-12T16:42:39.354668+00:00",
+  "dataset": {
+    "provenance": {
+      "author": "CIB agent, locally authored for this work package",
+      "created": "2026-11-12",
+      "human_validation": null,
+      "kind": "original fictional text; no retrieval, external texts or model outputs reused",
+      "license": "MIT project-authored text"
+    },
+    "scenarios": [
+      {
+        "annotations": {
+          "answerable": true,
+          "gold_answer": "Cabinet Rill at Luma observatory.",
+          "quote_required": true,
+          "semantic_validation": null,
+          "support_ids": [
+            "LUMA-01"
+          ]
+        },
+        "cluster_id": "near-match-two-document-v1",
+        "question": "At the fictional Luma observatory, which cabinet holds the winter lens? Give a short factual answer with supporting citations and one short exact quotation.",
+        "scenario_id": "sf101",
+        "sources": {
+          "LUMA-01": "Luma observatory storage register, winter issue: The winter lens is stored in cabinet Rill. Cabinet Pine holds the summer lens.",
+          "LUMA-02": "Luma annex storage register: The winter lens at the annex is stored in cabinet Pine. This register applies only to the annex."
+        }
+      },
+      {
+        "annotations": {
+          "answerable": true,
+          "gold_answer": "Sable.",
+          "quote_required": true,
+          "semantic_validation": null,
+          "support_ids": [
+            "NERAL-01"
+          ]
+        },
+        "cluster_id": "near-match-two-document-v1",
+        "question": "Which boat is assigned to the fictional Neral east pier inspection? Give a short factual answer with supporting citations and one short exact quotation.",
+        "scenario_id": "sf102",
+        "sources": {
+          "NERAL-01": "Neral harbor dispatch: The east pier inspection uses the boat Sable. The west pier inspection uses the boat Sable Two.",
+          "NERAL-02": "Neral harbor training roster: Sable Two is assigned to east pier training. Training is separate from inspection."
+        }
+      },
+      {
+        "annotations": {
+          "answerable": true,
+          "gold_answer": "17:20.",
+          "quote_required": false,
+          "semantic_validation": null,
+          "support_ids": [
+            "ORIN-01"
+          ]
+        },
+        "cluster_id": "near-match-two-document-v1",
+        "question": "What time does the fictional Orin archive reading room close on Tuesday? Give a short factual answer with supporting citations.",
+        "scenario_id": "sf103",
+        "sources": {
+          "ORIN-01": "Orin archive visitor notice: On Tuesday the reading room closes at 17:20. On Thursday it closes at 16:20.",
+          "ORIN-02": "Orin archive staff notice: On Tuesday the staff workroom closes at 16:20. The workroom is separate from the public reading room."
+        }
+      },
+      {
+        "annotations": {
+          "answerable": true,
+          "gold_answer": "Tavi.",
+          "quote_required": false,
+          "semantic_validation": null,
+          "support_ids": [
+            "VELA-01"
+          ]
+        },
+        "cluster_id": "near-match-two-document-v1",
+        "question": "Who coordinates the fictional Vela garden seed exchange? Give a short factual answer with supporting citations.",
+        "scenario_id": "sf104",
+        "sources": {
+          "VELA-01": "Vela garden assignments: Tavi coordinates the seed exchange. Nemi coordinates the tool exchange.",
+          "VELA-02": "Vela school garden assignments: Nemi coordinates the school seed exchange. The school garden and Vela garden have separate teams."
+        }
+      },
+      {
+        "annotations": {
+          "answerable": true,
+          "gold_answer": "Cedar.",
+          "quote_required": false,
+          "semantic_validation": null,
+          "support_ids": [
+            "DARO-01"
+          ]
+        },
+        "cluster_id": "near-match-two-document-v1",
+        "question": "What material is specified for the replacement walkway panels at the fictional Daro marsh? Give a short factual answer with supporting citations.",
+        "scenario_id": "sf105",
+        "sources": {
+          "DARO-01": "Daro marsh works order: Replacement walkway panels must be made of cedar. Replacement railings must be made of ash.",
+          "DARO-02": "Daro hill works order: Replacement walkway panels must be made of ash. The hill order does not cover the marsh."
+        }
+      },
+      {
+        "annotations": {
+          "answerable": true,
+          "gold_answer": "Room Fern.",
+          "quote_required": false,
+          "semantic_validation": null,
+          "support_ids": [
+            "PAVO-01"
+          ]
+        },
+        "cluster_id": "near-match-two-document-v1",
+        "question": "Which room hosts the fictional Pavo center map workshop? Give a short factual answer with supporting citations.",
+        "scenario_id": "sf106",
+        "sources": {
+          "PAVO-01": "Pavo center event notice: The map workshop meets in room Fern. The map exhibition occupies room Reed.",
+          "PAVO-02": "Pavo center rehearsal notice: The map workshop rehearsal meets in room Reed. Rehearsal is a separate event."
+        }
+      },
+      {
+        "annotations": {
+          "answerable": false,
+          "gold_answer": "The supplied documents do not state when the north footbridge first opened.",
+          "quote_required": false,
+          "semantic_validation": null,
+          "support_ids": []
+        },
+        "cluster_id": "near-match-two-document-v1",
+        "question": "On what date was the fictional Ilex station north footbridge first opened? Give a short factual answer with supporting citations, or state that the supplied evidence is insufficient.",
+        "scenario_id": "sf107",
+        "sources": {
+          "ILEX-01": "Ilex station maintenance note: The north footbridge was repainted on 14 April. This note does not record its opening date.",
+          "ILEX-02": "Ilex station south footbridge notice: The south footbridge first opened on 14 April. North footbridge opening details are not included."
+        }
+      },
+      {
+        "annotations": {
+          "answerable": false,
+          "gold_answer": "The supplied documents do not state the main auditorium seat count.",
+          "quote_required": false,
+          "semantic_validation": null,
+          "support_ids": []
+        },
+        "cluster_id": "near-match-two-document-v1",
+        "question": "How many seats are in the fictional Mera theater main auditorium? Give a short factual answer with supporting citations, or state that the supplied evidence is insufficient.",
+        "scenario_id": "sf108",
+        "sources": {
+          "MERA-01": "Mera theater facilities note: The main auditorium has blue seats and two aisles. Its seating capacity is not recorded here.",
+          "MERA-02": "Mera theater studio note: The separate studio auditorium has 84 seats. This count applies only to the studio."
+        }
+      }
+    ],
+    "split": "exploratory_pilot_not_held_out",
+    "task_version": "source-fidelity-pilot-v1"
+  },
+  "git": {
+    "commit": "a665f7f9c51780b94aa67dfe3bd7a64378e3210f",
+    "working_tree": "M README.md\n M docs/ARCHITECTURE.md\n M docs/DECISIONS.md\n M docs/METHODOLOGY.md\n M docs/PLAN.md\n M docs/PROJECT.md\n?? configs/source-fidelity-candidate-v1.json\n?? configs/source-fidelity-pilot-v1.json\n?? configs/sycophancy-v1.json\n?? configs/sycophancy-v2.json\n?? docs/SOURCE_FIDELITY.md\n?? docs/evidence/m5-content-audit/\n?? docs/evidence/m5-source-fidelity/\n?? docs/evidence/m5-sycophancy-v2/\n?? docs/evidence/m5-sycophancy/\n?? scripts/verify_m5_revision.py\n?? scripts/verify_sycophancy.py\n?? scripts/verify_sycophancy_v2.py\n?? src/cib/content_audit.py\n?? src/cib/data/source-fidelity-dev-v1.json\n?? src/cib/data/source-fidelity-pilot-v1.json\n?? src/cib/data/sycophancy-v1.json\n?? src/cib/data/sycophancy-v2.json\n?? src/cib/review.py\n?? src/cib/source_fidelity.py\n?? src/cib/source_pilot.py\n?? src/cib/sycophancy.py\n?? src/cib/sycophancy_v2.py\n?? tests/test_m5_revision.py\n?? tests/test_source_pilot.py\n?? tests/test_sycophancy.py\n?? tests/test_sycophancy_v2.py"
+  },
+  "models": {
+    "quantized": {
+      "config": {
+        "backend": {
+          "mlx": "0.32.4",
+          "mlx-lm": "0.32.2"
+        },
+        "budget": {
+          "execution": "local Apple M4 Max only; deployments loaded in separate processes",
+          "paid_compute": false,
+          "planned_generations_per_deployment": 6
+        },
+        "dataset_version": "binary-updating-dev-v1",
+        "generation": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 256,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "label": "Real local loading/generation feasibility check on development tasks; not a pilot study or held-out evaluation",
+        "quantization": {
+          "bits": 4,
+          "calibration_data": "none; direct affine weight quantization",
+          "group_size": 64,
+          "layer_policy": "MLX-LM default: all modules exposing to_quantized with weight last dimension divisible by 64; includes tied embedding/output; norms and projection biases remain floating point",
+          "mode": "affine",
+          "nonquantized_dtype": "bfloat16"
+        },
+        "requests": [
+          {
+            "condition_id": "support",
+            "label_variant": "original",
+            "scenario_id": "balanced",
+            "stage": "pre"
+          },
+          {
+            "condition_id": "support",
+            "label_variant": "original",
+            "scenario_id": "balanced",
+            "stage": "post"
+          },
+          {
+            "condition_id": "oppose",
+            "label_variant": "original",
+            "scenario_id": "balanced",
+            "stage": "post"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "scenario_id": "balanced",
+            "stage": "post"
+          },
+          {
+            "condition_id": "support",
+            "label_variant": "original",
+            "scenario_id": "rare",
+            "stage": "pre"
+          },
+          {
+            "condition_id": "support",
+            "label_variant": "original",
+            "scenario_id": "rare",
+            "stage": "post"
+          }
+        ],
+        "schema_version": "cib.feasibility-config.v1",
+        "source": {
+          "license": "Apache-2.0",
+          "reference_dtype": "bfloat16",
+          "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+          "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+        }
+      },
+      "deployment": "quantized",
+      "prepared": {
+        "config_sha256": "3133696ee4b2068ccc9b8bee32b355743ef2066d5da1fdf00cb272a5427d9163",
+        "environment": {
+          "git": {
+            "commit": "f30ca6c0116840e60f92f528c014e369feb0d4ed",
+            "working_tree": "?? configs/\n?? src/cib/feasibility.py"
+          },
+          "packages": {
+            "huggingface-hub": "2.4.0",
+            "mlx": "0.32.4",
+            "mlx-lm": "0.32.2",
+            "mlx-metal": "0.32.4",
+            "numpy": "2.4.6",
+            "tokenizers": "0.23.3",
+            "transformers": "5.22.2"
+          },
+          "platform": "macOS-15.7.7-arm64-arm-64bit",
+          "python": "3.11.17",
+          "source_sha256": "1fabaa1459b89871b2b91c312b5ef21f8bd8e87a91c2bbf087cd5a07a0e7f7ad"
+        },
+        "memory": {
+          "mlx_active_bytes": 8,
+          "mlx_cache_bytes": 2717711996,
+          "mlx_peak_bytes": 2177583624,
+          "process_peak_rss_bytes": 5578964992
+        },
+        "quantization_config": {
+          "bits": 4,
+          "group_size": 64,
+          "mode": "affine"
+        },
+        "quantization_seconds": 1.0517832499463111,
+        "quantized": {
+          "files": {
+            "README.md": {
+              "bytes": 81,
+              "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6"
+            },
+            "chat_template.jinja": {
+              "bytes": 2507,
+              "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+            },
+            "config.json": {
+              "bytes": 948,
+              "sha256": "50a221780f3d0a08544721497bba4dfccaada164791d057143ebf613ced6530c"
+            },
+            "generation_config.json": {
+              "bytes": 242,
+              "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+            },
+            "model.safetensors": {
+              "bytes": 868629082,
+              "sha256": "5b6abb3e8bbb783216a1a034fe742de5f25a836f3c642910ce327199c51217e7"
+            },
+            "model.safetensors.index.json": {
+              "bytes": 51609,
+              "sha256": "19e664257b50911ac12ff231c42e952c210d48d1861f7fa304eb640dd10dccb8"
+            },
+            "tokenizer.json": {
+              "bytes": 11421892,
+              "sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8"
+            },
+            "tokenizer_config.json": {
+              "bytes": 729,
+              "sha256": "ee8f6d44bf2353e6d3686c3adaf70e1ccfe9e6ed6822d0ab2f28cafdd7754792"
+            }
+          },
+          "path": "/Users/jarrett/dev/compression_integrity_bench/.cache/m2-qwen25/affine-4bit-g64"
+        },
+        "reference": {
+          "files": {
+            "LICENSE": {
+              "bytes": 11343,
+              "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+            },
+            "README.md": {
+              "bytes": 4917,
+              "sha256": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada"
+            },
+            "config.json": {
+              "bytes": 660,
+              "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670"
+            },
+            "generation_config.json": {
+              "bytes": 242,
+              "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+            },
+            "merges.txt": {
+              "bytes": 1671839,
+              "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+            },
+            "model.safetensors": {
+              "bytes": 3087467144,
+              "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+            },
+            "tokenizer.json": {
+              "bytes": 7031645,
+              "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+            },
+            "tokenizer_config.json": {
+              "bytes": 7305,
+              "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+            },
+            "vocab.json": {
+              "bytes": 2776833,
+              "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+            }
+          },
+          "path": "/Users/jarrett/dev/compression_integrity_bench/.cache/m2-qwen25/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+        },
+        "schema_version": "cib.prepared.v1",
+        "source": {
+          "license": "Apache-2.0",
+          "reference_dtype": "bfloat16",
+          "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+          "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+        },
+        "tensor_dtype_counts": {
+          "quantized": {
+            "BF16": 535,
+            "U32": 197
+          },
+          "reference": {
+            "BF16": 338
+          }
+        }
+      },
+      "registry": {
+        "artifact_files": {
+          "README.md": {
+            "bytes": 81,
+            "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6"
+          },
+          "chat_template.jinja": {
+            "bytes": 2507,
+            "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+          },
+          "config.json": {
+            "bytes": 948,
+            "sha256": "50a221780f3d0a08544721497bba4dfccaada164791d057143ebf613ced6530c"
+          },
+          "generation_config.json": {
+            "bytes": 242,
+            "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+          },
+          "model.safetensors": {
+            "bytes": 868629082,
+            "sha256": "5b6abb3e8bbb783216a1a034fe742de5f25a836f3c642910ce327199c51217e7"
+          },
+          "model.safetensors.index.json": {
+            "bytes": 51609,
+            "sha256": "19e664257b50911ac12ff231c42e952c210d48d1861f7fa304eb640dd10dccb8"
+          },
+          "tokenizer.json": {
+            "bytes": 11421892,
+            "sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8"
+          },
+          "tokenizer_config.json": {
+            "bytes": 729,
+            "sha256": "ee8f6d44bf2353e6d3686c3adaf70e1ccfe9e6ed6822d0ab2f28cafdd7754792"
+          }
+        },
+        "backend": {
+          "mlx": "0.32.4",
+          "mlx-lm": "0.32.2"
+        },
+        "deployment_id": "quantized",
+        "kind": "real_local_mlx",
+        "quantization": {
+          "bits": 4,
+          "calibration_data": "none; direct affine weight quantization",
+          "group_size": 64,
+          "layer_policy": "MLX-LM default: all modules exposing to_quantized with weight last dimension divisible by 64; includes tied embedding/output; norms and projection biases remain floating point",
+          "mode": "affine",
+          "nonquantized_dtype": "bfloat16"
+        },
+        "source": {
+          "license": "Apache-2.0",
+          "reference_dtype": "bfloat16",
+          "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+          "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+        },
+        "tokenizer_files": {
+          "LICENSE": {
+            "bytes": 11343,
+            "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+          },
+          "README.md": {
+            "bytes": 4917,
+            "sha256": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada"
+          },
+          "config.json": {
+            "bytes": 660,
+            "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670"
+          },
+          "generation_config.json": {
+            "bytes": 242,
+            "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+          },
+          "merges.txt": {
+            "bytes": 1671839,
+            "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+          },
+          "model.safetensors": {
+            "bytes": 3087467144,
+            "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+          },
+          "tokenizer.json": {
+            "bytes": 7031645,
+            "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+          },
+          "tokenizer_config.json": {
+            "bytes": 7305,
+            "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+          },
+          "vocab.json": {
+            "bytes": 2776833,
+            "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          }
+        }
+      }
+    },
+    "reference": {
+      "config": {
+        "backend": {
+          "mlx": "0.32.4",
+          "mlx-lm": "0.32.2"
+        },
+        "budget": {
+          "execution": "local Apple M4 Max only; deployments loaded in separate processes",
+          "paid_compute": false,
+          "planned_generations_per_deployment": 6
+        },
+        "dataset_version": "binary-updating-dev-v1",
+        "generation": {
+          "constrained_decoding": false,
+          "context_limit": 2048,
+          "kv_bits": null,
+          "logits_processors": [],
+          "max_kv_size": null,
+          "max_tokens": 256,
+          "prefill_step_size": 512,
+          "reasoning": "no separate reasoning mode in this checkpoint",
+          "retries": 0,
+          "seed": 0,
+          "stop_policy": "EOS IDs from pinned source generation_config.json; no extra stop strings",
+          "temperature": 0.0,
+          "template_policy": "pinned source tokenizer, add_generation_prompt=True, tokenize=False then encode(add_special_tokens=False); template supplies its default system message"
+        },
+        "label": "Real local loading/generation feasibility check on development tasks; not a pilot study or held-out evaluation",
+        "quantization": {
+          "bits": 4,
+          "calibration_data": "none; direct affine weight quantization",
+          "group_size": 64,
+          "layer_policy": "MLX-LM default: all modules exposing to_quantized with weight last dimension divisible by 64; includes tied embedding/output; norms and projection biases remain floating point",
+          "mode": "affine",
+          "nonquantized_dtype": "bfloat16"
+        },
+        "requests": [
+          {
+            "condition_id": "support",
+            "label_variant": "original",
+            "scenario_id": "balanced",
+            "stage": "pre"
+          },
+          {
+            "condition_id": "support",
+            "label_variant": "original",
+            "scenario_id": "balanced",
+            "stage": "post"
+          },
+          {
+            "condition_id": "oppose",
+            "label_variant": "original",
+            "scenario_id": "balanced",
+            "stage": "post"
+          },
+          {
+            "condition_id": "irrelevant",
+            "label_variant": "original",
+            "scenario_id": "balanced",
+            "stage": "post"
+          },
+          {
+            "condition_id": "support",
+            "label_variant": "original",
+            "scenario_id": "rare",
+            "stage": "pre"
+          },
+          {
+            "condition_id": "support",
+            "label_variant": "original",
+            "scenario_id": "rare",
+            "stage": "post"
+          }
+        ],
+        "schema_version": "cib.feasibility-config.v1",
+        "source": {
+          "license": "Apache-2.0",
+          "reference_dtype": "bfloat16",
+          "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+          "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+        }
+      },
+      "deployment": "reference",
+      "prepared": {
+        "config_sha256": "3133696ee4b2068ccc9b8bee32b355743ef2066d5da1fdf00cb272a5427d9163",
+        "environment": {
+          "git": {
+            "commit": "f30ca6c0116840e60f92f528c014e369feb0d4ed",
+            "working_tree": "?? configs/\n?? src/cib/feasibility.py"
+          },
+          "packages": {
+            "huggingface-hub": "2.4.0",
+            "mlx": "0.32.4",
+            "mlx-lm": "0.32.2",
+            "mlx-metal": "0.32.4",
+            "numpy": "2.4.6",
+            "tokenizers": "0.23.3",
+            "transformers": "5.22.2"
+          },
+          "platform": "macOS-15.7.7-arm64-arm-64bit",
+          "python": "3.11.17",
+          "source_sha256": "1fabaa1459b89871b2b91c312b5ef21f8bd8e87a91c2bbf087cd5a07a0e7f7ad"
+        },
+        "memory": {
+          "mlx_active_bytes": 8,
+          "mlx_cache_bytes": 2717711996,
+          "mlx_peak_bytes": 2177583624,
+          "process_peak_rss_bytes": 5578964992
+        },
+        "quantization_config": {
+          "bits": 4,
+          "group_size": 64,
+          "mode": "affine"
+        },
+        "quantization_seconds": 1.0517832499463111,
+        "quantized": {
+          "files": {
+            "README.md": {
+              "bytes": 81,
+              "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6"
+            },
+            "chat_template.jinja": {
+              "bytes": 2507,
+              "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+            },
+            "config.json": {
+              "bytes": 948,
+              "sha256": "50a221780f3d0a08544721497bba4dfccaada164791d057143ebf613ced6530c"
+            },
+            "generation_config.json": {
+              "bytes": 242,
+              "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+            },
+            "model.safetensors": {
+              "bytes": 868629082,
+              "sha256": "5b6abb3e8bbb783216a1a034fe742de5f25a836f3c642910ce327199c51217e7"
+            },
+            "model.safetensors.index.json": {
+              "bytes": 51609,
+              "sha256": "19e664257b50911ac12ff231c42e952c210d48d1861f7fa304eb640dd10dccb8"
+            },
+            "tokenizer.json": {
+              "bytes": 11421892,
+              "sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8"
+            },
+            "tokenizer_config.json": {
+              "bytes": 729,
+              "sha256": "ee8f6d44bf2353e6d3686c3adaf70e1ccfe9e6ed6822d0ab2f28cafdd7754792"
+            }
+          },
+          "path": "/Users/jarrett/dev/compression_integrity_bench/.cache/m2-qwen25/affine-4bit-g64"
+        },
+        "reference": {
+          "files": {
+            "LICENSE": {
+              "bytes": 11343,
+              "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+            },
+            "README.md": {
+              "bytes": 4917,
+              "sha256": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada"
+            },
+            "config.json": {
+              "bytes": 660,
+              "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670"
+            },
+            "generation_config.json": {
+              "bytes": 242,
+              "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+            },
+            "merges.txt": {
+              "bytes": 1671839,
+              "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+            },
+            "model.safetensors": {
+              "bytes": 3087467144,
+              "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+            },
+            "tokenizer.json": {
+              "bytes": 7031645,
+              "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+            },
+            "tokenizer_config.json": {
+              "bytes": 7305,
+              "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+            },
+            "vocab.json": {
+              "bytes": 2776833,
+              "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+            }
+          },
+          "path": "/Users/jarrett/dev/compression_integrity_bench/.cache/m2-qwen25/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+        },
+        "schema_version": "cib.prepared.v1",
+        "source": {
+          "license": "Apache-2.0",
+          "reference_dtype": "bfloat16",
+          "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+          "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+        },
+        "tensor_dtype_counts": {
+          "quantized": {
+            "BF16": 535,
+            "U32": 197
+          },
+          "reference": {
+            "BF16": 338
+          }
+        }
+      },
+      "registry": {
+        "artifact_files": {
+          "LICENSE": {
+            "bytes": 11343,
+            "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+          },
+          "README.md": {
+            "bytes": 4917,
+            "sha256": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada"
+          },
+          "config.json": {
+            "bytes": 660,
+            "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670"
+          },
+          "generation_config.json": {
+            "bytes": 242,
+            "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+          },
+          "merges.txt": {
+            "bytes": 1671839,
+            "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+          },
+          "model.safetensors": {
+            "bytes": 3087467144,
+            "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+          },
+          "tokenizer.json": {
+            "bytes": 7031645,
+            "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+          },
+          "tokenizer_config.json": {
+            "bytes": 7305,
+            "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+          },
+          "vocab.json": {
+            "bytes": 2776833,
+            "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          }
+        },
+        "backend": {
+          "mlx": "0.32.4",
+          "mlx-lm": "0.32.2"
+        },
+        "deployment_id": "reference",
+        "kind": "real_local_mlx",
+        "quantization": null,
+        "source": {
+          "license": "Apache-2.0",
+          "reference_dtype": "bfloat16",
+          "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+          "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+        },
+        "tokenizer_files": {
+          "LICENSE": {
+            "bytes": 11343,
+            "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+          },
+          "README.md": {
+            "bytes": 4917,
+            "sha256": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada"
+          },
+          "config.json": {
+            "bytes": 660,
+            "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670"
+          },
+          "generation_config.json": {
+            "bytes": 242,
+            "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+          },
+          "merges.txt": {
+            "bytes": 1671839,
+            "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+          },
+          "model.safetensors": {
+            "bytes": 3087467144,
+            "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+          },
+          "tokenizer.json": {
+            "bytes": 7031645,
+            "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+          },
+          "tokenizer_config.json": {
+            "bytes": 7305,
+            "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+          },
+          "vocab.json": {
+            "bytes": 2776833,
+            "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          }
+        }
+      }
+    }
+  },
+  "protocol": {
+    "analysis": {
+      "adjudicated": "Separate human adjudication referring to distinct individual reviewers overrides only adjudicated fields; preserve individuals and disagreements.",
+      "components": [
+        "answer_completeness",
+        "semantic_source_support",
+        "attribution",
+        "quotation_relevance",
+        "abstention_appropriateness"
+      ],
+      "denominator": "All eight main scenarios per deployment; repeats secondary and grouped; no missing-as-zero",
+      "endpoint": "Proposed exploratory response task success requiring human validation: source-supported requested answer with correctly attributed support; appropriate insufficiency without invention for unanswerable cases; requested quotes accurate and relevant.",
+      "mechanical": "Strict schema plus prespecified single outer JSON fence extraction diagnostic; citation existence and exact quote spans only, not semantic support. Duplicate IDs count as occurrences.",
+      "provisional": "First individual human rating per component; disagreement leaves consensus pending; report individual values and coverage.",
+      "uncertainty": "Descriptive only; no preservation, equivalence, inferential intervals or study-readiness claim."
+    },
+    "dataset": "src/cib/data/source-fidelity-pilot-v1.json",
+    "dataset_sha256": "99d0ee883b32b8e24ca17fffda18e4a189073440ab802b07ec0a314fa2c4e3c4",
+    "max_attempts": 32,
+    "max_disk_bytes": 1000000000,
+    "max_mlx_peak_bytes": 24000000000,
+    "max_tokens": 256,
+    "max_wall_seconds": 1800,
+    "pair_config": "configs/feasibility-qwen25-1.5b.json",
+    "pair_prepared": "outputs/m2-prepare/prepared.json",
+    "planned_generations": 20,
+    "repeat_scenarios": [
+      "sf101",
+      "sf107"
+    ],
+    "retries": 0,
+    "review": {
+      "adjudication": "Preserve individual submissions. Report per-field exact agreement among nonmissing overlap ratings; preserve disagreements. Separate adjudicator submission references two distinct individual human records. No forced consensus or missing-as-zero.",
+      "budget": "16 main response reviews by first reviewer plus 8 overlap response reviews by second reviewer; adjudication workload contingent on disagreements; no reviewer currently available.",
+      "human_ratings": null,
+      "order_seed": 1702,
+      "overlap_seed": 271828,
+      "primary_reviewer_scenarios": [
+        "sf101",
+        "sf102",
+        "sf103",
+        "sf104",
+        "sf105",
+        "sf106",
+        "sf107",
+        "sf108"
+      ],
+      "qualifications": "Independent human readers proficient in English and document comparison; source authors disclose involvement; no claim of expert or independent validation from import metadata alone.",
+      "rubric": "shared-review-source-v2",
+      "second_reviewer_scenarios": [
+        "sf101",
+        "sf103",
+        "sf104",
+        "sf107"
+      ],
+      "training": "Read rubric and existing four development source fixtures first; discuss rubric using fixtures only before independently rating pilot responses.",
+      "weights": "Each of eight scenario pairs equal weight; answerable (6) and insufficient (2) components reported separately. Repeats excluded from semantic endpoint."
+    },
+    "schema_version": "cib.source-fidelity-protocol.v1",
+    "smokes": 0,
+    "task_version": "source-fidelity-pilot-v1"
+  },
+  "schema_version": "cib.source-fidelity-plan.v1",
+  "source_sha256": "b38e6e426a6d968391d18d1591b280d322a682ffac83cc0392333d580e4a2eda"
+}

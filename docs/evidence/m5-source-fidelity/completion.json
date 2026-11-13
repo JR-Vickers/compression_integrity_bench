@@ -1,0 +1,25 @@
+{
+  "actual_completed_human_reviews": 0,
+  "actual_generation_attempts": 20,
+  "all_main_raw_text_exported": true,
+  "eos_completions": 20,
+  "generation_wall_seconds": {
+    "quantized": 3.726491416338831,
+    "reference": 7.323605958605185
+  },
+  "hard_attempt_ceiling": 32,
+  "infrastructure_errors": 0,
+  "label": "REAL exploratory pilot; no human validation",
+  "main_responses": 16,
+  "peak_mlx_bytes": {
+    "quantized": 1272606866,
+    "reference": 3335909372
+  },
+  "plan_sha256": "fe3af2bded7e5e19bd9c5dca0f03fb090b1512e1dd6b56ab3734c34cbec0e956",
+  "planned_generations": 20,
+  "raw_sha256": "a7f631cd8b3e5aa3e44ebcd79d1195aef395be2d0ade2450ccd5fd04f2e17e8a",
+  "retries": 0,
+  "secondary_repeats": 4,
+  "smokes": 0,
+  "truncations": 0
+}

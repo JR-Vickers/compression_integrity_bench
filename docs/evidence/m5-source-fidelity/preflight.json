@@ -1,0 +1,52 @@
+{
+  "actual_generations_before_freeze": 0,
+  "frozen_plan_sha256": "fe3af2bded7e5e19bd9c5dca0f03fb090b1512e1dd6b56ab3734c34cbec0e956",
+  "genuine_existing_completed_human_submissions": [],
+  "label": "AGENT engineering checks; not human validation",
+  "max_attempts": 32,
+  "offline_tests": 51,
+  "planned_generations": 20,
+  "second_review_scenarios": [
+    "sf101",
+    "sf103",
+    "sf104",
+    "sf107"
+  ],
+  "source_checks": "Hand-read all eight fictional packet keys against literal source facts: six unique supported answers, two deliberately missing facts, two explicit quote requests. No contradictory authority. This is an agent check only.",
+  "source_hash": "b38e6e426a6d968391d18d1591b280d322a682ffac83cc0392333d580e4a2eda",
+  "source_words": [
+    {
+      "scenario_id": "sf101",
+      "words": 42
+    },
+    {
+      "scenario_id": "sf102",
+      "words": 37
+    },
+    {
+      "scenario_id": "sf103",
+      "words": 39
+    },
+    {
+      "scenario_id": "sf104",
+      "words": 32
+    },
+    {
+      "scenario_id": "sf105",
+      "words": 39
+    },
+    {
+      "scenario_id": "sf106",
+      "words": 34
+    },
+    {
+      "scenario_id": "sf107",
+      "words": 40
+    },
+    {
+      "scenario_id": "sf108",
+      "words": 38
+    }
+  ],
+  "test_log_sha256": "b504bd46977fcb1b7d45564a353c4bf30184034cebbf53e08f94cb6237b3e846"
+}

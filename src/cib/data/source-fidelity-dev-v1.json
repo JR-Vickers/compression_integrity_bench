@@ -1,0 +1,23 @@
+{
+  "schema_version": "cib.source-fidelity-fixtures.v1",
+  "task_version": "source-fidelity-dev-v1",
+  "split": "synthetic_development_fixture",
+  "provenance": "Original fictional documents and synthetic responses; agent-authored annotations, not human validation or model performance.",
+  "scenarios": [
+    {"scenario_id":"sf01", "sources":{"D1":"The Elm archive opens on Tuesday. Entry is free."}, "question":"When does the Elm archive open? Cite the source and quote the opening statement.", "annotations":{"answerable":true,"support_target":"The opening day is Tuesday.","human_support":null}},
+    {"scenario_id":"sf02", "sources":{"D1":"The Elm archive opens on Tuesday. Entry is free."}, "question":"How much does entry to the Elm archive cost?", "annotations":{"answerable":true,"support_target":"Entry is free.","human_support":null}},
+    {"scenario_id":"sf03", "sources":{"D1":"The Elm archive opens on Tuesday."}, "question":"Who designed the Elm archive?", "annotations":{"answerable":false,"support_target":"The supplied document does not identify a designer.","human_support":null}},
+    {"scenario_id":"sf04", "sources":{"D1":"The Reed ferry carries bicycles.","D2":"The Reed ferry does not carry cars."}, "question":"Does the Reed ferry carry bicycles? Cite and quote a supplied source.", "annotations":{"answerable":true,"support_target":"It carries bicycles, supported by D1.","human_support":null}}
+  ],
+  "responses": [
+    {"response_id":"supported-quote", "scenario_id":"sf01", "response":{"abstain":false,"claims":[{"text":"The archive opens on Tuesday.","citations":["D1"],"quotes":[{"source_id":"D1","text":"The Elm archive opens on Tuesday."}]}]}, "agent_expectation":{"support":"supported","valid_citations":1,"accurate_quotes":1}},
+    {"response_id":"unsupported-valid-id", "scenario_id":"sf02", "response":{"abstain":false,"claims":[{"text":"Entry costs ten coins.","citations":["D1"],"quotes":[]}]}, "agent_expectation":{"support":"unsupported","valid_citations":1,"accurate_quotes":0}},
+    {"response_id":"insufficient-abstain", "scenario_id":"sf03", "response":{"abstain":true,"claims":[]}, "agent_expectation":{"support":"insufficient","valid_citations":0,"accurate_quotes":0}},
+    {"response_id":"insufficient-invented", "scenario_id":"sf03", "response":{"abstain":false,"claims":[{"text":"The archive was designed by Neri.","citations":["D1"],"quotes":[]}]}, "agent_expectation":{"support":"unsupported","valid_citations":1,"accurate_quotes":0}},
+    {"response_id":"invalid-id", "scenario_id":"sf04", "response":{"abstain":false,"claims":[{"text":"The ferry carries bicycles.","citations":["D9"],"quotes":[{"source_id":"D9","text":"The Reed ferry carries bicycles."}]}]}, "agent_expectation":{"support":"supported","valid_citations":0,"accurate_quotes":0}},
+    {"response_id":"inaccurate-quote", "scenario_id":"sf04", "response":{"abstain":false,"claims":[{"text":"The ferry carries bicycles.","citations":["D1"],"quotes":[{"source_id":"D1","text":"The Reed ferry carries cars."}]}]}, "agent_expectation":{"support":"supported","valid_citations":1,"accurate_quotes":0}},
+    {"response_id":"irrelevant-exact-quote", "scenario_id":"sf04", "response":{"abstain":false,"claims":[{"text":"The ferry carries cars.","citations":["D1"],"quotes":[{"source_id":"D1","text":"The Reed ferry carries bicycles."}]}]}, "agent_expectation":{"support":"unsupported","valid_citations":1,"accurate_quotes":1}},
+    {"response_id":"empty-answer", "scenario_id":"sf01", "response":{"abstain":false,"claims":[]}, "agent_expectation":{"support":"insufficient","valid_citations":0,"accurate_quotes":0}},
+    {"response_id":"unwarranted-abstention", "scenario_id":"sf01", "response":{"abstain":true,"claims":[]}, "agent_expectation":{"support":"insufficient","valid_citations":0,"accurate_quotes":0}}
+  ]
+}

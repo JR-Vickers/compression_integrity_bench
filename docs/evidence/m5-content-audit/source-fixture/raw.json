@@ -1,0 +1,115 @@
+{
+  "dataset_sha256": "47433ddc53e179e91e1fa3e05433c15a2006630d069c1e1253ef8aa5e342e7a6",
+  "label": "SYNTHETIC source-fidelity development fixtures; not measured model performance",
+  "observations": [
+    {
+      "messages": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday. Entry is free.\nQuestion: When does the Elm archive open? Cite the source and quote the opening statement.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        }
+      ],
+      "response_id": "supported-quote",
+      "scenario_id": "sf01",
+      "status": "completed",
+      "text": "{\"abstain\": false, \"claims\": [{\"text\": \"The archive opens on Tuesday.\", \"citations\": [\"D1\"], \"quotes\": [{\"source_id\": \"D1\", \"text\": \"The Elm archive opens on Tuesday.\"}]}]}"
+    },
+    {
+      "messages": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday. Entry is free.\nQuestion: How much does entry to the Elm archive cost?\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        }
+      ],
+      "response_id": "unsupported-valid-id",
+      "scenario_id": "sf02",
+      "status": "completed",
+      "text": "{\"abstain\": false, \"claims\": [{\"text\": \"Entry costs ten coins.\", \"citations\": [\"D1\"], \"quotes\": []}]}"
+    },
+    {
+      "messages": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday.\nQuestion: Who designed the Elm archive?\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        }
+      ],
+      "response_id": "insufficient-abstain",
+      "scenario_id": "sf03",
+      "status": "completed",
+      "text": "{\"abstain\": true, \"claims\": []}"
+    },
+    {
+      "messages": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday.\nQuestion: Who designed the Elm archive?\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        }
+      ],
+      "response_id": "insufficient-invented",
+      "scenario_id": "sf03",
+      "status": "completed",
+      "text": "{\"abstain\": false, \"claims\": [{\"text\": \"The archive was designed by Neri.\", \"citations\": [\"D1\"], \"quotes\": []}]}"
+    },
+    {
+      "messages": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Reed ferry carries bicycles.\n[D2] The Reed ferry does not carry cars.\nQuestion: Does the Reed ferry carry bicycles? Cite and quote a supplied source.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        }
+      ],
+      "response_id": "invalid-id",
+      "scenario_id": "sf04",
+      "status": "completed",
+      "text": "{\"abstain\": false, \"claims\": [{\"text\": \"The ferry carries bicycles.\", \"citations\": [\"D9\"], \"quotes\": [{\"source_id\": \"D9\", \"text\": \"The Reed ferry carries bicycles.\"}]}]}"
+    },
+    {
+      "messages": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Reed ferry carries bicycles.\n[D2] The Reed ferry does not carry cars.\nQuestion: Does the Reed ferry carry bicycles? Cite and quote a supplied source.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        }
+      ],
+      "response_id": "inaccurate-quote",
+      "scenario_id": "sf04",
+      "status": "completed",
+      "text": "{\"abstain\": false, \"claims\": [{\"text\": \"The ferry carries bicycles.\", \"citations\": [\"D1\"], \"quotes\": [{\"source_id\": \"D1\", \"text\": \"The Reed ferry carries cars.\"}]}]}"
+    },
+    {
+      "messages": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Reed ferry carries bicycles.\n[D2] The Reed ferry does not carry cars.\nQuestion: Does the Reed ferry carry bicycles? Cite and quote a supplied source.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        }
+      ],
+      "response_id": "irrelevant-exact-quote",
+      "scenario_id": "sf04",
+      "status": "completed",
+      "text": "{\"abstain\": false, \"claims\": [{\"text\": \"The ferry carries cars.\", \"citations\": [\"D1\"], \"quotes\": [{\"source_id\": \"D1\", \"text\": \"The Reed ferry carries bicycles.\"}]}]}"
+    },
+    {
+      "messages": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday. Entry is free.\nQuestion: When does the Elm archive open? Cite the source and quote the opening statement.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        }
+      ],
+      "response_id": "empty-answer",
+      "scenario_id": "sf01",
+      "status": "completed",
+      "text": "{\"abstain\": false, \"claims\": []}"
+    },
+    {
+      "messages": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday. Entry is free.\nQuestion: When does the Elm archive open? Cite the source and quote the opening statement.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        }
+      ],
+      "response_id": "unwarranted-abstention",
+      "scenario_id": "sf01",
+      "status": "completed",
+      "text": "{\"abstain\": true, \"claims\": []}"
+    }
+  ],
+  "task_version": "source-fidelity-dev-v1"
+}

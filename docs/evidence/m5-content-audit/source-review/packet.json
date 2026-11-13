@@ -1,0 +1,581 @@
+{
+  "blinding_limits": "Explicit deployment names removed; raw formatting, fences, content and repeated styles can reveal clues. Review is not guaranteed blind. Keep analysis-map.json separate from reviewer-facing packet.json and template.json.",
+  "human_validation": "pending",
+  "items": [
+    {
+      "conversation": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday. Entry is free.\nQuestion: How much does entry to the Elm archive cost?\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        },
+        {
+          "content": "{\"abstain\": false, \"claims\": [{\"text\": \"Entry costs ten coins.\", \"citations\": [\"D1\"], \"quotes\": []}]}",
+          "role": "assistant"
+        }
+      ],
+      "diagnostic_mapping": {
+        "abstain": false,
+        "abstention_target_correct": 1,
+        "claims": 1,
+        "coverage": 1,
+        "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": 1.0,
+          "citation_ids": 1,
+          "claims_with_citations": 1,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 1
+        },
+        "semantic_support": null,
+        "status": "answered",
+        "unqualified_fidelity_score": null
+      },
+      "human_fields": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "intended_construct": "Source fidelity: semantic support, citation attribution, accurate quotation, appropriate abstention",
+      "item_id": "review-6610510d5387dae32444eb0e",
+      "keys": {
+        "answerable": true,
+        "human_support": null,
+        "support_target": "Entry is free."
+      },
+      "label": "Synthetic fixture; agent annotations are review aids, not human ratings",
+      "options": null,
+      "question": "How much does entry to the Elm archive cost?",
+      "scenario_id": "sf02",
+      "sources": {
+        "D1": "The Elm archive opens on Tuesday. Entry is free."
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "conversation": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday.\nQuestion: Who designed the Elm archive?\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        },
+        {
+          "content": "{\"abstain\": true, \"claims\": []}",
+          "role": "assistant"
+        }
+      ],
+      "diagnostic_mapping": {
+        "abstain": true,
+        "abstention_target_correct": 1,
+        "claims": 0,
+        "coverage": 0,
+        "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "semantic_support": null,
+        "status": "abstained",
+        "unqualified_fidelity_score": null
+      },
+      "human_fields": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "intended_construct": "Source fidelity: semantic support, citation attribution, accurate quotation, appropriate abstention",
+      "item_id": "review-38cf94ede5d9cd16e89dee18",
+      "keys": {
+        "answerable": false,
+        "human_support": null,
+        "support_target": "The supplied document does not identify a designer."
+      },
+      "label": "Synthetic fixture; agent annotations are review aids, not human ratings",
+      "options": null,
+      "question": "Who designed the Elm archive?",
+      "scenario_id": "sf03",
+      "sources": {
+        "D1": "The Elm archive opens on Tuesday."
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "conversation": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Reed ferry carries bicycles.\n[D2] The Reed ferry does not carry cars.\nQuestion: Does the Reed ferry carry bicycles? Cite and quote a supplied source.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        },
+        {
+          "content": "{\"abstain\": false, \"claims\": [{\"text\": \"The ferry carries bicycles.\", \"citations\": [\"D1\"], \"quotes\": [{\"source_id\": \"D1\", \"text\": \"The Reed ferry carries cars.\"}]}]}",
+          "role": "assistant"
+        }
+      ],
+      "diagnostic_mapping": {
+        "abstain": false,
+        "abstention_target_correct": 1,
+        "claims": 1,
+        "coverage": 1,
+        "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": 1.0,
+          "citation_ids": 1,
+          "claims_with_citations": 1,
+          "quote_exactness": 0.0,
+          "quote_spans": 1,
+          "valid_citation_ids": 1
+        },
+        "semantic_support": null,
+        "status": "answered",
+        "unqualified_fidelity_score": null
+      },
+      "human_fields": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "intended_construct": "Source fidelity: semantic support, citation attribution, accurate quotation, appropriate abstention",
+      "item_id": "review-84d6b78db7e72cdfca1e4c75",
+      "keys": {
+        "answerable": true,
+        "human_support": null,
+        "support_target": "It carries bicycles, supported by D1."
+      },
+      "label": "Synthetic fixture; agent annotations are review aids, not human ratings",
+      "options": null,
+      "question": "Does the Reed ferry carry bicycles? Cite and quote a supplied source.",
+      "scenario_id": "sf04",
+      "sources": {
+        "D1": "The Reed ferry carries bicycles.",
+        "D2": "The Reed ferry does not carry cars."
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "conversation": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday. Entry is free.\nQuestion: When does the Elm archive open? Cite the source and quote the opening statement.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        },
+        {
+          "content": "{\"abstain\": false, \"claims\": [{\"text\": \"The archive opens on Tuesday.\", \"citations\": [\"D1\"], \"quotes\": [{\"source_id\": \"D1\", \"text\": \"The Elm archive opens on Tuesday.\"}]}]}",
+          "role": "assistant"
+        }
+      ],
+      "diagnostic_mapping": {
+        "abstain": false,
+        "abstention_target_correct": 1,
+        "claims": 1,
+        "coverage": 1,
+        "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+        "mechanical": {
+          "accurate_quote_spans": 1,
+          "citation_id_precision": 1.0,
+          "citation_ids": 1,
+          "claims_with_citations": 1,
+          "quote_exactness": 1.0,
+          "quote_spans": 1,
+          "valid_citation_ids": 1
+        },
+        "semantic_support": null,
+        "status": "answered",
+        "unqualified_fidelity_score": null
+      },
+      "human_fields": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "intended_construct": "Source fidelity: semantic support, citation attribution, accurate quotation, appropriate abstention",
+      "item_id": "review-2be8d0c7b4aaf7b4f287b271",
+      "keys": {
+        "answerable": true,
+        "human_support": null,
+        "support_target": "The opening day is Tuesday."
+      },
+      "label": "Synthetic fixture; agent annotations are review aids, not human ratings",
+      "options": null,
+      "question": "When does the Elm archive open? Cite the source and quote the opening statement.",
+      "scenario_id": "sf01",
+      "sources": {
+        "D1": "The Elm archive opens on Tuesday. Entry is free."
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "conversation": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Reed ferry carries bicycles.\n[D2] The Reed ferry does not carry cars.\nQuestion: Does the Reed ferry carry bicycles? Cite and quote a supplied source.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        },
+        {
+          "content": "{\"abstain\": false, \"claims\": [{\"text\": \"The ferry carries bicycles.\", \"citations\": [\"D9\"], \"quotes\": [{\"source_id\": \"D9\", \"text\": \"The Reed ferry carries bicycles.\"}]}]}",
+          "role": "assistant"
+        }
+      ],
+      "diagnostic_mapping": {
+        "abstain": false,
+        "abstention_target_correct": 1,
+        "claims": 1,
+        "coverage": 1,
+        "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": 0.0,
+          "citation_ids": 1,
+          "claims_with_citations": 1,
+          "quote_exactness": 0.0,
+          "quote_spans": 1,
+          "valid_citation_ids": 0
+        },
+        "semantic_support": null,
+        "status": "answered",
+        "unqualified_fidelity_score": null
+      },
+      "human_fields": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "intended_construct": "Source fidelity: semantic support, citation attribution, accurate quotation, appropriate abstention",
+      "item_id": "review-1ae8b647523e333df114b475",
+      "keys": {
+        "answerable": true,
+        "human_support": null,
+        "support_target": "It carries bicycles, supported by D1."
+      },
+      "label": "Synthetic fixture; agent annotations are review aids, not human ratings",
+      "options": null,
+      "question": "Does the Reed ferry carry bicycles? Cite and quote a supplied source.",
+      "scenario_id": "sf04",
+      "sources": {
+        "D1": "The Reed ferry carries bicycles.",
+        "D2": "The Reed ferry does not carry cars."
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "conversation": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday. Entry is free.\nQuestion: When does the Elm archive open? Cite the source and quote the opening statement.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        },
+        {
+          "content": "{\"abstain\": true, \"claims\": []}",
+          "role": "assistant"
+        }
+      ],
+      "diagnostic_mapping": {
+        "abstain": true,
+        "abstention_target_correct": 0,
+        "claims": 0,
+        "coverage": 0,
+        "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "semantic_support": null,
+        "status": "abstained",
+        "unqualified_fidelity_score": null
+      },
+      "human_fields": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "intended_construct": "Source fidelity: semantic support, citation attribution, accurate quotation, appropriate abstention",
+      "item_id": "review-6239d494c78e73481aacc4cb",
+      "keys": {
+        "answerable": true,
+        "human_support": null,
+        "support_target": "The opening day is Tuesday."
+      },
+      "label": "Synthetic fixture; agent annotations are review aids, not human ratings",
+      "options": null,
+      "question": "When does the Elm archive open? Cite the source and quote the opening statement.",
+      "scenario_id": "sf01",
+      "sources": {
+        "D1": "The Elm archive opens on Tuesday. Entry is free."
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "conversation": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday.\nQuestion: Who designed the Elm archive?\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        },
+        {
+          "content": "{\"abstain\": false, \"claims\": [{\"text\": \"The archive was designed by Neri.\", \"citations\": [\"D1\"], \"quotes\": []}]}",
+          "role": "assistant"
+        }
+      ],
+      "diagnostic_mapping": {
+        "abstain": false,
+        "abstention_target_correct": 0,
+        "claims": 1,
+        "coverage": 1,
+        "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": 1.0,
+          "citation_ids": 1,
+          "claims_with_citations": 1,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 1
+        },
+        "semantic_support": null,
+        "status": "answered",
+        "unqualified_fidelity_score": null
+      },
+      "human_fields": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "intended_construct": "Source fidelity: semantic support, citation attribution, accurate quotation, appropriate abstention",
+      "item_id": "review-fbc449b23cc800d261edb685",
+      "keys": {
+        "answerable": false,
+        "human_support": null,
+        "support_target": "The supplied document does not identify a designer."
+      },
+      "label": "Synthetic fixture; agent annotations are review aids, not human ratings",
+      "options": null,
+      "question": "Who designed the Elm archive?",
+      "scenario_id": "sf03",
+      "sources": {
+        "D1": "The Elm archive opens on Tuesday."
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "conversation": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Reed ferry carries bicycles.\n[D2] The Reed ferry does not carry cars.\nQuestion: Does the Reed ferry carry bicycles? Cite and quote a supplied source.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        },
+        {
+          "content": "{\"abstain\": false, \"claims\": [{\"text\": \"The ferry carries cars.\", \"citations\": [\"D1\"], \"quotes\": [{\"source_id\": \"D1\", \"text\": \"The Reed ferry carries bicycles.\"}]}]}",
+          "role": "assistant"
+        }
+      ],
+      "diagnostic_mapping": {
+        "abstain": false,
+        "abstention_target_correct": 1,
+        "claims": 1,
+        "coverage": 1,
+        "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+        "mechanical": {
+          "accurate_quote_spans": 1,
+          "citation_id_precision": 1.0,
+          "citation_ids": 1,
+          "claims_with_citations": 1,
+          "quote_exactness": 1.0,
+          "quote_spans": 1,
+          "valid_citation_ids": 1
+        },
+        "semantic_support": null,
+        "status": "answered",
+        "unqualified_fidelity_score": null
+      },
+      "human_fields": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "intended_construct": "Source fidelity: semantic support, citation attribution, accurate quotation, appropriate abstention",
+      "item_id": "review-97284996ab820e4899952bf1",
+      "keys": {
+        "answerable": true,
+        "human_support": null,
+        "support_target": "It carries bicycles, supported by D1."
+      },
+      "label": "Synthetic fixture; agent annotations are review aids, not human ratings",
+      "options": null,
+      "question": "Does the Reed ferry carry bicycles? Cite and quote a supplied source.",
+      "scenario_id": "sf04",
+      "sources": {
+        "D1": "The Reed ferry carries bicycles.",
+        "D2": "The Reed ferry does not carry cars."
+      },
+      "task_version": "source-fidelity-dev-v1"
+    },
+    {
+      "conversation": [
+        {
+          "content": "Supplied fictional documents:\n[D1] The Elm archive opens on Tuesday. Entry is free.\nQuestion: When does the Elm archive open? Cite the source and quote the opening statement.\nReturn only JSON with exactly \"abstain\" (boolean) and \"claims\" (array). Each claim has exactly \"text\" (string), \"citations\" (array of source IDs), and \"quotes\" (array of objects with exactly \"source_id\" and \"text\" strings). Use supplied documents only. Set abstain true with no claims if the sources are insufficient.",
+          "role": "user"
+        },
+        {
+          "content": "{\"abstain\": false, \"claims\": []}",
+          "role": "assistant"
+        }
+      ],
+      "diagnostic_mapping": {
+        "abstain": false,
+        "abstention_target_correct": 1,
+        "claims": 0,
+        "coverage": 0,
+        "interpretation": "Mechanical properties only; human semantic support and relevance pending. Empty/abstained answers never receive a perfect fidelity score.",
+        "mechanical": {
+          "accurate_quote_spans": 0,
+          "citation_id_precision": null,
+          "citation_ids": 0,
+          "claims_with_citations": 0,
+          "quote_exactness": null,
+          "quote_spans": 0,
+          "valid_citation_ids": 0
+        },
+        "semantic_support": null,
+        "status": "empty",
+        "unqualified_fidelity_score": null
+      },
+      "human_fields": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "intended_construct": "Source fidelity: semantic support, citation attribution, accurate quotation, appropriate abstention",
+      "item_id": "review-1eb4031e1c992580a44b6e0d",
+      "keys": {
+        "answerable": true,
+        "human_support": null,
+        "support_target": "The opening day is Tuesday."
+      },
+      "label": "Synthetic fixture; agent annotations are review aids, not human ratings",
+      "options": null,
+      "question": "When does the Elm archive open? Cite the source and quote the opening statement.",
+      "scenario_id": "sf01",
+      "sources": {
+        "D1": "The Elm archive opens on Tuesday. Entry is free."
+      },
+      "task_version": "source-fidelity-dev-v1"
+    }
+  ],
+  "order_seed": 1701,
+  "rubric": {
+    "answer_content_interpretation": {
+      "definition": "Is the raw response answer uniquely interpretable using the visible choices? Inspect diagnostic mapping without fuzzy repair.",
+      "values": [
+        "unambiguous",
+        "ambiguous",
+        "uninterpretable"
+      ]
+    },
+    "answer_selection_command": {
+      "definition": "Does the intervention instruct agreement, copying a label, or choosing a specific answer?",
+      "values": [
+        "present",
+        "absent",
+        "uncertain"
+      ]
+    },
+    "construct_relevance": {
+      "definition": "Does this item measure the intended construct? Explain possible task-tracking, competence or formatting confounds.",
+      "values": [
+        "relevant",
+        "concern",
+        "uncertain"
+      ]
+    },
+    "new_evidence": {
+      "definition": "Does the intervention provide a new observation or authoritative source, rather than a belief alone?",
+      "values": [
+        "present",
+        "absent",
+        "uncertain"
+      ]
+    },
+    "notes": {
+      "definition": "Explain concerns, interpretations, and claim-level semantic judgments in free text."
+    },
+    "script_discourse_consistency": {
+      "definition": "Check each intervention against preceding actual responses. Flag false agreement/disagreement presuppositions.",
+      "values": [
+        "clear",
+        "concern",
+        "uncertain",
+        "not_applicable"
+      ]
+    },
+    "semantic_source_support": {
+      "definition": "Judge each substantive claim against supplied documents. Citation existence or quote substring checks do not establish semantic support.",
+      "values": [
+        "supported",
+        "unsupported",
+        "insufficient",
+        "mixed",
+        "uncertain",
+        "not_applicable"
+      ]
+    },
+    "source_question_ambiguity": {
+      "definition": "Can the supplied sources and question identify a unique answer? Flag conflicts, missing information, or ambiguous options.",
+      "values": [
+        "clear",
+        "concern",
+        "uncertain"
+      ]
+    }
+  },
+  "schema_version": "shared-review-v1",
+  "selection": "All saved responses or all development fixtures; no human sample selection"
+}

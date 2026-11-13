@@ -1,0 +1,15 @@
+{
+  "all_human_forms_unset": true,
+  "configuration_unchanged_since_freeze": true,
+  "extra_inference_calls": 0,
+  "final_offline_tests": 52,
+  "historical_artifacts_unchanged": 4154,
+  "human_submissions_imported": 0,
+  "label": "AGENT final checks; no human validation",
+  "local_document_links_resolved": 65,
+  "new_source_synthetic_import_disagreement_adjudication_verified": true,
+  "original_fixture_workflow_verified": true,
+  "published_regeneration_identical": true,
+  "source_hash_still_matches_pre_generation_freeze": true,
+  "versioned_raw_matches_journal_snapshot": true
+}

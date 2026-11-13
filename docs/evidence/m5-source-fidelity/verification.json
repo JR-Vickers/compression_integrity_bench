@@ -1,0 +1,14 @@
+{
+  "bf16_kv_caches": true,
+  "byte_identical_regenerated_files": 12,
+  "historical_artifacts_unchanged": 4154,
+  "inference_calls": 0,
+  "label": "AGENT offline verification, no human validation",
+  "matched_rendered_tokenized_pairs": true,
+  "maximum_input_tokens": 218,
+  "new_run_artifacts_unchanged": 85,
+  "plan_sha256": "fe3af2bded7e5e19bd9c5dca0f03fb090b1512e1dd6b56ab3734c34cbec0e956",
+  "published_scores_report_match": true,
+  "raw_sha256": "a7f631cd8b3e5aa3e44ebcd79d1195aef395be2d0ade2450ccd5fd04f2e17e8a",
+  "streams_matching": 20
+}

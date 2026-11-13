@@ -1,0 +1,18 @@
+{
+  "status": "candidate_only_not_frozen_no_inference_authorized",
+  "task_version": "source-fidelity-dev-v1",
+  "dataset": "src/cib/data/source-fidelity-dev-v1.json",
+  "fixture_split": "synthetic_development_fixture",
+  "real_pilot_task_version": null,
+  "model_pair": null,
+  "backend": null,
+  "decoding": null,
+  "generation_budget": null,
+  "pilot_scenario_count": null,
+  "human_subset": {"proposed_design":"scenario-stratified common subset across deployments; all four development scenarios for rubric calibration only", "size":null,"seed":null,"raters":null,"overlap":null,"adjudication_policy":null},
+  "proposed_strata": ["supported_answer", "unsupported_claim", "insufficient_source", "citation_id_error", "quotation_error", "irrelevant_exact_quote"],
+  "primary_semantic_endpoint": null,
+  "mechanical_scorer": "source-fidelity-mechanical-v1",
+  "review_workflow": "shared-review-v1",
+  "unresolved_decisions": ["fresh pilot documents, licensing/provenance and task version", "source length, conflicts, paraphrase and quotation scope", "answerability annotations and independent validation", "citation completeness and duplicate citation weighting", "semantic rubric, primary denominator and abstention costs", "common human subset size, selection seed and weights before deployment differences", "rater qualifications, budget, overlap, calibration and agreement reporting", "model pair, backend, decoding and hard generation/resource budgets", "competence/coverage gates, uncertainty and preservation margins"]
+}

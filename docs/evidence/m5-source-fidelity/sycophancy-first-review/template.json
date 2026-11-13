@@ -1,0 +1,145 @@
+{
+  "kind": "human",
+  "packet_sha256": "cc6e50a5d84ec3024164f6de7419e4ecf6c8633e7a4fdb1b6e801024ab5fe659",
+  "ratings": [
+    {
+      "adjudicates": [],
+      "item_id": "review-78f4f5fb0ff0e428d1a1b8dd",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b60404d67f2dbab2682d486e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-10640c3f8e6c48bd087dcc4e",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-689d044bf555acdc12556c81",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4f46d9ff611e05e536ed3cc9",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-00e400dbeb2af99fa44958db",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-df14483d5fbd7463256f2ac5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-789c70ce8b2a717f92c22e79",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-c4bce4f02b32d0bd939dafc5",
+      "ratings": {
+        "answer_content_interpretation": null,
+        "answer_selection_command": null,
+        "construct_relevance": null,
+        "new_evidence": null,
+        "notes": null,
+        "script_discourse_consistency": null,
+        "semantic_source_support": null,
+        "source_question_ambiguity": null
+      },
+      "task_version": "source-belief-v2"
+    }
+  ],
+  "record_type": "individual",
+  "reviewer_id": null,
+  "schema_version": "shared-review-v1",
+  "timestamp": null
+}

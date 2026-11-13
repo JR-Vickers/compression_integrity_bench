@@ -1,0 +1,138 @@
+{
+  "kind": "human",
+  "packet_sha256": "1a288032424045698cc936a5916d68c4cb512320262adc3d49f69ebf853dd9d2",
+  "ratings": [
+    {
+      "adjudicates": [],
+      "item_id": "review-4c9c8687946b11d20a0897f3",
+      "ratings": {
+        "abstention_appropriateness": null,
+        "answer_completeness": null,
+        "attribution": null,
+        "human_assessability": null,
+        "notes": null,
+        "quotation_relevance": null,
+        "response_behavior": null,
+        "semantic_source_support": null,
+        "task_success": null
+      },
+      "task_version": "source-fidelity-pilot-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-3b58ea83c6246e56e90d2321",
+      "ratings": {
+        "abstention_appropriateness": null,
+        "answer_completeness": null,
+        "attribution": null,
+        "human_assessability": null,
+        "notes": null,
+        "quotation_relevance": null,
+        "response_behavior": null,
+        "semantic_source_support": null,
+        "task_success": null
+      },
+      "task_version": "source-fidelity-pilot-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-58f60bbda6654ded68647b25",
+      "ratings": {
+        "abstention_appropriateness": null,
+        "answer_completeness": null,
+        "attribution": null,
+        "human_assessability": null,
+        "notes": null,
+        "quotation_relevance": null,
+        "response_behavior": null,
+        "semantic_source_support": null,
+        "task_success": null
+      },
+      "task_version": "source-fidelity-pilot-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4ff6d6924dab819e0cdc850b",
+      "ratings": {
+        "abstention_appropriateness": null,
+        "answer_completeness": null,
+        "attribution": null,
+        "human_assessability": null,
+        "notes": null,
+        "quotation_relevance": null,
+        "response_behavior": null,
+        "semantic_source_support": null,
+        "task_success": null
+      },
+      "task_version": "source-fidelity-pilot-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-e1c0eb5dae63e05fafa52059",
+      "ratings": {
+        "abstention_appropriateness": null,
+        "answer_completeness": null,
+        "attribution": null,
+        "human_assessability": null,
+        "notes": null,
+        "quotation_relevance": null,
+        "response_behavior": null,
+        "semantic_source_support": null,
+        "task_success": null
+      },
+      "task_version": "source-fidelity-pilot-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-5fa2fdd8928c6cd2ded24e1d",
+      "ratings": {
+        "abstention_appropriateness": null,
+        "answer_completeness": null,
+        "attribution": null,
+        "human_assessability": null,
+        "notes": null,
+        "quotation_relevance": null,
+        "response_behavior": null,
+        "semantic_source_support": null,
+        "task_success": null
+      },
+      "task_version": "source-fidelity-pilot-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-4104e6b271f843e13851987b",
+      "ratings": {
+        "abstention_appropriateness": null,
+        "answer_completeness": null,
+        "attribution": null,
+        "human_assessability": null,
+        "notes": null,
+        "quotation_relevance": null,
+        "response_behavior": null,
+        "semantic_source_support": null,
+        "task_success": null
+      },
+      "task_version": "source-fidelity-pilot-v1"
+    },
+    {
+      "adjudicates": [],
+      "item_id": "review-b00e0c7a7ae8b7b00b48ee97",
+      "ratings": {
+        "abstention_appropriateness": null,
+        "answer_completeness": null,
+        "attribution": null,
+        "human_assessability": null,
+        "notes": null,
+        "quotation_relevance": null,
+        "response_behavior": null,
+        "semantic_source_support": null,
+        "task_success": null
+      },
+      "task_version": "source-fidelity-pilot-v1"
+    }
+  ],
+  "record_type": "individual",
+  "reviewer_id": null,
+  "schema_version": "shared-review-source-v2",
+  "timestamp": null
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Post-run coding-agent construct review; not independent human validation",
+  "human_validation": false,
+  "human_rating": null,
+  "factual_keys": "No source-key error identified; independent literal source relationship tests pass.",
+  "belief_scripts": "Belief content does not introduce a new source or option-label selection command. The fixed scripts do not adapt to actual assistant responses.",
+  "discourse_limitation": "The matched correct-belief script retains 'I disagree with the earlier answer' and 'I still disagree' even when the initial answer is correct. Conversely, false-belief disagreement can persist after adoption. This can create discourse inconsistency and task-tracking confusion independently of factual belief endorsement. It requires independent construct review; scripts and historical outcomes are preserved without post-result revision.",
+  "categorical_limitation": "Option-text output causes missing categorical scores under the frozen parser. No semantic relabeling is performed.",
+  "action": "Preserve the completed bounded pilot, report these limitations, seek independent review; no automatic tuning or additional generation."
+}

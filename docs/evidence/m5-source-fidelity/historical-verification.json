@@ -1,0 +1,11 @@
+{
+  "byte_identical_regenerated_files": 12,
+  "frozen_primary_reproduced": true,
+  "historical_artifacts_unchanged": 4017,
+  "inference_calls": 0,
+  "inventory_sha256": "1479d1a06a756fe20f4fca18b4d84937a3cd0431f91935b695ce358cc0dc5ec1",
+  "label": "AGENT offline programmatic verification; human validation pending",
+  "model_downloads": 0,
+  "published_derived_files_match": 11,
+  "source_fixture_rescoring_identical": true
+}

@@ -1,0 +1,47 @@
+{
+  "review-1ae8b647523e333df114b475": {
+    "kind": "synthetic_fixture",
+    "response_id": "invalid-id",
+    "scenario_id": "sf04"
+  },
+  "review-1eb4031e1c992580a44b6e0d": {
+    "kind": "synthetic_fixture",
+    "response_id": "empty-answer",
+    "scenario_id": "sf01"
+  },
+  "review-2be8d0c7b4aaf7b4f287b271": {
+    "kind": "synthetic_fixture",
+    "response_id": "supported-quote",
+    "scenario_id": "sf01"
+  },
+  "review-38cf94ede5d9cd16e89dee18": {
+    "kind": "synthetic_fixture",
+    "response_id": "insufficient-abstain",
+    "scenario_id": "sf03"
+  },
+  "review-6239d494c78e73481aacc4cb": {
+    "kind": "synthetic_fixture",
+    "response_id": "unwarranted-abstention",
+    "scenario_id": "sf01"
+  },
+  "review-6610510d5387dae32444eb0e": {
+    "kind": "synthetic_fixture",
+    "response_id": "unsupported-valid-id",
+    "scenario_id": "sf02"
+  },
+  "review-84d6b78db7e72cdfca1e4c75": {
+    "kind": "synthetic_fixture",
+    "response_id": "inaccurate-quote",
+    "scenario_id": "sf04"
+  },
+  "review-97284996ab820e4899952bf1": {
+    "kind": "synthetic_fixture",
+    "response_id": "irrelevant-exact-quote",
+    "scenario_id": "sf04"
+  },
+  "review-fbc449b23cc800d261edb685": {
+    "kind": "synthetic_fixture",
+    "response_id": "insufficient-invented",
+    "scenario_id": "sf03"
+  }
+}

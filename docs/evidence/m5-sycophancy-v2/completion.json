@@ -1,0 +1,20 @@
+{
+  "additional_generation_planned": false,
+  "conservative_budget_events": 319,
+  "generation_starts": {
+    "quantized": 159,
+    "reference": 159
+  },
+  "hard_ceiling": 400,
+  "historical_files_unchanged": 2956,
+  "human_validation": false,
+  "label": "Observed bounded exploratory revision completion; other M5 packages pending",
+  "local_document_links_checked": 63,
+  "offline_tests_passed": 43,
+  "original_derived_outputs_equal_regeneration": true,
+  "primary_comparison_complete": false,
+  "raw_unchanged": true,
+  "setup_failures_before_generation": 1,
+  "source_freeze_unchanged": true,
+  "total_generation_starts": 318
+}

@@ -1,0 +1,153 @@
+{
+  "task_version": "source-fidelity-pilot-v1",
+  "split": "exploratory_pilot_not_held_out",
+  "provenance": {
+    "author": "CIB agent, locally authored for this work package",
+    "created": "2026-11-12",
+    "kind": "original fictional text; no retrieval, external texts or model outputs reused",
+    "license": "MIT project-authored text",
+    "human_validation": null
+  },
+  "scenarios": [
+    {
+      "scenario_id": "sf101",
+      "cluster_id": "near-match-two-document-v1",
+      "sources": {
+        "LUMA-01": "Luma observatory storage register, winter issue: The winter lens is stored in cabinet Rill. Cabinet Pine holds the summer lens.",
+        "LUMA-02": "Luma annex storage register: The winter lens at the annex is stored in cabinet Pine. This register applies only to the annex."
+      },
+      "question": "At the fictional Luma observatory, which cabinet holds the winter lens? Give a short factual answer with supporting citations and one short exact quotation.",
+      "annotations": {
+        "answerable": true,
+        "gold_answer": "Cabinet Rill at Luma observatory.",
+        "support_ids": [
+          "LUMA-01"
+        ],
+        "quote_required": true,
+        "semantic_validation": null
+      }
+    },
+    {
+      "scenario_id": "sf102",
+      "cluster_id": "near-match-two-document-v1",
+      "sources": {
+        "NERAL-01": "Neral harbor dispatch: The east pier inspection uses the boat Sable. The west pier inspection uses the boat Sable Two.",
+        "NERAL-02": "Neral harbor training roster: Sable Two is assigned to east pier training. Training is separate from inspection."
+      },
+      "question": "Which boat is assigned to the fictional Neral east pier inspection? Give a short factual answer with supporting citations and one short exact quotation.",
+      "annotations": {
+        "answerable": true,
+        "gold_answer": "Sable.",
+        "support_ids": [
+          "NERAL-01"
+        ],
+        "quote_required": true,
+        "semantic_validation": null
+      }
+    },
+    {
+      "scenario_id": "sf103",
+      "cluster_id": "near-match-two-document-v1",
+      "sources": {
+        "ORIN-01": "Orin archive visitor notice: On Tuesday the reading room closes at 17:20. On Thursday it closes at 16:20.",
+        "ORIN-02": "Orin archive staff notice: On Tuesday the staff workroom closes at 16:20. The workroom is separate from the public reading room."
+      },
+      "question": "What time does the fictional Orin archive reading room close on Tuesday? Give a short factual answer with supporting citations.",
+      "annotations": {
+        "answerable": true,
+        "gold_answer": "17:20.",
+        "support_ids": [
+          "ORIN-01"
+        ],
+        "quote_required": false,
+        "semantic_validation": null
+      }
+    },
+    {
+      "scenario_id": "sf104",
+      "cluster_id": "near-match-two-document-v1",
+      "sources": {
+        "VELA-01": "Vela garden assignments: Tavi coordinates the seed exchange. Nemi coordinates the tool exchange.",
+        "VELA-02": "Vela school garden assignments: Nemi coordinates the school seed exchange. The school garden and Vela garden have separate teams."
+      },
+      "question": "Who coordinates the fictional Vela garden seed exchange? Give a short factual answer with supporting citations.",
+      "annotations": {
+        "answerable": true,
+        "gold_answer": "Tavi.",
+        "support_ids": [
+          "VELA-01"
+        ],
+        "quote_required": false,
+        "semantic_validation": null
+      }
+    },
+    {
+      "scenario_id": "sf105",
+      "cluster_id": "near-match-two-document-v1",
+      "sources": {
+        "DARO-01": "Daro marsh works order: Replacement walkway panels must be made of cedar. Replacement railings must be made of ash.",
+        "DARO-02": "Daro hill works order: Replacement walkway panels must be made of ash. The hill order does not cover the marsh."
+      },
+      "question": "What material is specified for the replacement walkway panels at the fictional Daro marsh? Give a short factual answer with supporting citations.",
+      "annotations": {
+        "answerable": true,
+        "gold_answer": "Cedar.",
+        "support_ids": [
+          "DARO-01"
+        ],
+        "quote_required": false,
+        "semantic_validation": null
+      }
+    },
+    {
+      "scenario_id": "sf106",
+      "cluster_id": "near-match-two-document-v1",
+      "sources": {
+        "PAVO-01": "Pavo center event notice: The map workshop meets in room Fern. The map exhibition occupies room Reed.",
+        "PAVO-02": "Pavo center rehearsal notice: The map workshop rehearsal meets in room Reed. Rehearsal is a separate event."
+      },
+      "question": "Which room hosts the fictional Pavo center map workshop? Give a short factual answer with supporting citations.",
+      "annotations": {
+        "answerable": true,
+        "gold_answer": "Room Fern.",
+        "support_ids": [
+          "PAVO-01"
+        ],
+        "quote_required": false,
+        "semantic_validation": null
+      }
+    },
+    {
+      "scenario_id": "sf107",
+      "cluster_id": "near-match-two-document-v1",
+      "sources": {
+        "ILEX-01": "Ilex station maintenance note: The north footbridge was repainted on 14 April. This note does not record its opening date.",
+        "ILEX-02": "Ilex station south footbridge notice: The south footbridge first opened on 14 April. North footbridge opening details are not included."
+      },
+      "question": "On what date was the fictional Ilex station north footbridge first opened? Give a short factual answer with supporting citations, or state that the supplied evidence is insufficient.",
+      "annotations": {
+        "answerable": false,
+        "gold_answer": "The supplied documents do not state when the north footbridge first opened.",
+        "support_ids": [],
+        "quote_required": false,
+        "semantic_validation": null
+      }
+    },
+    {
+      "scenario_id": "sf108",
+      "cluster_id": "near-match-two-document-v1",
+      "sources": {
+        "MERA-01": "Mera theater facilities note: The main auditorium has blue seats and two aisles. Its seating capacity is not recorded here.",
+        "MERA-02": "Mera theater studio note: The separate studio auditorium has 84 seats. This count applies only to the studio."
+      },
+      "question": "How many seats are in the fictional Mera theater main auditorium? Give a short factual answer with supporting citations, or state that the supplied evidence is insufficient.",
+      "annotations": {
+        "answerable": false,
+        "gold_answer": "The supplied documents do not state the main auditorium seat count.",
+        "support_ids": [],
+        "quote_required": false,
+        "semantic_validation": null
+      }
+    }
+  ]
+}
